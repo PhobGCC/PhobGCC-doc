@@ -97,4 +97,5 @@ The pins below the Teensy must not protrude below the bottom of the board or els
 Likewise, the solder joints for the Hall effect sensors for the main stick should be cut fairly close to the PCB or else they will make it difficult to close the controller.
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
