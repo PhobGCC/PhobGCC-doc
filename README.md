@@ -3,9 +3,9 @@ This is a central location for documentation for the PhobGCC custom Gamecube con
 
 ## For Buyers and Users
 
-insert link to phob buying guide
+[PhobGCC Buying Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Buying_Guide.md)
 
-insert link to phob calibration guide
+[PhobGCC Calibration Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.20.md)
 
 insert link to user faq
 
