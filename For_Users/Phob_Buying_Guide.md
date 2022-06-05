@@ -27,11 +27,10 @@ Which board version you have affects how you update the firmware.
 * Somewhat common.
 * Has no rumble.
 * Has support for Hall-effect C-sticks.
-* Exists in three variants with the same board, but with *individually separate firmware support*:
-
-Teensy 3.2: the standard version, where the main chip on the Teensy has many visible legs on all four sides. Not that common due to a Teensy 3.2 shortage.
-Teensy 4.0: an alternate microcontroller option that can be distinguished by having no legs. These also have a wire added by hand going across the Teensy board.
-Teensy 4.0 with Diode Fix: similar to above, but pins 7 and 8 on the Teensy may be shorted, or the diode next to the connector may be shorted.
+* Exists in three variants with the same board, but each needs its own individual firmware:
+  * Teensy 3.2: the standard version, where the main chip on the Teensy has many visible legs on all four sides. Not that common due to a Teensy 3.2 shortage.
+  * Teensy 4.0: an alternate microcontroller option that can be distinguished by having no legs. These also have a wire added by hand going across the Teensy board.
+  * Teensy 4.0 with Diode Fix: similar to above, but pins 7 and 8 on the Teensy may be shorted, or the diode next to the connector may be shorted.
 
 ### 1.2:
 
@@ -83,10 +82,19 @@ Here is where we begin evaluating the quality of the work.
 
 There must be no connections made between pads that are close together. You should be able to see green completely separating the solder.
 
-### Solder Joint Quality
+### Solder Joint Shininess
+
 It is commonly believed that solder joints are supposed to be shiny, but that mainly applies to leaded solder (Sn63 or Sn60), not lead-free solder (such as SAC305). Most commercial products these days use SAC305 or similar due to regulations, but Sn63 is still often preferred by hobbyists for its ease of use.
 
 Ask your vendor what kind of solder the PhobGCC you are evaluating was made with before judging the joint quality by how shiny they are.
+
+### Solder Bonding
+
+All solder joints should have the solder clearly sticking to both the component and the board in order to make a strong physical and electrical connection.
+
+### Solder Quantity
+
+The entire pad on the board should be wet out with solder, but there ideally should not be enough solder to form a convex ball.
 
 ## Physical Workmanship
 
@@ -97,5 +105,4 @@ The pins below the Teensy must not protrude below the bottom of the board or els
 Likewise, the solder joints for the Hall effect sensors for the main stick should be cut fairly close to the PCB or else they will make it difficult to close the controller.
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
-
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).

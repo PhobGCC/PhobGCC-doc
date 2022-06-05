@@ -25,9 +25,9 @@ An alternative is Uncle Punch Training Mode 3.0. In the Training Lab menu, under
 
 # Controller Reset - ABZ+Start
 
-* Use this if you have uploaded code to the controller for the first time, are upgrading from an older software version, or have messed up your settings in some way.
+* **Use this if you have uploaded code to the controller for the first time, are upgrading from an older software version, or have messed up your settings in some way.**
 * This will reset all the controller settings, including snapback filtering, analog delay, offsets, and calibrations.
-* These default values will not be good, you will need to calibrate and adjust snapback!
+* These default values will not be good, you **will need to calibrate and adjust snapback!**
 
 # Analog Stick Calibration - AXY+L
 
@@ -115,5 +115,4 @@ The C-Stick Snapback Filter is actually a low-pass filter similar to the Analog 
   * Mode 3: Analog-only, where the digital press is disabled. You will still get LRA+Start in this mode. Smashscope will show only red bars.
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
-
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
