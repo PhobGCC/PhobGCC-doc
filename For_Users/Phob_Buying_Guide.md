@@ -34,13 +34,12 @@ Which board version you have affects how you update the firmware.
 
 ### 1.2:
 
-* Exists in three different board variants *with shared firmware support*.
 * Has rumble support.
 * Has mouse button support on the face buttons other than Start.
-
-* 1.2: a handful of prototypes exist.
-* 1.2.1: a few resistor/capacitor values were changed. Only a few prototypes exist.
-* 1.2.2: Wide release. D-pad, Hall sensor, and rumble motor contacts were changed. C-stick and mouse-button-supporting L/R paddles come attached to the main board to ensure all Phobs have no OEM C-stick boards.
+* Exists in three different board variants *with shared firmware support*.
+  * 1.2: A handful of prototypes exist.
+  * 1.2.1: A few resistor/capacitor values were changed. Only a few prototypes exist.
+  * 1.2.2: Wide release. D-pad, Hall sensor, and rumble motor contacts were changed. C-stick and mouse-button-supporting L/R paddles come attached to the main board to ensure all Phobs have no OEM C-stick boards.
 
 Some customized versions may exist, but all are required by the license to remove the Phob Ghost icon and the PhobGCC name. Ask the seller for info on what versions they were based on.
 
