@@ -2,13 +2,13 @@ Hall effect sensors work by measuring how hard moving charges get pushed/pulled 
 
 We can use this effect by attaching a magnet to the stickbox peg in the correct orientation, and placing a sensor underneath it. When the magnetic field is perpendicular to the sensor's direction of sensitivity, no field is detected and the sensor will output ~1V:
 
-![Magnet level](https://www.dropbox.com/s/kcgyeowarkq4my5/No%20Signal.png?raw=1)
+![Magnet level](https://github.com/PhobGCC/PhobGCC-doc/blob/main/General_Info/Hall_Effect_Sensors_Images/level_magnet.png?raw=true)
 
 When the field tilts one way, the output voltage will decrease:
-![Magnet tilted left](https://www.dropbox.com/s/igcoyx2eo9gz7ys/CCW%20Signal.png?raw=1)
+![Magnet tilted left](https://github.com/PhobGCC/PhobGCC-doc/blob/main/General_Info/Hall_Effect_Sensors_Images/left_magnet.png?raw=true)
 
 When the field tilts the other way, the output voltage will increase:
-![Magnet tilted right](https://www.dropbox.com/s/jms9m7buowt59t3/CW%20Signal.png?raw=1)
+![Magnet tilted right](https://github.com/PhobGCC/PhobGCC-doc/blob/main/General_Info/Hall_Effect_Sensors_Images/right_magnet.png?raw=true)
 
 When we glue the magnets on they are not perfectly aligned, so we won't get this perfect behavior, but this is roughly what happens. The microcontroller reads these voltages the same way it does from a potentiometer, but we will need to scale possibly linearize the signal before it can be used to control the stick. The primary advantage is that the Hall effect sensor will not wear out like a potentiometer will. As long as the magnet stays in place it will continue working.
 
