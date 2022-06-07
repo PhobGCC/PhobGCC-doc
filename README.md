@@ -7,19 +7,23 @@ This is a central location for documentation for the PhobGCC custom Gamecube con
 
 [PhobGCC Calibration Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.20.md)
 
+insert link to troubleshooting guide
+
 insert link to user faq
 
 ## For Makers and Sellers
 
-insert link to parts ordering guide
+[Parts Ordering Guide](https://docs.google.com/presentation/d/1oINA7_uTVTVmYVD8K1pJWOuYjSPyhjqsKgl4iAZOqRE/edit?usp=sharing)
 
-insert link to to build guide
+[Build Video for PhobGCC 1.2](https://youtu.be/0QmgswFa1cA)
 
-insert link to programming guide
+[Guide to Uploading Firmware](https://docs.google.com/presentation/d/1Ota8R95K1-LR34Re3XB7BIb7ZzgtDM_iaknYH9k8yRQ/edit#slide=id.g123c73557a7_0_0)
 
-insert link to board troubleshooting guidie
+insert link to board troubleshooting guide
 
 ## General Info
+
+[Hall Effect Sensor Explanation](https://github.com/PhobGCC/PhobGCC-doc/blob/main/General_Info/Hall_Effect_Sensors.md)
 
 insert link to wiki stuff
 
