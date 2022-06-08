@@ -29,6 +29,8 @@ insert link to board troubleshooting guide
 
 [Snapback Filter](https://github.com/PhobGCC/PhobGCC-doc/blob/main/General_Info/Snapback_Filter.md)
 
+[Notch Remapping](https://github.com/PhobGCC/PhobGCC-doc/blob/main/General_Info/Notch_Remapping.md)
+
 insert link to wiki stuff
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
