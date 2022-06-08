@@ -25,6 +25,10 @@ insert link to board troubleshooting guide
 
 [Hall Effect Sensor Explanation](https://github.com/PhobGCC/PhobGCC-doc/blob/main/General_Info/Hall_Effect_Sensors.md)
 
+[Signal Linearization](https://github.com/PhobGCC/PhobGCC-doc/blob/main/General_Info/Signal_Linearization.md)
+
+[Snapback Filter](https://github.com/PhobGCC/PhobGCC-doc/blob/main/General_Info/Snapback_Filter.md)
+
 insert link to wiki stuff
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
