@@ -1,6 +1,8 @@
 # PhobGCC Documentation Hub
 This is a central location for documentation for the PhobGCC custom Gamecube controller.
 
+Come chat with us on the [PhobGCC Discord](https://discord.gg/eNJ7xWMvxf)!
+
 ## For Buyers and Users
 
 [PhobGCC Buying Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Buying_Guide.md)
