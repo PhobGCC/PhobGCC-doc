@@ -1,3 +1,5 @@
+**THIS IS LEGACY FIRMWARE! PLEASE UPDATE TO THE LATEST!**
+
 **NOTE: This is for firmware version 0.20.**
 
 For later development versions of the software that have not yet been released, search for “Current Commands List” in the PhobGCC.ino file to see the commands for that version as they may have changed.
