@@ -7,10 +7,6 @@ This is a central location for documentation for the PhobGCC custom Gamecube con
 
 [PhobGCC Calibration Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.21.md)
 
-insert link to troubleshooting guide
-
-insert link to user faq
-
 ## For Makers and Sellers
 
 [Parts Ordering Guide](https://docs.google.com/presentation/d/1oINA7_uTVTVmYVD8K1pJWOuYjSPyhjqsKgl4iAZOqRE/edit?usp=sharing)
@@ -31,7 +27,9 @@ insert link to user faq
 
 [Notch Remapping](https://github.com/PhobGCC/PhobGCC-doc/blob/main/General_Info/Notch_Remapping.md)
 
-insert link to wiki stuff
+## Legacy Info
+
+[Legacy Documentation Page](https://github.com/PhobGCC/PhobGCC-doc/blob/main/LEGACY.md)
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
