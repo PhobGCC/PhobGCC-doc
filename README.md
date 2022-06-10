@@ -17,9 +17,9 @@ insert link to user faq
 
 [Build Video for PhobGCC 1.2](https://youtu.be/0QmgswFa1cA)
 
-[Guide to Uploading Firmware](https://docs.google.com/presentation/d/1Ota8R95K1-LR34Re3XB7BIb7ZzgtDM_iaknYH9k8yRQ/edit#slide=id.g123c73557a7_0_0)
+[Board Debugging for PhobGCC 1.2](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Board_Level_Debugging_1.2.md) (read before plugging in the first time!)
 
-insert link to board troubleshooting guide
+[Guide to Uploading Firmware](https://docs.google.com/presentation/d/1Ota8R95K1-LR34Re3XB7BIb7ZzgtDM_iaknYH9k8yRQ/edit#slide=id.g123c73557a7_0_0)
 
 ## General Info
 
