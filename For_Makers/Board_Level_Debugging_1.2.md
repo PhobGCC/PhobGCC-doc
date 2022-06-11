@@ -10,7 +10,7 @@ You will need a multimeter that can read voltages and resistances to make the mo
 
 * On the Z-button, be very generous with solder on the legs that are on the edge of the board. These solder joints are structural, helping keep the button from breaking off when you mash grab (or Z-jump).
 * The pins behind the Teensy must be flush as possible. The closer they are to completely flat with the board, the flatter the rumble bracket fits. If they protrude, the rumble bracket will always try to pop out.
-* The Hall effect sensors for the Analog stick need to have their leads trimmed fairly closely to the board, though they don't have to be completely flush. If you don't, they press into the trigger guards, the plastic parts that are screwed down over the triggers.
+* The Hall effect sensors for the Analog stick need to have their leads trimmed fairly closely to the board, though they don't have to be completely flush. If you don't, they press into the trigger guards, the plastic parts that are screwed down over the triggers. This makes it difficult to close the controller shell.
 * The Hall effect sensors on the C-stick board do not have to be trimmed particularly closely.
 
 ![Back of analog stick](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardPics/1.2.1_Back_Rumble_Trim.jpg?raw=true)
