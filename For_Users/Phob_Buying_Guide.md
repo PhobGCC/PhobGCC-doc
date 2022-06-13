@@ -30,7 +30,7 @@ Which board version you have affects how you update the firmware.
 
 * Somewhat common.
 * Has no rumble.
-* Has support for Hall-effect C-sticks.
+* Has support for Hall-effect C-sticks. The above photo has a potentiometer C-stick board from an OEM controller; this is not desirable.
 * Exists in three variants with the same board, but each needs its own individual firmware:
   * Teensy 3.2: the standard version, where the main chip on the Teensy has many visible legs on all four sides. Not that common due to a Teensy 3.2 shortage.
   * Teensy 4.0: an alternate microcontroller option that can be distinguished by having no legs. These also have a wire added by hand going across the Teensy board.
