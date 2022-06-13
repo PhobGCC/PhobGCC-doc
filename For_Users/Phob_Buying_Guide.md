@@ -34,6 +34,7 @@ Which board version you have affects how you update the firmware.
 * Exists in three variants with the same board, but each needs its own individual firmware:
   * Teensy 3.2: the standard version, where the main chip on the Teensy has many visible legs on all four sides. Not that common due to a Teensy 3.2 shortage.
   * Teensy 4.0: an alternate microcontroller option that can be distinguished by having no legs. These also have a wire added by hand going across the Teensy board.
+  See photo below for what a Teensy 4 looks like on a PhobGCC 1.1.
   * Teensy 4.0 with Diode Fix: similar to above, but pins 7 and 8 on the Teensy may be shorted, or the diode next to the connector may be shorted.
 
 ![PhobGCC 1.1 with Teensy 4 attached](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Buying_Guide_Images/Phob1.1Teensy4Bodge.jpg?raw=true)
