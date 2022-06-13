@@ -39,6 +39,7 @@ If your controller is not functioning correctly, open the shell and plug it into
   * On my official Nintendo adapter with the Teensy at 600 MHz, this is 4.2V.
   * On my Wii with the Teensy at 600 MHz, this is 4.7V.
   * With the Teensy at 600 MHz, adding an extender cuts this by 0.3V until the point where the Teensy no longer operates.
+  * With the Teensy at lower frequencies, this voltage may be higher.
 * 3.3V next to the Analog stick is the supply voltage for all the analog sensors. If this is too low, then you have a short somewhere or a bad component.
 * 3.3V next to the C-stick should be exactly the same, but since this is connected via a cable it's important to check it.
 
@@ -46,7 +47,7 @@ If you have particular analog sensors (Analog stick, C-stick, or triggers) that 
 
 ![Sensor output voltages](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardPics/1.2.1_Front_Analog_Voltages.jpg?raw=true)
 
-* Put the black lead of your multimeter where Reference Ground indicates.
+* Put the black lead of your multimeter where Reference Ground indicates and the red lead on the indicated test points.
 * All the 1V values are outputs of the Hall effect sensors.
   * These should vary depending on the stick position in the axis indicated.
   * With DH1H1 magnets and mid-placed DRV5053CA or DRV5053PA sensors, the values should change by around +/- 0.2V.
