@@ -18,7 +18,7 @@ Which board version you have affects how you update the firmware.
 
 ### 1.0
 
-![PhobGCC 1.0](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Buying_Guide_Images/Phob1.0_TopView_Cropped.jpeg?raw=true)
+![PhobGCC 1.0](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Buying_Guide_Images/Phob1.0_TopView_cropped.jpeg?raw=true)
 
 * Very rare.
 * Has no rumble.
@@ -26,7 +26,7 @@ Which board version you have affects how you update the firmware.
 
 ### 1.1
 
-![PhobGCC 1.1 with Teensy 3.2](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Buying_Guide_Images/Phob1.1_TopView_Cropped.jpeg?raw=true)
+![PhobGCC 1.1 with Teensy 3.2](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Buying_Guide_Images/Phob1.1_TopView_cropped.jpeg?raw=true)
 
 * Somewhat common.
 * Has no rumble.
@@ -36,7 +36,7 @@ Which board version you have affects how you update the firmware.
   * Teensy 4.0: an alternate microcontroller option that can be distinguished by having no legs. These also have a wire added by hand going across the Teensy board.
   * Teensy 4.0 with Diode Fix: similar to above, but pins 7 and 8 on the Teensy may be shorted, or the diode next to the connector may be shorted.
 
-![PhobGCC 1.1 with Teensy 4 attached](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Buying_Guide_Images/Phob1.1_Teensy4Bodge.jpg?raw=true)
+![PhobGCC 1.1 with Teensy 4 attached](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Buying_Guide_Images/Phob1.1Teensy4Bodge.jpg?raw=true)
 
 ### 1.2:
 
