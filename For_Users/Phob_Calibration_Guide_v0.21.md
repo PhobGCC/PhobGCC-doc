@@ -31,6 +31,7 @@ An alternative is Uncle Punch Training Mode 3.0. In the Training Lab menu, under
 # Controller Reset - ABZ+Start
 
 * **Use this if you have uploaded code to the controller for the first time, are upgrading from an older software version, or have messed up your settings in some way.**
+* **You need to turn off Safe Mode in order to reset.**
 * This will reset all the controller settings, including snapback filtering, analog delay, offsets, and calibrations.
 * These default values will not be good, you **will need to calibrate and adjust snapback!**
 
