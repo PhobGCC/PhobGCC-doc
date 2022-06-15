@@ -12,11 +12,11 @@ An alternative is Uncle Punch Training Mode 3.0. In the Training Lab menu, under
 # Initial Setup
 
 * The first time you boot the PhobGCC, the sticks will not move at all. This is normal.
-* First, use AXY+Start to toggle off Safe Mode
+* First, use AXY+Start to toggle off Safe Mode.
 * Next, use ABZ+Start to hard reset the controller.
 * Unplug and replug the controller.
 * If using Dolphin, restart the game (Smashscope or Uncle Punch).
-* Toggle safe mode (AXY+Start)
+* Toggle off Safe Mode (AXY+Start)
 * Finally, calibrate both sticks.
 
 # Activating the Analog Sticks - B
