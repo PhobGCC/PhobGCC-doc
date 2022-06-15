@@ -9,6 +9,16 @@ For later development versions of the software that have not yet been released, 
 I strongly recommend using Smashscope (either on a Wii or Dolphin) for all of this.
 An alternative is Uncle Punch Training Mode 3.0. In the Training Lab menu, under General enable “Input Display”, and under Info Display enable “System LStick”, “System CStick”, and “System Trigger” as the first three rows.
 
+# Initial Setup
+
+* The first time you boot the PhobGCC, the sticks will not move at all. This is normal.
+* First, use AXY+Start to toggle off Safe Mode
+* Next, use ABZ+Start to hard reset the controller.
+* Unplug and replug the controller.
+* If using Dolphin, restart the game (Smashscope or Uncle Punch).
+* Toggle safe mode (AXY+Start)
+* Finally, calibrate both sticks.
+
 # Activating the Analog Sticks - B
 
 * After plugging in the controller, press B to activate the analog sticks.
@@ -25,6 +35,7 @@ An alternative is Uncle Punch Training Mode 3.0. In the Training Lab menu, under
 # Safe Mode Toggle - AXY+Start
 
 * This is necessary to be able to make any changes on the controller, otherwise it won’t let you change any settings.
+* Even if you haven't pressed B, this will wake up the sticks.
 * When you turn Safe Mode off (configuration is possible), the controller freezes for 2 seconds.
 * When you turn Safe Mode back on (you can no longer configure), the controller freezes for 4 seconds to distinguish. You can also just unplug and plug the controller back in to ensure that you are in Safe Mode.
 
