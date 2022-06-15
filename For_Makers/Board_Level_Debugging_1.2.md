@@ -25,7 +25,7 @@ You will need a multimeter that can read voltages and resistances to make the mo
 * The 32 Ohm one will be different if you don't have an OEM rumble motor.
 * 6 or 13 kOhm corresponds to the 3.3 volt power plane, which supplies all the analog sensors on the board. Depending on which polarity you measure (which side red and black multimeter leads are on), you will get these two values. If it's significantly lower than this, then there's a short that you will have to find.
   * The short may be on the Hall Effect sensor pads, the trigger slider pads, or on the two lone pins at the end of the Teensy.
-* \> 200 kOhm corresponds to the 5V supply for the Teensy. It'll be much greater than this (several MOhms) in one direction and somewhere above 200 kOhms in the other. If it's significantly lower than this, then there's a short.
+* \> 200 kOhm corresponds to the 5V supply for the Teensy. On my multimeter, it is much greater than this (several MOhms) in one direction and somewhere above 200 kOhms in the other. Other multimeters may measure something else; I have seen reports of around 50 kOhm, and this is not a problem. However, if it's too much below that, there might be an issue.
 * If you have a short, go to the PhobGCC Discord for tech support, and explain what you found to be wrong. You will need to resolve these before it's safe to plug in the controller.
 
 # Voltages to Check When Plugged In
