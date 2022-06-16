@@ -53,6 +53,7 @@ If you have particular analog sensors (Analog stick, C-stick, or triggers) that 
   * With DH1H1 magnets and mid-placed DRV5053CA or DRV5053PA sensors, the values should change by around +/- 0.2V.
   * With DH1H1 magnets and mid-placed DRV5053EA or DRV5053RA sensors, the values should change by around +/- 0.4V.
   * If the sensors are placed lower to the board, the change should be less.
+  * If your values are consistently very low or very high, your magnets may be mounted 90 degrees off. They must be horizontal.
 * The trigger values should be very roughly 0.25V for a fully extended trigger, and when the trigger is fully depressed they should reach 2.5V.
   * If you leave the spring out, then they will start out higher.
   * If you use trigger plugs, they likely won't reach 2.5V.
