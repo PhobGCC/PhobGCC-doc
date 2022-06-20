@@ -146,5 +146,57 @@ The buttons should now look like this:
 
 Using a multimeter, check continuity between the exposed copper pads that stick out past the button. They should be disconnected when the switch isn't pressed, and shorted when the switch is pressed.
 
+## Bending and Soldering Hall Sensors
+
+The Hall effect sensors come as a small black prism with two beveled edges.
+
+![Straight hall sensor](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1077_yWpEYon-output.jpg?raw=true)
+
+The legs of the Hall effect sensors must be bent 90 degrees so that the beveled edges face upward, with the bend as close as possible to the head of the sensor.
+
+![Bent hall sensor](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1080_UY7wI4g-output.jpg?raw=true)
+
+If the bends are located too far away from the body of the sensor, it will be difficult to get the stickbox in place.
+
+Place the bent sensors in the board with the legs through the holes.
+Make sure they are on the upper side of the board with the text; this is easy to mix up on the C-stick board.
+
+![Hall sensors on C-stick board](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1081_zGE2DdR-output.jpg?raw=true)
+
+On the motherboard, place the Hall sensors on the top and left sides where the pads are small and close together.
+Do not try to spread the Hall sensor legs to fit through the wider-spaced holes on the bottom and right sides; you may break the sensor and it won't work even if you manage to not break them.
+
+![Hall sensors on motherboard](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1088_BGdBDFf-output.jpg?raw=true)
+
+Install the stickboxes, already equipped with magnets, on the boards before soldering down the Hall sensors.
+
+![stickbox on c-stick board](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1083_ydmlexH-output.jpg?raw=true)
+
+![stickbox on motherboard](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1090_N3j5WHq-output.jpg?raw=true)
+
+Align the height of the sensors to be roughly the level of this kink in the T3 stickbox or lower, making sure the sensors is centered and level.
+You may need to bend the legs a bit.
+
+![stickbox height reference](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1083_annotated.jpg?raw=true)
+
+When you are satisfied with the sensor height, solder one leg in place.
+You can then use tweezers to manipulate the position while you remelt that one solder joint in order to fine-tune it.
+
+![one hall leg soldered](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1084_woadHfG-output.jpg?raw=true)
+
+Then, solder the remainder of the legs.
+
+![all hall legs soldered](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1085_28epqhF-output.jpg?raw=true)
+
+Finally, trim the legs.
+
+![c-stick hall legs trimmed](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1087_9D4zsuI-output.jpg?raw=true)
+
+On the motherboard, trim the legs *very closely*.
+They should be no taller than the screw heads for the stickbox.
+If you don't do this, it makes the controller harder to reassemble and may break the solder joints.
+
+![motherboard hall legs trimmed](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1095_b35fEvP-output.jpg?raw=true)
+
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
