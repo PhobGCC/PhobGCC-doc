@@ -174,7 +174,7 @@ Install the stickboxes, already equipped with magnets, on the boards before sold
 
 ![stickbox on motherboard](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1090_N3j5WHq-output.jpg?raw=true)
 
-Align the height of the sensors to be roughly the level of this kink in the T3 stickbox or lower, making sure the sensors is centered and level.
+Align the height of the sensors to be roughly the level of this feature in the T3 stickbox or lower, making sure the sensors are centered and level.
 You may need to bend the legs a bit.
 
 ![stickbox height reference](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1083_annotated.jpg?raw=true)
