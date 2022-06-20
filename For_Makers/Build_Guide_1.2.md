@@ -68,6 +68,8 @@ Make sure the magnets are oriented horizontally.
 
 ## Teensy Soldering
 
+See [this section of the PhobGCC 1.2 Assembly Video](https://www.youtube.com/watch?v=0QmgswFa1cA&t=822s).
+
 Insert two 14-pin strips and one 2-pin strip of low-profile header pins into the top of the board, long ends down.
 
 Place an (ideally) already-programmed Teensy 4.0 atop the header pins, then solder the Teensy to the pins.
@@ -90,6 +92,8 @@ Solder the pins to the board, making sure the Teensy remains flush to the board 
 
 ## Trigger Potentiometer Soldering
 
+See [this section of the PhobGCC 1.2 Assembly Video](https://www.youtube.com/watch?v=0QmgswFa1cA&t=1640s).
+
 Mount the trigger potentiometers to the back of the board. Do not mount them to the same side as the Teensy.
 
 ![Trigger pots in board](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1061_tlAv7ii-output.jpg?raw=true)
@@ -99,6 +103,8 @@ You can tape them to the board with masking tape to keep them in place, or just 
 ![Trigger pot soldered](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1064_13Cc9xX-output.jpg?raw=true)
 
 ## Z-button Switch Soldering
+
+See [this section of the PhobGCC 1.2 Assembly Video](https://www.youtube.com/watch?v=0QmgswFa1cA&t=1781s).
 
 Mount the Z-button switch to the top of the board, the same side as the Teensy. Do not mount it to the back of the board.
 
@@ -147,6 +153,8 @@ The buttons should now look like this:
 Using a multimeter, check continuity between the exposed copper pads that stick out past the button. They should be disconnected when the switch isn't pressed, and shorted when the switch is pressed.
 
 ## Bending and Soldering Hall Sensors
+
+See [this section of the PhobGCC 1.2 Assembly Video](https://www.youtube.com/watch?v=0QmgswFa1cA&t=2000s).
 
 The Hall effect sensors come as a small black prism with two beveled edges.
 
