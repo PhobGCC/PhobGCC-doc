@@ -27,7 +27,7 @@ If you want to see it in motion, watch the [PhobGCC 1.2 Assembly Video](https://
 
 # Parts
 
-Some of the parts are 
+Some of the parts are taken from a donor Gamecube controller, while others must be sourced new. Check the [PhobGCC Ordering Guide](https://docs.google.com/presentation/d/1oINA7_uTVTVmYVD8K1pJWOuYjSPyhjqsKgl4iAZOqRE/edit?usp=sharing) for a list of what you need to purchase.
 
 ## New Parts
 
@@ -70,7 +70,7 @@ Make sure the magnets are oriented horizontally.
 
 Insert two 14-pin strips and one 2-pin strip of low-profile header pins into the top of the board, long ends down.
 
-Place the Teensy 4.0 atop the header pins, then solder the Teensy to the pins.
+Place an (ideally) already-programmed Teensy 4.0 atop the header pins, then solder the Teensy to the pins.
 
 ![Teensy soldered to pins](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1053_xHQM57n-output.jpg?raw=true)
 
@@ -127,6 +127,8 @@ If you mix this up, the buttons will be shorting the contacts all the time.
 ![Dpad 2 switches placed](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1070_6bdEB3t-output.jpg?raw=true)
 
 The process of soldering goes as shown:
+
+![Dpad 3 switches placed, solder process](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1071_kyUKuIA-output.jpg?raw=true)
 
 Top: Apply a tiny bit of solder to one wing of the contact only.
 
