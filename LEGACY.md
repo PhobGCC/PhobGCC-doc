@@ -12,5 +12,9 @@ This document is to keep track of old documentation that is no longer applicable
 
 * [Board Version 1.1](https://docs.google.com/presentation/d/1JxY79lkCj4QdBnbAxH9PvyXZGDKAvMpFpukHwAc2s3c/edit?usp=sharing)
 
+## Build Guides
+
+* [Board Version 1.1](https://docs.google.com/presentation/d/1Awil69v7xDhX-VOdLnVhseILLCY89gFpTTAPPEig6E4/edit?usp=sharing)
+
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).

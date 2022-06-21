@@ -15,7 +15,7 @@ Come chat with us on the [PhobGCC Discord](https://discord.gg/eNJ7xWMvxf)!
 
 [Build Video for PhobGCC 1.2](https://youtu.be/0QmgswFa1cA)
 
-[Build Guide for PhobGCC 1.1](https://docs.google.com/presentation/d/1Awil69v7xDhX-VOdLnVhseILLCY89gFpTTAPPEig6E4/edit?usp=sharing) (still useful in general for 1.2)
+[Build Guide for PhobGCC 1.2](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Build_Guide_1.2.md)
 
 [Board Debugging for PhobGCC 1.2](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Board_Level_Debugging_1.2.md) (read before plugging in the first time!)
 

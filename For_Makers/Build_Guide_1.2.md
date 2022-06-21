@@ -206,5 +206,89 @@ If you don't do this, it makes the controller harder to reassemble and may break
 
 ![motherboard hall legs trimmed](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1095_b35fEvP-output.jpg?raw=true)
 
+## C-stick Cable Soldering
+
+See [this section of the PhobGCC 1.2 Assembly Video](https://www.youtube.com/watch?v=0QmgswFa1cA&t=2261s).
+
+You can either use the ribbon cable harvested from the OEM board, or you can solder in individual wires. If you use your own wires, have the insulation be about 3/4" (19mm) long.
+
+Since I'm using the OEM cable, I prefer to put the red line on the side with the square pad on the C-stick board.
+
+![Cable in c-stick board](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1096_pR6Srfa-output.jpg?raw=true)
+
+Solder the exposed ends to the pads.
+
+![Cable soldered to c-stick board](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1097_XgsctHq-output.jpg?raw=true)
+
+Next, connect the opposite end of either the ribbon cable or the wires to the motherboard.
+Make sure that both boards are facing up, and make sure they are oriented like this to ensure that the connections do not get mixed up.
+
+![Cable connecting c-stick to motherboard](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1100_dQf9AKg-output.jpg?raw=true)
+
+Then, solder the wires to the motherboard.
+
+![C-stick cable soldered to motherboard](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1101_oiRxotI-output.jpg?raw=true)
+
+## Controller Cable Soldering
+
+See [this section of the PhobGCC 1.2 Assembly Video](https://www.youtube.com/watch?v=0QmgswFa1cA&t=2548s).
+
+If you are using an OEM cable harvested from a first-party Gamecube controller, the black wire should be placed farthest from the center of the controller, and the blue wire closest to the center of the controller.
+
+![Controller cable colors](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1106_nKaZ4km-output.jpg?raw=true)
+
+The pins themselves are actually basketlike sheet metal forms, so when you solder them, they take up a fairly large amount of solder.
+
+![Controller cable soldered](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1107_Khu6BvC-output.jpg?raw=true)
+
+## Trigger Paddle Soldering
+
+If you don't harvest the trigger paddles from the OEM controller, you will need to prepare new wires for the PhobGCC's trigger paddles.
+
+It is possible to solder mouse buttons to these trigger paddles, but that is not covered here as it involves a more invasive modification to the OEM controller hardware.
+
+Cut and strip wires that are roughly 1 inch long (25mm), and solder them in so that the wires are on the opposite side of the PCB from the pads.
+
+![Wires soldered into trigger paddles](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1108_AFMbsiO-output.jpg?raw=true)
+
+Load the trigger paddles with pads exposed into the rumble bracket (whether OEM or third-party), and mount the rumble bracket to the PCB.
+Make sure the wires do not get caught or pinched under the bracket, and safely exit the slots.
+
+![Trigger wires in slots of rumble bracket](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1109_6LWiGDH-output.jpg?raw=true)
+
+Tuck the trigger paddle wires into the nearby holes in the motherboard.
+
+![Trigger wires in holes](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1111_N0bJKZt-output.jpg?raw=true)
+
+Then, being careful not to let them slip out, solder them to the motherboard.
+
+![Trigger wires soldered](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1112_xdrTBOe-output.jpg?raw=true)
+
+## Rumble Motor Soldering
+
+Next, mount the rumble motor back in the rumble bracket by inserting it into the rectangular box.
+Make sure that the shaft is on the cable side, and the motor is rotated so that the wires are on the D-pad side, close to the edge of the box.
+
+![Rumble motor in place](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1113_9EfRr5r-output.jpg?raw=true)
+
+Apply a generous blob of solder to each of the rumble motor pads.
+
+![Rumble motor solder blobs](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1115_Kc7aSfL-output.jpg?raw=true)
+
+To solder the wires down, melt the blob of solder with your soldering iron and use tweezers to hold the wire in the pool.
+Remove the hot soldering iron, and keep the wire still as the solder cools.
+
+Clip the wires into place on the rumble bracket.
+
+![Rumble motor wires soldered](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1116_YjbJXub-output.jpg?raw=true)
+
+# Completion and next steps
+
+Now that you have completed the soldering steps, follow the [Board Debugging Guide for PhobGCC 1.2](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Board_Level_Debugging_1.2.md) to make sure it's ready to go.
+
+Then, reassemble it, and follow the Initial Steps in the [PhobGCC Calibration Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.21.md) for the version of the software you have flashed on the Teensy.
+
+And, enjoy!
+
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
