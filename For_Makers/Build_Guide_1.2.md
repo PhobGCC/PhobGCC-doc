@@ -252,7 +252,7 @@ Cut and strip wires that are roughly 1 inch long (25mm), and solder them in so t
 ![Wires soldered into trigger paddles](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1108_AFMbsiO-output.jpg?raw=true)
 
 Load the trigger paddles with pads exposed into the rumble bracket (whether OEM or third-party), and mount the rumble bracket to the PCB.
-Make sure the wires do not get caught or pinched under the bracket, and safely exit the slots.
+Make sure the wires safely exit the slots and do not get caught or pinched under the bracket.
 
 ![Trigger wires in slots of rumble bracket](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1109_6LWiGDH-output.jpg?raw=true)
 
