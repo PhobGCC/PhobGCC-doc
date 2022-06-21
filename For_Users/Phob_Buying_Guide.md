@@ -43,6 +43,8 @@ Which board version you have affects how you update the firmware.
 
 ![PhobGCC 1.2.1](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Buying_Guide_Images/Phob1.2.1_TopView_Cropped.jpeg?raw=true)
 
+![PhobGCC 1.2.2](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1118_1lwoupq-output.jpg?raw=true)
+
 * Has rumble support.
 * Has mouse button support on the face buttons other than Start.
 * Exists in three different board variants *with shared firmware support*.
