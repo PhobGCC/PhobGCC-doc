@@ -38,7 +38,8 @@ Some of the parts are taken from a donor Gamecube controller, while others must 
 5. 4x magnets
 6. Either superglue or 3D-printed magnet holders
 7. Optional 4x D-pad buttons
-8. Optional mouse buttons for ABXY (not depicted)
+8. Optional 4x mouse buttons for ABXY (assembly not depicted)
+9. Optional 1x or 2x mouse buttons for triggers (assembly not depicted)
 
 ## Internal Parts Harvested from Donor GCC
 
