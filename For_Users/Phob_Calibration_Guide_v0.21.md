@@ -147,7 +147,9 @@ The C-Stick Snapback Filter is actually a low-pass filter similar to the Analog 
 
 * This shifts the user-defined limit for Analog Trigger Modes 4-6.
 * Press Z + your trigger (L/R) + D-pad Up to increase or D-pad Down to decrease.
-  * The possible range of values goes from 49 to 227, with 49 being equivalent to Z-lightshield in Melee, the largest legal value. Melee treats all values 140 and above as the strongest analog shield.
+  * The possible range of values goes from 49 to 227, with 49 being equivalent to Z-lightshield in Melee, the largest legal value.
+  * Melee treats all values 140 and above as the strongest analog shield.
+  * Ultimate only shields when the analog value is 79 or above.
   * The values are displayed on the C-stick, with the X-axis corresponding to L and the Y-axis corresponding to R.
   * Once you cross above 100, the corresponding Analog stick axis will display 100 and the remainder of the value will be shown on the C-stick.
   * If you configure in Uncle Punch or 20XX, the C-stick might not reflect the actual value when the displayed coordinate is outside the Melee input circle. Confirm your settings using Smashscope or by checking the actual resulting trigger value.
