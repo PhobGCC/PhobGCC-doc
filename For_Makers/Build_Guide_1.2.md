@@ -250,6 +250,8 @@ It is possible to solder mouse buttons to these trigger paddles, but that is not
 
 Cut and strip wires that are roughly 1 inch long (25mm), and solder them in so that the wires are on the opposite side of the PCB from the pads.
 
+Do not have the wires exit the front side with the contacts, or they can short to the Hall effect sensor pins.
+
 ![Wires soldered into trigger paddles](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1108_AFMbsiO-output.jpg?raw=true)
 
 Load the trigger paddles with pads exposed into the rumble bracket (whether OEM or third-party), and mount the rumble bracket to the PCB.
