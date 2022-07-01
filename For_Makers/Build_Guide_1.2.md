@@ -111,7 +111,7 @@ Additionally you have to consider tip condition when heating.
 When metal is left at a high temperature, the metal surface reacts with oxygen in the air to form an oxide layer that insulates the tip, preventing heat transfer, and also doesn't let solder stick to it.
 It is important to **keep the tip tinned with fresh solder** or tip-tinner whenever it is not in use.
 While the solder oxidizes, it is also liquid at operating temperature so any oxidation of it can be easily wiped off with a wet sponge before beginning to solder.
-If the tip has oxidized significantly, you can scrub off the oxide coating using a **brass wool** sponge, followed immediately by dipping the tip in **tip tinner** or alternatively coating the tip with normal solder..
+If the tip has oxidized significantly, you can scrub off the oxide coating using a **brass wool** sponge, followed immediately by dipping the tip in **tip tinner** or alternatively coating the tip with normal solder.
 If you aren't using your iron for a while, make sure to turn it off to stop it from oxidizing.
 
 Finally, it comes down to technique.
