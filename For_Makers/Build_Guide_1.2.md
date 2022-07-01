@@ -104,8 +104,9 @@ Next is the tip size.
 In general, you want to get the most contact between the tip and the solder joint without touching adjacent joints.
 Ideally, you use a chisel tip that is exactly as wide as the pads.
 Most people don't switch soldering iron tips frequently, so in this case you should select the widest tip usable for the smallest joints.
-On the PhobGCC 1.2, the smallest joints are the Hall Effect sensors, which have pads 0.8mm wide.
+On the PhobGCC 1.2, the smallest joints are the Hall effect sensors, which have pads 0.8mm wide.
 I recommend you use a **chisel tip from 0.8 to 1mm wide**, ideally.
+I actually use a 1.6mm wide tip, which works better for the larger pads but is slightly more difficult to use for the Hall effect sensors.
 
 Additionally you have to consider tip condition when heating.
 When metal is left at a high temperature, the metal surface reacts with oxygen in the air to form an oxide layer that insulates the tip, preventing heat transfer, and also doesn't let solder stick to it.
