@@ -8,7 +8,7 @@ If you want to see it in motion, watch the [PhobGCC 1.2 Assembly Video](https://
 
 ## Required Tools
 
-1. Soldering iron with a moderate size chisel tip
+1. Temperature-controlled soldering iron with a moderate size chisel tip. DO NOT USE AN UNCONTROLLED TEMPERATURE IRON!
 2. Flux-core solder, ideally no-clean flux (Sn63Pb37 is easier, SAC305 is lead-free for safety)
 3. Tri-Wing screwdriver and small Phillips or ideally JIS driver set
 4. Sharp tweezers
@@ -66,6 +66,95 @@ If you're using 3D-printed magnet holders, you can do this right before putting 
 ![Magnet Holders on Stickboxes](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1076_LwKzi7N-output.jpg?raw=true)
 
 Make sure the magnets are oriented horizontally.
+
+## Soldering Interlude
+
+Many people attempting to build PhobGCCs are new or relatively novice solderers.
+In this section I outline the basic processes and techniques involved in soldering in the hopes of making the process go more smoothly.
+
+Soldering is basically applying fancy conductive hot glue to the surfaces, with some important differences.
+The first difference is that the parts that are getting soldered together must be very hot in order for the solder to stick.
+Additionally, the parts that are being soldered are usually damaged by too much heat, or heat applied for too long.
+Finally, the oxidation on the surface of the metal must be stripped off somehow.
+
+These must all be considered together in order to successfully solder.
+
+### Heating
+First, in order to properly heat the joint, you need to heat the joint to above the melting temperature of the solder.
+This involves a few considerations.
+
+First is the melting temperature of the solder, which you use to determine the iron temperature.
+
+* Leaded Sn63Pb37 solder melts at 183C/361F, and is usually soldered with the iron at **315-340C/600-650F**.
+* Lead-free SAC305 (Sn 96.5%, Ag 3%, Cu 0.5%) solder melts at a higher temperature of 217C/423F, and is usually soldered with the iron at **340-370C/650-700F**.
+
+If you set the iron too cold, it takes too long to heat the joint to a sufficient temperature, and nearby parts may be overheated and damaged.
+Conversely, if you set the iron too hot, the joint itself can be overheated and this can cause damage to the pads on the PCB or lift traces.
+I recommend you use the lower end of the temperature scales I listed as a starting point.
+
+The second consideration is your soldering iron and its tips.
+
+Make sure you are using a **temperature-controlled soldering iron** that can be set to specific temperatures, not just power levels.
+If it's not temperature-controlled, just don't use it.
+A non-controlled iron will heat up to hotter than you want when it's not being actively used, and cool down to lower than you want when it's being used.
+It's not worth the suffering involved.
+You will hate the iron, hate yourself, and in all likelihood end up with nonfunctional PhobGCCs.
+
+Next is the tip size.
+In general, you want to get the most contact between the tip and the solder joint without touching adjacent joints.
+Ideally, you use a chisel tip that is exactly as wide as the pads.
+Most people don't switch soldering iron tips frequently, so in this case you should select the widest tip usable for the smallest joints.
+On the PhobGCC 1.2, the smallest joints are the Hall Effect sensors, which have pads 0.8mm wide.
+I recommend you use a **chisel tip from 0.8 to 1mm wide**, ideally.
+
+Additionally you have to consider tip condition when heating.
+When metal is left at a high temperature, the metal surface reacts with oxygen in the air to form an oxide layer that insulates the tip, preventing heat transfer, and also doesn't let solder stick to it.
+It is important to **keep the tip tinned with fresh solder** or tip-tinner whenever it is not in use.
+While the solder oxidizes, it is also liquid at operating temperature so any oxidation of it can be easily wiped off with a wet sponge before beginning to solder.
+If the tip has oxidized significantly, you can scrub off the oxide coating using a **brass wool** sponge, followed immediately by dipping the tip in **tip tinner** or alternatively coating the tip with normal solder..
+If you aren't using your iron for a while, make sure to turn it off to stop it from oxidizing.
+
+Finally, it comes down to technique.
+In order to transfer the heat as effectively as possible, **apply a lot of pressure** using the soldering iron to both parts that you want to join together.
+The board is robust, so you can press down on it very hard, and press across onto pins as hard as you can without bending them, which may vary based on the pin thickness.
+
+### Removing Oxidation from Surfaces
+While oxidation quickly grows thick on very hot metal like the soldering iron tip, a thin layer exists on almost every metal.
+To remove this, a material called **flux** is applied.
+When flux is heated, it becomes reactive and strips the oxygen out of the metal oxides.
+This lets the solder bond properly to the surface.
+
+Most solder has a **flux-core**, where flux is actually inside the solder wire so that it is automatically applied when you melt the solder.
+Do not get solder that is "solid wire".
+There are various kinds of flux as well.
+You should get no-clean rosin flux.
+More active flux types are useful when soldering to different materials, but you don't need any more than no-clean rosin flux for the gold-plated board of the PhobGCC.
+If you do use more active types of flux, then you need to clean the board off after soldering in order to prevent corrosion.
+
+In addition to flux core, if you are having trouble, you can add additional flux, which can come as a gel, a liquid in a syringe or bottle, or in a pen.
+I personally find that I have no need for these, but some find it very helpful.
+
+To effectively use flux-core solder, you must apply solder to the joint, not to the iron.
+If you apply solder to the iron, all the flux gets used up on the surface of the iron and there's no effect on the joint surfaces that you want to bond to.
+It's vital to make sure the joint is very hot when applying flux-core solder.
+
+### General description of technique
+
+First, turn on the iron and wait for it to heat up.
+
+Then, for each joint:
+
+1. Scrub off oxidation on soldering iron tip with brass wool.
+2. Tin the tip with solder or tip tinner.
+3. Clean most of the tinning off the tip with brass wool or wet sponge.
+4. Strongly press the tip against both parts that are being soldered together.
+5. Apply flux-core solder wire to the joint between the two parts without touching it to the soldering iron tip.
+6. Wait for the solder to melt, then feed the wire in until it forms a concave cone. Do not apply too much.
+7. Continue heating a second or two more to let the flux in the joint stop bubbling.
+8. Remove the soldering iron and let the joint cool without blowing on it.
+9. Continue with other adjacent joints.
+10. When you're done soldering for now, clean the tip with brass wool or sponge.
+11. Apply fresh solder or tip tinner.
 
 ## Teensy Soldering
 
