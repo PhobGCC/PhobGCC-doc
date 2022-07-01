@@ -136,7 +136,9 @@ I personally find that I have no need for these, but some find it very helpful.
 
 To effectively use flux-core solder, you must apply solder to the joint, not to the iron.
 If you apply solder to the iron, all the flux gets used up on the surface of the iron and there's no effect on the joint surfaces that you want to bond to.
-It's vital to make sure the joint is very hot when applying flux-core solder.
+Additionally, if you apply solder to the joint and not to the iron, you can be sure the joint is hot enough before the solder is applied.
+Another benefit is that this lets you better control the amount of solder.
+If you touch the solder onto the iron tip, you might end up with a big blob of solder on the iron tip and none on the board.
 
 ### General description of technique
 
