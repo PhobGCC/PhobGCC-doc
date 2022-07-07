@@ -16,8 +16,14 @@ An alternative is Uncle Punch Training Mode 3.0. In the Training Lab menu, under
 * Next, use ABZ+Start to hard reset the controller.
 * Unplug and replug the controller.
 * If using Dolphin, restart the game (Smashscope or Uncle Punch).
-* Toggle off Safe Mode (AXY+Start)
-* Finally, calibrate both sticks.
+* Toggle off Safe Mode (AXY+Start).
+* Calibrate the left analog stick (AXY+L, follow procedure below).
+* Unplug and replug the controller.
+* Toggle off Safe Mode (AXY+Start).
+* Calibrate the C-stick (AXY+R, follow procedure below).
+
+If you don't unplug and replug the controller between the first time calibrating each stick, the notch adjustment phase will be buggy for the second stick calibrated.
+We're not quite sure why.
 
 # Activating the Analog Sticks - B
 
