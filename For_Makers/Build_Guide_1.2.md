@@ -247,7 +247,8 @@ Using a multimeter, check continuity between the exposed copper pads that stick 
 
 ## Bending and Soldering Hall Sensors
 
-See [this section of the PhobGCC 1.2 Assembly Video](https://www.youtube.com/watch?v=0QmgswFa1cA&t=2000s).
+See [this section of the PhobGCC 1.2 Assembly Video](https://www.youtube.com/watch?v=0QmgswFa1cA&t=2000s) although it is missing the actual soldering.
+Also see [the PhobGCC Hall Effect Sensor Soldering Video](https://www.youtube.com/watch?v=js1TYhYUG0g).
 
 The Hall effect sensors come as a small black prism with two beveled edges.
 
@@ -383,7 +384,7 @@ Clip the wires into place on the rumble bracket.
 
 Now that you have completed the soldering steps, follow the [Board Debugging Guide for PhobGCC 1.2](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Board_Level_Debugging_1.2.md) to make sure it's ready to go.
 
-Then, reassemble it, and follow the Initial Steps in the [PhobGCC Calibration Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.21.md) for the version of the software you have flashed on the Teensy.
+Then, reassemble it, and follow the Initial Steps in the [PhobGCC Calibration Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.22.md) for the version of the software you have flashed on the Teensy.
 
 And, enjoy!
 
