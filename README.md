@@ -2,8 +2,8 @@
 This is a central location for documentation for the PhobGCC.
 
 The PhobGCC is a replacement motherboard for Gamecube controllers that reads stick position using magnets and Hall effect sensors instead of potentiometers that can wear out.
-It offers an advanced digital snapback filter that doesn't reduce responsiveness and actually improves responsiveness in Melee:
-It also features gate calibration, swappable buttons, and facilitates installation of discrete buttons on the D-pad and face buttons.
+It offers an advanced digital snapback filter that doesn't reduce responsiveness and actually improves responsiveness in Melee.
+It also features gate calibration, swappable buttons, and facilitates installation of discrete switches on the D-pad and face buttons.
 
 This comes together to make a high-performance, customizable, long-lasting controller that you can make yourself.
 
