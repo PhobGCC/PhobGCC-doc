@@ -98,11 +98,13 @@ Increasing the Analog Stick Smart Snapback Filter adjustment doesn’t hurt resp
 
 * Press L + Your Axis (X/Y) + To increase or decrease strength (D-pad Up/D-pad Down)
   * Example: LX+Du suppresses X-axis snapback more, LY+Dd suppresses Y-axis snapback less.
+  * When you change this setting, the current snapback filter settings are shown as the numerical coordinates of the C-Stick.
 * The scale goes from 0-7, and defaults to 1.
   * 0 completely disables the Smart Snapback Filter. This removes the rise time improvements, hurting dashdancing on the X axis, and you will have snapback.
   * 1-7 is equivalent to 0-6 on v0.21.
   * Sticks usually need a setting of 1-4. 5+ is for special situations such as metal stick caps or lighter spring weights.
-* Press L+Start+D-pad Down to see the current values on each axis of the Analog Stick.
+* Press L+Start+D-pad Down to see the current snapback filter values on each axis of the Analog Stick.
+  * The C-stick will show the axis smoothing values.
 
 # Analog Stick Axis Smoothing Adjustment
 
@@ -111,10 +113,12 @@ The Analog Stick Axis Smoothing is just a simple low-pass filter similar to a ca
 * Press L + (A/B) + To increase or decrease (D-pad Up/D-pad Down)
   * A corresponds to the X axis, B corresponds to the Y axis.
   * Example: LA+Du increases the X-axis Delay, LB+Dd decreases the Y-axis delay.
+  * When you change this setting, the current axis smoothing settings are shown as the numerical coordinates of the C-Stick.
 * The scale goes from 0-9.
   * Single-Motion Ledgedashing: ~5 on X-axis and 0 on Y-axis
   * Alternatively, set the Smart Snapback adjustment on the Y-axis to 0 and set the Axis Smoothing to 0 for both X and Y-axes. This gives stronger single-motion ledgedashes but you may experience Y-axis snapback.
 * Press L+Start+Dpad Down to see the current values on each axis of the C-stick.
+  * The Analog Stick will show the snapback filter values.
 
 # C-Stick Snapback Adjustment
 
@@ -122,18 +126,22 @@ The C-Stick Snapback Filter is actually a low-pass filter similar to the Analog 
 
 * Press R + Your Axis (X/Y) + To increase or decrease (D-pad Up/D-pad Down)
   * Example: RX+Du is increasing the X-axis Snapback, RY+Dd is decreasing the Y-axis snapback.
+  * When you change this setting, the current snapback filter settings are shown as the numerical coordinates of the C-Stick.
 * The scale goes from 0-9.
 * To reduce the chance of getting the wrong move, increase the value on the axis that you don’t want, and decrease the value on the axis you do want.
 * To suppress snapback on an axis, use a somewhat high value here (start with 7).
 * Press R+Start+D-pad Down to see the current values on each axis of the Analog Stick.
+  * The C-stick will show the current offset values.
 
 # C-Stick Offset
 
 * Press R + (A/B) + To increase or decrease (D-pad Up/D-pad Down)
   * A corresponds to the X-axis, B corresponds to the Y-axis.
   * Example: LA+Du is increasing the C-stick X Offset, LB+Dd is decreasing the C-stick Y Offset.
+  * When you change this setting, the current offset settings are shown as the numerical coordinates of the C-Stick.
 * This shifts the global coordinate C-stick coordinate, not delay. This is for hitting downward angled forward smashes, for example.
 * Press R+Start+D-pad Down to see the current values on each axis of the C-stick.
+  * The Analog Stick will show the current snapback filter values.
 
 # Z-Jump
 
