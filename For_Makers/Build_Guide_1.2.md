@@ -10,20 +10,20 @@ If you want to see it in motion, watch the [PhobGCC 1.2 Assembly Video](https://
 
 1. Temperature-controlled soldering iron with a moderate size chisel tip. DO NOT USE AN UNCONTROLLED TEMPERATURE IRON!
 2. Flux-core solder, ideally no-clean flux (Sn63Pb37 is easier, SAC305 is lead-free for safety)
-3. Tri-Wing screwdriver and small Phillips or ideally JIS driver set
-4. Sharp tweezers
-5. Flush cutter (the closer to flush they cut, the better)
-6. Pliers
-7. Solder sucker (or more sophisticated desoldering tool)
-8. Vise or PCB support (the alligator clip kind is not very useful)
+3. No-clean rosin flux paste (not to be confused with solder paste)
+4. Tri-Wing screwdriver and small Phillips or ideally JIS driver set
+5. Sharp tweezers
+6. Flush cutter (the closer to flush they cut, the better)
+7. Pliers
+8. Solder sucker (or more sophisticated desoldering tool)
+9. Vise or PCB support (the alligator clip kind is not very useful)
+10. Multimeter for debugging
 
 ## Suggested Tools
 
-1. Flux
-2. Multimeter (highly useful for debugging)
-3. Non-magnetic tweezers, if you're not using printed magnet holders
-4. Anti-static mat/grounding strap
-5. Fume fan
+1. Non-magnetic tweezers, if you're not using printed magnet holders
+2. Anti-static mat/grounding strap
+3. Fume fan
 
 # Parts
 
