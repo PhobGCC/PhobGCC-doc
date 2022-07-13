@@ -10,6 +10,12 @@ But if you are new to soldering, it's highly recommended to get a soldering prac
 
 # Tools
 
+It's possible to work with cheap tools and supplies if you're very skilled.
+
+But if you cheap out on solder or soldering iron "because you're just a beginner" you will be in for a lot of pain and suffering.
+
+Come to the Discord server for advice on what to get if you're at all unsure.
+
 ## Required Tools
 
 1. Temperature-controlled soldering iron with a moderate size chisel tip. DO NOT USE AN UNCONTROLLED TEMPERATURE IRON!
