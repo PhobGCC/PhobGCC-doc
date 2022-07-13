@@ -5,7 +5,8 @@ This is an illustrated guide to making a PhobGCC 1.2, using photos taken of a Ph
 If you want to see it in motion, watch the [PhobGCC 1.2 Assembly Video](https://www.youtube.com/watch?v=0QmgswFa1cA).
 
 If you are very skilled with your hands, it is certainly possible to build a PhobGCC as your very first soldering project.
-But if you are, it's highly recommended to get a soldering practice kit to build your physical understanding of the soldering process with before you start and potentially ruin a PhobGCC board, Teensy, and GCC components.
+
+But if you are new to soldering, it's highly recommended to get a soldering practice kit to build your physical understanding of the soldering process with before you start and potentially ruin a PhobGCC board, Teensy, and GCC components.
 
 # Tools
 
