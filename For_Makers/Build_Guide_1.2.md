@@ -71,7 +71,11 @@ For the desoldering process, start at slide 5 of the [PhobGCC 1.1 Build Guide](h
 
 If you're using superglue to mount magnets to the stickboxes, consult slide 16 of the [PhobGCC 1.1 Build Guide](https://docs.google.com/presentation/d/1Awil69v7xDhX-VOdLnVhseILLCY89gFpTTAPPEig6E4/edit#slide=id.g121d68271e5_0_0). You want to do this before the rest of the process, preferably a few hours before.
 
-If you're using 3D-printed magnet holders, you can do this right before putting the stickboxes on the board. first press-fit the magnet holders over the pegs on the stickboxes then press-fit the magnets themselves into the magnet holders. Consult [this section of the PhobGCC 1.2 Assembly Video](https://www.youtube.com/watch?v=0QmgswFa1cA&t=1858s).
+If you're using 3D-printed magnet holders, you can do this right before putting the stickboxes on the board.
+First press-fit the magnet holders over the pegs on the stickboxes then press-fit the magnets themselves into the magnet holders.
+Consult [this section of the PhobGCC 1.2 Assembly Video](https://www.youtube.com/watch?v=0QmgswFa1cA&t=1858s).
+
+Even if you're using magnet holders, we strongly suggest you augment them with superglue (thin superglue is better for this).
 
 ![Magnet Holders on Stickboxes](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1076_LwKzi7N-output.jpg?raw=true)
 
