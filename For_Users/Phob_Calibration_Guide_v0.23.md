@@ -53,6 +53,7 @@ We're not quite sure why.
 * **You need to turn off Safe Mode in order to reset.**
 * This will reset all the controller settings, including snapback filtering, analog delay, offsets, and calibrations.
 * These default values will not be good, you **will need to calibrate and adjust snapback!**
+  * Otherwise the sticks will be wonky.
 
 # Rumble Configuration - XY + Du/Dd
 
