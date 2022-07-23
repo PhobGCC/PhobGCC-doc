@@ -29,6 +29,7 @@ We're not quite sure why.
 
 * After plugging in the controller, press B to activate the analog sticks.
 * If you are playing using Dolphin/Slippi, YOU MUST POWER CYCLE (unplug and plug back in) YOUR CONTROLLER EVERY TIME BEFORE YOU START SMASH, then press B once smash is running.
+  * If you are using a Mayflash adapter, you must plug in both USB connectors for the controller to register in Dolphin/Slippi.
 * If you do not do this your calibration may be off and you may not get 1.0 dashes.
 
 # Making Changes On PhobGCC
