@@ -164,6 +164,7 @@ The C-Stick Snapback Filter is actually a low-pass filter similar to the Analog 
   * Mode 4: Trigger-Plug Emulation, where the analog slider will only go up to the user-defined max and then allow you to input a digital value.
   * Mode 5: Analog Value At Digital, where the analog slider is disabled and the digital press will result in a user-defined analog value.
   * Mode 6: Analog and Digital Value at Digital, where the analog slider is disabled and the digital press will result in a user-defined analog value and a digital input.
+    * This is useful when using a controller with trigger plugs for both Melee and Smash Ultimate, which disregards the digital press.
 * The trigger modes are displayed as Analog Stick values for the L-trigger and C-Stick values for the R-trigger.
 
 # Analog Trigger Value Adjustment - ZL/ZR + Du/Dd
