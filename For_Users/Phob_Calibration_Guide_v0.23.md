@@ -161,9 +161,9 @@ The C-Stick Snapback Filter is actually a low-pass filter similar to the Analog 
   * Mode 1: Standard behavior with the analog slider active and a digital press at the bottom of the travel. Smashscope will show red bars and then turn blue on digital press
   * Mode 2: Digital-only, where the analog slider is disabled. Smashscope will show nothing.
   * Mode 3: Analog-only, where the digital press is disabled. You will still get LRA+Start in this mode. Smashscope will show only red bars.
-  * Mode 4: Trigger-Plug Emulation, where the analog slider will only go up to the user-defined max and then allow you to input a digital value.
-  * Mode 5: Analog Value At Digital, where the analog slider is disabled and the digital press will result in a user-defined analog value.
-  * Mode 6: Analog and Digital Value at Digital, where the analog slider is disabled and the digital press will result in a user-defined analog value and a digital input.
+  * Mode 4: Trigger-Plug Emulation, where the analog slider will only go up to the user-defined max (see below) and then allow you to input a digital value.
+  * Mode 5: Analog Value At Digital, where the analog slider is disabled and the digital press will result in a user-defined analog value (see below).
+  * Mode 6: Analog and Digital Value at Digital, where the analog slider is disabled and the digital press will result in a user-defined analog value (see below) and a digital input.
     * This is useful when using a controller with trigger plugs for Smash Ultimate and other games that disregard the digital press.
 * The trigger modes are displayed as Analog Stick values for the L-trigger and C-Stick values for the R-trigger.
 
