@@ -11,16 +11,19 @@ An alternative is Uncle Punch Training Mode 3.0. In the Training Lab menu, under
 
 # Initial Setup
 
+**This is only necessary the the first time the controller is set up after it is made.**
+You do not need to do this otherwise.
+
 * The first time you boot the PhobGCC, the sticks will not move at all. This is normal.
 * First, use AXY+Start to toggle off Safe Mode.
 * Next, use ABZ+Start to hard reset the controller.
 * Unplug and replug the controller.
 * If using Dolphin, restart the game (Smashscope or Uncle Punch).
-* Toggle off Safe Mode (AXY+Start).
-* Calibrate the left analog stick (AXY+L, follow procedure below).
+* Toggle off Safe Mode (AXY+Start). Both sticks should be wonky right now.
+* Calibrate the left analog stick (AXY+L, follow procedure below). The left stick should behave normally now.
 * Unplug and replug the controller.
 * Toggle off Safe Mode (AXY+Start).
-* Calibrate the C-Stick (AXY+R, follow procedure below).
+* Calibrate the C-Stick (AXY+R, follow procedure below). The right stick should behave normally now.
 
 If you don't unplug and replug the controller between the first time calibrating each stick, the notch adjustment phase will be buggy for the second stick calibrated.
 We're not quite sure why.
