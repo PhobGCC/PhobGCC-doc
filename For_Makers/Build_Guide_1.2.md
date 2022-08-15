@@ -28,6 +28,7 @@ Come to the Discord server for advice on what to get if you're at all unsure.
 8. Solder sucker (or more sophisticated desoldering tool)
 9. Vise or PCB support (the alligator clip kind is not very useful)
 10. Multimeter for debugging
+11. 90%+ rubbing alcohol and cotton swabs
 
 ## Suggested Tools
 
@@ -172,6 +173,15 @@ Then, for each joint:
 9. Continue with other adjacent joints.
 10. When you're done soldering for now, clean the tip with brass wool or sponge.
 11. Apply fresh solder or tip tinner.
+
+### Cleaning Flux
+
+If you leave flux behind from soldering, it can cause problems.
+One thing is that the flux residue itself can be conductive, which can cause the Hall sensors to not work properly.
+This is especially problematic with flux that isn't labeled as No-Clean.
+Additionally, the flux residue is corrosive and can cause the components to corrode long-term.
+
+To remedy this, use rubbing alcohol (as high concentration as you can get) with a cotton swab to clean the flux residue from the PCB when you're done soldering.
 
 ## Teensy Soldering
 
