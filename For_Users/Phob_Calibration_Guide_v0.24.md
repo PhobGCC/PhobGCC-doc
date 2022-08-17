@@ -18,21 +18,21 @@ You do not need to do this otherwise.
 * Plug in the controller.
 * If using Dolphin, start the game (Smashscope or Uncle Punch).
 * Toggle off Safe Mode (AXY+Start). Both sticks should be wonky right now.
-* Calibrate the left analog stick (AXY+L, follow procedure below). The left stick should behave normally now.
+* Calibrate the left analog stick (AXY+L, follow [this procedure below](#analog-stick-calibration-axyl)). The left stick should behave normally now.
 * Unplug and replug the controller.
 * If using Dolphin, restart the game (Smashscope or Uncle Punch).
 * Toggle off Safe Mode (AXY+Start).
-* Calibrate the C-Stick (AXY+R, follow procedure below). The right stick should behave normally now.
+* Calibrate the C-Stick (AXY+R, follow [this procedure](#cstick-calibration-axyr)). The right stick should behave normally now.
 
 If you don't unplug and replug the controller between the first time calibrating each stick, the notch adjustment phase will be buggy for the second stick calibrated.
 
 # Activating the Analog Sticks - B
 
-* After plugging in the controller, press B to activate the analog sticks. Before this, the sticks are hardcoded to be centered.
+* After plugging in the controller, press B to activate the analog sticks. Before this, the sticks are hardcoded to be centered so that the game properly zeroes.
 * If you are playing using Dolphin/Slippi, you must first have Dolphin running, then have the controller plugged in before starting the game.
-  * By enforcing that the sticks are centered when starting the game, this ensures that you get 1.0 cardinals.
+  * By enforcing that the sticks are centered when starting the game, this ensures that you get 1.0 cardinals and accurate notches.
   * If you are using a Mayflash adapter, you must plug in both USB connectors for the controller to register in Dolphin/Slippi.
-* This is necessary by default because if the sticks are miscalibrated, it will be very difficult to correctly calibrate them with the sticks incorrectly zeroed.
+* This is necessary because if the sticks are miscalibrated, it will be very difficult to correctly calibrate them with the sticks incorrectly zeroed.
   * Once the sticks are calibrated and you are sure they are reliably zero when released, you can disable this. See [here](#toggle-auto-initialize-ablrstart).
   * But each time you reset or calibrate, you will once again be required to press B.
 
@@ -66,7 +66,7 @@ If you don't unplug and replug the controller between the first time calibrating
 * This will reset all the controller settings except for stick calibration. This includes snapback filtering, analog delay, offsets, and button remapping.
 * There is a hidden hard reset option that will also erase the stick calibration, but we are not publishing the button combination because it's unhelpful almost all of the time. Ask the devs in the Discord what it is if you really need this.
 
-# Toggle Auto-Initialise - ABLR+Start
+# Toggle Auto-Initialize - ABLR+Start
 
 * When you turn it on, both sticks will point up and to the right. When you turn it off, both sticks will point down and to the left.
 * If you are positive that both of your sticks are calibrated well, you can use this to avoid the need to press B when plugging the controller in.
