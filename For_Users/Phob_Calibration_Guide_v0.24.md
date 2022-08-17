@@ -18,7 +18,7 @@ You do not need to do this otherwise.
 * Plug in the controller.
 * If using Dolphin, start the game (Smashscope or Uncle Punch).
 * Toggle off Safe Mode (AXY+Start). Both sticks should be wonky right now.
-* Calibrate the left analog stick (AXY+L, follow [this procedure below](#analog-stick-calibration---axyl)). The left stick should behave normally now.
+* Calibrate the left analog stick (AXY+L, follow [this procedure](#analog-stick-calibration---axyl)). The left stick should behave normally now.
 * Unplug and replug the controller.
 * If using Dolphin, restart the game (Smashscope or Uncle Punch).
 * Toggle off Safe Mode (AXY+Start).
@@ -183,8 +183,8 @@ The C-Stick Snapback Filter is actually a low-pass filter similar to the Analog 
   * Mode 1: Standard behavior with the analog slider active and a digital press at the bottom of the travel. Smashscope will show red bars and then turn blue on digital press
   * Mode 2: Digital-only, where the analog slider is disabled. Smashscope will show nothing.
   * Mode 3: Analog-only, where the digital press is disabled. You will still get LRA+Start in this mode. Smashscope will show only red bars.
-  * Mode 4: Trigger-Plug Emulation, where the analog slider will only go up to the user-defined max (see below) and then allow you to input a digital value. Smashscope will show red bars that rise but stop at a predefined value, and they will turn blue on digital press.
-  * Mode 5: Analog Value At Digital, where the analog slider is disabled and the digital press will result in a user-defined analog value (see below). You will still get LRA+Start in this mode. Smashscope will only show red bars.
+  * Mode 4: Trigger-Plug Emulation, where the analog slider will only go up to the user-defined max (see [below](analog-trigger-value-adjustment---zlzr--dudd)) and then allow you to input a digital value. Smashscope will show red bars that rise but stop at a predefined value, and they will turn blue on digital press.
+  * Mode 5: Analog Value At Digital, where the analog slider is disabled and the digital press will result in a user-defined analog value (see [below](analog-trigger-value-adjustment---zlzr--dudd)). You will still get LRA+Start in this mode. Smashscope will only show red bars.
   * Mode 6: Analog and Digital Value at Digital, where the analog slider is disabled and the digital press will result in a user-defined analog value (see below) and a digital input. Smashscope will show only blue bars.
     * This is useful when using a controller with trigger plugs for Smash Ultimate and other games that disregard the digital press.
 * The trigger modes are displayed as Analog Stick values for the L-trigger and C-Stick values for the R-trigger.
