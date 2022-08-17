@@ -18,11 +18,11 @@ You do not need to do this otherwise.
 * Plug in the controller.
 * If using Dolphin, start the game (Smashscope or Uncle Punch).
 * Toggle off Safe Mode (AXY+Start). Both sticks should be wonky right now.
-* Calibrate the left analog stick (AXY+L, follow [this procedure below](#analog-stick-calibration-axyl)). The left stick should behave normally now.
+* Calibrate the left analog stick (AXY+L, follow [this procedure below](#analog-stick-calibration---axyl)). The left stick should behave normally now.
 * Unplug and replug the controller.
 * If using Dolphin, restart the game (Smashscope or Uncle Punch).
 * Toggle off Safe Mode (AXY+Start).
-* Calibrate the C-Stick (AXY+R, follow [this procedure](#cstick-calibration-axyr)). The right stick should behave normally now.
+* Calibrate the C-Stick (AXY+R, follow [this procedure](#c-stick-calibration---axyr)). The right stick should behave normally now.
 
 If you don't unplug and replug the controller between the first time calibrating each stick, the notch adjustment phase will be buggy for the second stick calibrated.
 
@@ -33,7 +33,7 @@ If you don't unplug and replug the controller between the first time calibrating
   * By enforcing that the sticks are centered when starting the game, this ensures that you get 1.0 cardinals and accurate notches.
   * If you are using a Mayflash adapter, you must plug in both USB connectors for the controller to register in Dolphin/Slippi.
 * This is necessary because if the sticks are miscalibrated, it will be very difficult to correctly calibrate them with the sticks incorrectly zeroed.
-  * Once the sticks are calibrated and you are sure they are reliably zero when released, you can disable this. See [here](#toggle-auto-initialize-ablrstart).
+  * Once the sticks are calibrated and you are sure they are reliably zero when released, you can disable this. See [here](#toggle-auto-initialize---ablrstart).
   * But each time you reset or calibrate, you will once again be required to press B.
 
 # Making Changes On PhobGCC
