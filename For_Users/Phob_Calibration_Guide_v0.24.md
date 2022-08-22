@@ -131,8 +131,8 @@ Increasing the Analog Stick Smart Snapback Filter adjustment doesn’t hurt resp
   * 0 completely disables the Smart Snapback Filter. This removes the rise time improvements, hurting dashdancing on the X axis, and you will have snapback.
   * 4-10 is equivalent to 1-7 on 0.22-0.23 and 0-6 on v0.21.
   * Sticks usually need a setting of 4-7. 9+ is for special situations such as metal stick caps or lighter spring weights.
-* Press L+Start+D-pad Down to see the current snapback filter values on each axis of the Analog Stick.
-  * The C-Stick will show the axis smoothing values.
+* Press L+Start+D-pad Down to see the current smart snapback filter values on each axis of the Analog Stick.
+  * At the same time, you can see the current axis smoothing values on the C-Stick.
 
 # Analog Stick Axis Smoothing Adjustment
 
@@ -145,8 +145,8 @@ The Analog Stick Axis Smoothing is just a simple low-pass filter similar to a ca
 * The scale goes from 0-9, and defaults to 0.
   * Single-Motion Ledgedashing: ~5 on X-axis and 0 on Y-axis
   * Alternatively, set the Smart Snapback adjustment on the Y-axis to 0 and set the Axis Smoothing to 0 for both X and Y-axes. This gives stronger single-motion ledgedashes but you may experience Y-axis snapback.
-* Press L+Start+Dpad Down to see the current axis smoothing values on each axis of the C-Stick.
-  * The Analog Stick will show the snapback filter values.
+* Press L+Start+D-pad Down to see the current axis smoothing values on each axis of the C-Stick.
+  * At the same time, you can see the current smart snapback filter values on the Analog Stick.
 
 # C-Stick Snapback Adjustment
 
@@ -159,7 +159,7 @@ The C-Stick Snapback Filter is actually a low-pass filter similar to the Analog 
 * To reduce the chance of getting the wrong move, increase the value on the axis that you don’t want, and decrease the value on the axis you do want.
 * To suppress snapback on an axis, use a somewhat high value here (start with 7).
 * Press R+Start+D-pad Down to see the current snapback filter values on each axis of the Analog Stick.
-  * The C-Stick will show the current offset values.
+  * At the same time, you can see the current offset values on the C-Stick.
 
 # C-Stick Offset
 
@@ -169,7 +169,7 @@ The C-Stick Snapback Filter is actually a low-pass filter similar to the Analog 
   * When you change this setting, the current offset settings are shown as the numerical coordinates of the C-Stick.
 * This shifts the global coordinate C-Stick coordinate, not delay. This is for hitting downward angled forward smashes, for example.
 * Press R+Start+D-pad Down to see the current offset values on each axis of the C-Stick.
-  * The Analog Stick will show the current snapback filter values.
+  * At the same time, you can see the current snapback filter values on the Analog Stick..
 
 # Z-Jump
 
