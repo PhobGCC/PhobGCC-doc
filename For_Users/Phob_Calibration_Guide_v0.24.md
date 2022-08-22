@@ -86,6 +86,8 @@ If you don't unplug and replug the controller between the first time calibrating
 
 # Analog Stick Calibration - AXY+L
 
+[Basic PhobGCC Analog Stick Calibration - YouTube](https://www.youtube.com/watch?v=rkgtqwIE8Iw)
+
 [PhobGCC Analog Stick Calibration Guide - YouTube](https://www.youtube.com/watch?v=nUbpmkcleF8)
 
 [PhobGCC Notch Calibration Guide - YouTube](https://youtu.be/hscmtzy7dqs)
