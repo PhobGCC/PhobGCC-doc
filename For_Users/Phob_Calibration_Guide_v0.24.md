@@ -169,7 +169,7 @@ The C-Stick Snapback Filter is actually a low-pass filter similar to the Analog 
   * When you change this setting, the current offset settings are shown as the numerical coordinates of the C-Stick.
 * This shifts the global coordinate C-Stick coordinate, not delay. This is for hitting downward angled forward smashes, for example.
 * Press R+Start+D-pad Down to see the current offset values on each axis of the C-Stick.
-  * At the same time, you can see the current snapback filter values on the Analog Stick..
+  * At the same time, you can see the current snapback filter values on the Analog Stick.
 
 # Z-Jump
 
