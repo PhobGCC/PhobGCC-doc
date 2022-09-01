@@ -28,6 +28,9 @@ You will need a multimeter that can read voltages and resistances to make the mo
 * \> 200 kOhm corresponds to the 5V supply for the Teensy. On my multimeter, it is much greater than this (several MOhms) in one direction and somewhere above 200 kOhms in the other. Other multimeters may measure something else; I have seen reports of around 50 kOhm, and this is not a problem. However, if it's too much below that, there might be an issue.
 * If you have a short, go to the PhobGCC Discord for tech support, and explain what you found to be wrong. You will need to resolve these before it's safe to plug in the controller.
 
+If the Teensy doesn't respond when plugged into a computer via USB, the likely culprits are either shorts between 3.3v and ground, or between 3.3v and the signal pins.
+Check the Hall sensor pads, which are the most prone to shorts.
+
 # Voltages to Check When Plugged In
 
 If your controller is not functioning correctly, open the shell and plug it into a powered-on Gamecube, Wii, or GCC adapter (e.g. on PC with Dolphin open) to supply power, then check these voltages:
