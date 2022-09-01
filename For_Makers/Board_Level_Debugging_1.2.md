@@ -35,6 +35,8 @@ Check the Hall sensor pads, which are the most prone to shorts.
 
 If your controller is not functioning correctly, open the shell and plug it into a powered-on Gamecube, Wii, or GCC adapter (e.g. on PC with Dolphin open) to supply power, then check these voltages:
 
+## Supply Voltages
+
 ![Power-on supply voltages](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardPics/1.2.1_Front_Power_Voltages.jpg?raw=true)
 
 * These are the supply voltages for the various parts on the controller.
@@ -45,6 +47,8 @@ If your controller is not functioning correctly, open the shell and plug it into
   * With the Teensy at lower frequencies, this voltage may be higher.
 * 3.3V next to the Analog stick is the supply voltage for all the analog sensors. If this is too low, then you have a short somewhere or a bad component.
 * 3.3V next to the C-stick should be exactly the same, but since this is connected via a cable it's important to check it.
+
+## Output Voltages
 
 If you have particular analog sensors (Analog stick, C-stick, or triggers) that are acting up, check the following voltages to compare:
 
