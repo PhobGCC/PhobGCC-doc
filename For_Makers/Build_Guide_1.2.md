@@ -408,7 +408,7 @@ Clip the wires into place on the rumble bracket.
 
 Now that you have completed the soldering steps, follow the [Board Debugging Guide for PhobGCC 1.2](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Board_Level_Debugging_1.2.md) to make sure it's ready to go.
 
-Then, reassemble it, and follow the Initial Steps in the [PhobGCC Calibration Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.24.md) for the version of the software you have flashed on the Teensy.
+Then, reassemble it, and follow the Initial Steps in the [PhobGCC Calibration Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.25.md) for the version of the software you have flashed on the Teensy.
 
 And, enjoy!
 
