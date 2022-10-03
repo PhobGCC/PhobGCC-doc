@@ -6,12 +6,12 @@ This is a guide to programming the teensy microcontroller on PhobGCC.
 
 * A computer running Windows, MacOS, or Linux.
 * A screwdriver for opening your controller (Tri-point is the stock screw, but some controllers may be built with Torx or Philips).
-* Data-capable USB Micro cable with a compact plug.
+* A Data-capable USB Micro cable with a compact plug.
   * [This cable](https://www.amazon.com/gp/product/B093SWG63B) is the recommended one should you just want to buy one.
 
 # Controller Disassembly
 
-Unplug and then open your controller by removing the six screws on the back located at the end of the handles, near the triggers, and behend the C-stick and D-pad. pull the back shell off and lay it down. Carefully lift the board out of the shell and place the front shell down.
+Unplug and then open your controller by removing the six screws on the back located at the end of the handles, near the triggers, and behind the C-stick and D-pad. Pull the back shell off and lay it down. Carefully lift the board out of the shell and place the front shell down.
 
 # Installing the IDE and Libraries
 
@@ -19,7 +19,9 @@ Unplug and then open your controller by removing the six screws on the back loca
 
 Go to [The Arduino Website](https://www.arduino.cc/en/software) and to the software section and download the Arduino IDE 2.0.0 for your operating system. Go through the install as normal. Upon first run, it may ask about internet access and to install the USB Driver. These are required in order to program the PhobGCC.
 Once the IDE is installed, you can go to the 'Tools' drop-down and select 'Manage Libraries...'.
+
 ![Libraries](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/manage_libraries.png?raw=true)
+
 You'll want to search (what is in the single quotes) and install the following:
 * 'curveFitting' by Rotario
 * 'Bolder Flight Systems Eigen' by Brian Taylor
@@ -39,7 +41,8 @@ And remove the '//' (NOT THE '#') at the start of the line which contains your v
 
 ![Preferences](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/preferences.png?raw=true)
 
-and in the 'Additional board manager URLs' section, you'll want to paste in 'https://www.pjrc.com/teensy/package_teensy_index.json'. Next you'll want to the 'Tools' drop-down, in the 'Board' section, Click on 'Board Manager' as seen below:
+and in the 'Additional board manager URLs' section, you'll want to paste in 'https://www.pjrc.com/teensy/package_teensy_index.json'. 
+Next you'll want to the 'Tools' drop-down, in the 'Board' section, Click on 'Board Manager' as seen below:
 
 ![Boards](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/board_manager.png?raw=true)
 
