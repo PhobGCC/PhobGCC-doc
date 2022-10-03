@@ -42,7 +42,7 @@ And remove the '//' (NOT THE '#') at the start of the line which contains your v
 ![Preferences](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/preferences.png?raw=true)
 
 and in the 'Additional board manager URLs' section, you'll want to paste in 'https://www.pjrc.com/teensy/package_teensy_index.json'.
-Next you'll want to the 'Tools' drop-down, in the 'Board' section, Click on 'Board Manager' as seen below:
+Next you'll want to go to the 'Tools' drop-down, in the 'Board' section, Click on 'Board Manager' as seen below:
 
 ![Boards](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/board_manager.png?raw=true)
 
