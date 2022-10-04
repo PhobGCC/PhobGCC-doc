@@ -13,9 +13,10 @@ This is a guide to programming the teensy microcontroller on PhobGCC.
 
 Unplug and then open your controller by removing the six screws on the back located at the end of the handles, near the triggers, and behind the C-stick and D-pad. Pull the back shell off and lay it down. Carefully lift the board out of the shell and place the front shell down.
 
-# Installing the IDE and Libraries
+# Installing the IDE, Libraries, and Teensy Files
 
 **NOTE:  It is not recommended to update your libraries as some newer versions may have issues**
+**NOTE2:  You only need to do this once**
 
 Go to [The Arduino Website](https://www.arduino.cc/en/software) and to the software section and download the Arduino IDE 2.0.0 for your operating system. Go through the install as normal. Upon first run, it may ask about internet access and to install the USB Driver. These are required in order to program the PhobGCC.
 Once the IDE is installed, you can go to the 'Tools' drop-down and select 'Manage Libraries...'.
@@ -29,15 +30,7 @@ You'll want to search (what is in the single quotes) and install the following:
 * 'teensytimertool' by luni64
   * **NOTE:  You'll want to install version 1.0.0 of this library using the drop-down**
 
-# Downloading and Flashing The PhobGCC Firmware
-
-Go to the [Releases](https://github.com/PhobGCC/PhobGCC-SW/releases) section of the PhobGCC-SW Github and download the latest available firmware. Extract the files from the archive to a location you know. Open the 'PhobGCC.ino' file that is inside the 'PhobGCC' folder in Arduino IDE.
-
-Look near the top of the document for the following section:
-
-![Versions](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/phob_versions.PNG?raw=true)
-
-And remove the '//' (NOT THE '#') at the start of the line which contains your version. If you do not know which one you need, please post a photo of your board in the #user-tech-support channel of the [PhobGCC Discord](https://discord.gg/yrpUu7mgzm) and someone will assist you. Next you'll want to go to the 'File' drop-down and click on 'Preferences...' as seen below:
+Next you'll want to go to the 'File' drop-down and click on 'Preferences...' as seen below:
 
 ![Preferences](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/preferences.png?raw=true)
 
@@ -46,7 +39,17 @@ Next you'll want to go to the 'Tools' drop-down, in the 'Board' section, Click o
 
 ![Boards](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/board_manager.png?raw=true)
 
-And search for and install 'teensy' by Paul Stoffregen. Then plug in your PhobGCC using a Micro-USB cable to your computer. Once it is plugged in, go to the 'Select Board' drop-down in the top left and click on the "Unknown COM#". If this does not appear, your cable didn't work. Choose your Teensy version and a port, then click the right arrow in the top left. This will compile and upload the firmware to your board. Once this is complete, you can unplug your PhobGCC and reassemble the controller.
+And search for and install 'teensy' by Paul Stoffregen.
+
+# Downloading and Flashing The PhobGCC Firmware
+
+Go to the [Releases](https://github.com/PhobGCC/PhobGCC-SW/releases) section of the PhobGCC-SW Github and download the latest available firmware. Extract the files from the archive to a location you know. Open the 'PhobGCC.ino' file that is inside the 'PhobGCC' folder in Arduino IDE.
+
+Look near the top of the document for the following section:
+
+![Versions](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/phob_versions.PNG?raw=true)
+
+And remove the '//' (NOT THE '#') at the start of the line which contains your version. If you do not know which one you need, please post a photo of your board in the #user-tech-support channel of the [PhobGCC Discord](https://discord.gg/yrpUu7mgzm) and someone will assist you. Then plug in your PhobGCC using a Micro-USB cable to your computer. Once it is plugged in, go to the 'Select Board' drop-down in the top left and click on the "Unknown COM#". If this does not appear, your cable didn't work. Choose your Teensy version and a port, then click the right arrow in the top left. This will compile and upload the firmware to your board. Once this is complete, you can unplug your PhobGCC and reassemble the controller.
 
 # Troubleshooting
 
