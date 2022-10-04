@@ -183,13 +183,17 @@ Additionally, the flux residue is corrosive and can cause the components to corr
 
 To remedy this, use rubbing alcohol (as high concentration as you can get) with a cotton swab to clean the flux residue from the PCB when you're done soldering.
 
+## Teensy Programming
+
+Begin by programming the Teensy 4.0 according to [this guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide.md).
+
 ## Teensy Soldering
 
 See [this section of the PhobGCC 1.2 Assembly Video](https://www.youtube.com/watch?v=0QmgswFa1cA&t=822s).
 
 Insert two 14-pin strips and one 2-pin strip of low-profile header pins into the top of the board, long ends down.
 
-Place an (ideally) already-programmed Teensy 4.0 atop the header pins, then solder the Teensy to the pins.
+Place the already-programmed Teensy 4.0 atop the header pins, then solder the Teensy to the pins.
 
 ![Teensy soldered to pins](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1053_xHQM57n-output.jpg?raw=true)
 
