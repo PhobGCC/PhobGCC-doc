@@ -4,7 +4,7 @@ This is an illustrated guide to acquiring all the parts you need to assemble a P
 
 # Required Parts
 
-The following parts are unique to the PhobGCC and must be acquired via this guide, with no non-identical substitutions.
+The following parts are unique to the PhobGCC and must be acquired per this guide, with no non-identical substitutions.
 * 1 PhobGCC v1.2.3 Board
 * 1 Teensy 4.0
 * 4 Hall Effect Sensors
@@ -35,21 +35,31 @@ Once you've extracted the files from the .zip, you should have three files. The 
 
 ![PHOB_BOARD](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob_board.PNG?raw=true)
 
-Once you've checked that the size is set to 91.41x147.63mm, you can progress with configuring it. The recommended settings are the defaults, plus setting your board quantity, setting "Different Design" to 4, and setting the Surface Finish to ENIG, as seen below:
+Once you've checked that the size is set to 91.41x147.63mm, you can progress with configuring it.
+The recommended settings are the defaults, plus setting your board quantity, setting "Different Design" to 4, and setting the Surface Finish to ENIG, as seen below:
 
 ![PHOB_SETTINGS](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob_settings.PNG?raw=true)
 
-Scroll down to PCB Assembly and toggle it on the right. Select the top side and Economic PCBA Type (Not available for large orders or colors) as seen below:
+Scroll down to PCB Assembly and toggle it on the right.
+Select the top side and Economic PCBA Type (Not available for large orders or colors) as seen below.
+If you choose to use Standard PCBA, JLC will have to add rails to the board, increasing the price significantly.
 
 **NOTE: For large orders more than 50 boards or different colors, Standard Assembly is required. This attaches removable rails to the PCB at a significant extra cost.**
 
 ![PHOB_ASM](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob_asm.PNG?raw=true)
 
-Click "Confirm" and then upload the bom.csv to the left and and the top-pos.csv to the right. Set the usage description to Research -> DIY and click "Next". The next screen should look like the following below with all 10 confirmed. If they are not confirmed, stop ordering and ask in the [PhobGCC Discord](https://discord.gg/yrpUu7mgzm).
+Click "Confirm" and then upload the bom.csv to the left and and the top-pos.csv to the right.
+Set the usage description to Research -> DIY and click "Next".
+The next screen should look like the following below with all 10 confirmed.
+If they are not confirmed, stop ordering and ask in the [PhobGCC Discord](https://discord.gg/yrpUu7mgzm).
 
 ![PHOB_PARTS](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob_parts.PNG?raw=true)
 
-After clicking "Next", you'll be presented with a view of the parts on the board. If this screen is corrupted, that's okay. The files are known good and this is just the website bugging out. You want to make sure there are no red boxes anywhere as those indicate missing components. You can then click "Save To Cart" and pay for your boards.
+After clicking "Next", you'll be presented with a view of the parts on the board.
+If this screen is corrupted, that's okay.
+The files are known good and this is just the website bugging out.
+You want to make sure there are no red boxes anywhere as those indicate missing components.
+You can then click "Save To Cart" and pay for your boards.
 
 # Purchasing Other PhobGCC Parts
 
@@ -75,8 +85,10 @@ The remaining parts can be purchased from distributers as listed below:
   * [D12 Magnets](https://www.kjmagnetics.com/proddetail.asp?prod=d12-n52) -For best control at the rim (like Pivots), use these.
   * [N30H Magnets](https://www.digikey.com/short/br3n8hz3) -For best control at the center (like ICs desyncs), use these.
 * High Viscosity Glue:
-  * [Gorilla Glue](https://www.amazon.com/dp/B00OAAUAX8)
+  * [Gorilla superglue gel](https://www.amazon.com/dp/B00OAAUAX8)
   * [Epoxy](https://www.mcmaster.com/66195A13/)
+* Magnet Holders:
+  * See the `3d-printing` channel in the discord for printable designs that will hold magnets to the stickbox. Use in concert with the above adhesive for easy and secure attachment.
 * Optional D-pad Buttons:
   * [Low Actuation Force](https://www.digikey.com/short/q4r0jh3j)
   * [High Actuation Force](https://www.digikey.com/short/dcddr0jr)
@@ -107,7 +119,7 @@ The GCC-specific Parts have a few different methods of acquisition
   * Tactile - Official Wii Classic Controllers (No Handles)
   * Tactile - [BattleBeaverCustoms](https://battlebeavercustoms.com/products/replacement-gamecube-tactile-z-switch)
   * Tactile - [FIRESCC](https://www.etsy.com/listing/753452766/fires-performance-mod-kit-for-the?)
-  * Tactile - [Digikey](https://www.digikey.com/short/hp5vvv7w) **NOTE:  NEEDS SOME MODIFICATION OF CONTROLLER**
+  * Tactile - [Digikey](https://www.digikey.com/short/hp5vvv7w) **NOTE:  NEEDS SOME MODIFICATION OF CONTROLLER BUTTON RUBBER**
   * Mouseclick - [SimpleControllers](https://simplecontrollers.bigcartel.com/mouseswitch-z)
 * Optional Rumble Motor
   * Any GCC
