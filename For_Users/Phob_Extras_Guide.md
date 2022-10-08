@@ -13,8 +13,8 @@ configuration slots to toggle the feature and and configure its settings.
 
 The two button combinations that are used to toggle and configure Extras are:
 
-* Toggle: A + B + Analog and C-Stick pointer Up/Down/Left/Right
-* Configure: A + Dpad + Analog and C-Stick pointer Up/Down/Left/Right
+* Toggle: A + B + Analog and C-Stick pointed Up/Down/Left/Right
+* Configure: A + Dpad + Analog and C-Stick pointed Up/Down/Left/Right
 
 Do note that since toggling and configuring Extras is a part of general configuration, they only function if you are not in safe mode.
 
