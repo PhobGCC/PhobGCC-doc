@@ -6,14 +6,17 @@ This is a guide to enabling Extras, community-created features that require to b
 
 * The ability to flash the PhobGCC firmware normally by following the [Phob Programming Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide.md).
 
-# Preface about Toggling and Configuring Extras
+# Directional Configurations
 
-When enabling an Extra, it must be assigned to one of 4 directional configuration
-inputs to toggle the feature and and configure its settings. The two button combination
-that are used to toggle and configure Extras are:
+When enabling an Extra, it must be assigned to one of 4 cardinal directional 
+configuration slots to toggle the feature and and configure its settings. 
 
-* Toggle: A + B + Both Sticks Pointed Up/Down/Left/Right
-* Configure: A + Dpad + Both Sticks Pointed Up/Down/Left/Right
+The two button combinations that are used to toggle and configure Extras are:
+
+* Toggle: A + B + Analog and C-Stick pointer Up/Down/Left/Right
+* Configure: A + Dpad + Analog and C-Stick pointer Up/Down/Left/Right
+
+Do note that since toggling and configuring Extras is a part of general configuration, they only function if you are not in safe mode.
 
 For configuration, each dpad direction can be used to configure the Extra, but it's up to each Extra's
 implementation to determine how it uses each direction of the Dpad. Please refere to the documentation
