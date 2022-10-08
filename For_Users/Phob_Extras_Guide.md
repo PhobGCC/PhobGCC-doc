@@ -2,22 +2,22 @@
 
 This is a guide to enabling Extras, community-created features that require to be manually enabled in the PhobGCC firmware.
 
-# Toggling and Configuring Extras
+# Prerequisites
+
+* The ability to flash the PhobGCC firmware normally by following the [Phob Programming Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide.md).
+
+# Preface about Toggling and Configuring Extras
 
 When enabling an Extra, it must be assigned to one of 4 directional configuration
 inputs to toggle the feature and and configure its settings. The two button combination
 that are used to toggle and configure Extras are:
 
-* Toggle: A + B + Sticks Pointed Up/Down/Left/Right
-* Configure: A + Dpad + Sticks Pointed Up/Down/Left/Right
+* Toggle: A + B + Both Sticks Pointed Up/Down/Left/Right
+* Configure: A + Dpad + Both Sticks Pointed Up/Down/Left/Right
 
-For configuration, each Dpad direction can be used to configure the Extra, but it's up to each Extra's
+For configuration, each dpad direction can be used to configure the Extra, but it's up to each Extra's
 implementation to determine how it uses each direction of the Dpad. Please refere to the documentation
 of the Extra you wish to enable to see how to configure it (if the Extra uses configuration).
-
-# Prerequisites
-
-* The ability to flash the PhobGCC firmware normally by following the [Phob Programming Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide.md).
 
 # Enabling Extras
 
@@ -29,6 +29,7 @@ see three folders along with the 'PhobGCC.ino' project file.
 ![image](https://user-images.githubusercontent.com/22358804/194706645-0aa14dc5-4d2f-4e39-a6be-a88dff56749b.png)
 
 Open the 'extras' folder and there should be a file named 'extras.h' inside.
+
 Open it by right clicking it and opening it with Notepad or a text editor of choice.
 
 ![image](https://user-images.githubusercontent.com/22358804/194707025-948928e9-693f-402b-bb94-c0d591a9ae9d.png)
@@ -114,7 +115,7 @@ If I were to set the ESS Extra to Sticks Down, the code would then look like thi
 If you leave the configuration direction unset, you **will not** be able to toggle or configure
 the extra you enabled!
 
-When you are finished, **save extras.h** and re-flash the firmware by using the Arduino Software.
+When you are finished, save extras.h and re-flash the firmware by using the Arduino Software.
 
 # Toggling and Configuring an Extra
 
