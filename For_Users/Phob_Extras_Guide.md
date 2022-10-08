@@ -123,7 +123,7 @@ When you are finished, save extras.h and re-flash the firmware by using the Ardu
 # Toggling and Configuring an Extra
 
 Once you've finished flashing your PhobGCC with the Extra-enabled firmware, you can then 
-toggle and configure the Extra you enabled by using the button combinations listed at the
+toggle and configure the Extra you enabled (assuming you're not in safe mode) by using the button combinations listed at the
 start of this document and following the configuration guide for the Extra you enabled.
 
 If you have any issues, please refer to the PhobGCC Discord's tech support.
