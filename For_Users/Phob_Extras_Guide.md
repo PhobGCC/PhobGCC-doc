@@ -126,6 +126,8 @@ Once you've finished flashing your PhobGCC with the Extra-enabled firmware, you 
 toggle and configure the Extra you enabled (assuming you're not in safe mode) by using the button combinations listed at the
 start of this document and following the configuration guide for the Extra you enabled.
 
-If you have any issues, please refer to the PhobGCC Discord's tech support.
+# Troubleshooting
+
+If you have any issues enabling Extras, please refer to the PhobGCC Discord's tech support.
 [PhobGCC Discord](https://discord.gg/yrpUu7mgzm)
 
