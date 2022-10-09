@@ -29,5 +29,5 @@ As of now, there are no configuration options as the mapping is a fixed LUT.
 
 # Troubleshooting
 
-If you have any issues enabling this extra, please refer to the PhobGCC Discord's tech support.
+If you have any issues enabling this Extra, please refer to the PhobGCC Discord's tech support.
 [PhobGCC Discord](https://discord.gg/yrpUu7mgzm)
