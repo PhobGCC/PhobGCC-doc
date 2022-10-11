@@ -104,6 +104,7 @@ The GCC-specific Parts have a few different methods of acquisition
   * Official Wii Classic and Wii Classic Pro Controllers
   * Sold Loose on [Etsy](https://www.etsy.com/)
 * Trigger Potentiometers
+  * Any GCC
   * Official Wii Classic Controllers (No Handles)
   * [Kadano Etsy Shop](https://www.etsy.com/shop/Kadano?ref=simple-shop-header-name&listing_id=1187350029) - if in stock
 * Cable with a GCC Plug
