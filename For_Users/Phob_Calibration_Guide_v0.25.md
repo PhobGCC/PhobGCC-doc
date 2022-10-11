@@ -98,7 +98,7 @@ You do not need to do this otherwise.
 * During the measurement phase, if the stick started off uncalibrated (for example, if this is the first time you are calibrating the controller, or if you replaced the stickbox or magnets), then the Analog Stick will still behave wonky. This is normal.
 * The C-Stick will alternate between center and positions along the rim. First it will have you measure the cardinal directions (right, up, left down), then the 45 degree diagonals, then it will allow you to measure one notch in each eighth segment of the circle.
   * If the C-stick is not doing this, then you have initialized the controller incorrectly.
-* To measure, move the stick to the indicated notch, then press either L or R to go to the next step.
+* To measure, **hold** the stick in the indicated notch, then press either L or R to go to the next step.
   * When measuring, move the Analog Stick into the notch in the same way you would during gameplay. For cardinals, move straight from center. For the lower 45 degree diagonals, slide down from horizontal to mimic the shield drop motion.
 * If you think you messed up a measurement (measured the wrong notch, for example), you can go back to the previous notch measurement by pressing Z while the C-Stick is centered. Press multiple times to go back more steps.
 * Measuring tertiary notches between the cardinals and 45 degree notches is optional. If you don’t have a notch where the C-Stick is indicating, simply leave the Analog Stick centered.
