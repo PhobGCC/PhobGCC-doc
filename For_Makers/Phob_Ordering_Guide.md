@@ -89,12 +89,12 @@ The remaining parts can be purchased from distributers as listed below:
   * [Epoxy](https://www.mcmaster.com/66195A13/)
 * Magnet Holders:
   * See the `3d-printing` channel in the discord for printable designs that will hold magnets to the stickbox. Use in concert with the above adhesive for easy and secure attachment.
-* Optional D-pad Buttons:
-  * [Low Actuation Force](https://www.digikey.com/short/q4r0jh3j)
-  * [High Actuation Force](https://www.digikey.com/short/dcddr0jr)
-  * [Teflon Tape For Support](https://www.mcmaster.com/76475A51/)
 * Optional Mouse Buttons for ABXYLR:
-  * [SMD Pads](https://www.digikey.com/short/v93wrw12)
+  * [Low Actuation Force Buttons](https://www.digikey.com/short/q4r0jh3j)
+  * [High Actuation Force Buttons](https://www.digikey.com/short/dcddr0jr)
+  * [Teflon Tape For Support](https://www.mcmaster.com/76475A51/)
+* Optional Discrete Buttons for D-Pad:
+  * [SMD Buttons](https://www.digikey.com/short/v93wrw12)
 
 # Purchasing Other GCC Parts
 
