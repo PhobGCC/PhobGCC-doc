@@ -33,8 +33,6 @@ Come chat with us on the [PhobGCC Discord](https://discord.gg/eNJ7xWMvxf)!
 
 [Guide to Programming PhobGCC](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide.md)
 
-[Guide to coding Extras](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Extras_Guide.md)
-
 ## General Info
 
 [Hall Effect Sensor Explanation](https://github.com/PhobGCC/PhobGCC-doc/blob/main/General_Info/Hall_Effect_Sensors.md)
