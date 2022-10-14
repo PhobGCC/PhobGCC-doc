@@ -30,7 +30,7 @@ You do not need to do this otherwise.
   * By enforcing that the sticks are centered when starting the game, this ensures that you get 1.0 cardinals and accurate notches.
   * If you are using a Mayflash adapter, you must plug in both USB connectors for the controller to register in Dolphin/Slippi.
 * This is necessary because if the sticks are miscalibrated, it will be very difficult to correctly calibrate them with the sticks incorrectly zeroed.
-  * Once the sticks are calibrated and you are sure they are reliably zero when released, you can disable this. See [here](#toggle-auto-initialize---ablrstart).
+  * Once the sticks are calibrated and you are sure they are reliably zero when released, you can disable this. See [here](#toggle-auto-initialize---axyz).
   * But each time you reset or calibrate, you will once again be required to press B.
 
 # Making Changes On PhobGCC
@@ -246,7 +246,7 @@ This setting controls the threshold where that transition occurs.
 Due to the Melee controller ruleset, Mode 5 is incompatible with modes 1, 3, and 4.
 If you have Mode 5 set on one trigger and either 1, 3, or 4 on the other trigger, the other trigger will not output anything at all.
 
-# Analog Trigger Value Adjustment - ZL/ZR + Du/Dd
+# Analog Trigger Value Adjustment - B + L/R + Du/Dd
 
 * This shifts the user-defined limit for Analog Trigger Modes 4-6.
 * Press **B** + your trigger (**L/R**) + **D-pad Up** to increase or D-pad Down to decrease.
