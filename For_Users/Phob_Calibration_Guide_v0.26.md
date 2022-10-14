@@ -100,13 +100,13 @@ You do not need to do this otherwise.
 
 When in the measurement phase of calibrating the analog stick, the C-Stick will alternate between the center and a position along the rim, starting with the cardinal directions.
 
-1. If the C-Stick is centered, let go of the control stick and press either L, R, or A to measure that position.
-2. If the C-Stick is not centered, **hold the physical analog stick into the notch indicated by the C-Stick's output** and press L, R, or A to measure that position.
+* If the C-Stick is centered, let go of the control stick and press either L, R, or A to measure that position.
+* If the C-Stick is not centered, **hold the physical analog stick into the notch indicated by the C-Stick's output** and press L, R, or A to measure that position.
   * Make sure to enter the notch from the direction you would during gameplay.
-3. If you don't have a notch at the position indicated by the C-Stick, **let go of the stick** and press L, R, or A.
-4. **You must measure all four cardinal directions (East, North, West, South) and all four diagonal directions** or calibration will not work.
-5. If you think you messed up a measurement, you can go back to a previous notch measurement by pressing Z. It'll go back to measuring the center immediately before a given notch.
-6. Once you finish measuring all the notches (32 presses of L/R/A), the stick should behave normally. **You are not done calibrating.** If it does not behave normally, see Measurement Phase Troubleshooting below.
+* If you don't have a notch at the position indicated by the C-Stick, **let go of the stick** and press L, R, or A.
+* **You must measure all four cardinal directions (East, North, West, South) and all four diagonal directions** or calibration will not work.
+* If you think you messed up a measurement, you can go back to a previous notch measurement by pressing Z. It'll go back to measuring the center immediately before a given notch.
+* Once you finish measuring all the notches (32 presses of L/R/A), the stick should behave normally. **You are not done calibrating.** If it does not behave normally, see Measurement Phase Troubleshooting below.
 
 ### Measurement Phase Troubleshooting
 
