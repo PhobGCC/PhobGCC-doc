@@ -263,7 +263,8 @@ This setting controls the threshold where that transition occurs.
 
 You can swap one of X or Y with one of L, R, or Z.
 
-If you swap with L or R, the analog sliders will be disabled, so if you want Melee lightshield on the face button use Mode 5, and if you want a shield that works in both Melee and Ultimate use Mode 6.
+If you swap with L or R, X or Y will act only as a digital press input on the trigger.
+So if you want Melee lightshield on the face button use Mode 5, and if you want a shield that works in both Melee and Ultimate use Mode 6.
 
 * Press **XZ+Start** to swap X and Z. This will swap back if previously swapped.
 * Press **YZ+Start** to swap Y and Z. This will swap back if previously swapped.
