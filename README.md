@@ -19,6 +19,8 @@ Come chat with us on the [PhobGCC Discord](https://discord.gg/eNJ7xWMvxf)!
 
 [PhobGCC Firmware Update Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide.md)
 
+[User guides for Extras](https://github.com/PhobGCC/PhobGCC-doc/tree/main/For_Users/Extras_Guides)
+
 ## For Makers and Sellers
 
 [Parts Ordering Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide.md)
@@ -30,6 +32,8 @@ Come chat with us on the [PhobGCC Discord](https://discord.gg/eNJ7xWMvxf)!
 [Board Debugging for PhobGCC 1.2](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Board_Level_Debugging_1.2.md) (read before plugging in the first time!)
 
 [Guide to Programming PhobGCC](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide.md)
+
+[Guide to coding Extras](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Extras_Guide.md)
 
 ## General Info
 
