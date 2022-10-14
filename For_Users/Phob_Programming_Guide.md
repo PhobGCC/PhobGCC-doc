@@ -45,11 +45,11 @@ And search for and install 'teensy' by Paul Stoffregen.
 
 Go to the [Releases](https://github.com/PhobGCC/PhobGCC-SW/releases) section of the PhobGCC-SW Github and download the latest available firmware. Extract the files from the archive to a location you know. Open the `PhobGCC.ino` file that is inside the `PhobGCC` folder in Arduino IDE.
 
-Open the document `common/phobGCC.h` and look near the top of the document for the following section:
+Inside the subfolder `common`, open the document `phobGCC.h` in a text editor and look near the top of the document for the following section:
 
 ![Versions](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/phob_versions_v0.26.png?raw=true)
 
-And remove the `//` (NOT THE `#`) at the start of the line which contains your version. If you do not know which one you need, please post a photo of your board in the #user-tech-support channel of the [PhobGCC Discord](https://discord.gg/yrpUu7mgzm) and someone will assist you. Then plug in your PhobGCC using a Micro-USB cable to your computer. Once it is plugged in, go to the 'Select Board' drop-down in the top left and click on the "Unknown COM#". If this does not appear, your cable didn't work. Choose your Teensy version and a port, then click the right arrow in the top left. This will compile and upload the firmware to your board. Once this is complete, you can unplug your PhobGCC and reassemble the controller.
+Remove the `//` (NOT THE `#`) at the start of the line which contains your version. If you do not know which one you need, please post a photo of your board in the #user-tech-support channel of the [PhobGCC Discord](https://discord.gg/yrpUu7mgzm) and someone will assist you. Then plug in your PhobGCC using a Micro-USB cable to your computer. Once it is plugged in, go to the 'Select Board' drop-down in the top left and click on the "Unknown COM#". If this does not appear, your cable didn't work. Choose your Teensy version and a port, then click the right arrow in the top left. This will compile and upload the firmware to your board. Once this is complete, you can unplug your PhobGCC and reassemble the controller.
 
 # Troubleshooting
 
