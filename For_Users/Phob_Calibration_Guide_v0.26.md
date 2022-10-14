@@ -108,8 +108,8 @@ When in the measurement phase of calibrating the analog stick, the C-Stick will 
 * If you don't have a notch at the position indicated by the C-Stick, **let go of the stick** and press **L**, **R**, or **A**.
 * **You must measure all four cardinal directions (East, North, West, South) and all four diagonal directions** or calibration will not work.
 * If you think you messed up a measurement, you can go back to a previous notch measurement by pressing **Z**. It'll go back to measuring the center immediately before a given notch.
-* Once you finish measuring all the notches (32 presses of **L/R/A**), the stick should behave normally. **You are not done calibrating.** Proceed to [Notch Adjustment](#notch-adjustment-phase) below.
-  * If it does not behave normally, see Measurement Phase Troubleshooting below.
+* Once you finish measuring all the notches (32 presses of **L/R/A**), the stick should behave normally. **You are not done calibrating.** Proceed to the [Notch Adjustment Phase](#notch-adjustment-phase) below.
+  * If it does not behave as expected, see Measurement Phase Troubleshooting below.
 
 ### Measurement Phase Troubleshooting
 
