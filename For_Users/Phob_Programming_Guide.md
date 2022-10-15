@@ -39,7 +39,10 @@ Next you'll want to go to the 'File' drop-down and click on 'Preferences...' as 
 
 ![Preferences](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/preferences.png?raw=true)
 
-and in the 'Additional board manager URLs' section, you'll want to paste in `https://www.pjrc.com/teensy/package_teensy_index.json`.
+and in the 'Additional board manager URLs' section, you'll want to paste in `https://www.pjrc.com/teensy/package_teensy_index.json`. You'll also want to enable the "Show files inside Sketches" checkbox as shown below:
+
+![Preferences_2](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/preferences_2.png?raw=true)
+
 Next you'll want to go to the 'Tools' drop-down, in the 'Board' section, Click on 'Board Manager' as seen below:
 
 ![Boards](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/board_manager.png?raw=true)
