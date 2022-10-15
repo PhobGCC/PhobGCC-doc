@@ -96,7 +96,7 @@ You do not need to do this otherwise.
 * Stick calibration has two phases: measurement and notch adjustment.
   * You **must** complete both measurement and notch adjustment for the setting to be saved.
 * If you’ve already calibrated the stick and just want to adjust notches, you can skip the measurement phase and immediately begin notch adjustment by pressing Start at any time during the measurement phase.
-* Calibrating the either stick turns off Auto-Initialize.
+* Calibrating either stick turns off Auto-Initialize.
 
 ## Measurement Phase
 
