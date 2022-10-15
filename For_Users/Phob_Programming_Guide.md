@@ -58,7 +58,7 @@ Inside the subfolder `common`, open the document `phobGCC.h` in a text editor an
 
 ![Versions](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/phob_versions_v0.26.png?raw=true)
 
-Remove the `//` (NOT THE `#`) at the start of the line which contains your board version.
+Remove the `//` (NOT THE `#`) at the start of the line which contains your board version, and save the file.
 If you do not know which one you need, please post a photo of your board in the #user-tech-support channel of the [PhobGCC Discord](https://discord.gg/yrpUu7mgzm) and someone will assist you.
 
 Then plug in your PhobGCC using a Micro-USB cable to your computer.
