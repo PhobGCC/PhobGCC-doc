@@ -4,6 +4,7 @@ This document is to keep track of old documentation that is no longer applicable
 
 ## Controller Configuration
 
+* [For Version 0.26](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.26.md)
 * [For Version 0.25](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.25.md)
 * [For Version 0.24](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.24.md)
 * [For Version 0.23](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.23.md)
@@ -21,7 +22,7 @@ This document is to keep track of old documentation that is no longer applicable
 
 * [Board Version 1.1](https://docs.google.com/presentation/d/1Awil69v7xDhX-VOdLnVhseILLCY89gFpTTAPPEig6E4/edit?usp=sharing)
 
-## Programming Guides 
+## Programming Guides
 
 * [For Arduino 1.8.X](https://docs.google.com/presentation/d/1Ota8R95K1-LR34Re3XB7BIb7ZzgtDM_iaknYH9k8yRQ/edit#slide=id.p)
 
