@@ -95,7 +95,7 @@ You do not need to do this otherwise.
 
 **NOTE: If using Dolphin Smashscope, you MUST disable all Wii Remotes**
 
-![DISABLE_WII_REMOTES](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide/disableWiiRemotes.png?raw=true)
+![DISABLE_WII_REMOTES](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.20_Images/disableWiiRemotes.png?raw=true)
 
 * Stick calibration has two phases: measurement and notch adjustment.
   * You **must** complete both measurement and notch adjustment for the setting to be saved.
