@@ -93,6 +93,10 @@ You do not need to do this otherwise.
 
 [PhobGCC Notch Calibration Guide - YouTube](https://youtu.be/hscmtzy7dqs)
 
+**NOTE: If using Dolphin Smashscope, you MUST disable all Wii Remotes**
+
+![DISABLE_WII_REMOTES](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide/disableWiiRemotes.png?raw=true)
+
 * Stick calibration has two phases: measurement and notch adjustment.
   * You **must** complete both measurement and notch adjustment for the setting to be saved.
 * If you’ve already calibrated the stick and just want to adjust notches, you can skip the measurement phase and immediately begin notch adjustment by pressing Start at any time during the measurement phase.
