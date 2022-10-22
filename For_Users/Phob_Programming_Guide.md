@@ -54,9 +54,10 @@ And search for and install 'teensy' by Paul Stoffregen.
 # Downloading and Flashing The PhobGCC Firmware
 
 Go to the [Releases](https://github.com/PhobGCC/PhobGCC-SW/releases) section of the PhobGCC-SW Github and download the latest available firmware.
-Extract the files from the archive to a location you know. Open the `PhobGCC.ino` file that is inside the `PhobGCC` folder in Arduino IDE.
+**Extract all the files from the archive to the Arduino folder in your Documents/Home folder.**
+Open the `PhobGCC.ino` file that is inside the `PhobGCC` folder in Arduino IDE.
 
-Inside the subfolder `common`, open the document `phobGCC.h` in a text editor and look near the top of the document for the following section:
+Inside the subfolder `common`, find the document `phobGCC.h` and look near the top of the document for the following section:
 
 ![Versions](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/phob_versions_v0.26.png?raw=true)
 
