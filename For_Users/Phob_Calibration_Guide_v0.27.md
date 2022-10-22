@@ -250,7 +250,8 @@ This setting controls the threshold where that transition occurs.
 
 # Analog Trigger Value Adjustment - B + L/R + Du/Dd
 
-* This shifts the user-defined limit for Analog Trigger Modes 4-6.
+* For Analog Trigger Modes 4-6, this shifts the user-defined limit for the analog value.
+* For Analog Trigger Mode 7, this adjusts the scaling of the analog value from 1x at 49 to 3x at 227.
 * Press **B** + your trigger (**L/R**) + **D-pad Up** to increase or D-pad Down to decrease.
   * The possible range of values goes from 49 to 227, with 49 being equivalent to Z-lightshield in Melee, the largest legal value.
   * Melee treats all values 140 and above as the strongest analog shield.
