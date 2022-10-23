@@ -57,7 +57,8 @@ Go to the [Releases](https://github.com/PhobGCC/PhobGCC-SW/releases) section of 
 **Extract all the files from the archive to the Arduino folder in your Documents/Home folder.**
 Open the `PhobGCC.ino` file that is inside the `PhobGCC` folder in Arduino IDE.
 
-Inside the subfolder `common`, find the document `phobGCC.h` and look near the top of the document for the following section:
+Inside the subfolder `common`, find the document `phobGCC.h` and open it in a text editor (Notepad, if you have nothing else).
+Look near the top of the document for the following section:
 
 ![Versions](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/phob_versions_v0.26.png?raw=true)
 
