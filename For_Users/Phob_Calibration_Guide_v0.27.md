@@ -168,8 +168,8 @@ Increasing the Analog Stick Smart Snapback Filter adjustment doesn’t hurt resp
 The Waveshaping filter stops the output from moving while the stick axis is moving quickly.
 This setting controls the threshold where that transition occurs.
 
-This can be used to make pivots behave more like a good OEM controller.
-This works best with an OEM spring or a Smalley L2 spring, not with lighter "slickbox" style springs.
+This can be used to make pivots or short flicks behave more like a good OEM controller.
+This enhancement to pivots and flicks works best with an OEM spring or a Smalley L2 spring, not with lighter "slickbox" style springs, but you can crank it up and make it work at the expense of responsiveness.
 
 * Press **L** + **X/Y** for your axis + **D-pad Up/Down** to increase/decrease.
   * Example: **LX+Du** strengthens the effect on the X-axis, **LY+Dd** reduces the effect on the Y-axis.
