@@ -2,6 +2,10 @@
 
 This is an illustrated guide to acquiring all the parts you need to assemble a PhobGCC.
 
+***Teensy 4.0s are extremely hard to find and/or scalped to expensive prices so we highly suggest that you not order PhobGCC 1.2 boards if you don't have Teensy 4.0 boards already.***
+
+We expect to have PhobGCC board version 2 out by the end of 2022, which will have better parts availability and greatly simplified assembly.
+
 # Required Parts
 
 The following parts are unique to the PhobGCC and must be acquired per this guide, with no non-identical substitutions.
