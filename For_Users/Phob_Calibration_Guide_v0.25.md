@@ -52,7 +52,7 @@ You do not need to do this otherwise.
 # Display Software Version - AZ + Du
 
 * The C-stick will display the software version in Melee units as if it were not preceded by the "0."
-  * The Y-axis will show the tens and ones digits. In this case, it would be 24.
+  * The Y-axis will show the tens and ones digits. In this case, it would be 25.
   * The X-axis will show the thousands and hundreds digits. In this case, it would be 0.
 * You must use Smashscope to see this numerically.
 
