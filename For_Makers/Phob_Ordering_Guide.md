@@ -84,10 +84,11 @@ The remaining parts can be purchased from distributers as listed below:
 * Low Profile Header Pins:
   * **NOTE: The main requirement is that the pitch mating is 2.54mm and that the insulation height is 1.52mm. Any headers of this specific size will work. NORMAL ONES WON'T**
   * [Digikey](https://www.digikey.com/short/qmwbq233)
+  * [Digikey](https://www.digikey.com/en/products/detail/samtec-inc/TLW-136-05-T-S/1105024) - more expensive
 * Magnets:
   * [DH1H1 Magnets](https://www.kjmagnetics.com/proddetail.asp?prod=DH1H1) - For a jack-of-all trades, use these.
-  * [D12 Magnets](https://www.kjmagnetics.com/proddetail.asp?prod=d12-n52) -For best control at the rim (like Pivots), use these.
-  * [N30H Magnets](https://www.digikey.com/short/br3n8hz3) -For best control at the center (like ICs desyncs), use these.
+  * [D12 Magnets](https://www.kjmagnetics.com/proddetail.asp?prod=d12-n52) - For best control at the rim (like Pivots), use these.
+  * [N30H Magnets](https://www.digikey.com/short/br3n8hz3) - For best control at the center (like ICs desyncs), use these.
 * High Viscosity Glue:
   * [Gorilla superglue gel](https://www.amazon.com/dp/B00OAAUAX8)
   * [Epoxy](https://www.mcmaster.com/66195A13/)
