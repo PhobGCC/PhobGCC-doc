@@ -58,6 +58,8 @@ You do not need to do this otherwise.
   * The Y-axis will show the tens and ones digits. In this case, it would be 27.
   * The X-axis will show the thousands and hundreds digits. In this case, it would be 0.
 * You must use Smashscope to see this numerically.
+* If the controller doesn't show 27, then you need to reference an older configuration document [here](https://github.com/PhobGCC/PhobGCC-doc/blob/main/LEGACY.md).
+  * If it doesn't respond to this command at all, then it's likely the version is 0.23 or lower and you should [upgrade the controller firmware](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide.md).
 
 # Controller Reset - ABZ+Start
 
