@@ -6,7 +6,7 @@ This is an illustrated guide to acquiring all the parts you need to assemble a P
 
 The following parts are unique to the PhobGCC and must be acquired per this guide, with no non-identical substitutions.
 
-* 1 PhobGCC v1.2.3 Board
+* 1 PhobGCC v2.0.0 Board
 * 4 Magnets
 * High Viscosity Glue
 * Optional: 4x Magnet Mounts
