@@ -37,6 +37,8 @@ You'll want to search (what is in the single quotes) and install the following:
 * 'teensytimertool' by luni64
   * **NOTE:  You'll want to install version 1.0.0 of this library using the drop-down.**
 
+You may need to resize the left panel in order to see the Install button.
+
 Next you'll want to go to the 'File' drop-down and click on 'Preferences...' as seen below:
 
 ![Preferences](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/preferences.png?raw=true)
