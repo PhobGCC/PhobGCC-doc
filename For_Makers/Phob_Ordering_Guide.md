@@ -83,6 +83,7 @@ The remaining parts can be purchased from distributers as listed below:
   * [Mouser High Sensitivity](https://www.mouser.com/ProductDetail/Texas-Instruments/DRV5053EAQLPG?qs=U0ECReq1GB%2FEJedkxMZGLA%3D%3D)
 * Low Profile Header Pins:
   * **NOTE: The main requirement is that the pitch mating is 2.54mm and that the insulation height is 1.52mm. Any headers of this specific size will work. NORMAL ONES WON'T**
+  * **NOTE 2: You only need one unit of either of the following per controller. These come in length 36.**
   * [Digikey](https://www.digikey.com/short/qmwbq233)
   * [Digikey](https://www.digikey.com/en/products/detail/samtec-inc/TLW-136-05-T-S/1105024) - more expensive
 * Magnets:
