@@ -16,6 +16,8 @@ An alternative is Uncle Punch Training Mode 3.0. In the Training Lab menu, under
 **This is only necessary the the first time the controller is set up after it is made.**
 You do not need to do this otherwise.
 
+If the controller is functioning normally, this has already been performed and you do not need to repeat the process.
+
 * If using Dolphin, start Dolphin. If using a Wii, turn on the Wii and use another controller to set up your configuration environment.
 * Plug in the controller.
 * If using Dolphin, start the game (Smashscope or Uncle Punch).
