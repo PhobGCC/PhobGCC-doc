@@ -115,6 +115,7 @@ When in the measurement phase of calibrating the analog stick, the C-Stick will 
   * Make sure to enter the notch from the direction you would during gameplay.
 * If you don't have a notch at the position indicated by the C-Stick, **let go of the stick** and press **L**, **R**, or **A**.
 * **You must measure all four cardinal directions (East, North, West, South) and all four diagonal directions** or calibration will not work.
+* The first time you calibrate a controller that has modder-added notches, it is highly recommended to skip all the modder added notches and start with only the 8 primary directions.
 * If you think you messed up a measurement, you can go back to a previous notch measurement by pressing **Z**. It'll go back to measuring the center immediately before a given notch.
 * Once you finish measuring all the notches (32 presses of **L/R/A**), the stick should behave normally. **You are not done calibrating.** Proceed to the [Notch Adjustment Phase](#notch-adjustment-phase) below.
   * If it does not behave as expected, see Measurement Phase Troubleshooting below.
@@ -124,7 +125,8 @@ When in the measurement phase of calibrating the analog stick, the C-Stick will 
 * If the Analog Stick's output is not accurate during this phase, do not worry. The previous calibration does not matter.
 * If the C-Stick is not alternating between being centered and circling all the way around the rim, and you are using Dolphin to calibrate, you need to reinitialize Dolphin by making sure that Auto-Initialize is off, unplugging and replugging, restarting Dolphin, and then tapping **B**.
 * If after the measurement phase is done, the stick has one or two sectors that jump into another quadrant randomly, you probably mis-measured a notch. Mash **L**, **R**, or **A** a bunch to finish the calibration and start again.
-* If after the measurement phase is done, the stick output is completely haywire and jumping all over the place randomly, you probably let go of the stick before pressing **L**, **R**, or **A**. Mash **L**, **R**, or **A** a bunch to finish the calibration and start again.
+* If after the measurement phase is done, the stick output is completely haywire and jumping all over the place randomly, you may have let go of the stick before pressing **L**, **R**, or **A**. Mash **L**, **R**, or **A** a bunch to finish the calibration and start again.
+  * Alternatively, if you have Firefox notches, try calibrating the main 8 directions only to completion, then go back and calibrate all of them.
 * If after the measurement phase is done, the stick output is backwards on one or both axes, you probably were trying to make the stick *output* match the C-Stick, instead of moving the *physical* stick into the notch indicated by the C-Stick. Mash **L**, **R**, or **A** a bunch to finish the calibration and start again.
 
 ## Notch Adjustment Phase
