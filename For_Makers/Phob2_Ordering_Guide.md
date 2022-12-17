@@ -75,7 +75,7 @@ The remaining parts can be purchased from distributers as listed below:
   * [SMD Buttons](https://www.digikey.com/short/v93wrw12)
 * Optional for PhobVision:
   * [TRRS Jack](https://www.digikey.com/en/products/detail/cui-devices/SJ5-43502PM/1956558)
-  * [JST Connector and Pigtail](https://www.amazon.com/dp/B01DUC1O68) or similar
+  * [JST-PH 2.0 2-Pin Connector and Pigtail](https://www.amazon.com/dp/B01DUC1O68) or similar: size is critical; don't use a double pigtail.
   * [TRRS to RCA Video Cable](https://www.amazon.com/dp/B08V1SV8BL) or similar: **MUST BE TRRS = Audio Left, Video, Ground, Audio Right**
 
 # Purchasing Other GCC Parts
