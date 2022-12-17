@@ -9,6 +9,7 @@ The following parts are unique to the PhobGCC and must be acquired per this guid
 * 1x PhobGCC v2.0.2 Board
 * 4x Magnets
 * 4x Underslung Magnet Mounts
+* Optional: 1x 6-pin Ribbon Cable/ 6 Wires
 * Optional: 4x D-pad Buttons
 * Optional: 6x Mouse Buttons for ABXYLR
 
@@ -45,7 +46,7 @@ This is where you double-check the part quantities you've selected and make sure
 
 Soon :)
 
-As pre-ordering components from JLC takes weeks, we are releasing this guide without the board ordering process yet so you won't be bottlenecked when we release that portion later this month.
+As pre-ordering components from JLC takes weeks, we are releasing this guide without the board ordering process yet so you won't be bottlenecked when we release this portion later this month.
 
 # Purchasing Other PhobGCC Parts
 
@@ -57,6 +58,11 @@ The remaining parts can be purchased from distributers as listed below:
 * Magnet Mounts:
   * **NOTE: PhobGCC v1.X MAGNET MOUNTS WILL BE VERY BAD, AND MAY NOT WORK AT ALL. MAKE SURE TO GET THE UNDERSLUNG MAGNET MOUNTS!**
   * Download [This](https://drive.google.com/file/d/10-lseJ4UK1-HkkXc6rjSJtsYRW7ihsXD/view?usp=share_link) OpenScad file. It is by default set up for DH1H1 Magnets, so you can edit it for whatever magnet you use, adjust it for your printer, and then generate the STL using [OpenScad](https://openscad.org/). Once you have the STL, you can print it using your own machine or check out local makerspaces, libraries, and print shops.
+* Optional 6-pin Ribbon Cable:
+  * Official Wii Classic Controller
+* Optional Wire:
+  * 26-gauge stranded wire
+  * 28-gauge solid core wire (pre-tined advised)  
 * Optional Mouse Buttons for ABXYLR:
   * [Low Actuation Force Buttons](https://www.digikey.com/short/q4r0jh3j)
   * [High Actuation Force Buttons](https://www.digikey.com/short/dcddr0jr)
