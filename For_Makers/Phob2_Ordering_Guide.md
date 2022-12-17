@@ -12,6 +12,7 @@ The following parts are unique to the PhobGCC and must be acquired per this guid
 * 1x 6-pin Ribbon Cable or 6 Wires
 * Optional: 4x D-pad Buttons
 * Optional: 6x Mouse Buttons for ABXYLR
+* Optional: 3.5mm TRRS Panel-mount Jack for PhobVision
 
 The following parts are standard to a GCC and can be acquired via a number of different ways, some of which will be outlined here.
 
@@ -69,6 +70,8 @@ The remaining parts can be purchased from distributers as listed below:
   * [Teflon Tape For Support](https://www.mcmaster.com/76475A51/)
 * Optional Discrete Buttons for D-Pad:
   * [SMD Buttons](https://www.digikey.com/short/v93wrw12)
+* Optional TRRS Jack For PhobVision:
+  * [Digikey](https://www.digikey.com/en/products/detail/cui-devices/SJ5-43502PM/1956558)
 
 # Purchasing Other GCC Parts
 
