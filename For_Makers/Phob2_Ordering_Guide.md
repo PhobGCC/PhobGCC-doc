@@ -59,7 +59,7 @@ The remaining parts can be purchased from distributers as listed below:
   * **NOTE: PhobGCC v1.X MAGNET MOUNTS WILL BE VERY BAD, AND MAY NOT WORK AT ALL. MAKE SURE TO GET THE UNDERSLUNG MAGNET MOUNTS!**
   * Download [This](https://drive.google.com/file/d/10-lseJ4UK1-HkkXc6rjSJtsYRW7ihsXD/view?usp=share_link) OpenScad file. It is by default set up for DH1H1 Magnets, so you can edit it for whatever magnet you use, adjust it for your printer, and then generate the STL using [OpenScad](https://openscad.org/). Once you have the STL, you can print it using your own machine or check out local makerspaces, libraries, and print shops.
 * 6-pin Ribbon Cable:
-  * Official Wii Classic Controller
+  * Official Wii Classic Controller (No Handles)
 * Wire:
   * 26-gauge stranded wire
   * 28-gauge solid core wire (pre-tined advised)  
