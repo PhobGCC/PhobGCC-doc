@@ -1,21 +1,20 @@
-# PhobGCC Version 2.0 Ordering Guide
+# PhobGCC Version 2.0.2 Ordering Guide
 
-This is an illustrated guide to acquiring all the parts you need to assemble a PhobGCC  v2.0.
+This is an illustrated guide to acquiring all the parts you need to assemble a PhobGCC  v2.0.2
 
 # Required Parts
 
 The following parts are unique to the PhobGCC and must be acquired per this guide, with no non-identical substitutions.
 
-* 1 PhobGCC v2.0.2 Board
-* 4 Magnets
-* High Viscosity Glue
-* Optional: 4x Underslung Magnet Mounts
+* 1x PhobGCC v2.0.2 Board
+* 4x Magnets
+* 4x Underslung Magnet Mounts
 * Optional: 4x D-pad Buttons
 * Optional: 6x Mouse Buttons for ABXYLR
 
 The following parts are standard to a GCC and can be acquired via a number of different ways, some of which will be outlined here.
 
-* 2x Stickboxes
+* 2x T3 Stickboxes
 * 2x Trigger Potentiometers
 * 1x Cable with a GCC Plug
 * 1x Rumble Bracket
@@ -32,7 +31,7 @@ The following parts usually have low stock and pre-ordering them is advised:
 
 * [1x RP2040](https://jlcpcb.com/partdetail/RaspberryPi-RP2040/C2040)
 * [1x NOR Flash Chip](https://jlcpcb.com/partdetail/WinbondElec-W25Q128JVSIQ/C97521)
-* [4x DRV5055 SMD Hall Sensor](https://jlcpcb.com/partdetail/TexasInstruments-DRV5055A2QDBZR/C266131) (JLC Underprices these, you'll be paying $1.70 after the quote)
+* [4x DRV5055 SMD Hall Sensor](https://jlcpcb.com/partdetail/TexasInstruments-DRV5055A2QDBZR/C266131) (JLC underprices these, you'll be paying $1.70 after the quote)
 * [2x MCP3202 ADC](https://jlcpcb.com/partdetail/MicrochipTech-MCP3202_CISN/C56997)
 * [1x Crystal Oscillator](https://jlcpcb.com/partdetail/390662-TAXM12M4RKDCDT2T/C403945)
 
@@ -49,12 +48,9 @@ The remaining parts can be purchased from distributers as listed below:
   * [DH1H1 Magnets](https://www.kjmagnetics.com/proddetail.asp?prod=DH1H1) - For a jack-of-all trades, use these.
   * [D12 Magnets](https://www.kjmagnetics.com/proddetail.asp?prod=d12-n52) - For best control at the rim (like Pivots), use these.
   * [N30H Magnets](https://www.digikey.com/short/br3n8hz3) - For best control at the center (like ICs desyncs), use these.
-* High Viscosity Glue:
-  * [Gorilla superglue gel](https://www.amazon.com/dp/B00OAAUAX8)
-  * [Epoxy](https://www.mcmaster.com/66195A13/)
-* Magnet Holders:
+* Magnet Mounts:
   * **NOTE: PhobGCC v1.X MAGNET MOUNTS WILL BE VERY BAD, AND MAY NOT WORK AT ALL. MAKE SURE TO GET THE UNDERSLUNG MAGNET MOUNTS!**
-  * See the `3d-printing` channel in the discord for printable designs that will hold magnets to the stickbox. Use in concert with the above adhesive for easy and secure attachment.
+  * Download [This]() OpenScad file. It is by default set up for DH1H1 Magnets, so you can edit it for whatever magnet you use, adjust it for your printer, and then generate the STL using [OpenScad](https://openscad.org/). Once you have the STL, you can print it using your own machine or check out local makerspaces, libraries, and print shops. 
 * Optional Mouse Buttons for ABXYLR:
   * [Low Actuation Force Buttons](https://www.digikey.com/short/q4r0jh3j)
   * [High Actuation Force Buttons](https://www.digikey.com/short/dcddr0jr)
@@ -87,7 +83,7 @@ The GCC-specific Parts have a few different methods of acquisition
   * Heavy Tactile - [BattleBeaverCustoms](https://battlebeavercustoms.com/products/replacement-gamecube-tactile-z-switch)
   * Tactile - [FIRESCC](https://www.etsy.com/listing/753452766/fires-performance-mod-kit-for-the?)
   * Tactile - [Digikey](https://www.digikey.com/short/hp5vvv7w) **NOTE:  NEEDS SOME MODIFICATION OF CONTROLLER BUTTON RUBBER**
-  * Mouseclick - [SimpleControllers](https://simplecontrollers.bigcartel.com/mouseswitch-z)
+  * Mouseclick - [SimpleControllers](https://simplecontrollers.com/)
 * Optional Rumble Motor
   * Any GCC
   * [Cellphone Rumble](https://www.amazon.com/10-Pieces-Vibration-Motor-Vibrating/dp/B00N9J3BTG)
