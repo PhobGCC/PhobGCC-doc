@@ -23,7 +23,7 @@ Come chat with us on the [PhobGCC Discord](https://discord.gg/eNJ7xWMvxf)!
 
 ## For Makers and Sellers
 
-[PhobGCC v2.0.2 Parts Ordering Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide.md)
+[PhobGCC v2.0.2 Parts Ordering Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob2_Ordering_Guide.md)
 
 [PhobGCC v1.2.3 Parts Ordering Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide.md)
 
