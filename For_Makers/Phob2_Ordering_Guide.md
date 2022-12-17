@@ -50,7 +50,7 @@ The remaining parts can be purchased from distributers as listed below:
   * [N30H Magnets](https://www.digikey.com/short/br3n8hz3) - For best control at the center (like ICs desyncs), use these.
 * Magnet Mounts:
   * **NOTE: PhobGCC v1.X MAGNET MOUNTS WILL BE VERY BAD, AND MAY NOT WORK AT ALL. MAKE SURE TO GET THE UNDERSLUNG MAGNET MOUNTS!**
-  * Download [This]() OpenScad file. It is by default set up for DH1H1 Magnets, so you can edit it for whatever magnet you use, adjust it for your printer, and then generate the STL using [OpenScad](https://openscad.org/). Once you have the STL, you can print it using your own machine or check out local makerspaces, libraries, and print shops. 
+  * Download [This](https://drive.google.com/file/d/10-lseJ4UK1-HkkXc6rjSJtsYRW7ihsXD/view?usp=share_link) OpenScad file. It is by default set up for DH1H1 Magnets, so you can edit it for whatever magnet you use, adjust it for your printer, and then generate the STL using [OpenScad](https://openscad.org/). Once you have the STL, you can print it using your own machine or check out local makerspaces, libraries, and print shops. 
 * Optional Mouse Buttons for ABXYLR:
   * [Low Actuation Force Buttons](https://www.digikey.com/short/q4r0jh3j)
   * [High Actuation Force Buttons](https://www.digikey.com/short/dcddr0jr)
@@ -58,6 +58,11 @@ The remaining parts can be purchased from distributers as listed below:
 * Optional Discrete Buttons for D-Pad:
   * [SMD Buttons](https://www.digikey.com/short/v93wrw12)
 
+https://github.com/deepbag/git-cloud-storage/blob/gh-pages/Deep%20Bag%20CV.pdf
+https://deepbag.github.io/git-cloud-storage/Deep%20Bag%20CV.pdf
+
+https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Magnet_Files/Magnet_Holder_Underslung.scad
+https://
 # Purchasing Other GCC Parts
 
 The GCC-specific Parts have a few different methods of acquisition
