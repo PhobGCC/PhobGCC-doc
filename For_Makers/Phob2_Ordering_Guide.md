@@ -21,7 +21,7 @@ The following parts are standard to a GCC and can be acquired via a number of di
 * 1x Z-button Switch
 * Optional: 1x Rumble Motor
 
-## Pre-ordering out of stock SMD components
+## Pre-ordering SMD components
 
 Since the 2.0.2 board is fully integrated, all of the non-GCC components are soldered onto the board at the board house. Some of these may be out of stock, and as such need to be pre-ordered before you place a board order. Pre-ordered components take on average 2 weeks to arrive at the JLCPCB warehouse after you pay for them. If a component takes longer, you can contact JLCPCB support for a more accurate timeframe of arrival.
 
@@ -41,6 +41,10 @@ Once you've clicked on each link and added the quantities you need into your car
 
 This is where you double-check the part quantities you've selected and make sure that they're all checked, even if in stock. Once you checkout, JLC will attempt to purchase those parts for you at the quoted price. If they end up costing more, they'll email you about supplementing the cost, and if they end up costing less, you will be refunded the difference. You can check the status of part orders in the "Parts Order History" subtab.
 
+## Purchasing the board itself
+
+Soon :)
+
 # Purchasing Other PhobGCC Parts
 
 The remaining parts can be purchased from distributers as listed below:
@@ -50,7 +54,7 @@ The remaining parts can be purchased from distributers as listed below:
   * [N30H Magnets](https://www.digikey.com/short/br3n8hz3) - For best control at the center (like ICs desyncs), use these.
 * Magnet Mounts:
   * **NOTE: PhobGCC v1.X MAGNET MOUNTS WILL BE VERY BAD, AND MAY NOT WORK AT ALL. MAKE SURE TO GET THE UNDERSLUNG MAGNET MOUNTS!**
-  * Download [This](https://drive.google.com/file/d/10-lseJ4UK1-HkkXc6rjSJtsYRW7ihsXD/view?usp=share_link) OpenScad file. It is by default set up for DH1H1 Magnets, so you can edit it for whatever magnet you use, adjust it for your printer, and then generate the STL using [OpenScad](https://openscad.org/). Once you have the STL, you can print it using your own machine or check out local makerspaces, libraries, and print shops. 
+  * Download [This](https://drive.google.com/file/d/10-lseJ4UK1-HkkXc6rjSJtsYRW7ihsXD/view?usp=share_link) OpenScad file. It is by default set up for DH1H1 Magnets, so you can edit it for whatever magnet you use, adjust it for your printer, and then generate the STL using [OpenScad](https://openscad.org/). Once you have the STL, you can print it using your own machine or check out local makerspaces, libraries, and print shops.
 * Optional Mouse Buttons for ABXYLR:
   * [Low Actuation Force Buttons](https://www.digikey.com/short/q4r0jh3j)
   * [High Actuation Force Buttons](https://www.digikey.com/short/dcddr0jr)
