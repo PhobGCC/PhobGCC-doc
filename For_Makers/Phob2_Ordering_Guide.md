@@ -12,7 +12,9 @@ The following parts are unique to the PhobGCC and must be acquired per this guid
 * 1x 6-pin Ribbon Cable or 6 Wires
 * Optional: 4x D-pad Buttons
 * Optional: 6x Mouse Buttons for ABXYLR
-* Optional: 3.5mm TRRS Panel-mount Jack for PhobVision
+* Optional for PhobVision:
+  * Panel-mount 3.5mm TRRS Jack
+  * JST-PH 2.0 2-pin male connector & female pigtail
 
 The following parts are standard to a GCC and can be acquired via a number of different ways, some of which will be outlined here.
 
@@ -70,8 +72,9 @@ The remaining parts can be purchased from distributers as listed below:
   * [Teflon Tape For Support](https://www.mcmaster.com/76475A51/)
 * Optional Discrete Buttons for D-Pad:
   * [SMD Buttons](https://www.digikey.com/short/v93wrw12)
-* Optional TRRS Jack For PhobVision:
-  * [Digikey](https://www.digikey.com/en/products/detail/cui-devices/SJ5-43502PM/1956558)
+* Optional for PhobVision:
+  * [TRRS Jack](https://www.digikey.com/en/products/detail/cui-devices/SJ5-43502PM/1956558)
+  * [JST connector and pigtail](https://www.amazon.com/daier-Micro-2-Pin-Connector-Female/dp/B01DUC1O68) or similar
 
 # Purchasing Other GCC Parts
 
