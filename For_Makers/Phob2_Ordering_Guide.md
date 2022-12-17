@@ -70,11 +70,6 @@ The remaining parts can be purchased from distributers as listed below:
 * Optional Discrete Buttons for D-Pad:
   * [SMD Buttons](https://www.digikey.com/short/v93wrw12)
 
-https://github.com/deepbag/git-cloud-storage/blob/gh-pages/Deep%20Bag%20CV.pdf
-https://deepbag.github.io/git-cloud-storage/Deep%20Bag%20CV.pdf
-
-https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Magnet_Files/Magnet_Holder_Underslung.scad
-https://
 # Purchasing Other GCC Parts
 
 The GCC-specific Parts have a few different methods of acquisition
