@@ -15,6 +15,7 @@ The following parts are unique to the PhobGCC and must be acquired per this guid
 * Optional for PhobVision:
   * Panel-mount 3.5mm TRRS Jack
   * JST-PH 2.0 2-pin male connector & female pigtail
+  * TRRS to RCA video adapter cable (doesn't go in the controller but required for use)
 
 The following parts are standard to a GCC and can be acquired via a number of different ways, some of which will be outlined here.
 
@@ -74,7 +75,8 @@ The remaining parts can be purchased from distributers as listed below:
   * [SMD Buttons](https://www.digikey.com/short/v93wrw12)
 * Optional for PhobVision:
   * [TRRS Jack](https://www.digikey.com/en/products/detail/cui-devices/SJ5-43502PM/1956558)
-  * [JST connector and pigtail](https://www.amazon.com/daier-Micro-2-Pin-Connector-Female/dp/B01DUC1O68) or similar
+  * [JST Connector and Pigtail](https://www.amazon.com/dp/B01DUC1O68) or similar
+  * [TRRS to RCA Video Cable](https://www.amazon.com/dp/B08V1SV8BL) or similar: **MUST BE TRRS = Audio Left, Video, Ground, Audio Right**
 
 # Purchasing Other GCC Parts
 
