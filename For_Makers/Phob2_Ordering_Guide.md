@@ -45,6 +45,8 @@ This is where you double-check the part quantities you've selected and make sure
 
 Soon :)
 
+As pre-ordering components from JLC takes weeks, we are releasing this guide without the board ordering process yet so you won't be bottlenecked when we release that portion later this month.
+
 # Purchasing Other PhobGCC Parts
 
 The remaining parts can be purchased from distributers as listed below:
