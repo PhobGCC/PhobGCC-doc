@@ -322,7 +322,7 @@ Finally, trim the legs.
 
 ![c-stick hall legs trimmed](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1087_9D4zsuI-output.jpg?raw=true)
 
-On the motherboard, trim the legs *very closely*.
+On the motherboard, trim the legs *very closely* and then reflow the solder on each joint.
 They should be no taller than half the height of the screw heads for the stickbox.
 If you don't do this, it makes the controller harder to reassemble and may break the solder joints.
 
