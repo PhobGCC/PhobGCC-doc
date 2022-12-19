@@ -92,6 +92,7 @@ The GCC-specific Parts have a few different methods of acquisition
   * Any GCC
   * [Wumble](https://github.com/wavtype/wumble)
   * [FIRESCC](https://firescc.com/mod-guides#/rumble-bracket)
+  * [Ube-S-Phob](https://github.com/Flocloud9/Ube-s-Phob-Bracket)
 * Z-button Switch
   * Stock - Any GCC
   * Tactile - Official Wii Classic Controllers (No Handles)
