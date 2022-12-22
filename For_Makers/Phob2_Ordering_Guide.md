@@ -52,18 +52,18 @@ There are two main ways to acquire a PhobGCC v2.0.2 Board. The first way is if y
 
 First, you can download the files available in the **PhobGCCv2-HW Github** in the releases section as shown below:
 
-![PHOB2_BOARD_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/phob2_board_release.png?raw=true)
+![PHOB2_BOARD_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_board_release.png?raw=true)
 
 Once you've extracted the files from the .zip, you should have three files. The Phob2_Gerbers .zip, the Phob2_Bom.csv, and the Phob2_Pos.csv. Click "Order Now" on JLCPCB, make sure you are set to "Standard PCB/PCBA" tab, click "Add Gerber File", and upload the Phob2_Gerbers.zip. Once the files are uploaded, you should see the board process and then load in as shown below:
 
-![PHOB2_BOARD](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/phob2_board.PNG?raw=true)
+![PHOB2_BOARD](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_board.PNG?raw=true)
 
 Once you've checked that the size is set to 90.26x125.5mm, you can progress with configuring it.
 The recommended settings are the defaults, setting your board quantity, setting "Different Design" to 2, and setting the Surface Finish to ENIG, as seen below:
 
 **NOTE: ONLY ORDER THE BOARD QUANTITY YOU HAVE PARTS FOR!**
 
-![PHOB2_SETTINGS](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/phob2_settings.PNG?raw=true)
+![PHOB2_SETTINGS](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_settings.PNG?raw=true)
 
 Scroll down to PCB Assembly and toggle it on the right.
 Select Economic PCBA Type (Not available for large orders or colors), the top side, and confirm parts placement as seen below.
@@ -72,14 +72,14 @@ Select Economic PCBA Type (Not available for large orders or colors), the top si
 
 **NOTE2: If arranging group buys or purchasing in large quantities, we strongly suggest using Standard PCBA so DOA boards are less likely.**
 
-![PHOB2_ASM](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/phob2_asm.PNG?raw=true)
+![PHOB2_ASM](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_asm.PNG?raw=true)
 
 Click "Confirm" and then upload the Phob2_Bom.csv to the left and and the Phob2_Pos.csv to the right.
 Set the usage description to Research/Education/DIY -> DIY HS Code and click "Next".
 The text at the top of the next screen should look like the following with all 25 confirmed.
 If they are not confirmed, and are not one of the five above in the pre-ordering section, stop ordering and ask in the [PhobGCC Discord](https://discord.gg/yrpUu7mgzm).
 
-![PHOB2_PARTS](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/phob2_parts.PNG?raw=true)
+![PHOB2_PARTS](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_parts.PNG?raw=true)
 
 After clicking "Next", you'll be presented with a view of the parts on the board.
 If this screen is corrupted, that's okay.
@@ -93,11 +93,11 @@ If you don't or can't use OEM GCC Trigger paddles, you can order trigger paddles
 
 First, you can download the files available in the **PhobGCCv2-HW Github** in the releases section as shown below:
 
-![PHOB2_PADDLE_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/phob2_paddle_release.png?raw=true)
+![PHOB2_PADDLE_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_paddle_release.png?raw=true)
 
 Click "Order Now" on JLCPCB, make sure you are set to "Standard PCB/PCBA" tab, click "Add Gerber File", and upload the Trigger_Paddle_Gerbers.zip. Once the files are uploaded, you should see the board process and then load in as shown below:
 
-![TRIGGER_BOARD](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/trigger_board.PNG?raw=true)
+![TRIGGER_BOARD](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/trigger_board.PNG?raw=true)
 
 Once you've checked that the size is set to 9.7x41.72mm, you can progress with configuring it.
 The recommended settings are the defaults, setting your board quantity and setting the Surface Finish to ENIG, as seen below
@@ -106,7 +106,7 @@ The recommended settings are the defaults, setting your board quantity and setti
 
 **NOTE2: SINCE THESE BOARDS ARE SO SMALL, THE QUANTITY DOESN'T CHANGE THE PRICE. WE SUGGEST ORDERING PLENTY SINCE ITS CHEAP. THE DIFFERENCE BETWEEN 20 AND 200 IS $18.**
 
-![TRIGGER_SETTINGS](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/trigger_settings.PNG?raw=true)
+![TRIGGER_SETTINGS](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/trigger_settings.PNG?raw=true)
 
 You can then click "Save To Cart" and pay for your boards.
 
@@ -118,17 +118,17 @@ If you can't source magnet mounts locally or via [Etsy](https://www.etsy.com/), 
 
 First, you can download the files available in the **PhobGCCv2-HW Github** in the releases section as shown below:
 
-![PHOB2_MAGNET_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/phob2_magnet_release.png?raw=true)
+![PHOB2_MAGNET_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_magnet_release.png?raw=true)
 
 Click "Order Now" on JLCPCB, make sure you are set to "3D Printing" tab, click "Add 3D Files", and upload the DH1H1_Magnet_Holder_JLCPCB.STL. Once the file is uploaded, you should see it render as shown below:
 
-![MAGNET_MOUNTS](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/dh1h1_mounts.PNG?raw=true)
+![MAGNET_MOUNTS](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/dh1h1_mounts.PNG?raw=true)
 
 The recommended settings are SLS Nylon. You then set the product description to Other -> Fastener as shown below
 
 **NOTE: QUANTITY 1 GETS YOU 10 MOUNTS, WHICH IS ENOUGH FOR 2.5 PHOBS. 2 GETS YOU 20 MOUNTS FOR 5 PHOBS. MAKE SURE YOU ORDER ENOUGH!**
 
-![MAGNET_SETTINGS](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/magnet_settings.PNG?raw=true)
+![MAGNET_SETTINGS](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/magnet_settings.PNG?raw=true)
 
 You can then click "Save To Cart" and pay for your mounts.
 
