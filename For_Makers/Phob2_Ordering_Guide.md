@@ -50,7 +50,7 @@ This is where you double-check the part quantities you've selected and make sure
 
 There are two main ways to acquire a PhobGCC v2.0.2 Board. The first way is if you intend to only build a single controller, you can contact a local modder in your region using [this map](https://www.nojonsmods.com/moddermap) to see if they have spare for sale. Alternatively, you can also check [Etsy](https://www.etsy.com/) or [eBay](https://www.ebay.com/) as some often appear for sale. If you cannot find a single board for sale or you intend to build more than one PhobGCC, you can order the boards directly from a board house. The one outlined here will be for [JLCPCB](https://jlcpcb.com/). Once your pre-ordered SMD Components have come in (report as "Complete" in the parts order history), you may proceed to ordering boards.
 
-First, you can download the files available in the **PhobGCCv2-HW Github** in the releases section as shown below:
+First, you can download the files available in the [PhobGCCv2-HW Github](https://github.com/PhobGCC/PhobGCCv2-HW/releases/tag/v2.0.2) in the releases section as shown below:
 
 ![PHOB2_BOARD_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_board_release.png?raw=true)
 
@@ -91,7 +91,7 @@ You can then click "Save To Cart" and pay for your boards.
 
 If you don't or can't use OEM GCC Trigger paddles, you can order trigger paddles separately.
 
-First, you can download the files available in the **PhobGCCv2-HW Github** in the releases section as shown below:
+First, you can download the files available in the [PhobGCCv2-HW Github](https://github.com/PhobGCC/PhobGCCv2-HW/releases/tag/v2.0.2) in the releases section as shown below:
 
 ![PHOB2_PADDLE_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_paddle_release.png?raw=true)
 
@@ -116,7 +116,7 @@ If you can't source magnet mounts locally or via [Etsy](https://www.etsy.com/), 
 
 **DO NOT USE THESE WITH MAGNETS OTHER THAN DH1H1.**
 
-First, you can download the files available in the **PhobGCCv2-HW Github** in the releases section as shown below:
+First, you can download the files available in the [PhobGCCv2-HW Github](https://github.com/PhobGCC/PhobGCCv2-HW/releases/tag/v2.0.2) in the releases section as shown below:
 
 ![PHOB2_MAGNET_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_magnet_release.png?raw=true)
 
