@@ -48,7 +48,9 @@ This is where you double-check the part quantities you've selected and make sure
 
 ## Purchasing the PhobGCC v2.0.2 board
 
-There are two main ways to acquire a PhobGCC v2.0.2 Board. The first way is if you intend to only build a single controller, you can contact a local modder in your region using [this map](https://www.nojonsmods.com/moddermap) to see if they have spare for sale. Alternatively, you can also check [Etsy](https://www.etsy.com/) or [eBay](https://www.ebay.com/) as some often appear for sale. If you cannot find a single board for sale or you intend to build more than one PhobGCC, you can order the boards directly from a board house. The one outlined here will be for [JLCPCB](https://jlcpcb.com/). Once your pre-ordered SMD Components have come in (report as "Complete" in the parts order history), you may proceed to ordering boards.
+**NOTE: Once your pre-ordered SMD Components have come in (report as "Complete" in the parts order history), you may proceed to ordering boards. If they are not in, the parts will not be present on your board**
+
+There are two main ways to acquire a PhobGCC v2.0.2 Board. The first way is if you intend to only build a single controller, you can contact a local modder in your region using [this map](https://www.nojonsmods.com/moddermap) to see if they have spare for sale. Alternatively, you can also check [Etsy](https://www.etsy.com/) or [eBay](https://www.ebay.com/) as some often appear for sale. If you cannot find a single board for sale or you intend to build more than one PhobGCC, you can order the boards directly from a board house. The one outlined here will be for [JLCPCB](https://jlcpcb.com/).
 
 First, you can download the files available in the [PhobGCCv2-HW Github](https://github.com/PhobGCC/PhobGCCv2-HW/releases/tag/v2.0.2) in the releases section as shown below:
 
