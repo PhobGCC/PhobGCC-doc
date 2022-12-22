@@ -11,7 +11,7 @@ The following parts are unique to the PhobGCC and must be acquired per this guid
 * 4x Underslung Magnet Mounts
 * 6x Wires
 * Optional: 4x D-pad Buttons
-* Optional: 6x Mouse Buttons for ABXYLR
+* Optional: 1-6x Mouse Buttons for ABXYLR
 * Optional for PhobVision:
   * Panel-mount 3.5mm TRRS Jack
   * JST-PH 2.0 2-pin male connector & female pigtail
