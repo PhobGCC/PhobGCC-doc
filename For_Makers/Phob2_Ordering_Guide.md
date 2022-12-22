@@ -48,9 +48,43 @@ This is where you double-check the part quantities you've selected and make sure
 
 ## Purchasing the board itself
 
-Soon :)
+There are two main ways to acquire a PhobGCC Board. The first way is if you intend to only build a single controller, you can contact a local modder in your region using [this map](https://www.nojonsmods.com/moddermap) to see if they have spare for sale. Alternatively, you can also check [Etsy](https://www.etsy.com/) or [eBay](https://www.ebay.com/) as some often appear for sale. If you cannot find a single board for sale or you intend to build more than one PhobGCC, you can order the boards directly from a board house. The one outlined here will be for [JLCPCB](https://jlcpcb.com/). Once your pre-ordered SMD Components have come in (report as "Complete" in the parts order history), you may proceed to ordering boards.
 
-As pre-ordering components from JLC takes weeks, we are releasing this guide without the board ordering process yet so you won't be bottlenecked when we release this portion later this month.
+First, you can download the files available in the **PhobGCCv2-HW Github** in the releases section as shown below:
+
+**[IMAGE OF DOWNLOAD GOES HERE]**
+
+Once you've extracted the files from the .zip, you should have three files. The Gerbers .zip, the bom.csv, and the pos.csv. Click "Order Now" on JLCPCB, make sure you are set to "Standard PCB/PCBA" tab, click "Add Gerber File", and upload the Gerbers.zip. Once the files are uploaded, you should see the board process and then load in as shown below:
+
+![PHOB2_BOARD](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_board.PNG?raw=true)
+
+Once you've checked that the size is set to 90.26x125.5mm, you can progress with configuring it.
+The recommended settings are the defaults, setting your board quantity, setting "Different Design" to 2, and setting the Surface Finish to ENIG, as seen below:
+
+**NOTE: ONLY ORDER THE BOARD QUANTITY YOU HAVE PARTS FOR!**
+
+![PHOB2_SETTINGS](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_settings.PNG?raw=true)
+
+Scroll down to PCB Assembly and toggle it on the right.
+Select Economic PCBA Type (Not available for large orders or colors), the top side, and confirm parts placement as seen below.
+If you choose to use Standard PCBA, JLC will have to add rails to the board, increasing the price significantly.
+
+**NOTE: For large orders more than 50 boards or different colors, Standard Assembly is required. This attaches removable rails to the PCB at a significant extra cost.**
+
+![PHOB2_ASM](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_asm.PNG?raw=true)
+
+Click "Confirm" and then upload the Phob2_bom.csv to the left and and the Phob2_pos.csv to the right.
+Set the usage description to Research/Education/DIY -> DIY HS Code and click "Next".
+The text at the top of the next screen should look like the following with all 25 confirmed.
+If they are not confirmed, and are not one of the five above in the pre-ordering section, stop ordering and ask in the [PhobGCC Discord](https://discord.gg/yrpUu7mgzm).
+
+![PHOB2_PARTS](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_parts.PNG?raw=true)
+
+After clicking "Next", you'll be presented with a view of the parts on the board.
+If this screen is corrupted, that's okay.
+The files are known good and this is just the website bugging out.
+You want to make sure there are no red boxes anywhere as those indicate missing components.
+You can then click "Save To Cart" and pay for your boards.
 
 # Purchasing Other PhobGCC Parts
 
