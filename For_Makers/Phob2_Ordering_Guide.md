@@ -112,7 +112,7 @@ You can then click "Save To Cart" and pay for your boards.
 
 # Optional: Purchasing DH1H1 Magnet Mounts
 
-If you can't source magnet mounts locally, you can order them from JLCPCB.
+If you can't source magnet mounts locally or via [Etsy](https://www.etsy.com/), you can order them from JLCPCB.
 
 **DO NOT USE THESE WITH MAGNETS OTHER THAN DH1H1.**
 
