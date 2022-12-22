@@ -52,7 +52,7 @@ There are two main ways to acquire a PhobGCC v2.0.2 Board. The first way is if y
 
 First, you can download the files available in the **PhobGCCv2-HW Github** in the releases section as shown below:
 
-**[IMAGE OF DOWNLOAD GOES HERE]**
+![PHOB2_BOARD_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/phob2_board_release.png?raw=true)
 
 Once you've extracted the files from the .zip, you should have three files. The Phob2_Gerbers .zip, the Phob2_Bom.csv, and the Phob2_Pos.csv. Click "Order Now" on JLCPCB, make sure you are set to "Standard PCB/PCBA" tab, click "Add Gerber File", and upload the Phob2_Gerbers.zip. Once the files are uploaded, you should see the board process and then load in as shown below:
 
@@ -93,7 +93,7 @@ If you don't or can't use OEM GCC Trigger paddles, you can order trigger paddles
 
 First, you can download the files available in the **PhobGCCv2-HW Github** in the releases section as shown below:
 
-**[IMAGE OF DOWNLOAD GOES HERE]**
+![PHOB2_PADDLE_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/phob2_paddle_release.png?raw=true)
 
 Click "Order Now" on JLCPCB, make sure you are set to "Standard PCB/PCBA" tab, click "Add Gerber File", and upload the Trigger_Paddle_Gerbers.zip. Once the files are uploaded, you should see the board process and then load in as shown below:
 
@@ -118,7 +118,7 @@ If you can't source magnet mounts locally or via [Etsy](https://www.etsy.com/), 
 
 First, you can download the files available in the **PhobGCCv2-HW Github** in the releases section as shown below:
 
-**[IMAGE OF DOWNLOAD GOES HERE]**
+![PHOB2_MAGNET_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/phob2_magnet_release.png?raw=true)
 
 Click "Order Now" on JLCPCB, make sure you are set to "3D Printing" tab, click "Add 3D Files", and upload the DH1H1_Magnet_Holder_JLCPCB.STL. Once the file is uploaded, you should see it render as shown below:
 
