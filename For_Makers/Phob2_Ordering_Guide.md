@@ -9,7 +9,7 @@ The following parts are unique to the PhobGCC and must be acquired per this guid
 * 1x PhobGCC v2.0.2 Board
 * 4x Magnets
 * 4x Underslung Magnet Mounts
-* 1x 6-pin Ribbon Cable or 6 Wires
+* 6x Wires
 * Optional: 4x D-pad Buttons
 * Optional: 6x Mouse Buttons for ABXYLR
 * Optional for PhobVision:
@@ -145,8 +145,6 @@ The remaining parts can be purchased from distributers as listed below:
   * **NOTE: PhobGCC v1.X MAGNET MOUNTS WILL BE VERY BAD, AND MAY NOT WORK AT ALL. MAKE SURE TO GET THE UNDERSLUNG MAGNET MOUNTS!**
   * Download [This](https://drive.google.com/file/d/10-lseJ4UK1-HkkXc6rjSJtsYRW7ihsXD/view?usp=share_link) OpenScad file. It is by default set up for DH1H1 Magnets, so you can edit it for whatever magnet you use, adjust it for your printer, and then generate the STL using [OpenScad](https://openscad.org/). Once you have the STL, you can print it using your own machine or check out local makerspaces, libraries, and print shops.
   * If you use magnets other than DH1H1, you will need to adjust the magnet offset to get the optimum signal strength using PhobVision to check. Speak with the devs on Discord to find out more.
-* 6-pin Ribbon Cable:
-  * Official Wii Classic Controller (No Handles)
 * Wire:
   * 26-gauge stranded wire
   * 28-gauge solid core wire (pre-tined advised)  
