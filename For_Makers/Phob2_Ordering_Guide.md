@@ -147,7 +147,7 @@ The remaining parts can be purchased from distributers as listed below:
   * If you use magnets other than DH1H1, you will need to adjust the magnet offset to get the optimum signal strength using PhobVision to check. Speak with the devs on Discord to find out more.
 * Wire:
   * 26-gauge stranded wire
-  * 28-gauge solid core wire (pre-tined advised)  
+  * 28-gauge solid core wire
 * Optional Mouse Buttons for ABXYLR:
   * [Low Actuation Force Buttons](https://www.digikey.com/short/q4r0jh3j)
   * [High Actuation Force Buttons](https://www.digikey.com/short/dcddr0jr)
