@@ -70,6 +70,8 @@ Select Economic PCBA Type (Not available for large orders or colors), the top si
 
 **NOTE: For large orders more than 50 boards or different colors, Standard Assembly is required. This attaches removable rails to the PCB at a significant extra cost.**
 
+**NOTE2: If arranging group buys or purchasing in large quantities, we strongly suggest using Standard PCBA so DOA boards are less likely.**
+
 ![PHOB2_ASM](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/phob2_asm.PNG?raw=true)
 
 Click "Confirm" and then upload the Phob2_Bom.csv to the left and and the Phob2_Pos.csv to the right.
