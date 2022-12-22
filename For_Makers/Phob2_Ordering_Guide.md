@@ -9,9 +9,9 @@ The following parts are unique to the PhobGCC and must be acquired per this guid
 * 1x PhobGCC v2.0.2 Board
 * 4x Magnets
 * 4x Underslung Magnet Mounts
-* 1x 6-pin Ribbon Cable or 6 Wires
+* 6x Wires
 * Optional: 4x D-pad Buttons
-* Optional: 6x Mouse Buttons for ABXYLR
+* Optional: 1-6x Mouse Buttons for ABXYLR
 * Optional for PhobVision:
   * Panel-mount 3.5mm TRRS Jack
   * JST-PH 2.0 2-pin male connector & female pigtail
@@ -46,29 +46,108 @@ Once you've clicked on each link and added the quantities you need into your car
 
 This is where you double-check the part quantities you've selected and make sure that they're all checked, even if in stock. Once you checkout, JLC will attempt to purchase those parts for you at the quoted price. If they end up costing more, they'll email you about supplementing the cost, and if they end up costing less, you will be refunded the difference. You can check the status of part orders in the "Parts Order History" subtab.
 
-## Purchasing the board itself
+## Purchasing the PhobGCC v2.0.2 board
 
-Soon :)
+There are two main ways to acquire a PhobGCC v2.0.2 Board. The first way is if you intend to only build a single controller, you can contact a local modder in your region using [this map](https://www.nojonsmods.com/moddermap) to see if they have spare for sale. Alternatively, you can also check [Etsy](https://www.etsy.com/) or [eBay](https://www.ebay.com/) as some often appear for sale. If you cannot find a single board for sale or you intend to build more than one PhobGCC, you can order the boards directly from a board house. The one outlined here will be for [JLCPCB](https://jlcpcb.com/). Once your pre-ordered SMD Components have come in (report as "Complete" in the parts order history), you may proceed to ordering boards.
 
-As pre-ordering components from JLC takes weeks, we are releasing this guide without the board ordering process yet so you won't be bottlenecked when we release this portion later this month.
+First, you can download the files available in the **PhobGCCv2-HW Github** in the releases section as shown below:
+
+![PHOB2_BOARD_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_board_release.png?raw=true)
+
+Once you've extracted the files from the .zip, you should have three files. The Phob2_Gerbers .zip, the Phob2_Bom.csv, and the Phob2_Pos.csv. Click "Order Now" on JLCPCB, make sure you are set to "Standard PCB/PCBA" tab, click "Add Gerber File", and upload the Phob2_Gerbers.zip. Once the files are uploaded, you should see the board process and then load in as shown below:
+
+![PHOB2_BOARD](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_board.PNG?raw=true)
+
+Once you've checked that the size is set to 90.26x125.5mm, you can progress with configuring it.
+The recommended settings are the defaults, setting your board quantity, setting "Different Design" to 2, and setting the Surface Finish to ENIG, as seen below:
+
+**NOTE: ONLY ORDER THE BOARD QUANTITY YOU HAVE PARTS FOR!**
+
+![PHOB2_SETTINGS](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_settings.PNG?raw=true)
+
+Scroll down to PCB Assembly and toggle it on the right.
+Select Economic PCBA Type (Not available for large orders or colors), the top side, and confirm parts placement as seen below.
+
+**NOTE: For large orders such as more than 50 boards or different colors, Standard Assembly is required. This attaches removable rails to the PCB at a significant extra cost.**
+
+**NOTE2: If arranging group buys or purchasing in large quantities, we strongly suggest using Standard PCBA so DOA boards are less likely.**
+
+![PHOB2_ASM](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_asm.PNG?raw=true)
+
+Click "Confirm" and then upload the Phob2_Bom.csv to the left and and the Phob2_Pos.csv to the right.
+Set the usage description to Research/Education/DIY -> DIY HS Code and click "Next".
+The text at the top of the next screen should look like the following with all 25 confirmed.
+If they are not confirmed, and are not one of the five above in the pre-ordering section, stop ordering and ask in the [PhobGCC Discord](https://discord.gg/yrpUu7mgzm).
+
+![PHOB2_PARTS](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_parts.PNG?raw=true)
+
+After clicking "Next", you'll be presented with a view of the parts on the board.
+If this screen is corrupted, that's okay.
+The files are known good and this is just the website bugging out.
+You want to make sure there are no red boxes anywhere as those indicate missing components.
+You can then click "Save To Cart" and pay for your boards.
+
+# Optional: Purchasing LR Trigger Paddles
+
+If you don't or can't use OEM GCC Trigger paddles, you can order trigger paddles separately.
+
+First, you can download the files available in the **PhobGCCv2-HW Github** in the releases section as shown below:
+
+![PHOB2_PADDLE_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_paddle_release.png?raw=true)
+
+Click "Order Now" on JLCPCB, make sure you are set to "Standard PCB/PCBA" tab, click "Add Gerber File", and upload the Trigger_Paddle_Gerbers.zip. Once the files are uploaded, you should see the board process and then load in as shown below:
+
+![TRIGGER_BOARD](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/trigger_board.PNG?raw=true)
+
+Once you've checked that the size is set to 9.7x41.72mm, you can progress with configuring it.
+The recommended settings are the defaults, setting your board quantity and setting the Surface Finish to ENIG, as seen below
+
+**NOTE: IF YOU ORDER MORE THAN 30, THE OPTION FOR DEBURRING/EDGE-ROUNDING APPEARS. IT'S RECOMMENDED TO ENABLE IT!**
+
+**NOTE2: SINCE THESE BOARDS ARE SO SMALL, THE QUANTITY DOESN'T CHANGE THE PRICE. WE SUGGEST ORDERING PLENTY SINCE ITS CHEAP. THE DIFFERENCE BETWEEN 20 AND 200 IS $18.**
+
+![TRIGGER_SETTINGS](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/trigger_settings.PNG?raw=true)
+
+You can then click "Save To Cart" and pay for your boards.
+
+# Optional: Purchasing DH1H1 Magnet Mounts
+
+If you can't source magnet mounts locally or via [Etsy](https://www.etsy.com/), you can order them from JLCPCB.
+
+**DO NOT USE THESE WITH MAGNETS OTHER THAN DH1H1.**
+
+First, you can download the files available in the **PhobGCCv2-HW Github** in the releases section as shown below:
+
+![PHOB2_MAGNET_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_magnet_release.png?raw=true)
+
+Click "Order Now" on JLCPCB, make sure you are set to "3D Printing" tab, click "Add 3D Files", and upload the DH1H1_Magnet_Holder_JLCPCB.STL. Once the file is uploaded, you should see it render as shown below:
+
+![MAGNET_MOUNTS](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/dh1h1_mounts.PNG?raw=true)
+
+The recommended settings are SLS Nylon. You then set the product description to Other -> Fastener as shown below
+
+**NOTE: QUANTITY 1 GETS YOU 10 MOUNTS, WHICH IS ENOUGH FOR 2.5 PHOBS. 2 GETS YOU 20 MOUNTS FOR 5 PHOBS. MAKE SURE YOU ORDER ENOUGH!**
+
+![MAGNET_SETTINGS](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/magnet_settings.PNG?raw=true)
+
+You can then click "Save To Cart" and pay for your mounts.
 
 # Purchasing Other PhobGCC Parts
 
 The remaining parts can be purchased from distributers as listed below:
 * Magnets:
-  * [DH1H1 Magnets](https://www.kjmagnetics.com/proddetail.asp?prod=DH1H1) - For a jack-of-all trades, use these.
-  * [D12 Magnets](https://www.kjmagnetics.com/proddetail.asp?prod=d12-n52) - For best control at the rim (like Pivots), use these.
-  * [N30H Magnets](https://www.digikey.com/short/br3n8hz3) - For best control at the center (like ICs desyncs), use these.
-  * [Canadian option](https://www.indigoinstruments.com/magnets/rare_earth/discs/small-neodymium-cylinder-magnet-2.5x2.5mm.html) - Similar to DH1H1
+  * [DH1H1 Magnets](https://www.kjmagnetics.com/proddetail.asp?prod=DH1H1)
+  * [D12 Magnets](https://www.kjmagnetics.com/proddetail.asp?prod=d12-n52)
+  * [N30H Magnets](https://www.digikey.com/short/br3n8hz3)
+  * [Canadian option](https://www.indigoinstruments.com/magnets/rare_earth/discs/small-neodymium-cylinder-magnet-2.5x2.5mm.html) - Very similar to DH1H1
   * [EU option](https://www.supermagnete.de/eng/disc-magnets-neodymium?length-or-diameter=2.00,3.00&height=2.00,3.00)
 * Magnet Mounts:
   * **NOTE: PhobGCC v1.X MAGNET MOUNTS WILL BE VERY BAD, AND MAY NOT WORK AT ALL. MAKE SURE TO GET THE UNDERSLUNG MAGNET MOUNTS!**
   * Download [This](https://drive.google.com/file/d/10-lseJ4UK1-HkkXc6rjSJtsYRW7ihsXD/view?usp=share_link) OpenScad file. It is by default set up for DH1H1 Magnets, so you can edit it for whatever magnet you use, adjust it for your printer, and then generate the STL using [OpenScad](https://openscad.org/). Once you have the STL, you can print it using your own machine or check out local makerspaces, libraries, and print shops.
-* 6-pin Ribbon Cable:
-  * Official Wii Classic Controller (No Handles)
+  * If you use magnets other than DH1H1, you will need to adjust the magnet offset to get the optimum signal strength using PhobVision to check. Speak with the devs on Discord to find out more.
 * Wire:
   * 26-gauge stranded wire
-  * 28-gauge solid core wire (pre-tined advised)  
+  * 28-gauge solid core wire
 * Optional Mouse Buttons for ABXYLR:
   * [Low Actuation Force Buttons](https://www.digikey.com/short/q4r0jh3j)
   * [High Actuation Force Buttons](https://www.digikey.com/short/dcddr0jr)
