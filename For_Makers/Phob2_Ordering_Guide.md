@@ -46,7 +46,7 @@ Once you've clicked on each link and added the quantities you need into your car
 
 This is where you double-check the part quantities you've selected and make sure that they're all checked, even if in stock. Once you checkout, JLC will attempt to purchase those parts for you at the quoted price. If they end up costing more, they'll email you about supplementing the cost, and if they end up costing less, you will be refunded the difference. You can check the status of part orders in the "Parts Order History" subtab.
 
-## Purchasing the PhobGCC V2.0.2 board
+## Purchasing the PhobGCC v2.0.2 board
 
 There are two main ways to acquire a PhobGCC v2.0.2 Board. The first way is if you intend to only build a single controller, you can contact a local modder in your region using [this map](https://www.nojonsmods.com/moddermap) to see if they have spare for sale. Alternatively, you can also check [Etsy](https://www.etsy.com/) or [eBay](https://www.ebay.com/) as some often appear for sale. If you cannot find a single board for sale or you intend to build more than one PhobGCC, you can order the boards directly from a board house. The one outlined here will be for [JLCPCB](https://jlcpcb.com/). Once your pre-ordered SMD Components have come in (report as "Complete" in the parts order history), you may proceed to ordering boards.
 
@@ -54,7 +54,7 @@ First, you can download the files available in the **PhobGCCv2-HW Github** in th
 
 **[IMAGE OF DOWNLOAD GOES HERE]**
 
-Once you've extracted the files from the .zip, you should have three files. The Phob2_Gerbers .zip, the Phob2_Bom.csv, and the Phob2_Pos.csv. Click "Order Now" on JLCPCB, make sure you are set to "Standard PCB/PCBA" tab, click "Add Gerber File", and upload the Gerbers.zip. Once the files are uploaded, you should see the board process and then load in as shown below:
+Once you've extracted the files from the .zip, you should have three files. The Phob2_Gerbers .zip, the Phob2_Bom.csv, and the Phob2_Pos.csv. Click "Order Now" on JLCPCB, make sure you are set to "Standard PCB/PCBA" tab, click "Add Gerber File", and upload the Phob2_Gerbers.zip. Once the files are uploaded, you should see the board process and then load in as shown below:
 
 ![PHOB2_BOARD](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/phob2_board.PNG?raw=true)
 
@@ -83,6 +83,28 @@ After clicking "Next", you'll be presented with a view of the parts on the board
 If this screen is corrupted, that's okay.
 The files are known good and this is just the website bugging out.
 You want to make sure there are no red boxes anywhere as those indicate missing components.
+You can then click "Save To Cart" and pay for your boards.
+
+# Optional: Purchasing LR Trigger Paddles
+
+If you don't or can't use OEM GCC Trigger paddles, you can order trigger paddles separately.
+
+First, you can download the files available in the **PhobGCCv2-HW Github** in the releases section as shown below:
+
+**[IMAGE OF DOWNLOAD GOES HERE]**
+
+Click "Order Now" on JLCPCB, make sure you are set to "Standard PCB/PCBA" tab, click "Add Gerber File", and upload the Trigger_Paddle_Gerbers.zip. Once the files are uploaded, you should see the board process and then load in as shown below:
+
+![TRIGGER_BOARD](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/trigger_board.PNG?raw=true)
+
+Once you've checked that the size is set to 9.7x41.72mm, you can progress with configuring it.
+The recommended settings are the defaults, setting your board quantity and setting the Surface Finish to ENIG, as seen below
+
+**NOTE: IF YOU ORDER MORE THAN 30, THE OPTION FOR DEBURRING/EDGE-ROUNDING APPEARS. ITS RECOMMENDED TO ENABLE IT!**
+**NOTE2: SINCE THESE BOARDS ARE SO SMALL, THE QUANTITY DOESN'T CHANGE THE PRICE. WE SUGGEST ORDERING PLENTY SINCE ITS CHEAP. THE DIFFERENCE BETWEEN 20 AND 200 IS $18.**
+
+![TRIGGER_SETTINGS](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/trigger_settings.PNG?raw=true)
+
 You can then click "Save To Cart" and pay for your boards.
 
 # Purchasing Other PhobGCC Parts
