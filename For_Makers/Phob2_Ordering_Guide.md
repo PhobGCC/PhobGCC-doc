@@ -108,6 +108,24 @@ The recommended settings are the defaults, setting your board quantity and setti
 
 You can then click "Save To Cart" and pay for your boards.
 
+# Optional: Purchasing DH1H1 Magnet Mounts
+
+If you can't source magnet mounts locally, you can order them from JLCPCB.
+
+First, you can download the files available in the **PhobGCCv2-HW Github** in the releases section as shown below:
+
+**[IMAGE OF DOWNLOAD GOES HERE]**
+
+Click "Order Now" on JLCPCB, make sure you are set to "3D Printing" tab, click "Add 3D Files", and upload the DH1H1_Magnet_Holder_JLCPCB.STL. Once the file is uploaded, you should see it render as shown below:
+
+![MAGNET_MOUNTS](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/dh1h1_mounts.PNG?raw=true)
+
+The recommended settings are SLS Nylon. You then set the product description to Other -> Fastener as shown below
+
+![MAGNET_SETTINGS](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/magnet_settings.PNG?raw=true)
+
+You can then click "Save To Cart" and pay for your mounts.
+
 # Purchasing Other PhobGCC Parts
 
 The remaining parts can be purchased from distributers as listed below:
