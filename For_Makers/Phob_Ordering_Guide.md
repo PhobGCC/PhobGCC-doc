@@ -90,6 +90,8 @@ The remaining parts can be purchased from distributers as listed below:
   * [DH1H1 Magnets](https://www.kjmagnetics.com/proddetail.asp?prod=DH1H1) - For a jack-of-all trades, use these.
   * [D12 Magnets](https://www.kjmagnetics.com/proddetail.asp?prod=d12-n52) - For best control at the rim (like Pivots), use these.
   * [N30H Magnets](https://www.digikey.com/short/br3n8hz3) - For best control at the center (like ICs desyncs), use these.
+  * [Canadian option](https://www.indigoinstruments.com/magnets/rare_earth/discs/small-neodymium-cylinder-magnet-2.5x2.5mm.html) - Similar to DH1H1
+  * [For EU](https://www.supermagnete.de/eng/disc-magnets-neodymium?length-or-diameter=2.00,3.00&height=2.00,3.00)
 * High Viscosity Glue:
   * [Gorilla superglue gel](https://www.amazon.com/dp/B00OAAUAX8)
   * [Epoxy](https://www.mcmaster.com/66195A13/)
