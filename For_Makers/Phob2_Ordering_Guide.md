@@ -100,7 +100,8 @@ Click "Order Now" on JLCPCB, make sure you are set to "Standard PCB/PCBA" tab, c
 Once you've checked that the size is set to 9.7x41.72mm, you can progress with configuring it.
 The recommended settings are the defaults, setting your board quantity and setting the Surface Finish to ENIG, as seen below
 
-**NOTE: IF YOU ORDER MORE THAN 30, THE OPTION FOR DEBURRING/EDGE-ROUNDING APPEARS. ITS RECOMMENDED TO ENABLE IT!**
+**NOTE: IF YOU ORDER MORE THAN 30, THE OPTION FOR DEBURRING/EDGE-ROUNDING APPEARS. IT'S RECOMMENDED TO ENABLE IT!**
+
 **NOTE2: SINCE THESE BOARDS ARE SO SMALL, THE QUANTITY DOESN'T CHANGE THE PRICE. WE SUGGEST ORDERING PLENTY SINCE ITS CHEAP. THE DIFFERENCE BETWEEN 20 AND 200 IS $18.**
 
 ![TRIGGER_SETTINGS](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/trigger_settings.PNG?raw=true)
