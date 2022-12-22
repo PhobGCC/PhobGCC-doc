@@ -68,7 +68,7 @@ The recommended settings are the defaults, setting your board quantity, setting 
 Scroll down to PCB Assembly and toggle it on the right.
 Select Economic PCBA Type (Not available for large orders or colors), the top side, and confirm parts placement as seen below.
 
-**NOTE: For large orders more than 50 boards or different colors, Standard Assembly is required. This attaches removable rails to the PCB at a significant extra cost.**
+**NOTE: For large orders such as more than 50 boards or different colors, Standard Assembly is required. This attaches removable rails to the PCB at a significant extra cost.**
 
 **NOTE2: If arranging group buys or purchasing in large quantities, we strongly suggest using Standard PCBA so DOA boards are less likely.**
 
