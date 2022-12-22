@@ -122,6 +122,8 @@ Click "Order Now" on JLCPCB, make sure you are set to "3D Printing" tab, click "
 
 The recommended settings are SLS Nylon. You then set the product description to Other -> Fastener as shown below
 
+**NOTE: QUANTITY 1 GETS YOU 10 MOUNTS, WHICH IS ENOUGH FOR 2.5 PHOBS. 2 GETS YOU 20 MOUNTS FOR 5 PHOBS. MAKE SURE YOU ORDER ENOUGH!**
+
 ![MAGNET_SETTINGS](https://github.com/PhobGCC/PhobGCC-doc/blob/phob2-release/For_Makers/Phob_Ordering_Guide_Images/magnet_settings.PNG?raw=true)
 
 You can then click "Save To Cart" and pay for your mounts.
