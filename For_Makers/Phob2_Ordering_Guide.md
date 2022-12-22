@@ -112,6 +112,8 @@ You can then click "Save To Cart" and pay for your boards.
 
 If you can't source magnet mounts locally, you can order them from JLCPCB.
 
+**DO NOT USE THESE WITH MAGNETS OTHER THAN DH1H1.**
+
 First, you can download the files available in the **PhobGCCv2-HW Github** in the releases section as shown below:
 
 **[IMAGE OF DOWNLOAD GOES HERE]**
@@ -135,6 +137,8 @@ The remaining parts can be purchased from distributers as listed below:
   * [DH1H1 Magnets](https://www.kjmagnetics.com/proddetail.asp?prod=DH1H1)
   * [D12 Magnets](https://www.kjmagnetics.com/proddetail.asp?prod=d12-n52)
   * [N30H Magnets](https://www.digikey.com/short/br3n8hz3)
+  * [Canadian option](https://www.indigoinstruments.com/magnets/rare_earth/discs/small-neodymium-cylinder-magnet-2.5x2.5mm.html) - Very similar to DH1H1
+  * [EU option](https://www.supermagnete.de/eng/disc-magnets-neodymium?length-or-diameter=2.00,3.00&height=2.00,3.00)
 * Magnet Mounts:
   * **NOTE: PhobGCC v1.X MAGNET MOUNTS WILL BE VERY BAD, AND MAY NOT WORK AT ALL. MAKE SURE TO GET THE UNDERSLUNG MAGNET MOUNTS!**
   * Download [This](https://drive.google.com/file/d/10-lseJ4UK1-HkkXc6rjSJtsYRW7ihsXD/view?usp=share_link) OpenScad file. It is by default set up for DH1H1 Magnets, so you can edit it for whatever magnet you use, adjust it for your printer, and then generate the STL using [OpenScad](https://openscad.org/). Once you have the STL, you can print it using your own machine or check out local makerspaces, libraries, and print shops.
