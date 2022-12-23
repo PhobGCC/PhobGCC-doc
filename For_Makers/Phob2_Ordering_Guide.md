@@ -134,6 +134,8 @@ The recommended settings are SLS Nylon. You then set the product description to 
 
 You can then click "Save To Cart" and pay for your mounts.
 
+**NOTE: If you get asked about wall thickness, click "Yes" and confirm. It's okay**
+
 # Purchasing Other PhobGCC Parts
 
 The remaining parts can be purchased from distributers as listed below:
