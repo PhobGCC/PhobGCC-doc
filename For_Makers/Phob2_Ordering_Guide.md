@@ -138,8 +138,8 @@ You can then click "Save To Cart" and pay for your mounts.
 
 # Purchasing Other PhobGCC Parts
 
-The remaining parts can be purchased from distributers as listed below:
-* Magnets:
+The remaining parts can be purchased from distributors as listed below.
+* Magnets: choose one type and stick with it.
   * [DH1H1 Magnets](https://www.kjmagnetics.com/proddetail.asp?prod=DH1H1)
   * [D12 Magnets](https://www.kjmagnetics.com/proddetail.asp?prod=d12-n52)
   * [N30H Magnets](https://www.digikey.com/short/br3n8hz3)
@@ -149,16 +149,16 @@ The remaining parts can be purchased from distributers as listed below:
   * **NOTE: PhobGCC v1.X MAGNET MOUNTS WILL BE VERY BAD, AND MAY NOT WORK AT ALL. MAKE SURE TO GET THE UNDERSLUNG MAGNET MOUNTS!**
   * Download [This](https://drive.google.com/file/d/10-lseJ4UK1-HkkXc6rjSJtsYRW7ihsXD/view?usp=share_link) OpenScad file. It is by default set up for DH1H1 Magnets, so you can edit it for whatever magnet you use, adjust it for your printer, and then generate the STL using [OpenScad](https://openscad.org/). Once you have the STL, you can print it using your own machine or check out local makerspaces, libraries, and print shops.
   * If you use magnets other than DH1H1, you will need to adjust the magnet offset to get the optimum signal strength using PhobVision to check. Speak with the devs on Discord to find out more.
-* Wire:
+* Wire: choose whichever you prefer.
   * 26-gauge stranded wire
   * 28-gauge solid core wire
-* Optional Mouse Buttons for ABXYLR:
+* Optional Mouse Buttons for ABXYLR: you can use mouse buttons for any number from 0 to 6 of the buttons. Generally the high actuation force buttons are preferred.
   * [Low Actuation Force Buttons](https://www.digikey.com/short/q4r0jh3j)
   * [High Actuation Force Buttons](https://www.digikey.com/short/dcddr0jr)
-  * [Teflon Tape For Support](https://www.mcmaster.com/76475A51/)
+  * [Teflon Tape For Support](https://www.mcmaster.com/76475A51/) This is necessary for mouseclick face buttons, but there are alternatives.
 * Optional Discrete Buttons for D-Pad:
   * [SMD Buttons](https://www.digikey.com/short/v93wrw12)
-* Optional for PhobVision:
+* Optional for PhobVision: you need all of these if you choose to install PhobVision.
   * [TRRS Jack](https://www.digikey.com/en/products/detail/cui-devices/SJ5-43502PM/1956558)
   * [JST-PH 2.0 2-Pin Connector and Pigtail](https://www.amazon.com/dp/B01DUC1O68) or similar: size is critical; don't use a double pigtail.
   * [TRRS to RCA Video Cable](https://www.amazon.com/dp/B08V1SV8BL) or similar: **MUST BE TRRS = Audio Left, Video, Ground, Audio Right**
