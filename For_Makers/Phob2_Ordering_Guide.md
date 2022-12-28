@@ -26,6 +26,18 @@ The following parts are standard to a GCC and can be acquired via a number of di
 * 1x Z-button Switch
 * Optional: 1x Rumble Motor
 
+## JLC Ordering Process Overview
+
+This is very important, or else you will get nonfunctional boards.
+
+1. Preorder the SMD components that are in limited supply, as listed below.
+  * These are not stocked by JLC but they are stocked by distributors; JLC will order them and keep them in your name until you order boards that need them.
+2. **Once the parts come in, only then order boards with assembly.**
+  * You may need to wait a week or more.
+  * Do not order boards before you receive notification that ALL of your parts are available.
+  * If you order boards before parts are available, then they will be assembled without the parts and they will not function.
+3. Wait for your boards to come in.
+
 ## Pre-ordering SMD components
 
 Since the 2.0.2 board is fully integrated, all of the non-GCC components are soldered onto the board at the board house. Some of these may be out of stock, and as such need to be pre-ordered before you place a board order. Pre-ordered components take on average 2 weeks to arrive at the JLCPCB warehouse after you pay for them. If a component takes longer, you can contact JLCPCB support for a more accurate timeframe of arrival.
