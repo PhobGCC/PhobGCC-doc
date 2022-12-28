@@ -35,6 +35,7 @@ This is very important, or else you will get nonfunctional boards.
 2. **Once the parts come in, only then order boards with assembly.**
   * You may need to wait a week or more.
   * Do not order boards before you receive notification that ALL of your parts are available.
+  * If you order boards before parts are available, then they will be assembled without the parts and they will not function.
 3. Wait for your boards to come in.
 
 ## Pre-ordering SMD components
