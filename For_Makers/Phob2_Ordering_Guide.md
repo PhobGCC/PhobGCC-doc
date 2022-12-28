@@ -102,7 +102,7 @@ Click "Order Now" on JLCPCB, make sure you are set to "Standard PCB/PCBA" tab, c
 ![TRIGGER_BOARD](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/trigger_board.PNG?raw=true)
 
 Once you've checked that the size is set to 9.7x41.72mm, you can progress with configuring it.
-The recommended settings are the defaults, setting your board quantity and setting the Surface Finish to ENIG, as seen below
+The recommended settings are the defaults, setting your board quantity, setting "Different Design" to 2, and setting the Surface Finish to ENIG, as seen below:
 
 **NOTE: IF YOU ORDER MORE THAN 30, THE OPTION FOR DEBURRING/EDGE-ROUNDING APPEARS. IT'S RECOMMENDED TO ENABLE IT!**
 
