@@ -44,7 +44,8 @@ Since the 2.0.2 board is fully integrated, all of the non-GCC components are sol
 
 The following parts usually have low stock and pre-ordering them is advised:
 
-**NOTE: These part quantities are for a single 2.0.2 board. You need to multiply them by the number of boards you plan to order**
+**NOTE: These part quantities are for a single 2.0.2 board. You need to multiply them by the number of boards you plan to order.**
+**NOTE 2: You can only order PCBs in quantities of 5, 10, 15, 20, 25, 30, 50, or more. Do not order SMD components for amounts other than these or you will either have unused extra parts or unpopulated PCBs later.**
 
 * [1x RP2040](https://jlcpcb.com/partdetail/RaspberryPi-RP2040/C2040)
 * [1x NOR Flash Chip](https://jlcpcb.com/partdetail/WinbondElec-W25Q128JVSIQ/C97521)
