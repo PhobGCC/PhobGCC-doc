@@ -316,15 +316,15 @@ Instead, the structural legs go through the larger holes farther from the board 
 
 Make sure to not overfill the holes for the structural legs; you want the solder to sit entirely below the surface.
 
-![Omron Tactile Z soldered](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/21_Phob2_Solder.jpg?raw=true)
+![Omron Tactile Z soldered](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/21_Phob2_TacZ_Solder.jpg?raw=true)
 
 This is because you will need to trim the structural legs completely flush in order to not interfere with the trigger guards.
 
-![Omron Tactile Z legs trimmed](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/22_Phob2_TrimLegs.jpg?raw=true)
+![Omron Tactile Z legs trimmed](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/22_Phob2_TacZ_TrimLegs.jpg?raw=true)
 
 Additionally, you need to make room for the structural legs on top by trimming the button rubber as follows:
 
-![Tac Z button rubber trim](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/23_Phob2_RubberCut.jpg?raw=true)
+![Tac Z button rubber trim](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/23_Phob2_TacZ_RubberCut.jpg?raw=true)
 
 As a note for later, it may take a little more force than you may be used to when inserting the motherboard into the front shell when you use an Omron tactile Z switch.
 
