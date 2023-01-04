@@ -340,7 +340,7 @@ To secure them when soldering, you can tape them to the board with masking tape,
 
 Be sure to check after soldering your first joint that the potentiometer is laying flat against the back of the board before continuing.
 
-![Trigger potentiometers taped](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/23_Phob2_TriggerPots.jpg?raw=true)
+![Trigger potentiometers taped](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/24_Phob2_TriggerPots.jpg?raw=true)
 
 ## Trigger Paddle Soldering
 
