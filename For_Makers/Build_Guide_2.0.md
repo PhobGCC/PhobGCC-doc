@@ -288,7 +288,7 @@ The mass storage device will disappear and you are done loading firmware on.
 
 This process only works the first time.
 
-If you ever need to change or updatet the firmware, simply hold the button while plugging in the USB, release the button, and follow the remaining steps.
+If you ever need to change or update the firmware, simply hold the button while plugging in the USB, release the button, and follow the remaining steps.
 
 ## Z button Switch Soldering
 
