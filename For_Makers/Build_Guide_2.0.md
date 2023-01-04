@@ -72,7 +72,7 @@ Begin by taking apart the donor GCC using a Tri-Wing screwdriver.
 
 Remove the motherboard.
 
-![Donor motherboard](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/06_Phob2_Harvest_Rear.jpg?raw=true)
+![Donor motherboard](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/05_Phob2_Harvest_Rear.jpg?raw=true)
 
 You will want to remove the following parts from it:
 
