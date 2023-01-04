@@ -90,7 +90,7 @@ You will want to remove the following parts from it:
 If you're not familiar with removing the stickboxes, you can stick the points of tweezers between the stickbox and the potentiometers to unclip the potentiometers.
 Then, use a JIS #0 screwdriver to unscrew the screws from the bottom of the stickboxes.
 
-![Potentiometer unclipping](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/05_Phob2_Harvest_Stickbox.jpg?raw=true)
+![Potentiometer unclipping](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/06_Phob2_Harvest_Stickbox.jpg?raw=true)
 
 ## Magnet Mounting
 
