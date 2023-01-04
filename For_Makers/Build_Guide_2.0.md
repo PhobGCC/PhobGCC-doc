@@ -1,6 +1,10 @@
 # PhobGCC 2.0 Build Guide
 
-This is an illustrated guide to making a PhobGCC 2.0, using photos taken of a PhobGCC board version 2.0.0.
+This is an illustrated guide to making a PhobGCC 2.0, using photos taken of a PhobGCC board version 2.0.1.
+
+Newer board versions may differ slightly in appearance but this guide will still be applicable.
+
+![Motherboard Overview](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/01_Phob2_Board.jpg?raw=true)
 
 If you want to see it in motion, watch the **[PhobGCC 2.0 Assembly Video]**.
 
@@ -19,9 +23,9 @@ Come to the [PhobGCC Discord Server](https://discord.gg/yrpUu7mgzm) for advice o
 ## Required Tools
 
 1. Temperature-controlled soldering iron with a moderate size chisel tip. DO NOT USE AN UNCONTROLLED TEMPERATURE IRON!
-2. Flux-core solder, ideally no-clean flux (Sn63Pb37 is easier, SAC305 is lead-free for safety)
+2. Flux-core solder, ideally no-clean flux (Sn63Pb37 melts at a lower temperature, SAC305 is nontoxic and flows better)
 3. No-clean rosin flux paste (not to be confused with solder paste)
-4. Tri-Wing screwdriver and small Phillips or ideally JIS driver set
+4. Tri-Wing screwdriver and small JIS driver set (Phillips drivers can strip screws)
 5. Sharp tweezers
 6. Solder sucker (or more sophisticated desoldering tool)
 7. Vise or PCB support (the alligator clip kind is not very useful)
@@ -30,9 +34,8 @@ Come to the [PhobGCC Discord Server](https://discord.gg/yrpUu7mgzm) for advice o
 
 ## Suggested Tools
 
-1. Non-magnetic tweezers, if you're not using printed magnet holders
-2. Anti-static mat/grounding strap
-3. Fume fan
+1. Anti-static mat/grounding strap
+2. Fume fan
 
 # Parts
 
@@ -42,11 +45,12 @@ Some of the parts are taken from a donor Gamecube controller, while others must 
 
 1. PhobGCC v2.0.0 board (includes C-stick board)
 2. 4x magnets
-3. 3D-printed magnet holders and or superglue
+3. 3D-printed magnet holders and superglue
 4. Optional 2x trigger paddles
 5. Optional 4x D-pad buttons
 6. Optional 4x mouse buttons for ABXY (assembly not depicted)
 7. Optional 1x or 2x mouse buttons for triggers (assembly not depicted)
+8. Wire 
 
 ## Internal Parts Harvested from Donor GCC
 
@@ -58,23 +62,97 @@ Not counting the shell, buttons, stick caps, etc.
 4. Rumble Motor (or use a cellphone rumble)
 5. Rumble Bracket (or source your own 3D-printed one)
 6. Z-button switch
-7. Trigger paddles with attached wires
+7. Optional trigger paddles with attached wires
 
 # Build Process
 
+## GCC Part Harvesting
+
+Begin by taking apart the donor GCC using a Tri-Wing screwdriver.
+
+Remove the motherboard.
+
+![Donor motherboard](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/06_Phob2_Harvest_Rear.jpg?raw=true)
+
+You will want to remove the following parts from it:
+
+1. Z button (or supply your own alternate as shown)
+2. Trigger paddles (or use PhobGCC ones as alternates as shown)
+3. Trigger potentiometers
+4. Stickboxes (preferably T3)
+5. Rumble bracket (or supply your own 3D-printed one)
+6. GCC cable (or supply your own)
+7. Rumble motor (or omit it, or use a cell rumble)
+8. Stick caps
+
+![Parts harvested](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/07_Phob2_Harvest_Parts.jpg?raw=true)
+
+If you're not familiar with removing the stickboxes, you can stick the points of tweezers between the stickbox and the potentiometers to unclip the potentiometers.
+Then, use a JIS #0 screwdriver to unscrew the screws from the bottom of the stickboxes.
+
+![Potentiometer unclipping](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/05_Phob2_Harvest_Stickbox.jpg?raw=true)
+
 ## Magnet Mounting
 
-If you're using superglue to mount magnets to the stickboxes, consult slide 16 of the [PhobGCC 1.1 Build Guide](https://docs.google.com/presentation/d/1Awil69v7xDhX-VOdLnVhseILLCY89gFpTTAPPEig6E4/edit#slide=id.g121d68271e5_0_0). You want to do this before the rest of the process, preferably a few hours before.
+PhobGCC 2 uses sensors mounted perfectly flat on the board, which was not recommended for PhobGCC 1.
+If you were to glue magnets to the peg or use centered magnet holders designed for PhobGCC 1, the signal would be much too weak and the nonlinearities would be undesirable.
 
-If you're using 3D-printed magnet holders, you can do this right before putting the stickboxes on the board.
-First press-fit the magnet holders over the pegs on the stickboxes then press-fit the magnets themselves into the magnet holders.
-Consult **[this section of the PhobGCC 2.0 Assembly Video]**.
+Therefore, for PhobGCC 2.0 we are making 3D-printed magnet holders mandatory.
+You can get an adjustable parametric OpenSCAD file in the pins of the 3d-printing channel on the discord, or you can get magnet holder STLs designed for use with JLCPCB in the PhobGCC 2 hardware releases.
 
-Even if you're using magnet holders, we strongly suggest you augment them with superglue (thin superglue is better for this).
+When using 3D-printed magnet holders, we strongly urge you to superglue (cyanoacrylate) the holders to the stickbox pegs.
+It's easiest to do this early in the process so that the superglue cures sufficiently before 
 
-![Magnet Holders on Stickboxes](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1076_LwKzi7N-output.jpg?raw=true)
+First, clean the grease off the stickbox pegs with isopropyl alcohol and wipe off the alcohol.
+Do not allow it to evaporate on its own, or it will simply redeposit the grease back down.
 
-Make sure the magnets are oriented horizontally.
+Then, I prefer to scratch up the pegs using a steel pick or a razor blade.
+This exposes clean, fresh plastic for gluing to.
+
+![Scratch stickbox pegs](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/08_Phob2_Stickbox_Prep.jpg?raw=true)
+
+Press-fit the magnet holders over the pegs, making sure that the hole for the magnets is offset downward.
+
+![Stickbox with magnet holders](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/09_Phob2_MagHolders.jpg?raw=true)
+
+The ideal offset may vary with different magnets, and different magnet/offset combinations may result in slightly different stick behavior.
+
+Coat the inside of the magnet hole, and the top of the peg, with superglue.
+I prefer thin superglue.
+
+![Stickbox with magnet holders](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/10_Phob2_MagnetWell.jpg?raw=true)
+
+Insert magnets into the magnet wells, making sure that the magnets are all oriented horizontally.
+
+**If the magnets are not horizontal then the stick will not function.**
+
+![Stickbox with magnets](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/11_Phob2_Magnets.jpg?raw=true)
+
+If you wish, you can add extra superglue on top of the magnets to ensure they are securely held in place, though this is not absolutely necessary.
+
+Set the stickboxes aside to cure.
+
+## Stuck Trigger Prevention
+
+This is an optional but simple and highly recommended step to improve the reliability of GCC triggers.
+
+First, use a JIS #1 screwdriver to unscrew these four screws from the backshell of the donor GCC.
+If you attempt to use a Phillips screwdriver, you are *extremely* likely to damage the screw heads by camming out.
+Please use a JIS screwdriver so that any future modders working on the controller will have an easier time removing them.
+
+![Trigger screws to remove](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/12_Phob2_Back_Overview.jpg?raw=true)
+
+Remove the plate above each trigger and the trigger components, and find this protruding corner on each side.
+
+![Trigger corner](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/13_Phob2_TrigCorner.jpg?raw=true)
+
+Using your flush cutters, remove about 1mm of height from the top of this corner.
+
+![Trigger corner trimmed](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/14_Phob2_CornerCut.jpg?raw=true)
+
+This ensures that the tab on the trigger that moves the trigger potentiometer does not get caught on that corner.
+
+![Trigger corner clearance](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/15_Phob2_CornerClear.jpg?raw=true)
 
 ## Soldering Interlude
 
@@ -113,9 +191,7 @@ Next is the tip size.
 In general, you want to get the most contact between the tip and the solder joint without touching adjacent joints.
 Ideally, you use a chisel tip that is exactly as wide as the pads.
 Most people don't switch soldering iron tips frequently, so in this case you should select the widest tip usable for the smallest joints.
-On the PhobGCC 1.2, the smallest joints are the Hall effect sensors, which have pads 0.8mm wide.
-I recommend you use a **chisel tip from 0.8 to 1mm wide**, ideally.
-I actually use a 1.6mm wide tip, which works better for the larger pads but is slightly more difficult to use for the Hall effect sensors.
+PhobGCC 2 is much easier to solder than PhobGCC 1, so I recommend either chisel tips at least 1.6mm wide or knife tips that are significantly wider.
 
 Additionally you have to consider tip condition when heating.
 When metal is left at a high temperature, the metal surface reacts with oxygen in the air to form an oxide layer that insulates the tip, preventing heat transfer, and also doesn't let solder stick to it.
@@ -142,7 +218,7 @@ More active flux types are useful when soldering to different materials, but you
 If you do use more active types of flux, then you need to clean the board off after soldering in order to prevent corrosion.
 
 In addition to flux core, if you are having trouble, you can add additional flux, which can come as a gel, a liquid in a syringe or bottle, or in a pen.
-I personally find that I have no need for these, but some find it very helpful.
+I personally only use added flux for tinning the ends of stranded wire.
 
 To effectively use flux-core solder, you must apply solder to the joint, not to the iron.
 If you apply solder to the iron, all the flux gets used up on the surface of the iron and there's no effect on the joint surfaces that you want to bond to.
@@ -177,138 +253,304 @@ Additionally, the flux residue is corrosive and can cause the components to corr
 
 To remedy this, use rubbing alcohol (as high concentration as you can get) with a cotton swab to clean the flux residue from the PCB when you're done soldering.
 
+One thing of note is that no-clean flux is notably difficult to clean.
+When activated, it turns into a gummy, sticky substance.
+If you do intend to fully clean every part you make, flux that is not no-clean is actually easier to clean off of the solder joints.
+Non-no-clean flux forms a much harder, brittle substance that flakes off relatively easily.
+
+## Board Preparation
+
+The C-Stick daughterboard comes attached to the main PhobGCC motherboard.
+You will have to remove it.
+
+To do this, first simply snap it off at the motherboard side.
+You can use your bare hands, but be careful to avoid touching the button contacts, such as for the Start button, or you may contaminate them with oil.
+
+![breaking daughterboard](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/02_Phob2_Break.jpg?raw=true)
+
+Then, break the two "mousebites" off of the C-Stick daughterboard using pliers.
+Note that one is longer than the other; this is normal.
+
+![breaking mousebites](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/03_Phob2_Mousebites.jpg?raw=true)
+
+This should be the result.
+
+![boards laid out](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/04_Phob2_Separate.jpg?raw=true)
+
 ## RP2040 Programming
 
-Begin by programming the RP2040 according to **[this guide]**.
+Next, load firmware onto the RP2040.
+
+Plug the board into a computer via the micro USB port.
+It will appear as a USB mass storage device, which you need to open in a file browser.
+Drag-and-drop the .uf2 firmware file from the software release page into that drive.
+The mass storage device will disappear and you are done loading firmware on.
+
+This process only works the first time.
+
+If you ever need to change or updatet the firmware, simply hold the button while plugging in the USB, release the button, and follow the remaining steps.
+
+## Z button Switch Soldering
+
+The first soldering step is to solder the Z button switch on.
+
+Make sure to put the button on the top side of the board where the silkscreen outline of the component is, not on the back.
+
+Also make sure that the switch stands perfectly square to the board, or the board may not fit in the controller shell properly.
+
+If you are using a Z button switch harvested from an original GCC, you can ignore the two large circular holes.
+
+![OEM Z](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/18_Phob2_OEM_Z.jpg?raw=true)
+
+If you are using an Omron tactile Z switch as listed in the parts ordering guide, here are the slight tweaks you must make.
+
+![Omron Tactile Z before trimming](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/19_Phob2_TacZ.jpg?raw=true)
+
+Firstly, trim the two leads off the top of the button.
+These interfere with a rib on the front shell.
+
+![Omron Tactile Z haircut](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/20_Phob2_TacZHaircut.jpg?raw=true)
+
+Secondly, when you solder, don't use the U-shaped solder pads at the board edge.
+Instead, the structural legs go through the larger holes farther from the board edge.
+
+Make sure to not overfill the holes for the structural legs; you want the solder to sit entirely below the surface.
+
+![Omron Tactile Z soldered](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/21_Phob2_Solder.jpg?raw=true)
+
+This is because you will need to trim the structural legs completely flush in order to not interfere with the trigger guards.
+
+![Omron Tactile Z legs trimmed](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/22_Phob2_TrimLegs.jpg?raw=true)
+
+Additionally, you need to make room for the structural legs on top by trimming the button rubber as follows:
+
+![Tac Z button rubber trim](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/23_Phob2_RubberCut.jpg?raw=true)
+
+As a note for later, it may take a little more force than you may be used to when inserting the motherboard into the front shell when you use an Omron tactile Z switch.
+
+This is normal, and does not cause any issues.
 
 ## Trigger Potentiometer Soldering
 
-See **[this section of the PhobGCC 2.0 Assembly Video]**.
+Mount the trigger potentiometers to the back of the board. Do not mount them to the front side with all of the chips.
 
-Mount the trigger potentiometers to the back of the board. Do not mount them to the same side as the RP2040.
+![Trigger potentiometers soldered](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/25_Phob2_TriggerPot_Solder.jpg?raw=true)
 
-**[IMAGE OF TRIGGER POTS GOES HERE]**
+To secure them when soldering, you can tape them to the board with masking tape, or just rest the board on top of the potentiometers.
 
-You can tape them to the board with masking tape to keep them in place, or just rest the board on top of the potentiometers to secure then in place while you solder them.
+Be sure to check after soldering your first joint that the potentiometer is laying flat against the back of the board before continuing.
 
-**[IMAGE OF SOLDERED TRIGGER POTS GOES HERE]**
-
-## Z-button Switch Soldering
-
-See **[this section of the PhobGCC 2.0 Assembly Video]**.
-
-Mount the Z-button switch to the top of the board, the same side as the RP2040. Do not mount it to the back of the board.
-
-**[IMAGE OF Z-BUTTON GOES HERE]**
-
-Solder it to the board, with extra solder applied to the contacts at the board edge. These are structural.
-
-**[IMAGE OF SOLDERED Z-BUTTON GOES HERE]**
-
-You do not need to solder the inner pads on the board edge.
-
-## OPTIONAL D-pad Buttons
-
-This is an optional enhancement to the D-pad that goes underneath the OEM rubber domes.
-
-This does not enhance the feel of the buttons, but it makes them harder to press accidentally and more consistent when you do want to press them. This is not suggested for Samus mains because it makes it harder to activate the Extended Grapple.
-
-First, observe the wings on the button pads. The wings are where the switch contacts will go.
-
-**[IMAGE OF D-PAD NO SWITCHES GOES HERE]**
-
-The switches on the right and left pads must be oriented with the contacts oriented horizontally, while the switches on the top and bottom pads must be oriented with the contacts oriented vertically.
-
-If you mix this up, the buttons will be shorting the contacts all the time.
-
-**[IMAGE OF 2 PLACED D-PAD SWITCHES GOES HERE]**
-
-The process of soldering goes as shown:
-
-**[IMAGE OF 2 PLACED D-PAD SWITCHES GOES HERE]**
-
-Top: Apply a tiny bit of solder to one wing of the contact only.
-
-Left: Using tweezers, hold a switch in place and melt the existing solder to tack it in place. Do all the buttons to this stage, then fit-check their placement using the shell to make sure they are centered under the rubber domes..
-
-**[IMAGE OF FIT CHECKING DPAD GOES HERE]**
-
-Right: Tack the opposite corner down using solder, then remelt the first corner and then this corner to eliminate strain.
-
-Bottom: Solder down the rest of the corners.
-
-The buttons should now look like this:
-
-**[IMAGE OF 4 PLACED D-PAD SWITCHES GOES HERE]**
-
-Using a multimeter, check continuity between the exposed copper pads that stick out past the button. They should be disconnected when the switch isn't pressed, and shorted when the switch is pressed.
-
-## C-stick Cable Soldering
-
-See **[this section of the PhobGCC 2.0 Assembly Video]**.
-
-## Controller Cable Soldering
-
-See **[this section of the PhobGCC 2.0 Assembly Video]**.
-
-If you are using an OEM cable harvested from a first-party Gamecube controller, the black wire should be placed farthest from the center of the controller, and the blue wire closest to the center of the controller.
-
-**[IMAGE OF CONTROLLER CABLE COLORS GOES HERE]**
-
-The pins themselves are actually basketlike sheet metal forms, so when you solder them, they take up a fairly large amount of solder.
-
-**[IMAGE OF SOLDERED CONTROLLER CABLE GOES HERE]**
+![Trigger potentiometers taped](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/23_Phob2_TriggerPots.jpg?raw=true)
 
 ## Trigger Paddle Soldering
 
-If you don't harvest the trigger paddles from the OEM controller, you will need to prepare new wires for the PhobGCC's trigger paddles.
+If you are using OEM trigger paddles, you may skip this step.
 
-It is possible to solder mouse buttons to these trigger paddles, but that is not covered here as it involves a more invasive modification to the OEM controller hardware.
+If you are using PhobGCC trigger paddles instead of OEM, you will need to solder wires to them yourself.
 
-Cut and strip wires that are roughly 1 inch long (25mm), and solder them in so that the wires are on the opposite side of the PCB from the pads.
+Cut four pieces of wire to about 1.5 inches (38mm) long and strip the insulation off the ends.
 
-Do not have the wires exit the front side with the contacts, or they can short to the Hall effect sensor pins.
+Apply flux to the ends of the wires, making sure not to cause them to fray if using stranded wire.
 
-![Wires soldered into trigger paddles](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1108_AFMbsiO-output.jpg?raw=true)
+Hold the trigger paddles in a vise and apply solder to fill the through-hole pads with solder.
 
-Load the trigger paddles with pads exposed into the rumble bracket (whether OEM or third-party), and mount the rumble bracket to the PCB.
-Make sure the wires safely exit the slots and do not get caught or pinched under the bracket.
+![Trigger paddle solder](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/16_Phob2_Paddles.jpg?raw=true)
 
-**[IMAGE OF TRIGGER PADDLES IN RUMBLE BRACKET GOES HERE]**
+Then, heat the front side of each through-hole with your soldering iron to melt it, and insert the fluxed end of the wire from the back side of the hole where the silkscreen markings are.
 
-Tuck the trigger paddle wires into the nearby holes in the motherboard.
+![Trigger paddle wires](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/17_Phob2_PaddleWires.jpg?raw=true)
 
-**[IMAGE OF TRIGGER WIRES IN HOLES GOES HERE]**
+## C-stick Cable Soldering
 
-Then, being careful not to let them slip out, solder them to the motherboard.
+For PhobGCC 2, the C-Stick now needs six conductors connecting it to the main motherboard.
 
-**[IMAGE OF SOLDERED TRIGGER WIRES GOES HERE]**
+You will have to provide your own wire for this, though there may come to be brand-new ribbon cables available that may suit the purposes.
+Any such ribbon cables should be between 1 and 1.5 inches long (25 to 38mm) and must be 2 millimeter wire spacing.
+We *strongly discourage* the use of ribbon cables harvested from other controllers, as poorly folding previously-used ribbon cables has been a major cause of issues with PhobGCCs in the past.
+
+In this guide I cut and stripped six 1.5-inch (38mm) wires identical to those used in the trigger paddles, and applied flux to the ends.
+
+Then, I used the same technique as in the Trigger Paddle Soldering section to install them in the back side of the C-Stick daughterboard.
+
+Note that this is the side with silkscreen around the through-holes.
+
+![C-stick soldering](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/26_Phob2_Cstick_Solder.jpg?raw=true)
+
+For these especially, if you are using individual wires I strongly recommend that you make their lengths as consistent as possible, and solder them such that the insulation ends at the same distance from the C-stick daughterboard.
+
+![C-stick wires](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/27_Phob2_Cstick_Wires.jpg?raw=true)
+
+The uniform length helps when you are inserting the wires into the motherboard.
+
+Support the motherboard above the C-Stick daughterboard with the daughterboard oriented like this.
+
+If you flip it around, the C-stick will not function at all.
+
+![C-stick alignmnt](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/28_Phob2_Cstick_Align.jpg?raw=true)
+
+Insert all of the C-Stick wires into the motherboard.
+
+Make sure that all of the wires are straight and none of them are crossed, or the C-Stick will not function.
+
+![C-stick wire insertion into the motherboard](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/29_Phob2_Cstick_InsertWires.jpg?raw=true)
+
+Then solder the wires.
+
+![C-stick wire soldering to the motherboard](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/30_Phob2_Cstick_WireSolder.jpg?raw=true)
+
+## Stickbox Installation
+
+Install the stickboxes on the motherboard and the C-Stick.
+
+![Stickbox on motherboard](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/31_Phob2_StickboxInstall.jpg?raw=true)
+
+You must have the magnets mounted above the 3-legged SMD Hall-Effect sensors.
+
+Note that on PhobGCC 1.2.3 and prior, the stickbox on the motherboard was 180 degrees off of normal, but on PhobGCC 2 the magnets must be on the bottom and right.
+
+## Trigger Paddle Soldering
+
+Insert the trigger paddles into the rumble bracket (whether OEM or third-party), ensuring that the contacts on the trigger paddle are visible.
+Route the wires out the slots on the back of the rumble bracket.
+
+Then mount the rumble bracket to the motherboard.
+Here I have put the rumble motor in the rumble bracket but that can be left until later.
+I like to hold the rumble bracket in place with a clothespin.
+
+Tuck the wires from the trigger paddles into their respective holes on the motherboard.
+
+For R, make sure not to mix up the holes with the extra holes for mouseswitch Z, which are nearby.
+
+![Rumble bracket on back of motherboard](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/32_Phob2_RumbleBracket.jpg?raw=true)
+
+Then solder the wires in place.
+
+![Trigger wires soldered](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/33_Phob2_TriggerWires.jpg?raw=true)
+
+## Controller Cable Soldering
+
+Next, install the controller cable into the motherboard.
+
+The cable must go in the back of the motherboard.
+
+If you are using an OEM cable harvested from a first-party Gamecube controller, the black wire should be placed farthest from the center of the controller, and the blue wire closest to the center of the controller.
+
+![Cable installation with colors labeled](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/34_Phob2_CableInstall.jpg?raw=true)
+
+Secure the wire in place, then solder the pins to the pads on the top of the motherboard.
+
+![Cable installation with colors labeled](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/35_Phob2_CableSolder.jpg?raw=true)
+
+## OPTIONAL PhobVision installation and soldering
+
+PhobVision is a new feature exclusive to PhobGCC 2 where the controller can output composite video to a CRT and provide an actual user interface for the user to calibrate and configure the controller without having to blindly input memorized button combinations.
+
+If you choose to install it, here's my suggested method.
+
+It's rather irritating to pack this in with an OEM rumble motor, so you may want to do it with no rumble installed or with a cell rumble motor.
+Nonetheless, this guide shows you how to do it so that it fits around the OEM rumble.
+
+Begin by taking the backshell and marking a point 0.5 inches or 13 mm down directly below the edge, aligned with the center of this tab.
+
+![Marked drill hole](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/36_PhobVision_Mark.jpg?raw=true)
+
+Using a *split-point drill bit* to help prevent the bit from wandering around, drill a 7mm diameter hole in the back of the controller.
+
+You may also use a 9/32" bit or a Letter J drill bit.
+
+![PhobVision hole drilled](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/37_PhobVision_Drill.jpg?raw=true)
+
+Note that on this particular shell, the bit wandered slightly towards the centerline of the controller, which is fine.
+
+If the bit wanders towards the side of the controller, you may need to carve out the area marked in red to provide clearance for the TRRS jack's flange.
+
+In this case, the hole instead intersects a rib that only exists on T3 shells that you should remove in the vicinity of the hole.
+
+![Rib interference with hole](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/38_PhobVision_Rib.jpg?raw=true)
+
+Simply cut the rib off with flush cutters.
+
+![Rib cut near hole](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/39_PhobVision_CutRib.jpg?raw=true)
+
+Next up we must prepare the 3.5mm TRRS jack for installation.
+
+![Untouched jack](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/40_PhobVision_Jack.jpg?raw=true)
+
+To get the jack to fit with an OEM rumble motor, use pliers to bend the tabs on the end sideways.
+
+Note which tabs are used for what.
+
+![Jack with bent tabs, labeled](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/41_PhobVision_Bend.jpg?raw=true)
+
+Apply flux to the two bent silver tabs and tin them generously with solder.
+
+![Tinned tabs on jack](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/42_PhobVision_Tin.jpg?raw=true)
+
+Cut a two-pin JST-PH pigtail's wires to 3 inches long (75mm), strip the ends, and apply flux.
+Shorter wires give less slack when maneuvering, and longer wires are hard to fit, so be fairly precise with the length here.
+
+Then solder them to the two tinned tabs.
+
+Make sure that the black wire goes to the middle tab, and the red wire goes to the other silver tab.
+
+![Wires soldered to jack](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/43_PhobVision_Solder.jpg?raw=true)
+
+Make sure the wires are soldered to the back side of the tabs so that they do not stick out past the end.
+
+![Wires do not protrude past the end of jack](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/44_PhobVision_Flat.jpg?raw=true)
+
+Generously apply hot glue between the wires and the barrel of the TRRS jack in order to provide strain relief.
+
+Again, do not let it protrude much past the end of the jack.
+
+![Hot glue used as strain relief](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/45_PhobVision_Glue.jpg?raw=true)
+
+Next, cut 1.25" (32mm) long wires, strip both ends, and apply flux.
+Shorter wires might not reach, and longer can interfere with closing the controller, so be precise with the length here.
+
+Take the JST-PH receptacle and install it on the pigtail for support, then tin the protruding leads and solder them to the 1.25" wires.
+
+Make sure to match red with red and black with black; I used the scrap ends of the pigtail wires for this so the colors match nicely.
+
+![JST receptacle soldered](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/46_PhobVision_JST_Solder.jpg?raw=true)
+
+Insert the receptacle's wires into the back of the motherboard at the J2 through-hole pads, and solder them on the front of the motherboard.
+
+![JST soldered to phobvision pads](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/47_PhobVision_Mobo_Solder.jpg?raw=true)
+
+At this point, if you are installing rumble, mount the rumble motor in the rumble bracket by inserting it into the rectangular box.
+Make sure that the shaft is on the cable side, and the motor is rotated so that the wires are on the D-pad side, close to the edge of the box.
+
+First, tin the rumble pads with a puddle of solder, then melt the puddle with your iron and use tweezers to hold the wire in the molten pool of solder.
+Remove the iron, and keep the wire still as the solder cools.
+Tuck the rumble wires in the clip on the rumble bracket.
+
+Then hot glue the PhobVision JST receptacle to the rumble bracket like depicted, ensuring that the opening is not blocked by the glue.
+
+![JST glued to rumble bracket](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/48_PhobVision_JST_Glue.jpg?raw=true)
+
+Next, install the TRRS jack in the backshell and install the nut on the outside using pliers.
+
+I recommend you orient the jack so that the wires initially go towards the center of the controller, then loop around towards the triggers.
+
+![Jack in the backshell with suggested wire orientation](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/49_PhobVision_Jack_Install.jpg?raw=true)
+
+![Nut holding the jack in place](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/50_PhobVision_Nut.jpg?raw=true)
 
 ## Rumble Motor Soldering
 
-Next, mount the rumble motor back in the rumble bracket by inserting it into the rectangular box.
+If you haven't installed PhobVision, mount the rumble motor in the rumble bracket by inserting it into the rectangular box.
 Make sure that the shaft is on the cable side, and the motor is rotated so that the wires are on the D-pad side, close to the edge of the box.
-
-**[IMAGE OF RUMBLE MOTOR IN PLACE GOES HERE]**
-
-Apply a generous blob of solder to each of the rumble motor pads.
-
-**[IMAGE OF SOLDER GLOBS GOES HERE]**
-
-To solder the wires down, melt the blob of solder with your soldering iron and use tweezers to hold the wire in the pool.
-Remove the hot soldering iron, and keep the wire still as the solder cools.
-
-Clip the wires into place on the rumble bracket.
-
-**[IMAGE OF SOLDERED RUMBLE WIRES GOES HERE]**
 
 # Completion and next steps
 
-**[IMAGE of PHOB2 COMPLETE GOES HERE]**
+Now your PhobGCC should be complete!
 
-Now that you have completed the soldering steps, follow the **[Board Debugging Guide for PhobGCC 2.0]** to make sure it's ready to go.
+![Front of PhobGCC 2](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/Phob2_Front.jpg?raw=true)
 
-Then, reassemble it, and follow the Initial Steps in the [PhobGCC Calibration Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.27.md) for the version of the software you have flashed on the RP2040.
+![Rear of PhobGCC 2](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/Phob2_Back.jpg?raw=true)
+
+Reassemble your controller, and follow the Initial Setup procedure in the [PhobGCC Calibration Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.27.md) for the version of the software you have flashed on the RP2040.
 
 And, enjoy!
 
