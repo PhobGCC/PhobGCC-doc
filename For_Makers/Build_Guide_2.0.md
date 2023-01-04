@@ -281,14 +281,12 @@ This should be the result.
 
 Next, load firmware onto the RP2040.
 
-Plug the board into a computer via the micro USB port.
+Plug the board into a computer via the micro USB port while holding button S1 on the motherboard, then release the button..
 It will appear as a USB mass storage device, which you need to open in a file browser.
 Drag-and-drop the .uf2 firmware file from the software release page into that drive.
 The mass storage device will disappear and you are done loading firmware on.
 
-This process only works the first time.
-
-If you ever need to change or update the firmware, simply hold the button while plugging in the USB, release the button, and follow the remaining steps.
+If you ever need to change or update the firmware, simply repeat the process.
 
 ## Z button Switch Soldering
 
