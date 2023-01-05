@@ -32,7 +32,7 @@ This is very important, or else you will get nonfunctional boards.
 
 1. Preorder the SMD components that are in limited supply, as listed below.
   * These are not stocked by JLC but they are stocked by distributors; JLC will order them and keep them in your name until you order boards that need them.
-2. **Once the parts come in, only then order boards with assembly.**
+2. **Once ALL OF THE PARTS come in, only then order boards with assembly.**
   * You may need to wait a week or more.
   * Do not order boards before you receive notification that ALL of your parts are available.
   * If you order boards before parts are available, then they will be assembled without the parts and they will not function.
@@ -57,7 +57,14 @@ Once you've clicked on each link and added the quantities you need into your car
 
 ![PHOB_PREORDER_PARTS](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_preorder_parts.PNG?raw=true)
 
-This is where you double-check the part quantities you've selected and make sure that they're all checked, even if in stock. Once you checkout, JLC will attempt to purchase those parts for you at the quoted price. If they end up costing more, they'll email you about supplementing the cost, and if they end up costing less, you will be refunded the difference. You can check the status of part orders in the "Parts Order History" subtab.
+This is where you double-check the part quantities you've selected and make sure that they're all checked, even if in stock.
+Once you checkout, JLC will attempt to purchase those parts for you at the quoted price.
+If they end up costing more, they'll email you about supplementing the cost, and if they end up costing less, you will be refunded the difference.
+You can check the status of part orders in the "Parts Order History" subtab.
+
+Some of the parts may be in stock and be available immediately.
+You must wait until **ALL PARTS** are available before proceeding.
+This may take one or two weeks.
 
 ## Purchasing the PhobGCC v2.0.2 board
 
