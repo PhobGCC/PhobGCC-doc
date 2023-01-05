@@ -1,6 +1,6 @@
 # PhobGCC Version 2.0.2 Ordering Guide
 
-This is an illustrated guide to acquiring all the parts you need to assemble a PhobGCC  v2.0.2
+This is an illustrated guide to acquiring all the parts you need to assemble a PhobGCC v2.0.2.
 
 # Required Parts
 
@@ -25,6 +25,12 @@ The following parts are standard to a GCC and can be acquired via a number of di
 * 1x Rumble Bracket
 * 1x Z-button Switch
 * Optional: 1x Rumble Motor
+
+There are two main ways to acquire a PhobGCC v2.0.2 Board.
+The first way is if you intend to only build a single controller, you can contact a local modder in your region using [this map](https://www.nojonsmods.com/moddermap) to see if they have spare for sale.
+Alternatively, you can also check [Etsy](https://www.etsy.com/) or [eBay](https://www.ebay.com/) as some often appear for sale.
+If you cannot find a single board for sale or you intend to build more than one PhobGCC, you can order the boards directly from a board house.
+These instructions will be for [JLCPCB](https://jlcpcb.com/).
 
 ## JLC Ordering Process Overview
 
@@ -70,11 +76,11 @@ This may take one or two weeks.
 
 **NOTE: Once your pre-ordered SMD Components have come in (report as "Complete" in the parts order history), you may proceed to ordering boards. If they are not in, the parts will not be present on your board**
 
-There are two main ways to acquire a PhobGCC v2.0.2 Board. The first way is if you intend to only build a single controller, you can contact a local modder in your region using [this map](https://www.nojonsmods.com/moddermap) to see if they have spare for sale. Alternatively, you can also check [Etsy](https://www.etsy.com/) or [eBay](https://www.ebay.com/) as some often appear for sale. If you cannot find a single board for sale or you intend to build more than one PhobGCC, you can order the boards directly from a board house. The one outlined here will be for [JLCPCB](https://jlcpcb.com/).
-
-First, you can download the files available in the [PhobGCCv2-HW Github](https://github.com/PhobGCC/PhobGCCv2-HW/releases/tag/v2.0.2) in the releases section as shown below:
+Download the files available in the [PhobGCCv2-HW Github](https://github.com/PhobGCC/PhobGCCv2-HW/releases/tag/v2.0.2) in the releases section as shown below:
 
 ![PHOB2_BOARD_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_board_release.png?raw=true)
+
+Make sure to redownload the latest even if you already downloaded it in the past, as occasionally we make changes to the components to account for stock shortages.
 
 Once you've extracted the files from the .zip, you should have three files. The Phob2_Gerbers .zip, the Phob2_Bom.csv, and the Phob2_Pos.csv. Click "Order Now" on JLCPCB, make sure you are set to "Standard PCB/PCBA" tab, click "Add Gerber File", and upload the Phob2_Gerbers.zip. Once the files are uploaded, you should see the board process and then load in as shown below:
 
