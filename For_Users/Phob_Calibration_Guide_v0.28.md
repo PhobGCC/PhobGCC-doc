@@ -1,6 +1,6 @@
-**NOTE: This is for firmware version 0.27.**
+**NOTE: This is for firmware version 0.28.**
 
-For Version 0.26, use [this document](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.26.md).
+For Version 0.27, use [this document](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.27.md).
 
 For later development versions of the software that have not yet been released, search for “Current Commands List” in the `common/phobGCC.h` file to see the commands for that version as they may have changed.
 
@@ -11,10 +11,22 @@ When using Smashscope in Dolphin, make sure to **set all Wiimotes to "None" in t
 
 An alternative is Uncle Punch Training Mode 3.0. In the Training Lab menu, under General enable “Input Display”, and under Info Display enable “System LStick”, “System CStick”, and “System Trigger” as the first three rows.
 
+# PhobVision
+
+If you have a PhobGCC 2 with PhobVision installed and a CRT available, it's highly recommended to calibrate and configure using PhobVision.
+
+PhobVision has menu options for all of these settings, and it walks you through the stick calibration process to minimize the chance of user error.
+
+To use PhobVision, plug a 3.5mm TRRS to RCA cable compatible with Sony camcorders into the jack on the controller and the composite video input on a CRT television, hold Z on the controller, and plug the controller's GCC cable into a powered-on console or adapter.
+Navigate with the D-pad, select an item by pressing A, and back out by holding B. 
+Note: you cannot back out while you're in the middle of stick calibration, but it's fine to unplug the controller before finishing to cancel if you wish.
+
+Some menu pages are not complete yet, and on these you will be greeted by an "Under Construction" sign.
+
 # Initial Setup
 
-**This is only necessary the the first time the controller is set up after it is made.**
-You do not need to do this otherwise.
+**This is only necessary the the first time the controller is set up after it is made, only if you are calibrating using a console.**
+You do not need to do this otherwise, such as if you are calibrating it using PhobVision.
 
 If the controller is functioning normally, this has already been performed and you do not need to repeat the process.
 
@@ -57,10 +69,10 @@ If the controller is functioning normally, this has already been performed and y
 # Display Software Version - AZ + Du
 
 * The C-Stick will display the software version in Melee units as if it were not preceded by the "0."
-  * The Y-axis will show the tens and ones digits. In this case, it would be 27.
+  * The Y-axis will show the tens and ones digits. In this case, it would be 28.
   * The X-axis will show the thousands and hundreds digits. In this case, it would be 0.
 * You must use Smashscope to see this numerically.
-* If the controller doesn't show 27, then you need to reference an older configuration document [here](https://github.com/PhobGCC/PhobGCC-doc/blob/main/LEGACY.md).
+* If the controller doesn't show 28, then you need to reference an older configuration document [here](https://github.com/PhobGCC/PhobGCC-doc/blob/main/LEGACY.md).
   * If it doesn't respond to this command at all, then it's likely the version is 0.23 or lower and you should [upgrade the controller firmware](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide.md).
 
 # Controller Reset - Hold ABZ then press Start
@@ -128,7 +140,6 @@ When in the measurement phase of calibrating the analog stick, the C-Stick will 
 * If after the measurement phase is done, the stick output is completely haywire and jumping all over the place randomly, you may have let go of the stick before pressing **L**, **R**, or **A**. Mash **L**, **R**, or **A** a bunch to finish the calibration and start again.
   * Alternatively, if you have Firefox notches, try calibrating the main 8 directions only to completion, then go back and calibrate all of them.
 * If after the measurement phase is done, the stick output is backwards on one or both axes, you probably were trying to make the stick *output* match the C-Stick, instead of moving the *physical* stick into the notch indicated by the C-Stick. Mash **L**, **R**, or **A** a bunch to finish the calibration and start again.
-* If after the measurement phase is done, the stick output jumps across the gate when you're rolling the stick around, then you likely grossly mismeasured a notch. If it appears to get "stuck" like this, begin calibration again, don't screw up, and during Notch Adjustment simply press B to reset every notch to its measured value.
 
 ## Notch Adjustment Phase
 
