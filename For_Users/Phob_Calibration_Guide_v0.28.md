@@ -96,8 +96,8 @@ If the controller is functioning normally, this has already been performed and y
 
 * Rumble is only available on boards version 1.2 or later. This command will do nothing for earlier boards.
 * Press **AB** + **D-pad Up/Down** to increase or decrease the rumble strength.
-* There are settings from 0-7.
-  * 5 is roughly equivalent to an OEM controller's rumble.
+* There are settings from 0-11.
+  * 9 is roughly equivalent to an OEM controller's rumble.
   * 0 turns off rumble entirely.
 * Press **AB+Start** to show the current rumble setting on the C-Stick.
 
