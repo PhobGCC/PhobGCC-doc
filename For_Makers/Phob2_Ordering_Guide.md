@@ -55,7 +55,7 @@ The following parts usually have low stock and pre-ordering them is advised:
 
 * [1x RP2040](https://jlcpcb.com/partdetail/RaspberryPi-RP2040/C2040)
 * [1x NOR Flash Chip](https://jlcpcb.com/partdetail/WinbondElec-W25Q128JVSIQ/C97521)
-* [4x DRV5055 SMD Hall Sensor](https://jlcpcb.com/partdetail/TexasInstruments-DRV5055A2QDBZR/C266131) (JLC underprices these, you'll be paying $1.70 after the quote)
+* [4x DRV5055 SMD Hall Sensor](https://jlcpcb.com/partdetail/TexasInstruments-DRV5055A3QDBZR/C266128)
 * [2x MCP3202 ADC](https://jlcpcb.com/partdetail/MicrochipTech-MCP3202_CISN/C56997)
 * [1x Crystal Oscillator](https://jlcpcb.com/partdetail/390662-TAXM12M4RKDCDT2T/C403945)
 
