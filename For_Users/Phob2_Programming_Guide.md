@@ -2,8 +2,6 @@
 
 This is a guide to programming the teensy microcontroller on PhobGCC v2.0.
 
-Here's a **[video walkthrough]** if you would like to watch instead.
-
 # Tools
 
 * A computer running Windows, MacOS, or Linux.
