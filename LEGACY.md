@@ -4,6 +4,7 @@ This document is to keep track of old documentation that is no longer applicable
 
 ## Controller Configuration
 
+* [For Version 0.27](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.27.md)
 * [For Version 0.26](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.26.md)
 * [For Version 0.25](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.25.md)
 * [For Version 0.24](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.24.md)
