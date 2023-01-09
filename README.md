@@ -17,7 +17,9 @@ Come chat with us on the [PhobGCC Discord](https://discord.gg/eNJ7xWMvxf)!
 
 [PhobGCC Calibration/Configuration Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.27.md)
 
-[PhobGCC Firmware Update Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide.md)
+[PhobGCC v2.0 Firmware Update Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob2_Programming_Guide.md)
+
+[PhobGCC v1.X Firmware Update Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide.md)
 
 [User guides for Extras](https://github.com/PhobGCC/PhobGCC-doc/tree/main/For_Users/Extras_Guides)
 
