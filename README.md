@@ -37,7 +37,9 @@ Come chat with us on the [PhobGCC Discord](https://discord.gg/eNJ7xWMvxf)!
 
 [Board Debugging for PhobGCC 1.2](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Board_Level_Debugging_1.2.md) (read before plugging in the first time!)
 
-[Guide to Programming PhobGCC](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide.md)
+[Guide to Programming PhobGCC v2.0](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob2_Programming_Guide.md)
+
+[Guide to Programming PhobGCC v1.X](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide.md)
 
 ## General Info
 

@@ -1,6 +1,6 @@
-# PhobGCC Programming Guide
+# PhobGCC v1.X Programming Guide
 
-This is a guide to programming the teensy microcontroller on PhobGCC.
+This is a guide to programming the teensy microcontroller on PhobGCC v1.X.
 
 Here's a [video walkthrough](https://youtu.be/QWJy-NiV2nU) if you would like to watch instead.
 
