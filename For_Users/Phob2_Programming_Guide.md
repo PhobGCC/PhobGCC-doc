@@ -2,8 +2,6 @@
 
 This is a guide to programming the teensy microcontroller on PhobGCC v2.0.
 
-Here's a **[video walkthrough]** if you would like to watch instead.
-
 # Tools
 
 * A computer running Windows, MacOS, or Linux.
@@ -20,7 +18,7 @@ Carefully lift the board out of the shell and place the front shell down.
 
 Go to the **[Releases]** section of the PhobGCC-SW Github and download the latest available firmware. For the PhobGCC v2.0 board, you will want to download the .uf2 file as shown below:
 
-**[IMAGE OF RELEASE DOWNLOAD]**
+![PHOB2_FILES](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/phob2_files.PNG?raw=true)
 
 Move the .uf2 file to somewhere you can easily find it. Then unplug your controller from the adapter or console it is connected to, hold down the button on the front of the board, and plug the controller in as shown below:
 
