@@ -30,7 +30,7 @@ Move the .uf2 file to somewhere you can easily find it. Then unplug your control
 
 You should have it appear as a mass storage device, similar to a flashdrive. Drag the .uf2 file onto the controller and it'll transfer over the firmware and disconnect.
 
-![PHOB2_PLUGIN](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/phob2_transfer.PNG?raw=true)
+![PHOB2_PLUGIN](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/Phob2_transfer.PNG?raw=true)
 
 Once this is complete, you can unplug your PhobGCC and reassemble the controller. Continue to the calibration guide.
 
