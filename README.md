@@ -9,13 +9,13 @@ This comes together to make a high-performance, customizable, long-lasting contr
 
 Come chat with us on the [PhobGCC Discord](https://discord.gg/eNJ7xWMvxf)!
 
-![PhobGCC](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1118_1lwoupq-output.jpg?raw=true)
+![PhobGCC](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/Phob2_Front.jpg?raw=true)
 
 ## For Buyers and Users
 
 [PhobGCC Buying Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Buying_Guide.md)
 
-[PhobGCC Calibration/Configuration Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.27.md)
+[PhobGCC Calibration/Configuration Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.28.md)
 
 [PhobGCC v2.0 Firmware Update Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob2_Programming_Guide.md)
 
