@@ -82,7 +82,8 @@ Once this is complete, you can unplug your PhobGCC and reassemble the controller
 * Make sure you only remove the `//` from your board version, not the `#`.
 * If the board reports as null, try another port.
 * If you get a warning that says `#warning "can't use staticFunctional with GCC < V7! Fallback to function pointer callbacks"`, then you installed the wrong version of teensytimertool.
-* If you're uncertain if the board flashed properly, you can click on the eyeglass in the top right to open the serial monitor (you may need to unplug and replug your PhobGCC). At the top of the output, it'll say the board version, teensy version, and software version.  
+* If you're uncertain if the board flashed properly, you can click on the eyeglass in the top right to open the serial monitor (you may need to unplug and replug your PhobGCC). At the top of the output, it'll say the board version, teensy version, and software version.
+* If there's a message about `Missing FQBN` then you need to update board files.
 
 For all other issues, please refer to the PhobGCC Discord's tech support.
 [PhobGCC Discord](https://discord.gg/yrpUu7mgzm)
