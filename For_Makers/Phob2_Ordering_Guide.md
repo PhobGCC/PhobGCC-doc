@@ -34,7 +34,7 @@ These instructions will be for [JLCPCB](https://jlcpcb.com/).
 
 # Parts You Don't Need
 
-Don't acquirs these, because they're not necessary or won't work with PhobGCC 2.0.2 at all:
+Don't acquire these, because they're not necessary or won't work with PhobGCC 2.0.2 at all:
 
 * Snapback capacitors, snapback modules: snapback is corrected in software.
 * Heartbeat modules or equivalent shunt resistors: we have no stick potentiometers so these are unnecessary.
