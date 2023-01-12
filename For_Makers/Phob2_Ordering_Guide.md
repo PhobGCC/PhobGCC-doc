@@ -32,6 +32,14 @@ Alternatively, you can also check [Etsy](https://www.etsy.com/) or [eBay](https:
 If you cannot find a single board for sale or you intend to build more than one PhobGCC, you can order the boards directly from a board house.
 These instructions will be for [JLCPCB](https://jlcpcb.com/).
 
+# Parts You Don't Need
+
+Don't buy these because they're not necessary or won't work with PhobGCC 2.0.2 at all:
+
+* Snapback capacitors, snapback modules: snapback is corrected in software.
+* Heartbeat modules or equivalent shunt resistors: we have no stick potentiometers so these are unnecessary.
+* Teensy or Raspberry Pi Pico: the Phob 2 has no need of any external microcontroller board.
+
 ## JLC Ordering Process Overview
 
 This is very important, or else you will get nonfunctional boards.
