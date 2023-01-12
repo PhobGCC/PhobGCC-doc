@@ -21,6 +21,7 @@ The following parts are standard to a GCC and can be acquired via a number of di
 
 * 2x T3 Stickboxes
 * 2x Trigger Potentiometers
+* 2x Trigger Paddles
 * 1x Cable with a GCC Plug
 * 1x Rumble Bracket
 * 1x Z-button Switch
@@ -32,7 +33,7 @@ Alternatively, you can also check [Etsy](https://www.etsy.com/) or [eBay](https:
 If you cannot find a single board for sale or you intend to build more than one PhobGCC, you can order the boards directly from a board house.
 These instructions will be for [JLCPCB](https://jlcpcb.com/).
 
-# Parts You Don't Need
+## Parts You Don't Need
 
 Don't acquire these, because they're not necessary or won't work with PhobGCC 2.0.2 at all:
 
@@ -41,7 +42,7 @@ Don't acquire these, because they're not necessary or won't work with PhobGCC 2.
 * Teensy or Raspberry Pi Pico: the PhobGCC 2 has no need of any external microcontroller board.
 * OEM C-Stick ribbon cables from a GCC: PhobGCC 2 needs 6 connections to the C-Stick daughterboard, and reusing the OEM cable has been a source of reliability issues. 
 
-## JLC Ordering Process Overview
+# JLC Ordering Process Overview
 
 This is very important, or else you will get nonfunctional boards.
 
@@ -124,7 +125,7 @@ The files are known good and this is just the website bugging out.
 You want to make sure there are no red boxes anywhere as those indicate missing components.
 You can then click "Save To Cart" and pay for your boards.
 
-# Optional: Purchasing LR Trigger Paddles
+## Optional: Purchasing LR Trigger Paddles
 
 If you don't or can't use OEM GCC Trigger paddles, you can order trigger paddles separately.
 
