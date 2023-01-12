@@ -34,11 +34,12 @@ These instructions will be for [JLCPCB](https://jlcpcb.com/).
 
 # Parts You Don't Need
 
-Don't buy these because they're not necessary or won't work with PhobGCC 2.0.2 at all:
+Don't acquirs these, because they're not necessary or won't work with PhobGCC 2.0.2 at all:
 
 * Snapback capacitors, snapback modules: snapback is corrected in software.
 * Heartbeat modules or equivalent shunt resistors: we have no stick potentiometers so these are unnecessary.
-* Teensy or Raspberry Pi Pico: the Phob 2 has no need of any external microcontroller board.
+* Teensy or Raspberry Pi Pico: the PhobGCC 2 has no need of any external microcontroller board.
+* OEM C-Stick ribbon cables from a GCC: PhobGCC 2 needs 6 connections to the C-Stick daughterboard, and reusing the OEM cable has been a source of reliability issues. 
 
 ## JLC Ordering Process Overview
 
