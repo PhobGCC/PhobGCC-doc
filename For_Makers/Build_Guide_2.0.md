@@ -111,6 +111,8 @@ This exposes clean, fresh plastic for gluing to.
 
 ![Scratch stickbox pegs](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/08_Phob2_Stickbox_Prep.jpg?raw=true)
 
+**Do not apply superglue to the pegs!**
+
 Press-fit the magnet holders over the pegs, making sure that the hole for the magnets is offset downward.
 
 ![Stickbox with magnet holders](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/09_Phob2_MagHolders.jpg?raw=true)
@@ -120,7 +122,7 @@ The ideal offset may vary with different magnets, and different magnet/offset co
 Coat the inside of the magnet hole, and the top of the peg, with superglue.
 I prefer thin superglue.
 
-**Note: be *very sparing* with superglue so you do not contaminate the stickbox!**
+**Be *very sparing* with superglue so you do not contaminate the stickbox!**
 
 ![Stickbox with magnet holders](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/10_Phob2_MagnetWell.jpg?raw=true)
 
