@@ -511,6 +511,7 @@ Next, cut 1.25" (32mm) long wires, strip both ends, and apply flux.
 Shorter wires might not reach, and longer can interfere with closing the controller, so be precise with the length here.
 
 Take the JST-PH receptacle and install it on the pigtail for support, then tin the protruding leads and solder them to the 1.25" wires.
+You must leave the connector in the receptacle while soldering, or else the pins will lose alignment as the plastic around them softens.
 
 Make sure to match red with red and black with black; I used the scrap ends of the pigtail wires for this so the colors match nicely.
 
