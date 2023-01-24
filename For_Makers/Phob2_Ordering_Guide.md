@@ -186,8 +186,8 @@ The remaining parts can be purchased from distributors as listed below.
   * Download [This](https://drive.google.com/file/d/10-lseJ4UK1-HkkXc6rjSJtsYRW7ihsXD/view?usp=share_link) OpenScad file. It is by default set up for DH1H1 Magnets, so you can edit it for whatever magnet you use, adjust it for your printer, and then generate the STL using [OpenScad](https://openscad.org/). Once you have the STL, you can print it using your own machine or check out local makerspaces, libraries, and print shops.
   * If you use magnets other than DH1H1, you will need to adjust the magnet offset to get the optimum signal strength using PhobVision to check. Speak with the devs on Discord to find out more.
 * Wire: choose whichever you prefer.
-  * 26-gauge stranded wire
-  * 28-gauge solid core wire
+  * 26-gauge stranded wire such as [this](https://mcmaster.com/8054T11).
+  * 30-gauge solid core wire
 * Optional Mouse Buttons for ABXYLR: you can use mouse buttons for any number from 0 to 6 of the buttons. Generally the high actuation force buttons are preferred.
   * [Low Actuation Force Buttons](https://www.digikey.com/short/q4r0jh3j)
   * [High Actuation Force Buttons](https://www.digikey.com/short/dcddr0jr)
