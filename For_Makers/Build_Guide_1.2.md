@@ -19,7 +19,7 @@ Come to the Discord server for advice on what to get if you're at all unsure.
 ## Required Tools
 
 1. Temperature-controlled soldering iron with a moderate size chisel tip. DO NOT USE AN UNCONTROLLED TEMPERATURE IRON!
-2. Flux-core solder, ideally no-clean flux (Sn63Pb37 is easier, SAC305 is lead-free for safety)
+2. Flux-core solder, ideally no-clean flux (SAC305 ideally)
 3. No-clean rosin flux paste (not to be confused with solder paste)
 4. Tri-Wing screwdriver and small Phillips or ideally JIS driver set
 5. Sharp tweezers
@@ -325,6 +325,12 @@ They should be no taller than half the height of the screw heads for the stickbo
 If you don't do this, it makes the controller harder to reassemble and may break the solder joints.
 
 They do not need to be as flat on the C-stick.
+
+**Note: using leaded solder on the motherboard Hall effect sensors is a common cause of long-term failure for PhobGCC 1.2s.**
+Leaded solder is soft and deforms easily when pressed upon by the trigger guard.
+This commonly causes a short-circuit, which does no damage but makes the analog stick hold hard left or hard right.
+Using SAC305 solder, which is harder, seems to have fewer issues.
+And as mentioned before, make sure that the Hall sensor solder joints are as flat to the board as you can make them, to help mitigate this issue.
 
 ![motherboard hall legs trimmed](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_1.2.2/CVAC1095_b35fEvP-output.jpg?raw=true)
 
