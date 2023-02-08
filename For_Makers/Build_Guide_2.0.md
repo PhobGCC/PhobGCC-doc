@@ -447,6 +447,8 @@ Secure the wire in place, then solder the pins to the pads on the top of the mot
 
 PhobVision is a new feature exclusive to PhobGCC 2 where the controller can output composite video to a CRT and provide an actual user interface for the user to calibrate and configure the controller without having to blindly input memorized button combinations.
 
+[Here is a video demonstrating its basic functionality](https://youtu.be/8OOGupE3-ic).
+
 If you choose to install it, here's my suggested method.
 
 It's rather irritating to pack this in with an OEM rumble motor, so you may want to do it with no rumble installed or with a cell rumble motor.
