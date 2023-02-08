@@ -12,7 +12,7 @@ The following parts are unique to the PhobGCC and must be acquired per this guid
 * 6x Wires
 * Optional: 4x D-pad Buttons
 * Optional: 1-6x Mouse Buttons for ABXYLR
-* Optional for PhobVision:
+* Optional for [PhobVision](https://youtu.be/8OOGupE3-ic):
   * Panel-mount 3.5mm TRRS Jack
   * JST-PH 2.0 2-pin male connector & female pigtail
   * TRRS to RCA video adapter cable (doesn't go in the controller but required for use)
@@ -193,7 +193,7 @@ The remaining parts can be purchased from distributors as listed below.
   * [Teflon Tape For Support](https://www.mcmaster.com/76475A51/) This is necessary for mouseclick face buttons, but there are alternatives.
 * Optional Discrete Buttons for D-Pad:
   * [SMD Buttons](https://www.digikey.com/short/v93wrw12)
-* Optional for PhobVision: you need all of these if you choose to install PhobVision.
+* Optional for [PhobVision](https://youtu.be/8OOGupE3-ic): you need all of these if you choose to install PhobVision.
   * [TRRS Jack](https://www.digikey.com/en/products/detail/cui-devices/SJ5-43502PM/1956558)
   * [JST-PH 2.0 2-Pin Connector and Pigtail](https://www.amazon.com/dp/B01DUC1O68) or similar: size is critical; don't use a double pigtail.
   * [TRRS to RCA Video Cable](https://www.amazon.com/dp/B08V1SV8BL) or similar: **MUST BE TRRS = Audio Left, Video, Ground, Audio Right**
