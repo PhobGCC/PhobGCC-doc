@@ -111,6 +111,8 @@ This exposes clean, fresh plastic for gluing to.
 
 ![Scratch stickbox pegs](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/08_Phob2_Stickbox_Prep.jpg?raw=true)
 
+**Do not apply superglue to the pegs!**
+
 Press-fit the magnet holders over the pegs, making sure that the hole for the magnets is offset downward.
 
 ![Stickbox with magnet holders](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/09_Phob2_MagHolders.jpg?raw=true)
@@ -119,6 +121,8 @@ The ideal offset may vary with different magnets, and different magnet/offset co
 
 Coat the inside of the magnet hole, and the top of the peg, with superglue.
 I prefer thin superglue.
+
+**Be *very sparing* with superglue so you do not contaminate the stickbox!**
 
 ![Stickbox with magnet holders](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/10_Phob2_MagnetWell.jpg?raw=true)
 
@@ -443,6 +447,8 @@ Secure the wire in place, then solder the pins to the pads on the top of the mot
 
 PhobVision is a new feature exclusive to PhobGCC 2 where the controller can output composite video to a CRT and provide an actual user interface for the user to calibrate and configure the controller without having to blindly input memorized button combinations.
 
+[Here is a video demonstrating its basic functionality](https://youtu.be/8OOGupE3-ic).
+
 If you choose to install it, here's my suggested method.
 
 It's rather irritating to pack this in with an OEM rumble motor, so you may want to do it with no rumble installed or with a cell rumble motor.
@@ -507,6 +513,7 @@ Next, cut 1.25" (32mm) long wires, strip both ends, and apply flux.
 Shorter wires might not reach, and longer can interfere with closing the controller, so be precise with the length here.
 
 Take the JST-PH receptacle and install it on the pigtail for support, then tin the protruding leads and solder them to the 1.25" wires.
+You must leave the connector in the receptacle while soldering, or else the pins will lose alignment as the plastic around them softens.
 
 Make sure to match red with red and black with black; I used the scrap ends of the pigtail wires for this so the colors match nicely.
 
