@@ -2,6 +2,8 @@
 
 This is a document with illustrations that show you suggested fixes for some issues seen on PhobGCC Boards
 
+Please ask in the [PhobGCC Discord Server](https://discord.gg/yrpUu7mgzm) if you have any questions.  
+
 ## Full Duplex - PhobGCC v1.0/1.1
 
 Bridge the third and fourth pins on the top left of the Teensy 3.2 (as seen below) and flash the proper Diode_Short version of the firmware
@@ -34,7 +36,7 @@ Take out the two black screws holding it in place and remove the trigger guard. 
 As a result of the hall effect sensor placement, the analog stick is positioned upside down. This causes the notch in the skirt of the analog stick to not line up with the solder joint of the analog slider.
 There are 3 fixes that resolve the issue.
 
-During Assembly - Trim the pin flush with the hole and solder it so that the solder wets into the hole. This should result in a flat board on top where it does not interfere with the analog stick. \
+During Assembly - Trim the pin flush with the hole and solder it so that the solder wets into the hole. This should result in a flat board on top where it does not interfere with the analog stick.
 
 After Assembly - trim the pin flush and reflow the solder so that it wets into the hole.
 
@@ -52,16 +54,6 @@ Take out the two black screws holding it in place and remove it. This is tempora
 
 Filing - File down the trigger guard at the bottom of the left screw post so that it is flush with the hole as shown below. You only need to remove 0.25mm of material
 
-![INVENTOR EXAMPLE JST TG](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardFixPics/jst_tg.jpg?raw=true)
+![INVENTOR EXAMPLE JST TG](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardFixPics/jst_tg.png?raw=true)
 
 ![Trimmed TG JST](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardFixPics/jst_tg2.jpg?raw=true)
-
-
-
-
-
-
-
-
-
-Please ask in the [PhobGCC Discord Server](https://discord.gg/yrpUu7mgzm) if you have any questions.  
