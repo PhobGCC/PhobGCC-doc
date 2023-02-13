@@ -12,12 +12,14 @@ Bridge the third and fourth pins on the top left of the Teensy 3.2 (as seen belo
 
 ## L-stick Hall Sensor Joints - PhobGCC v1.X
 
-Due to the use of leaded solder in the construction of PhobGCC v1.Xs, the left trigger guard applies significant pressure to the hall effect sensor joints.
+Due to the reversed orientation of the left stickbox on PhobGCC v1.Xs, the left trigger guard applies significant pressure to the hall effect sensor joints.
+This can deform the solder joints if leaded solder, which is soft, was used.
+
 There are 3 fixes that resolve the issue.
 
 Temporarily - Simply remove the left trigger guards
 
-Take out the two black screws holding it in place and remove it. This is temporary-only because the trigger guard is important to trigger stability.
+Take out the two black screws holding it in place and remove it. This is temporary-only because the trigger guard is important to trigger stability and this can result in damage to the shell.
 
 
 Filing - File down the trigger guard at the circled points
@@ -27,7 +29,7 @@ Take out the two black screws holding it in place and remove the trigger guard. 
 ![Trimmed TG HES](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardFixPics/hes_tg.jpg?raw=true)
 
 
-3D Print - Either 3D print yourself or order the 3D printed bracket from a service such as JLC and swap it output
+3D Print - Either 3D print yourself or order the 3D printed bracket from a service such as JLC and swap it out.
 
 **[INSERT LINK TO FILE HERE]**
 
@@ -44,12 +46,12 @@ Cutting - Trim the skirt as the other side so that it does not interfere with th
 
 ## L-trigger JST Interference
 
-The placement of the L trigger holes is too high and interferes with the L trigger guard.
+The placement of the L trigger holes on PhobGCC 2.0.2 is too high and interferes with the L trigger guard.
 There are 3 fixes that resolve the issue
 
 Temporarily - Simply remove the left trigger guards
 
-Take out the two black screws holding it in place and remove it. This is temporary-only because the trigger guard is important to trigger stability.
+Take out the two black screws holding it in place and remove it. This is temporary-only because the trigger guard is important to trigger stability and this can result in damage to the shell.
 
 
 Filing - File down the trigger guard at the bottom of the left screw post so that it is flush with the hole as shown below. You only need to remove 0.25mm of material
