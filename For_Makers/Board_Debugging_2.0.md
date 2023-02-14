@@ -3,6 +3,8 @@
 If both sticks are nonfunctional and stuck in one corner, check for shorts between C-stick wires.
 Shorting these can prevent communication with both ADCs at the same time.
 
+If only the C-Stick is inoperable, it's likely a bad connection without a short.
+
 # Won't Connect to Console
 
 Check if the PhobVision voltage is nonzero.
