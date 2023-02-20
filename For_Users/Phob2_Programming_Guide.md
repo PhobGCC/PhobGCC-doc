@@ -34,5 +34,14 @@ Once this is complete, you can unplug your PhobGCC and reassemble the controller
 
 # Troubleshooting
 
+## Controller not accepting any commands
+
+Should the controller not be accepting any commands, there is a chance that the flash may have come with garbage data and it may be messing the controller up. Follow the steps below:
+
+1. Download [This file](https://drive.google.com/file/d/15iXiLqbS9To-jfmHwR3WShfgkgc5nex1/view?usp=sharing).
+2. Flash that file onto your PhobGCC v2, and **don't** disconnect the Micro-USB cable. After about 10 seconds, It'll reconnect as a mass storage device again.
+3. Flash the normal firmware and proceed with calibration.
+
+
 For all other issues, please refer to the PhobGCC Discord's tech support.
 [PhobGCC Discord](https://discord.gg/yrpUu7mgzm)
