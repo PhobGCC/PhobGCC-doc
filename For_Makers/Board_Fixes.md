@@ -44,7 +44,7 @@ After Assembly - trim the pin flush and reflow the solder so that it wets into t
 
 Cutting - Trim the skirt as the other side so that it does not interfere with the solder joint of the analog slider. You want to replicate the cut-out that is already on the analog stick.
 
-## L-trigger JST Interference
+## L-trigger JST Interference - PhobGCC v2.0.2
 
 The placement of the L trigger holes on PhobGCC 2.0.2 is too high and interferes with the L trigger guard.
 There are 3 fixes that resolve the issue
@@ -59,3 +59,7 @@ Filing - File down the trigger guard at the bottom of the left screw post so tha
 ![INVENTOR EXAMPLE JST TG](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardFixPics/jst_tg.png?raw=true)
 
 ![Trimmed TG JST](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardFixPics/jst_tg2.jpg?raw=true)
+
+3D Print - Either 3D print yourself or order the 3D printed bracket from a service such as JLC and swap it out.
+
+**[INSERT LINK TO FILE HERE]**
