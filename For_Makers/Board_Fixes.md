@@ -56,9 +56,9 @@ Take out the two black screws holding it in place and remove it. This is tempora
 
 Filing - File down the trigger guard at the bottom of the left screw post so that it is flush with the hole as shown below. You only need to remove 0.25mm of material
 
-![INVENTOR EXAMPLE JST TG](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardFixPics/jst_tg.png?raw=true)
-
 ![Trimmed TG JST](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardFixPics/jst_tg2.jpg?raw=true)
+
+![INVENTOR EXAMPLE JST TG](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardFixPics/jst_tg.png?raw=true)
 
 3D Print - Either 3D print yourself or order the 3D printed bracket from a service such as JLC and swap it out.
 
