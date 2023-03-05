@@ -23,7 +23,7 @@ Temporarily - unscrew the shell screws by 3/4s of a turn.
 
 Unscrew the following screws 3/4s of a turn so that it takes off the pressure on the hall sensor joints.
 
-![Shell Screws](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardFixPics/screws.jpg?raw=true)
+![Shell Screws](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardFixPics/screws_2.jpg?raw=true)
 
 Filing - File down the trigger guard at the circled points.
 
