@@ -21,7 +21,7 @@ There are 3 other fixes that resolve the issue.
 
 Temporarily - unscrew the stickbox screws by 3/4s of a turn.
 
-For the Left Analog stickbox screws, unscrew them 3/4s of a turn so that it takes off the pressure on the hall sensor joints. 
+For the Left Analog stickbox screws, unscrew them 3/4s of a turn so that it takes off the pressure on the hall sensor joints.
 
 Filing - File down the trigger guard at the circled points.
 
@@ -51,11 +51,6 @@ Cutting - Trim the skirt as the other side of the stick so that it does not inte
 
 The placement of the L trigger holes on PhobGCC 2.0.2 is too high and interferes with the L trigger guard when installing a JST header.
 There are 3 fixes that resolve the issue:
-
-Temporarily - Simply remove the left trigger guard.
-
-Take out the two black screws holding it in place and remove it. This is temporary only because the trigger guard is important to trigger stability and this can result in jamming.
-
 
 Filing - File down the trigger guard at the bottom of the left screw post so that it is flush with the hole as shown below. You only need to remove 0.25mm of material.
 
