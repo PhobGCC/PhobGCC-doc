@@ -19,7 +19,7 @@ There are 3 fixes that resolve the issue.
 
 Temporarily - Simply remove the left trigger guards
 
-Take out the two black screws holding it in place and remove it. This is temporary-only because the trigger guard is important to trigger stability and this can result in damage to the shell.
+Take out the two black screws holding it in place and remove it. This is temporary only because the trigger guard is important to trigger stability and this can result in jamming.
 
 
 Filing - File down the trigger guard at the circled points
@@ -31,27 +31,29 @@ Take out the two black screws holding it in place and remove the trigger guard. 
 
 3D Print - Either 3D print yourself or order the 3D printed bracket from a service such as JLC and swap it out.
 
-**[INSERT LINK TO FILE HERE]**
+![1.X Trigger Guard STL](https://drive.google.com/file/d/1QfcjQfTboTi3LeGjDCiVci9mYGINXsB6/view?usp=sharing)
 
 ## L-Stick Interference with L-slider - PhobGCC v1.X
 
 As a result of the hall effect sensor placement, the analog stick is positioned upside down. This causes the notch in the skirt of the analog stick to not line up with the solder joint of the analog slider.
 There are 3 fixes that resolve the issue.
 
+![Trigger Joint](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardFixPics/trigger_joint.jpg?raw=true)
+
 During Assembly - Trim the pin flush with the hole and solder it so that the solder wets into the hole. This should result in a flat board on top where it does not interfere with the analog stick.
 
 After Assembly - trim the pin flush and reflow the solder so that it wets into the hole.
 
-Cutting - Trim the skirt as the other side so that it does not interfere with the solder joint of the analog slider. You want to replicate the cut-out that is already on the analog stick.
+Cutting - Trim the skirt as the other side of the stick so that it does not interfere with the solder joint of the analog slider. You want to replicate the cut-out that is already on the other side of the analog stick.
 
 ## L-trigger JST Interference - PhobGCC v2.0.2
 
-The placement of the L trigger holes on PhobGCC 2.0.2 is too high and interferes with the L trigger guard.
+The placement of the L trigger holes on PhobGCC 2.0.2 is too high and interferes with the L trigger guard when installing a JST header.
 There are 3 fixes that resolve the issue
 
-Temporarily - Simply remove the left trigger guards
+Temporarily - Simply remove the left trigger guard.
 
-Take out the two black screws holding it in place and remove it. This is temporary-only because the trigger guard is important to trigger stability and this can result in damage to the shell.
+Take out the two black screws holding it in place and remove it. This is temporary only because the trigger guard is important to trigger stability and this can result in jamming.
 
 
 Filing - File down the trigger guard at the bottom of the left screw post so that it is flush with the hole as shown below. You only need to remove 0.25mm of material
@@ -62,4 +64,4 @@ Filing - File down the trigger guard at the bottom of the left screw post so tha
 
 3D Print - Either 3D print yourself or order the 3D printed bracket from a service such as JLC and swap it out.
 
-**[INSERT LINK TO FILE HERE]**
+![2.0.2 Trigger Guard STL](https://drive.google.com/file/d/1NZwtrHezeiQHAMoeLFhVF65OYEvfT3iO/view?usp=share_link)
