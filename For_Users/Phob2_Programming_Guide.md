@@ -16,7 +16,7 @@ Carefully lift the board out of the shell and place the front shell down.
 
 # Downloading and Flashing The PhobGCC v2.0 Firmware
 
-Go to the **[Releases]** section of the PhobGCC-SW Github and download the latest available firmware. For the PhobGCC v2.0 board, you will want to download the .uf2 file as shown below:
+Go to the [Releases](https://github.com/PhobGCC/PhobGCC-SW/releases) section of the PhobGCC-SW Github and download the latest available firmware. For the PhobGCC v2.0 board, you will want to download the .uf2 file as shown below:
 
 ![PHOB2_FILES](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide_Images/phob2_files.PNG?raw=true)
 
