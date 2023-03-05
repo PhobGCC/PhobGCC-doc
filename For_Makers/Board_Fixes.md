@@ -6,7 +6,7 @@ Please ask in the [PhobGCC Discord Server](https://discord.gg/yrpUu7mgzm) if you
 
 ## Full Duplex - PhobGCC v1.0/1.1
 
-Bridge the third and fourth pins on the top left of the Teensy 3.2/Teensy 4.0 (as seen below) and flash the proper Diode_Short version of the firmware
+Bridge the third and fourth pins on the top left of the Teensy 3.2/Teensy 4.0 (as seen below) and flash the proper Diode_Short version of the firmware.
 
 ![Full Duplex Picture](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardFixPics/full_duplex.jpg?raw=true)
 
@@ -17,12 +17,12 @@ This can deform the solder joints if leaded solder, which is soft, was used.
 
 There are 3 fixes that resolve the issue.
 
-Temporarily - Simply remove the left trigger guards
+Temporarily - Simply remove the left trigger guards.
 
 Take out the two black screws holding it in place and remove it. This is temporary only because the trigger guard is important to trigger stability and this can result in jamming.
 
 
-Filing - File down the trigger guard at the circled points
+Filing - File down the trigger guard at the circled points.
 
 Take out the two black screws holding it in place and remove the trigger guard. Proceed to file down the left trigger guard in the circled locations below to ensure that the joints are not being stressed.
 
@@ -40,7 +40,7 @@ There are 3 fixes that resolve the issue.
 
 ![Trigger Joint](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardFixPics/trigger_joint.jpg?raw=true)
 
-During Assembly - Trim the pin flush with the hole and solder it so that the solder wets into the hole. This should result in a flat board on top where it does not interfere with the analog stick.
+During Assembly - Trim the pin flush with the hole and only add a little solder so that the solder wets into the hole. This should result in a flat board on top where it does not interfere with the analog stick.
 
 After Assembly - trim the pin flush and reflow the solder so that it wets into the hole.
 
@@ -49,14 +49,14 @@ Cutting - Trim the skirt as the other side of the stick so that it does not inte
 ## L-trigger JST Interference - PhobGCC v2.0.2
 
 The placement of the L trigger holes on PhobGCC 2.0.2 is too high and interferes with the L trigger guard when installing a JST header.
-There are 3 fixes that resolve the issue
+There are 3 fixes that resolve the issue:
 
 Temporarily - Simply remove the left trigger guard.
 
 Take out the two black screws holding it in place and remove it. This is temporary only because the trigger guard is important to trigger stability and this can result in jamming.
 
 
-Filing - File down the trigger guard at the bottom of the left screw post so that it is flush with the hole as shown below. You only need to remove 0.25mm of material
+Filing - File down the trigger guard at the bottom of the left screw post so that it is flush with the hole as shown below. You only need to remove 0.25mm of material.
 
 ![Trimmed TG JST](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardFixPics/jst_tg2.jpg?raw=true)
 
