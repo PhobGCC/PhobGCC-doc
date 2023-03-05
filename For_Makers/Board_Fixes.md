@@ -21,7 +21,9 @@ There are 3 other fixes that resolve the issue.
 
 Temporarily - unscrew the shell screws by 3/4s of a turn.
 
-For the shell screws which are not in the handles,  unscrew them 3/4s of a turn so that it takes off the pressure on the hall sensor joints.
+Unscrew the following screws 3/4s of a turn so that it takes off the pressure on the hall sensor joints.
+
+![Shell Screws](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardFixPics/screws.jpg?raw=true)
 
 Filing - File down the trigger guard at the circled points.
 
