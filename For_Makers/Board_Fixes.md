@@ -19,10 +19,9 @@ The way to do them right is to cut the pins flush and reflow them per [the build
 
 There are 3 other fixes that resolve the issue.
 
-Temporarily - Simply remove the left trigger guards.
+Temporarily - unscrew the stickbox screws by 3/4s of a turn.
 
-Take out the two black screws holding it in place and remove it. This is temporary only because the trigger guard is important to trigger stability and this can result in jamming.
-
+For the Left Analog stickbox screws, unscrew them 3/4s of a turn so that it takes off the pressure on the hall sensor joints. 
 
 Filing - File down the trigger guard at the circled points.
 
