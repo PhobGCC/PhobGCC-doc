@@ -6,7 +6,7 @@ Please ask in the [PhobGCC Discord Server](https://discord.gg/yrpUu7mgzm) if you
 
 ## Full Duplex - PhobGCC v1.0/1.1
 
-Bridge the third and fourth pins on the top left of the Teensy 3.2 (as seen below) and flash the proper Diode_Short version of the firmware
+Bridge the third and fourth pins on the top left of the Teensy 3.2/Teensy 4.0 (as seen below) and flash the proper Diode_Short version of the firmware
 
 ![Full Duplex Picture](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardFixPics/full_duplex.jpg?raw=true)
 
