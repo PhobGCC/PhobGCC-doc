@@ -31,7 +31,7 @@ Take out the two black screws holding it in place and remove the trigger guard. 
 
 3D Print - Either 3D print yourself or order the 3D printed bracket from a service such as JLC and swap it out.
 
-![1.X Trigger Guard STL](https://drive.google.com/file/d/1QfcjQfTboTi3LeGjDCiVci9mYGINXsB6/view?usp=sharing)
+[1.X Trigger Guard STL](https://drive.google.com/file/d/1QfcjQfTboTi3LeGjDCiVci9mYGINXsB6/view?usp=sharing)
 
 ## L-Stick Interference with L-slider - PhobGCC v1.X
 
@@ -64,4 +64,4 @@ Filing - File down the trigger guard at the bottom of the left screw post so tha
 
 3D Print - Either 3D print yourself or order the 3D printed bracket from a service such as JLC and swap it out.
 
-![2.0.2 Trigger Guard STL](https://drive.google.com/file/d/1NZwtrHezeiQHAMoeLFhVF65OYEvfT3iO/view?usp=share_link)
+[2.0.2 Trigger Guard STL](https://drive.google.com/file/d/1NZwtrHezeiQHAMoeLFhVF65OYEvfT3iO/view?usp=share_link)
