@@ -228,3 +228,7 @@ The GCC-specific Parts have a few different methods of acquisition
 * Optional Rumble Motor
   * Any GCC
   * [Cellphone Rumble](https://www.amazon.com/10-Pieces-Vibration-Motor-Vibrating/dp/B00N9J3BTG)
+
+# Assembly
+
+Once you have all the parts you need, follow the [build guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Build_Guide_2.0.md) to assemble your PhobGCC.
