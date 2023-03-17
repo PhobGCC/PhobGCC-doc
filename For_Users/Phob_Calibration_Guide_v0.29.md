@@ -101,6 +101,18 @@ If the controller is functioning normally, this has already been performed and y
   * 0 turns off rumble entirely.
 * Press **AB+Start** to show the current rumble setting on the C-Stick.
 
+# Tournament Toggle Configuration - Z + Start
+
+* Tournament toggle is for removing the chance of miss-inputting either start or D-pad Up (taunt) during gameplay.
+* Press **Z** + **Start** to change modes.
+* There are 6 different modes from 0-5.
+  * Mode 0:  Default, no changes.
+  * Mode 1:  D-pad up requires 1.5s hold to activate.
+  * Mode 2:  D-pad up is disabled entirely.
+  * Mode 3:  Start requires 1.5s hold to activate.
+  * Mode 4:  D-pad up and start both require 1.5s hold to activate.
+  * Mode 5:  D-pad Up disabled entirely and start requires 1.5s to activate. 
+
 # Analog Stick Calibration - AXY+L
 
 [Basic PhobGCC Analog Stick Calibration - YouTube](https://www.youtube.com/watch?v=rkgtqwIE8Iw)
