@@ -6,7 +6,7 @@ For later development versions of the software that have not yet been released, 
 
 **NOTE 2: The controller starts in safe mode! To make any changes you must disable it first!**
 
-I strongly recommend using Smashscope (either on a Wii or Dolphin) for all of this.
+I strongly recommend using Smashscope (either on a Wii or vanilla Dolphin) for all of this. Slippi will not run Smashscope.
 When using Smashscope in Dolphin, make sure to **set all Wiimotes to "None" in the Controllers menu** or else the sticks will not display any movement.
 
 An alternative is Uncle Punch Training Mode 3.0. In the Training Lab menu, under General enable “Input Display”, and under Info Display enable “System LStick”, “System CStick”, and “System Trigger” as the first three rows.
