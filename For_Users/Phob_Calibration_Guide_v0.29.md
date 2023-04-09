@@ -111,7 +111,7 @@ If the controller is functioning normally, this has already been performed and y
   * Mode 2:  D-pad up is disabled entirely.
   * Mode 3:  Start requires 1.5s hold to activate.
   * Mode 4:  D-pad up and start both require 1.5s hold to activate.
-  * Mode 5:  D-pad Up disabled entirely and start requires 1.5s to activate. 
+  * Mode 5:  D-pad Up disabled entirely and start requires 1.5s to activate.
 
 # Analog Stick Calibration - AXY+L
 

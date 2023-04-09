@@ -1,3 +1,5 @@
+**THIS IS LEGACY FIRMWARE! PLEASE UPDATE TO THE [LATEST!](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.28.md)**
+
 **NOTE: This is for firmware version 0.23.**
 
 For Version 0.22, use [this document](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.22.md).
