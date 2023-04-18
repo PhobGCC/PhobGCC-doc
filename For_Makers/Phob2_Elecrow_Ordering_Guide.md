@@ -16,19 +16,21 @@ Here is where you'll want to set your board quantity, PCB color, and text color.
 
 You can then draft an email to the Elecrow PCB Assembly Service requesting a quote on how much it would cost to manufacture your boards. You can expect Elecrow to be 50% more expensive than JLCPCB. You can use the template as follows:
 
-> Hello!
->
->          I was told to contact you about your PCB Manufacturing and Assembly services. I am inquiring about a quotation of how much it would cost to produce the following project. Attached are all files as requested by your website.
->
->Testing Plan: Plug Micro-USB To Computer and It should be recognized as a mass storage device (such as USB Drive).
+```
+Hello!
 
->Note: Please Ensure the proper polarity of the Diodes (D1-D5) and the Polarized Capacitor (C1). I have labeled in red the correct polarity for the diodes and the ground side for the capacitor in the parts mapping tab.
+          I was told to contact you about your PCB Manufacturing and Assembly services. I am inquiring about a quotation of how much it would cost to produce the following project. Attached are all files as requested by your website.
 
->Shipping Method: DHL
+Testing Plan: Plug Micro-USB To Computer and It should be recognized as a mass storage device (such as USB Drive).
 
->Shipping Address:
+Note: Please Ensure the proper polarity of the Diodes (D1-D5) and the Polarized Capacitor (C1). I have labeled in red the correct polarity for the diodes and the ground side for the capacitor in the parts mapping tab.
 
->[INSERT YOUR ADDRESS HERE]
+Shipping Method: DHL
 
->-Thank you for your time
->-[INSERT YOUR NAME HERE]
+Shipping Address:
+
+[INSERT YOUR ADDRESS HERE]
+
+-Thank you for your time
+--[INSERT YOUR NAME HERE]
+```
