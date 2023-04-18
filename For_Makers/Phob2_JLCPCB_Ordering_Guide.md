@@ -27,7 +27,7 @@ The following parts usually have low stock and pre-ordering them is advised:
 * [1x NOR Flash Chip](https://jlcpcb.com/partdetail/WinbondElec-W25Q128JVSIQ/C97521)
 * [4x DRV5055 SMD Hall Sensor](https://jlcpcb.com/partdetail/TexasInstruments-DRV5055A3QDBZR/C266128)
 * [2x MCP3202 ADC](https://jlcpcb.com/partdetail/MicrochipTech-MCP3202_CISN/C56997)
-* [1x Crystal Oscillator](https://jlcpcb.com/partdetail/390662-TAXM12M4RKDCDT2T/C403945)
+* [1x Crystal Oscillator](https://jlcpcb.com/partdetail/390662-TAXM12M4RKDCDT2T/C403945) Note: you need 1 more per order you plan to place regardless of how many boards are in the order..
 
 Once you've clicked on each link and added the quantities you need into your cart, click the cart icon in the top right, go to the "Parts Manager Tab", to the "Order Parts" subtab, to the "Cart" subtab as follows:
 
