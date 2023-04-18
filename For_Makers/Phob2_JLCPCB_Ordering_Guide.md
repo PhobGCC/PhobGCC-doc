@@ -1,4 +1,4 @@
-# PhobGCC Version 2.0.X JLCPCB Ordering Guide
+# PhobGCC Version 2.0.5 JLCPCB Ordering Guide
 
 This is an illustrated guide to ordering PhobGCC PCBs via the JLCPCB Board House.
 
