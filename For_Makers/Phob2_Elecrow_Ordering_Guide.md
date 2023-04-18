@@ -2,6 +2,14 @@
 
 This is an illustrated guide to ordering PhobGCC PCBs via the Elecrow Board House. Elecrow's boards are significantly higher quality, have less manufacturing issues, and are tested before arrival, so you won't receive non-functional boards. As such, they are the recommended option when it comes to ordering PhobGCC boards.
 
+# Elecrow Ordering Process Overview
+
+1. Download the files.
+2. Edit the specification spreadsheet to list your quantity, board color, and text color.
+3. Email files to Elecrow PCB Assembly service.
+4. Upon quote arrival, you pay for your boards and reply with the order number.
+5. Once the boards are assembled, you will receive photos for inspection. Reply that they're fine and they will ship.
+
 ## Purchasing the PhobGCC v2.0.5 board from Elecrow
 
 Download the files available in the [PhobGCCv2-HW Github](https://github.com/PhobGCC/PhobGCCv2-HW/releases/tag/v2.0.2) in the releases section as shown below:
@@ -56,4 +64,4 @@ I have placed the order, my order number is ######.
 
 ```
 
-And you are done! In 3-4 weeks you will receive an email with photos of the finished boards. You can view them to see if everything came out cleanly, then reply saying that they are fine and to ship out your order. In 24-48 hours, you will receive another email containing shipping information, including tracking. 
+And you are done! In 3-4 weeks you will receive an email with photos of the finished boards. You can view them to see if everything came out cleanly, then reply saying that they are fine and to ship out your order. In 24-48 hours, you will receive another email containing shipping information, including tracking.
