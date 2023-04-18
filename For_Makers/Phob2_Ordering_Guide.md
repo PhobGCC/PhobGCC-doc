@@ -1,12 +1,12 @@
-# PhobGCC Version 2.0.2 Ordering Guide
+# PhobGCC Version 2.0.5 Ordering Guide
 
-This is an illustrated guide to acquiring all the parts you need to assemble a PhobGCC v2.0.2.
+This is an illustrated guide to acquiring all the parts you need to assemble a PhobGCC v2.0.5.
 
 # Required Parts
 
 The following parts are unique to the PhobGCC and must be acquired per this guide, with no non-identical substitutions.
 
-* 1x PhobGCC v2.0.2 Board
+* 1x PhobGCC v2.0.5 Board
 * 4x Magnets
 * 4x Underslung Magnet Mounts
 * 6x Wires
@@ -27,15 +27,15 @@ The following parts are standard to a GCC and can be acquired via a number of di
 * 1x Z-button Switch
 * Optional: 1x Rumble Motor
 
-There are two main ways to acquire a PhobGCC v2.0.2 Board.
+There are two main ways to acquire a PhobGCC v2.0.5 Board.
 The first way is if you intend to only build a single controller, you can contact a local modder in your region using [this map](https://www.nojonsmods.com/moddermap) to see if they have spare for sale.
 Alternatively, you can also check [Etsy](https://www.etsy.com/) or [eBay](https://www.ebay.com/) as some often appear for sale.
 If you cannot find a single board for sale or you intend to build more than one PhobGCC, you can order the boards directly from a board house.
-These instructions will be for [JLCPCB](https://jlcpcb.com/).
+These instructions will be for [JLCPCB](https://jlcpcb.com/) and [Elecrow](https://www.elecrow.com/).
 
 ## Parts You Don't Need
 
-Don't acquire these, because they're not necessary or won't work with PhobGCC 2.0.2 at all:
+Don't acquire these, because they're not necessary or won't work with PhobGCC 2.0.5 at all:
 
 * Snapback capacitors, snapback modules: snapback is corrected in software.
 * Heartbeat modules or equivalent shunt resistors: we have no stick potentiometers so these are unnecessary.

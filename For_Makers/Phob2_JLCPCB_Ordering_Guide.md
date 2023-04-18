@@ -16,11 +16,11 @@ This is very important, or else you will get nonfunctional boards.
 
 ## Pre-ordering SMD components
 
-Since the 2.0.2 board is fully integrated, all of the non-GCC components are soldered onto the board at the board house. Some of these may be out of stock, and as such need to be pre-ordered before you place a board order. Pre-ordered components take on average 2 weeks to arrive at the JLCPCB warehouse after you pay for them. If a component takes longer, you can contact JLCPCB support for a more accurate timeframe of arrival.
+Since the 2.0.5 board is fully integrated, all of the non-GCC components are soldered onto the board at the board house. Some of these may be out of stock, and as such need to be pre-ordered before you place a board order. Pre-ordered components take on average 2 weeks to arrive at the JLCPCB warehouse after you pay for them. If a component takes longer, you can contact JLCPCB support for a more accurate timeframe of arrival.
 
 The following parts usually have low stock and pre-ordering them is advised:
 
-**NOTE: These part quantities are for a single 2.0.2 board. You need to multiply them by the number of boards you plan to order.**
+**NOTE: These part quantities are for a single 2.0.5 board. You need to multiply them by the number of boards you plan to order.**
 **NOTE 2: You can only order PCBs in quantities of 5, 10, 15, 20, 25, 30, 50, or more. Do not order SMD components for amounts other than these or you will either have unused extra parts or unpopulated PCBs later.**
 
 * [1x RP2040](https://jlcpcb.com/partdetail/RaspberryPi-RP2040/C2040)
