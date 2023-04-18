@@ -29,9 +29,9 @@ Hello!
 
           I was told to contact you about your PCB Manufacturing and Assembly services. I am inquiring about a quotation of how much it would cost to produce the following project. Attached are all files as requested by your website.
 
-Testing Plan: Plug Micro-USB To Computer and It should be recognized as a mass storage device (such as USB Drive).
+Testing Plan: Plug Micro-USB into computer and it should be recognized as a mass storage device (such as USB Drive).
 
-Note: Please Ensure the proper polarity of the Diodes (D1, D2, D5) and the Polarized Capacitor (C1). I have labeled in red the correct polarity for the diodes and the ground side for the capacitor in the parts mapping tab.
+Note: Please ensure the proper polarity of the Diodes (D1, D2, D5) and the Polarized Capacitor (C1). I have labeled in red the correct polarity for the diodes and the ground side for the capacitor in the parts mapping tab.
 
 Shipping Method: DHL
 
