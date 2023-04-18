@@ -46,7 +46,7 @@ This may take one or two weeks.
 
 **NOTE: Once your pre-ordered SMD Components have come in (report as "Complete" in the parts order history), you may proceed to ordering boards. If they are not in, the parts will not be present on your board**
 
-Download the files available in the [PhobGCCv2-HW Github](https://github.com/PhobGCC/PhobGCCv2-HW/releases/tag/v2.0.2) in the releases section as shown below:
+Download the files available in the [PhobGCCv2-HW Github](https://github.com/PhobGCC/PhobGCCv2-HW/releases/tag/v2.0.5) in the releases section as shown below:
 
 ![PHOB2_BOARD_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_board_release.png?raw=true)
 

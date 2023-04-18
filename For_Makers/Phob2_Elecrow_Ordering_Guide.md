@@ -12,7 +12,7 @@ This is an illustrated guide to ordering PhobGCC PCBs via the Elecrow Board Hous
 
 ## Purchasing the PhobGCC v2.0.5 board from Elecrow
 
-Download the files available in the [PhobGCCv2-HW Github](https://github.com/PhobGCC/PhobGCCv2-HW/releases/tag/v2.0.2) in the releases section as shown below:
+Download the files available in the [PhobGCCv2-HW Github](https://github.com/PhobGCC/PhobGCCv2-HW/releases/tag/v2.0.5) in the releases section as shown below:
 
 ![PHOB2_ELECROW_BOARD_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_elecrow_release.PNG?raw=true)
 

@@ -58,7 +58,7 @@ JLCPCB is the secondary board house, as they lack significant quality control to
 
 If you don't or can't use OEM GCC Trigger paddles, you can order trigger paddles separately.
 
-First, you can download the files available in the [PhobGCCv2-HW Github](https://github.com/PhobGCC/PhobGCCv2-HW/releases/tag/v2.0.2) in the releases section as shown below:
+First, you can download the files available in the [PhobGCCv2-HW Github](https://github.com/PhobGCC/PhobGCCv2-HW/releases/tag/v2.0.5) in the releases section as shown below:
 
 ![PHOB2_PADDLE_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_paddle_release.png?raw=true)
 
@@ -83,7 +83,7 @@ If you can't source magnet mounts locally or via [Etsy](https://www.etsy.com/), 
 
 **DO NOT USE THESE WITH MAGNETS OTHER THAN DH1H1.**
 
-First, you can download the files available in the [PhobGCCv2-HW Github](https://github.com/PhobGCC/PhobGCCv2-HW/releases/tag/v2.0.2) in the releases section as shown below:
+First, you can download the files available in the [PhobGCCv2-HW Github](https://github.com/PhobGCC/PhobGCCv2-HW/releases/tag/v2.0.5) in the releases section as shown below:
 
 ![PHOB2_MAGNET_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_magnet_release.png?raw=true)
 
