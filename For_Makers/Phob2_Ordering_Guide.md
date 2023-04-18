@@ -50,7 +50,7 @@ Elecrow is the preferred board house, as they have proper quality control and va
 
 [Elecrow Ordering Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob2_Elecrow_Ordering_Guide.md)
 
-JLCPCB is the secondary board house, as they lack significant quality control to ensure the board is assembled properly. JLC Economic assembly **should not** be used as the quality of the boards will be terrible and you risk dead-on-arrival boards. JLC Standard Assembly is better, but you risk poor plating and solder mask issues. The advantages to JLC is that they ship much faster than Elecrow (2 weeks) and are 50% less expensive.
+JLCPCB is the secondary board house, as they lack significant quality control to ensure the board is assembled properly. JLC Economic assembly **should not** be used as the quality of the boards will be terrible and you risk dead-on-arrival boards. JLC Standard Assembly is better, but you risk poor plating and solder mask issues. The advantages to JLC is that they ship much faster than Elecrow (2 weeks) and are 30% less expensive.
 
 [JLCPCB Ordering Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob2_JLCPCB_Ordering_Guide.md)
 
