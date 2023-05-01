@@ -105,13 +105,13 @@ If the controller is functioning normally, this has already been performed and y
 
 * Tournament Toggle reduces the chance of misinputs of either Start or D-Pad Up (taunt) during gameplay.
 * Press **Z** + **Start** to switch to the next mode. The mode will be shown on the C-Stick.
-* There are 6 different modes, ranging from 0 to 5.
-  * Mode 0: Default behavior: both buttons respond immediately.
-  * Mode 1: D-Pad Up must be held for 1.5 seconds to activate.
-  * Mode 2: D-Pad Up is disabled entirely.
-  * Mode 3: Start must be held for 1.5 seconds to activate.
-  * Mode 4: Start and D-Pad Up both must be held for 1.5 seconds to activate.
-  * Mode 5: D-Pad Up is disabled entirely and Start must be held for 1.5 seconds to activate.
+* There are 6 different modes, ranging from 1 to 6.
+  * Mode 1: Default behavior: both buttons respond immediately.
+  * Mode 2: D-Pad Up must be held for 1.5 seconds to activate.
+  * Mode 3: D-Pad Up is disabled entirely.
+  * Mode 4: Start must be held for 1.5 seconds to activate.
+  * Mode 5: Start and D-Pad Up both must be held for 1.5 seconds to activate.
+  * Mode 6: D-Pad Up is disabled entirely and Start must be held for 1.5 seconds to activate.
 
 # Analog Stick Calibration - AXY+L
 
