@@ -1,12 +1,12 @@
 **NOTE: This is for firmware version 0.29.**
 
-For Version 0.28, use [this document](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.28.md).
+For older versions, use the appropriate calibration document [from here](https://github.com/PhobGCC/PhobGCC-doc/blob/main/LEGACY.md).
 
 For later development versions of the software that have not yet been released, search for “Current Commands List” in the `common/phobGCC.h` file to see the commands for that version as they may have changed.
 
 **NOTE 2: The controller starts in safe mode! To make any changes you must disable it first!**
 
-I strongly recommend using Smashscope (either on a Wii or Dolphin) for all of this.
+I strongly recommend using Smashscope (either on a Wii or vanilla Dolphin) for all of this. Slippi will not run Smashscope.
 When using Smashscope in Dolphin, make sure to **set all Wiimotes to "None" in the Controllers menu** or else the sticks will not display any movement.
 
 An alternative is Uncle Punch Training Mode 3.0. In the Training Lab menu, under General enable “Input Display”, and under Info Display enable “System LStick”, “System CStick”, and “System Trigger” as the first three rows.
@@ -18,7 +18,7 @@ If you have a PhobGCC 2 with PhobVision installed and a CRT available, it's high
 PhobVision has menu options for all of these settings, and it walks you through the stick calibration process to minimize the chance of user error.
 
 To use PhobVision, plug a 3.5mm TRRS to RCA cable compatible with Sony camcorders into the jack on the controller and the composite video input on a CRT television, hold Z on the controller, and plug the controller's GCC cable into a powered-on console or adapter.
-Navigate with the D-pad, select an item by pressing A, and back out by holding B.
+Navigate with the D-pad, select an item by pressing A, and back out by holding B. 
 Note: you cannot back out while you're in the middle of stick calibration, but it's fine to unplug the controller before finishing to cancel if you wish.
 
 Some menu pages are not complete yet, and on these you will be greeted by an "Under Construction" sign.
@@ -69,10 +69,10 @@ If the controller is functioning normally, this has already been performed and y
 # Display Software Version - AZ + Du
 
 * The C-Stick will display the software version in Melee units as if it were not preceded by the "0."
-  * The Y-axis will show the tens and ones digits. In this case, it would be 28.
+  * The Y-axis will show the tens and ones digits. In this case, it would be 29.
   * The X-axis will show the thousands and hundreds digits. In this case, it would be 0.
 * You must use Smashscope to see this numerically.
-* If the controller doesn't show 28, then you need to reference an older configuration document [here](https://github.com/PhobGCC/PhobGCC-doc/blob/main/LEGACY.md).
+* If the controller doesn't show 29, then you need to reference an older configuration document [here](https://github.com/PhobGCC/PhobGCC-doc/blob/main/LEGACY.md).
   * If it doesn't respond to this command at all, then it's likely the version is 0.23 or lower and you should [upgrade the controller firmware](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide.md).
 
 # Controller Reset - Hold ABZ then press Start
@@ -103,15 +103,15 @@ If the controller is functioning normally, this has already been performed and y
 
 # Tournament Toggle Configuration - Z + Start
 
-* Tournament toggle is for removing the chance of miss-inputting either start or D-pad Up (taunt) during gameplay.
-* Press **Z** + **Start** to change modes.
-* There are 6 different modes from 0-5.
-  * Mode 0:  Default, no changes.
-  * Mode 1:  D-pad up requires 1.5s hold to activate.
-  * Mode 2:  D-pad up is disabled entirely.
-  * Mode 3:  Start requires 1.5s hold to activate.
-  * Mode 4:  D-pad up and start both require 1.5s hold to activate.
-  * Mode 5:  D-pad Up disabled entirely and start requires 1.5s to activate.
+* Tournament Toggle reduces the chance of misinputs of either Start or D-Pad Up (taunt) during gameplay.
+* Press **Z** + **Start** to switch to the next mode. The mode will be shown on the C-Stick.
+* There are 6 different modes, ranging from 0 to 5.
+  * Mode 0: Default behavior: both buttons respond immediately.
+  * Mode 1: D-Pad Up must be held for 1.5 seconds to activate.
+  * Mode 2: D-Pad Up is disabled entirely.
+  * Mode 3: Start must be held for 1.5 seconds to activate.
+  * Mode 4: Start and D-Pad Up both must be held for 1.5 seconds to activate.
+  * Mode 5: D-Pad Up is disabled entirely and Start must be held for 1.5 seconds to activate.
 
 # Analog Stick Calibration - AXY+L
 
@@ -127,12 +127,14 @@ If the controller is functioning normally, this has already been performed and y
 
 * Stick calibration has two phases: measurement and notch adjustment.
   * You **must** complete both measurement and notch adjustment for the setting to be saved.
-* If you’ve already calibrated the stick and just want to adjust notches, you can skip the measurement phase and immediately begin notch adjustment by pressing Start at any time during the measurement phase.
+* If you’ve already calibrated the stick and just want to adjust notches you have already measured, you can skip the measurement phase and immediately begin notch adjustment by pressing Start at any time during the measurement phase.
 * Calibrating either stick turns off Auto-Initialize.
 
 ## Measurement Phase
 
-When in the measurement phase of calibrating the analog stick, the C-Stick will alternate between the center and a position along the rim, starting with the cardinal directions.
+When in the measurement phase of calibrating the analog stick, the C-Stick will alternate between the center and a position along the rim, starting with the cardinal directions. 
+
+The control stick will show the output of the previous calibration. Depending on the previous calibration, this may be accurate, inaccurate, freak out randomly, or in the case of an uncalibrated PhobGCC 2.0, it will be mostly pegged to (125,125). The output you see here has no bearing on the results.
 
 * If the C-Stick is centered, let go of the control stick and press either **L**, **R**, or **A** to measure that position.
 * If the C-Stick is not centered, **hold the physical analog stick into the notch indicated by the C-Stick's output** and press **L**, **R**, or **A** to measure that position.
@@ -185,9 +187,13 @@ Increasing the Analog Stick Smart Snapback Filter adjustment doesn’t hurt resp
 * Press **A** + **X/Y** for your axis + **D-pad Up/Down** to increase/decrease.
   * Example: **AX+Du** suppresses X-axis snapback more, **AY+Dd** suppresses Y-axis snapback less.
   * When you change this setting, the current snapback filter settings are shown as the numerical coordinates of the C-Stick.
-* The scale goes from 0-10, and defaults to 4.
+* The scale goes from -10 to +10, and defaults to 4.
   * 0 completely disables the Smart Snapback Filter. This removes the rise time improvements, hurting dashdancing on the X axis, and you will have snapback.
-  * 4-10 is equivalent to 1-7 on 0.22-0.23 and 0-6 on v0.21.
+  * Positive values have strong rise time reduction that promotes fast tilt inputs into smash inputs.
+    * Higher values have stronger snapback suppression.
+    * 4-10 is equivalent to 1-7 on v0.22-0.23 and 0-6 on v0.21.
+  * Negative values are a new filter that minimizes rise time reduction and makes the stick behave more like an OEM controller.
+    * More negative values have stronger snapback suppression.
   * Sticks usually need a setting of 4-7. 9+ is for special situations such as metal stick caps or lighter spring weights.
   * If you have an OEM stick cap and snapback is still a problem, try setting the snapback filter to 0 and check how far the snapback goes. If it goes past 70, you may have to tame snapback by adding a bit of grease to the stickbox.
 * Press **L+Start** to see the current Smart Snapback filter values on each axis of the Analog Stick.
@@ -213,7 +219,9 @@ This enhancement to pivots and flicks works best with an OEM spring or a Smalley
 
 # Analog Stick Axis Smoothing Adjustment - R + X/Y + Du/Dd
 
-The Analog Stick Axis Smoothing is just a simple low-pass filter similar to a capacitor on a vanilla Gamecube controller. Increasing this setting slightly reduces responsiveness. If you have the Smart Snapback Filter disabled, you can use this to suppress snapback.
+The Analog Stick Axis Smoothing is just a simple low-pass filter similar to a capacitor on a vanilla Gamecube controller.
+Increasing this setting slightly reduces responsiveness.
+If you have the Smart Snapback Filter disabled, you can use this to suppress snapback.
 
 * Press **R** + **X/Y** for your axis + **D-pad Up/Down** to increase/decrease.
   * Example: **RX+Du** increases the X-axis Delay, **RY+Dd** decreases the Y-axis delay.
@@ -224,28 +232,32 @@ The Analog Stick Axis Smoothing is just a simple low-pass filter similar to a ca
 * Press **L+Start** to see the current axis smoothing values on each axis of the C-Stick.
   * At the same time, you can see the current Smart Snapback filter values on the Analog Stick and Waveshaping values on the triggers.
 
+# Analog Stick Scaling Adjustment - L + A + Du/Dd
+
+The Analog Stick Scaling setting allows the user to adjust what value the stick can reach at the edge of the gate.
+Super Smash Bros. Melee has a unit circle that ranges from -80 to +80, OEM Gamecube controllers range from roughly -100 to +100, and the GCC protocol allows for -128 to +127.
+The PhobGCC hard limits its own stick outputs to a range from -125 to +125, but this setting corresponds to what you get immediately after calibration.
+
+* Press **L** + **A** + **D-pad Up/Down** to increase/decrease.
+  * Example: **LA+Du** increases the value at the rim of the analog stick.
+  * When you change this setting, the current analog stick scaling setting is shown as the numerical coordinates of the analog stick.
+* The scale goes from 82-125, and defaults to 100.
+  * This changes the physical distance to the rim of the Melee unit circle.
+  * At 82, the rim of the Melee unit circle is basically at the rim of the controller, requiring larger motions for things like smash attacks.
+  * At 125, the rim of the Melee unit circle is much farther in, requiring smaller motions for things like smash attacks.
+
 # Analog Stick Cardinal Snapping Adjustment - R + A + Du/Dd
 
-The Analog Stick Cardinal Snapping Adjustment allows the user to adjust the size of the window that is used for when the analog stick snaps to 1.0 cardinals. This is mainly for Vanilla/UCFv0.80 use, as all positive values will be overwritten by UCFv0.84's own snapping algorithm.
+The Analog Stick Cardinal Snapping setting allows the user to adjust the width of the window around the cardinals around which the stick will snap to perfect 1.0.
+This is mainly for use on vanilla Melee or versions of UCF v0.80 and prior, as all nonnegative values will be overwritten by UCF v0.84's own snapping algorithm (which corresponds to a setting of 6 here).
 
 * Press **R** + **A** + **D-pad Up/Down** to increase/decrease.
   * Example: **RA+Du** increases the snapping range of the analog stick.
-  * When you change this setting, the current analog stick cardinal snapping settings are shown as the numerical coordinates of the analog stick.
-* The scale goes from -1 to 6, and defaults to 6
-  * At -1, the stick will automatically snap to 0.9875, disabling 1.0 cardinals entirely on Vanilla and all versions of UCF.
-  * At 0, the stick will not snap.
-  * At 1-6, the stick will snap that many values both in the positive and negative directions.
-
-# Analog Stick Scaling Adjustment - L + A + Du/Dd
-
-The Analog Stick Scaling adjustment allows the user to adjust what value is on the rim of the gate. Super Smash Bros. Melee has a unit circle ranging from -80 to 80, but the GCC Protocol allows for -128 to 127.
-
-* Press **L** + **A** + **D-pad Up/Down** to increase/decrease.
-  * Example: **LA+Du** increases the value at the rim.
-* The scale goes from 82-125, and defaults to 100.
-  * This changes the physical distance to the rim of the melee unit circle.
-  * At 82, the rim of the melee unit circle is at the physical rim of the controller, requiring larger motions for things like smash attacks.
-  * At 125, the rim of the melee unit circle is moved as physically inwards as the controller will allow, requiring much smaller motions for things like smash attacks.
+  * When you change this setting, the current analog stick cardinal snapping setting is shown as the numerical coordinates of the analog stick.
+* The scale goes from -1 to 6, and defaults to 6.
+  * At -1, the stick will snap *away* from the cardinal so that the stick cannot output 1.0 cardinals at all, including on UCF v0.84.
+  * At 0, the stick will not snap to cardinals at all. This is equivalent to OEM cardinal behavior.
+  * Between 1-6, the stick will snap to the cardinal from that far away in both positive and negative directions.
 
 # C-Stick Snapback Adjustment - AZ + X/Y + Du/Dd
 
@@ -273,38 +285,36 @@ This setting controls the threshold where that transition occurs.
 * Press **R+Start** to see the current Waveshaping filter values on the L and R trigger analog values.
   * At the same time, you can see the current snapback filter values on the Analog Stick and the current offset values on the C-Stick.
 
-# C-Stick Offset - RZ + X/Y + Du/Dd
+# C-Stick Offset
 
-* Press **RZ** + **X/Y** for your axis + **D-pad Up/Down** to increase/decrease.
-  * Example: **RZX+Du** increases the C-Stick X Offset, **RZY+Dd** decreases the C-Stick Y Offset.
-  * When you change this setting, the current offset settings are shown as the numerical coordinates of the C-Stick.
-* This shifts the global coordinate C-Stick coordinate. This helps with hitting downward angled forward smashes, for example.
-* If you have this on, do not enable autoinitialization or else it'll cancel out this setting when used on a USB GCC adapter (whether on Smash Ultimate or in Dolphin).
-* Press **R+Start** to see the current offset values on each axis of the C-Stick.
-  * At the same time, you can see the current snapback filter values on the Analog Stick and Waveshaping values on the triggers.
-
-# C-Stick Cardinal Snapping Adjustment - R + A + Z + Du/Dd
-
-The C-Stick Cardinal Snapping Adjustment allows the user to adjust the size of the window that is used for when the c-stick snaps to 1.0 cardinals. This is mainly for Vanilla/UCFv0.80 use, as all positive values will be overwritten by UCFv0.84's own snapping algorithm.
-
-* Press **R** + **A** + **Z** + **D-pad Up/Down** to increase/decrease.
-  * Example: **RAZ+Du** increases the snapping range of the c-stick.
-  * When you change this setting, the current c-stick cardinal snapping settings are shown as the numerical coordinates of the analog stick.
-* The scale goes from -1 to 6, and defaults to 6
-  * At -1, the stick will automatically snap to 0.9875, disabling 1.0 cardinals entirely on Vanilla and all versions of UCF.
-  * At 0, the stick will not snap.
-  * At 1-6, the stick will snap that many values both in the positive and negative directions.
+* This feature was removed in v0.29.
 
 # C-Stick Scaling Adjustment - L + A + Z + Du/Dd
 
-The C-Stick Scaling adjustment allows the user to adjust what value is on the rim of the gate. Super Smash Bros. Melee has a unit circle ranging from -80 to 80, but the GCC Protocol allows for -128 to 127.
+The C-Stick Scaling setting allows the user to adjust what value the stick can reach at the edge of the gate.
+Super Smash Bros. Melee has a unit circle that ranges from -80 to +80, OEM Gamecube controllers range from roughly -100 to +100, and the GCC protocol allows for -128 to +127.
+The PhobGCC hard limits its own stick outputs to a range from -125 to +125, but this setting corresponds to what you get immediately after calibration.
 
 * Press **L** + **A** + **Z** + **D-pad Up/Down** to increase/decrease.
-  * Example: **LAZ+Du** increases the value at the rim.
+  * Example: **LAZ+Du** increases the value at the rim of the C-Stick.
+  * When you change this setting, the current C-Stick scaling setting is shown as the numerical coordinates of the C-Stick.
 * The scale goes from 82-125, and defaults to 100.
-  * This changes the physical distance to the rim of the melee unit circle.
-  * At 82, the rim of the melee unit circle is at the physical rim of the controller, requiring larger motions for things like smash attacks.
-  * At 125, the rim of the melee unit circle is moved as physically inwards as the controller will allow, requiring much smaller motions for things like smash attacks.
+  * This changes the physical distance to the rim of the Melee unit circle.
+  * At 82, the rim of the Melee unit circle is basically at the rim of the controller, requiring larger motions for things like smash attacks.
+  * At 125, the rim of the Melee unit circle is much farther in, requiring smaller motions for things like smash attacks.
+
+# C-Stick Cardinal Snapping Adjustment - R + A + Z + Du/Dd
+
+The C-Stick Cardinal Snapping Adjustement allows the user to adjust the width of the window around the cardinals around which the stick will snap to perfect 1.0.
+This is mainly for use on vanilla Melee or versions of UCF v0.80 and prior, as all nonnegative values will be overwritten by UCF v0.84's own snapping algorithm (which corresponds to a setting of 6 here).
+
+* Press **R** + **A** + **Z** + **D-pad Up/Down** to increase/decrease.
+  * Example: **RAZ+Du** increases the snapping range of the C-Stick.
+  * When you change this setting, the current C-Stick cardinal snapping setting is shown as the numerical coordinates of the C-Stick.
+* The scale goes from -1 to 6, and defaults to 6.
+  * At -1, the stick will snap *away* from the cardinal so that the stick cannot output 1.0 cardinals at all, including on UCF v0.84.
+  * At 0, the stick will not snap to cardinals at all. This is equivalent to OEM cardinal behavior.
+  * Between 1-6, the stick will snap to the cardinal from that far away in both positive and negative directions.
 
 # Analog Trigger Modes AB + L/R
 
