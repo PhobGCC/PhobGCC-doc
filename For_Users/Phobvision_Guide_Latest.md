@@ -4,7 +4,7 @@ NOTE: This is for PhobGCC 2 with firmware version 0.29.
 
 PhobVision is a feature specific to PhobGCC version 2 that provides graphical configuration, calibration, and training tools built into the conttroller.
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/?raw=true)
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/00-mainmenu.jpg?raw=true)
 
 Not every PhobGCC v2 has PhobVision installed. If you're interested, ask your local modder if they can install it.
 
@@ -33,7 +33,7 @@ It doesn't have room to say it, but you can still press Start to skip the measur
 
 However, you are presented with more information than you would get while calibrating using Smashscope that may be useful.
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/00-mainmenu.jpg?raw=true)
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/01-calibrate.jpg?raw=true)
 
 On the top right, it shows you what step you are at in the procedure.
 During notch adjust, if you haven't measured some of the notches, then it will skip some of the steps.
@@ -68,7 +68,7 @@ The PhobScope tools let you view and record the controller's inputs and outputs 
 
 The Input Viewer shows the current stick positions of the controller, as well as the button and trigger states both before and after remapping and trigger modes are applied.
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/01-calibrate.jpg?raw=true)
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/02-inputviewer.jpg?raw=true)
 
 The left side shows an octagon representing the standard 100-unit-radius stick gate, with the position of the left stick shown as a large square and the C-stick shown as a small square.
 
@@ -88,8 +88,6 @@ The Stickmap Plots let you record 100 milliseconds of stick motion in 2D and plo
 This can help you perfect your stick inputs and filter configurations for in-game techniques such as ledgedashing and dashback out of crouch.
 
 After you press Start, the recording begins after the unfiltered stick values move 10 units away from where it was when you pressed Start.
-
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/02-inputviewer.jpg?raw=true)
 
 On the left is the visualization of the stick motion.
 The filtered stick output is shown as white points and the unfiltered stick motion is gray points.
