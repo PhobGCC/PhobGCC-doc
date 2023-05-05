@@ -4,6 +4,8 @@ NOTE: This is for PhobGCC 2 with firmware version 0.29.
 
 PhobVision is a feature specific to PhobGCC version 2 that provides graphical configuration, calibration, and training tools built into the conttroller.
 
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/?raw=true)
+
 Not every PhobGCC v2 has PhobVision installed. If you're interested, ask your local modder if they can install it.
 
 # Starting PhobVision
@@ -31,7 +33,7 @@ It doesn't have room to say it, but you can still press Start to skip the measur
 
 However, you are presented with more information than you would get while calibrating using Smashscope that may be useful.
 
-TODO: insert picture
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/00-mainmenu.jpg?raw=true)
 
 On the top right, it shows you what step you are at in the procedure.
 During notch adjust, if you haven't measured some of the notches, then it will skip some of the steps.
@@ -66,7 +68,7 @@ The PhobScope tools let you view and record the controller's inputs and outputs 
 
 The Input Viewer shows the current stick positions of the controller, as well as the button and trigger states both before and after remapping and trigger modes are applied.
 
-TODO: insert picture
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/01-calibrate.jpg?raw=true)
 
 The left side shows an octagon representing the standard 100-unit-radius stick gate, with the position of the left stick shown as a large square and the C-stick shown as a small square.
 
@@ -87,7 +89,7 @@ This can help you perfect your stick inputs and filter configurations for in-gam
 
 After you press Start, the recording begins after the unfiltered stick values move 10 units away from where it was when you pressed Start.
 
-TODO: insert picture
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/02-inputviewer.jpg?raw=true)
 
 On the left is the visualization of the stick motion.
 The filtered stick output is shown as white points and the unfiltered stick motion is gray points.
@@ -102,6 +104,8 @@ At the bottom you can see the coordinates of the currently highlighted sample.
 
 You can choose to overlay the stick motion on various stickmaps from Melee.
 
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/03-stickmapplots.jpg?raw=true)
+
 The regions on the edge of the Melee unit circle are extended out to edge of the full controller output space.
 
 Labeled stickmaps courtesy @venus23gg; stickmaps created using Altimor's Melee Stick Coordinate Visualizer.
@@ -112,7 +116,7 @@ Self-explanatory: you only see the stick motion itself.
 
 #### Deadzones
 
-TODO: insert picture
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/deadzone1530.png?raw=true)
 
 This shows you the Melee deadzones.
 
@@ -120,33 +124,33 @@ It may be useful for practicing SDI.
 
 #### Wait Attacks
 
-TODO: insert picture
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/await1530.png?raw=true)
 
 This shows you the stickmap for A attacks while standing in wait on the ground.
 
 Here's a labered image of this stickmap, although the PhobVision version is made symmetrical:
 
-TODO insert picture
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/await_labeled.png?raw=true)
 
 #### Wait Movement
 
-TODO: insert picture
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/movewait1530.png?raw=true)
 
 This shows you the stickmap for movement while standing in wait on the ground.
 
 Here's a labeled version of it:
 
-TODO: insert picture
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/movewait_labeled.png?raw=true)
 
 #### Crouch
 
-TODO: insert picture
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/crouch1530.png?raw=true)
 
 This shows you the stickmap for movement while crouching.
 
 Here's a labeled version of it:
 
-TODO: insert picture
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/crouch_labeled.png?raw=true)
 
 This is particularly useful for practicing dashback out of crouch (DBOOC).
 
@@ -161,21 +165,21 @@ On UCF 0.84 and later, those regions are effectively included in the region wher
 
 #### Left and Right Ledge
 
-TODO: insert pictures
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/ledgeL1530.png?raw=true)
+
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/ledgeR1530.png?raw=true)
 
 This shows you the stickmap for options while hanging from ledge (and the horizontal deadzone for your airdodge afterwards).
 
 Here's a labeled version of it, ignoring the deadzones:
 
-TODO: insert picture
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/ledge_labeled.png?raw=true)
 
 This is useful for practicing ledgedashes.
 
 Check your filtering settings and muscle memory for inputs to make sure you spend 17 ms or more in "drop from ledge" before inputting forward, before inputting a jump button.
 
 ## Value vs Time Plots
-
-TODO: insert picture
 
 The Value vs Time Plots let you record 200 milliseconds of one axis of stick or trigger motion and plot it against time.
 
@@ -189,7 +193,7 @@ However, if you have the cursor on the Highlight Sample # option, you must manua
 
 ### Snapback
 
-TODO: insert picture
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/04-snapback.jpg?raw=true)
 
 This is only available for stick axes.
 
@@ -199,7 +203,7 @@ As long as you held it on one side long enough before letting go, the percents t
 
 ### Dashback
 
-TODO: insert picture
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/05-dashback.jpg?raw=true)
 
 This is only available for stick axes.
 
@@ -209,7 +213,7 @@ The percents on the right tell you the chance of successful standing dashback in
 
 ### Pivots
 
-TODO: insert picture
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/06-pivot.jpg?raw=true)
 
 This is only available for stick axes.
 
@@ -219,7 +223,7 @@ The percents on the right tell you the chance of not turning, empty pivoting, or
 
 ### Trigger
 
-TODO: insert picture
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/07-trigger.jpg?raw=true)
 
 This is only available for L or R.
 
@@ -229,7 +233,13 @@ This triggers when either the output value exceeds 43 or the digital press is ac
 
 ## Button Timing Viewer
 
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/08-buttontiming_nair.jpg?raw=true)
+
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/09-buttontiming_wavedash.jpg?raw=true)
+
 ## Reaction Time Test
+
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/10-reactiontime.jpg?raw=true)
 
 # Games
 
@@ -241,14 +251,14 @@ Some CRTs, especially high-end ones like Sony PVMs, show PhobVision with incorre
 
 Press up or down on the D-Pad to get the diagonal lines to be as smooth as possible on average across the whole screen to get the best image quality.
 
-Bad configuration:
+Default configuration on a finicky CRT:
 
-TODO: insert image
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/12-interlace_default.jpg?raw=true)
 
 Good configuration:
 
-TODO: insert image
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/11-interlace_good.jpg?raw=true)
 
 Very bad configuration:
 
-TODO: insert image
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/13-interlace_bad.jpg?raw=true)
