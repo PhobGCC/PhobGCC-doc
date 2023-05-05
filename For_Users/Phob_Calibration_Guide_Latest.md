@@ -19,9 +19,10 @@ PhobVision has menu options for all of these settings, and it walks you through 
 
 To use PhobVision, plug a 3.5mm TRRS to RCA cable compatible with Sony camcorders into the jack on the controller and the composite video input on a CRT television, hold Z on the controller, and plug the controller's GCC cable into a powered-on console or adapter.
 Navigate with the D-pad, select an item by pressing A, and back out by holding B. 
-Note: you cannot back out while you're in the middle of stick calibration, but it's fine to unplug the controller before finishing to cancel if you wish.
 
 Some menu pages are not complete yet, and on these you will be greeted by an "Under Construction" sign.
+
+Full PhobVision manual available [here](https://github.com/PhobGcc/PhobGCC-doc/blob/main/For_Users/Phobvision_Guide_Latest.md).
 
 # Initial Setup
 
