@@ -176,11 +176,12 @@ Here's a labeled version of it, ignoring the deadzones:
 
 This is useful for practicing ledgedashes.
 
-Check your filtering settings and muscle memory for inputs to make sure you spend 17 ms or more in "drop from ledge" before inputting forward, before inputting a jump button.
+Check your filtering settings and muscle memory for inputs to make sure you spend 17 ms or more in "Ledgedrop" before inputting forward, before inputting a jump button.
 
 ## Value vs Time Plots
 
 The Value vs Time Plots let you record 200 milliseconds of one axis of stick or trigger motion and plot it against time.
+The output values are plotted as a solid white line while unfiltered raw values are individual dots.
 
 It also provides additional information based on what it was trying to record.
 
