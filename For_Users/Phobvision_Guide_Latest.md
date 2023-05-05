@@ -85,6 +85,9 @@ You can see both the coordinates sent to the console and the coordinates as inte
 ## Stickmap Plots
 
 The Stickmap Plots let you record 100 milliseconds of stick motion in 2D and plot it overlaid on various stickmaps relevant to Melee.
+
+![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/03-stickmapplots.jpg?raw=true)
+
 This can help you perfect your stick inputs and filter configurations for in-game techniques such as ledgedashing and dashback out of crouch.
 
 After you press Start, the recording begins after the unfiltered stick values move 10 units away from where it was when you pressed Start.
@@ -101,8 +104,6 @@ At the bottom you can see the coordinates of the currently highlighted sample.
 ### Stickmaps
 
 You can choose to overlay the stick motion on various stickmaps from Melee.
-
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/03-stickmapplots.jpg?raw=true)
 
 The regions on the edge of the Melee unit circle are extended out to edge of the full controller output space.
 
