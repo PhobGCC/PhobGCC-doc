@@ -104,6 +104,8 @@ You can choose to overlay the stick motion on various stickmaps from Melee.
 
 The regions on the edge of the Melee unit circle are extended out to edge of the full controller output space.
 
+Labeled stickmaps courtesy @venus23gg; stickmaps created using Altimor's Melee Stick Coordinate Visualizer.
+
 #### None
 
 Self-explanatory: you only see the stick motion itself.
@@ -146,11 +148,16 @@ Here's a labeled version of it:
 
 TODO: insert picture
 
-This is particularly useful for practicing dashback out of crouch.
+This is particularly useful for practicing dashback out of crouch (DBOOC).
+
+Hold the stick down and then press Start to begin recording, then roll the stick to horizontal as quickly as you can.
+
 Check how long you spend in the lower "Remain in crouch, but if you stay here longer than 1f, Dash fails" zones.
-If you spend more than 17ms, there's a chance your DBOOC will fail.
-If you spend more than 33ms, then you're guaranteed to fail.
-If you play on UCF 0.80 or prior, if you get unlucky and get polled by the console in the bright region at all, your dash will fail.
+If you spend more than 17ms (1 frame), there's a chance your DBOOC will fail.
+If you spend more than 33ms (2 frames), then you're guaranteed to fail.
+
+If you play on UCF 0.80 or prior, if you get unlucky and get polled by the console in the narrow bright lower diagonal regions at all, your dash will fail.
+On UCF 0.84 and later, those regions are effectively included in the region where you cannot stay for more than 1 frame.
 
 #### Left and Right Ledge
 
@@ -168,4 +175,80 @@ Check your filtering settings and muscle memory for inputs to make sure you spen
 
 ## Value vs Time Plots
 
+TODO: insert picture
 
+The Value vs Time Plots let you record 200 milliseconds of one axis of stick or trigger motion and plot it against time.
+
+It also provides additional information based on what it was trying to record.
+
+Use the left and right on the D-pad to choose between options and up and down on the D-pad to change the options.
+
+Simply move the stick in a way relevant to the measurement type to trigger recording.
+However, if you have the cursor on the Highlight Sample # option, you must manually tell it to wait for motion by pressing the Start button.
+(This is a technical limitation due to how it records a looping buffer to save data from before the triggering action.)
+
+### Snapback
+
+TODO: insert picture
+
+This is only available for stick axes.
+
+This triggers when the unfiltered stick axis goes >80 one way and then falls below 23.
+
+As long as you held it on one side long enough before letting go, the percents to the right of the graph will tell you the chance that the last input would be on each side (relevant for turnaround B).
+
+### Dashback
+
+TODO: insert picture
+
+This is only available for stick axes.
+
+This triggers when the unfiltered stick axis exceeds 23 on either side.
+
+The percents on the right tell you the chance of successful standing dashback in vanilla Melee.
+
+### Pivots
+
+TODO: insert picture
+
+This is only available for stick axes.
+
+This triggers when the unfiltered stick axis goes from 80 on one side to 80 on the other side.
+
+The percents on the right tell you the chance of not turning, empty pivoting, or fully dashing the other way.
+
+### Trigger
+
+TODO: insert picture
+
+This is only available for L or R.
+
+This triggers when either the output value exceeds 43 or the digital press is activated.
+
+
+
+## Button Timing Viewer
+
+## Reaction Time Test
+
+# Games
+
+Nothing to see here yet, sorry...
+
+# Phobvision Configuration
+
+Some CRTs, especially high-end ones like Sony PVMs, show PhobVision with incorrect interlacing spacing.
+
+Press up or down on the D-Pad to get the diagonal lines to be as smooth as possible on average across the whole screen to get the best image quality.
+
+Bad configuration:
+
+TODO: insert image
+
+Good configuration:
+
+TODO: insert image
+
+Very bad configuration:
+
+TODO: insert image
