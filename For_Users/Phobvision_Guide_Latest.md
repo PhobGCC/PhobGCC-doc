@@ -31,7 +31,7 @@ Continuing to hold B will cause you to back to the next higher menu level.
 When you use PhobVision to calibrate, you can follow the instructions onscreen, which should correspond with the instructions in the [PhobGCC Calibration Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_Latest.md).
 It doesn't have room to say it, but you can still press Start to skip the measurements and begin notch adjustment on the notches you've measured.
 
-However, you are presented with more information than you would get while calibrating using Smashscope that may be useful.
+However, you are presented with more information than you would get while calibrating using Smashscope, and this may be useful.
 
 ![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/01-calibrate.jpg?raw=true)
 
@@ -257,6 +257,10 @@ The Button Timing Viewer lets you record 200 milliseconds of digital button stat
 Press Start to begin a recording, or turn Auto-Repeat On to make it so you don't have to keep pressing Start.
 
 The graph shows bars for any digital input held at any given time, or any analog input above the set thresholds.
+
+The numbers at the right indicate timings.
+For the button that initiated recording, this is how many frames the input was held.
+For any other buttons that were pressed, this is how many frames after the first input they were pressed.
 
 The background lines indicate roughly frame spacing.
 
