@@ -2,7 +2,7 @@ NOTE: This is for PhobGCC 2 with firmware version 0.29.
 
 # PhobVision
 
-PhobVision is a feature specific to PhobGCC version 2 that provides graphical configuration, calibration, and training tools built into the conttroller.
+PhobVision is a feature specific to PhobGCC version 2 that provides graphical configuration, calibration, and training tools built into the controller.
 
 ![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/00-mainmenu.jpg?raw=true)
 
