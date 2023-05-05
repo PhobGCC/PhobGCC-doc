@@ -62,7 +62,7 @@ Continuing to hold B will cause you to back to the next higher menu level.
 
 # PhobScope
 
-The PhobScope tools let you view and record the controller's inputs and outputs to see the results of your calibration and configuration.
+The PhobScope tools let you view and record the controller's inputs and outputs with millisecond precision to see the results of your calibration and configuration.
 
 ## Input Viewer
 
@@ -198,6 +198,8 @@ This is only available for stick axes.
 
 This triggers when the unfiltered stick axis goes >80 one way and then falls below 23.
 
+The graph shows lines just outside the Melee deadzones, ±23.
+
 As long as you held it on one side long enough before letting go, the percents to the right of the graph will tell you the chance that the last input would be on each side (relevant for turnaround B).
 
 ### Dashback
@@ -208,7 +210,10 @@ This is only available for stick axes.
 
 This triggers when the unfiltered stick axis exceeds 23 on either side.
 
+The graph shows lines just outside the Melee deadzones, ±23, and right at the dash threshold, ±64.
+
 The percents on the right tell you the chance of successful standing dashback in vanilla Melee.
+The shorter the time the stick output spends in the range 23-63 inclusive, the less likely a standing dashback is to fail on vanilla Melee.
 
 ### Pivots
 
@@ -218,7 +223,13 @@ This is only available for stick axes.
 
 This triggers when the unfiltered stick axis goes from 80 on one side to 80 on the other side.
 
+The graph shows lines at the Melee dash threshold, ±64.
+
 The percents on the right tell you the chance of not turning, empty pivoting, or fully dashing the other way.
+
+For a 100% chance of an empty pivot, you want to be past the dash threshold for exactly 1 frame, or just under 17 milliseconds.
+Shorter than that, and there is a chance of not turning at all, while if you hold longer than 17 and less than 33, you might fully dash the other way.
+If the stick output is past the dash threshold for more than 33 ms, you are guaranteed to dash the other way.
 
 ### Trigger
 
@@ -228,21 +239,45 @@ This is only available for L or R.
 
 This triggers when either the output value exceeds 43 or the digital press is activated.
 
+The graph shows a gray line at the Melee lightshield threshold, 43.
+That line turns white whenever the output is over 43.
 
+When the digital press is active, a white horizontal line is drawn at 100.
+
+The percents on the right tell you the chance that this input would be polled as a digital powershield, an ADT (analog-digital transition) powershield, or no powershield at all.
+
+In Melee, an ADT powershield leaves you vulnerable to physical attacks but is occasionally helpful for powershielding projectiles; it occurs when you are polled with an analog shield
 
 ## Button Timing Viewer
 
+The Button Timing Viewer lets you record 200 milliseconds of digital button state and whether each analog axis is past a configurable threshold.
+
 ![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/08-buttontiming_nair.jpg?raw=true)
+
+Press Start to begin a recording, or turn Auto-Repeat On to make it so you don't have to keep pressing Start.
+
+The graph shows bars for any digital input held at any given time, or any analog input above the set thresholds.
+
+The background lines indicate roughly frame spacing.
+
+You can use this to practice things like frame 1 short hop nair (top image), wavedash timing (below), JC grabs, and more with sub-frame feedback precision.
 
 ![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/09-buttontiming_wavedash.jpg?raw=true)
 
 ## Reaction Time Test
 
+The Reaction Time Test is one of the most bare metal reaction time testers you can get, when used on a CRT.
+
 ![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/10-reactiontime.jpg?raw=true)
+
+Press Start and then wait until the white square appears, then press any button or move the sticks.
+You can adjust the stick or analog trigger thresholds if you want.
+
+It's not 100% accurate in an absolute sense, because I don't know exactly when the recording starts relative to drawing the white square, but it should be extremely precise and repeatable because the measurement is started in perfect sync with the drawing.
 
 # Games
 
-Nothing to see here yet, sorry...
+Nothing to see here yet, sorry... maybe next version?
 
 # Phobvision Configuration
 
