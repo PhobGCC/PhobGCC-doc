@@ -237,10 +237,10 @@ If the stick output is past the dash threshold for more than 33 ms, you are guar
 
 This is only available for L or R.
 
-This triggers when either the output value exceeds 43 or the digital press is activated.
+This triggers when either the analog output reaches 43 or the digital press is activated.
 
 The graph shows a gray line at the Melee lightshield threshold, 43.
-That line turns white whenever the output is over 43.
+That line turns white whenever the output is greater than or equal to 43.
 
 When the digital press is active, a white horizontal line is drawn at 100.
 
