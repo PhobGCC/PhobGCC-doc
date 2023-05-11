@@ -15,7 +15,9 @@ Come chat with us on the [PhobGCC Discord](https://discord.gg/eNJ7xWMvxf)!
 
 [PhobGCC Buying Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Buying_Guide.md)
 
-[PhobGCC Calibration/Configuration Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.28.md)
+[PhobGCC Calibration/Configuration Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_Latest.md)
+
+[PhobVision](https://github.com/PhobGCC/PhobGCC-doc/blob/main/Phobvision_Guide_Latest.md)
 
 [PhobGCC v2.0 Firmware Update Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob2_Programming_Guide.md)
 
@@ -25,7 +27,7 @@ Come chat with us on the [PhobGCC Discord](https://discord.gg/eNJ7xWMvxf)!
 
 ## For Makers and Sellers
 
-[PhobGCC v2.0.2 Parts Ordering Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob2_Ordering_Guide.md)
+[PhobGCC v2.0.5 Parts Ordering Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob2_Ordering_Guide.md)
 
 [Build Guide for PhobGCC 2.0](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Build_Guide_2.0.md)
 

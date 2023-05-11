@@ -555,7 +555,7 @@ Now your PhobGCC should be complete!
 
 ![Rear of PhobGCC 2](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BuildPics_2.0.1/Phob2_Back.jpg?raw=true)
 
-Reassemble your controller, and follow the Initial Setup procedure in the [PhobGCC Calibration Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.28.md) for the version of the software you have flashed on the RP2040.
+Reassemble your controller, and follow the Initial Setup procedure in the [PhobGCC Calibration Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_Latest.md) for the version of the software you have flashed on the RP2040.
 
 And, enjoy!
 
