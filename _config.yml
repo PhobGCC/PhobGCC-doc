@@ -4,3 +4,11 @@ description: [Documentation]
 remote_theme: pages-themes/midnight@v0.2.0
 plugins:
 - jekyll-remote-theme
+
+show_downloads: true
+
+github:
+  zip_url: http://example.com/download.zip
+  phobgcc_sw_url: https://github.com/PhobGCC/PhobGCC-SW/releases/latest
+  phobgcc_hw1_url: https://github.com/PhobGCC/PhobGCC-HW/releases/latest
+  phobgcc_hw2_url: https://github.com/PhobGCC/PhobGCCv2-HW/releases/latest
