@@ -33,16 +33,16 @@ There are two main ways to acquire a PhobGCC Board. The first way is if you inte
 
 First, you can download the files available in the [PhobGCC-HW Github](https://github.com/PhobGCC/PhobGCC-HW/releases) in the releases section as shown below:
 
-![PHOB_HW_FILES](For_Makers/Phob_Ordering_Guide_Images/phob_hw_files.PNG?raw=true)
+![PHOB_HW_FILES](/For_Makers/Phob_Ordering_Guide_Images/phob_hw_files.PNG)
 
 Once you've extracted the files from the .zip, you should have three files. The Gerbers .zip, the bom.csv, and the top-pos.csv. Click "Order Now" on JLCPCB, click "Add Gerber File", and upload the Gerbers.zip. Once the files are uploaded, you should see the board load in as shown below:
 
-![PHOB_BOARD](For_Makers/Phob_Ordering_Guide_Images/phob_board.PNG?raw=true)
+![PHOB_BOARD](/For_Makers/Phob_Ordering_Guide_Images/phob_board.PNG)
 
 Once you've checked that the size is set to 91.41x147.63mm, you can progress with configuring it.
 The recommended settings are the defaults, plus setting your board quantity, setting "Different Design" to 4, and setting the Surface Finish to ENIG, as seen below:
 
-![PHOB_SETTINGS](For_Makers/Phob_Ordering_Guide_Images/phob_settings.PNG?raw=true)
+![PHOB_SETTINGS](/For_Makers/Phob_Ordering_Guide_Images/phob_settings.PNG)
 
 Scroll down to PCB Assembly and toggle it on the right.
 Select the top side and Economic PCBA Type (Not available for large orders or colors) as seen below.
@@ -50,14 +50,14 @@ If you choose to use Standard PCBA, JLC will have to add rails to the board, inc
 
 **NOTE: For large orders more than 50 boards or different colors, Standard Assembly is required. This attaches removable rails to the PCB at a significant extra cost.**
 
-![PHOB_ASM](For_Makers/Phob_Ordering_Guide_Images/phob_asm.PNG?raw=true)
+![PHOB_ASM](/For_Makers/Phob_Ordering_Guide_Images/phob_asm.PNG)
 
 Click "Confirm" and then upload the bom.csv to the left and and the top-pos.csv to the right.
 Set the usage description to Research -> DIY and click "Next".
 The next screen should look like the following below with all 10 confirmed.
 If they are not confirmed, stop ordering and ask in the [PhobGCC Discord](https://discord.gg/yrpUu7mgzm).
 
-![PHOB_PARTS](For_Makers/Phob_Ordering_Guide_Images/phob_parts.PNG?raw=true)
+![PHOB_PARTS](/For_Makers/Phob_Ordering_Guide_Images/phob_parts.PNG)
 
 After clicking "Next", you'll be presented with a view of the parts on the board.
 If this screen is corrupted, that's okay.

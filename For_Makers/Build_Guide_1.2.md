@@ -76,7 +76,7 @@ If you're using 3D-printed magnet holders, you can do this right before putting 
 First press-fit the magnet holders over the pegs on the stickboxes, add a thin coat of superglue inside the magnet holder, then press-fit the magnets themselves into the magnet holders.
 Consult [this section of the PhobGCC 1.2 Assembly Video](https://www.youtube.com/watch?v=0QmgswFa1cA&t=1858s).
 
-![Magnet Holders on Stickboxes](For_Makers/BuildPics_1.2.2/CVAC1076_LwKzi7N-output.jpg?raw=true)
+![Magnet Holders on Stickboxes](/For_Makers/BuildPics_1.2.2/CVAC1076_LwKzi7N-output.jpg)
 
 Make sure the magnets are oriented horizontally.
 
@@ -183,7 +183,7 @@ To remedy this, use rubbing alcohol (as high concentration as you can get) with 
 
 ## Teensy Programming
 
-Begin by programming the Teensy 4.0 according to [this guide](For_Users/Phob_Programming_Guide.md).
+Begin by programming the Teensy 4.0 according to [this guide](/For_Users/Phob_Programming_Guide.md).
 
 ## Teensy Soldering
 
@@ -193,21 +193,21 @@ Insert two 14-pin strips and one 2-pin strip of low-profile header pins into the
 
 Place the already-programmed Teensy 4.0 atop the header pins, then solder the Teensy to the pins.
 
-![Teensy soldered to pins](For_Makers/BuildPics_1.2.2/CVAC1053_xHQM57n-output.jpg?raw=true)
+![Teensy soldered to pins](/For_Makers/BuildPics_1.2.2/CVAC1053_xHQM57n-output.jpg)
 
 Next, flip the board over and either support the board by the Teensy or securely tape the Teensy to the board so that the pins stick up.
 
-![Teensy pins sticking out](For_Makers/BuildPics_1.2.2/CVAC1050_6Swxhvf-output.jpg?raw=true)
+![Teensy pins sticking out](/For_Makers/BuildPics_1.2.2/CVAC1050_6Swxhvf-output.jpg)
 
 Cut the pins as flush as possible to the back of the board. If you don't cut these flush, the rumble bracket may not fit well and the shell won't close easily.
 
-![Trimmed Teensy pins](For_Makers/BuildPics_1.2.2/CVAC1055_uyPRa19-output.jpg?raw=true)
+![Trimmed Teensy pins](/For_Makers/BuildPics_1.2.2/CVAC1055_uyPRa19-output.jpg)
 
 Solder the pins to the board, making sure the Teensy remains flush to the board and the vias that the pins reside in are not overfilled with solder.
 
-![Teensy pins soldered in board](For_Makers/BuildPics_1.2.2/CVAC1057_ebm7iTX-output.jpg?raw=true)
+![Teensy pins soldered in board](/For_Makers/BuildPics_1.2.2/CVAC1057_ebm7iTX-output.jpg)
 
-![Detail of flush Teensy pins](For_Makers/BuildPics_1.2.2/CVAC1059_c8QvFmk-output.jpg?raw=true)
+![Detail of flush Teensy pins](/For_Makers/BuildPics_1.2.2/CVAC1059_c8QvFmk-output.jpg)
 
 ## Trigger Potentiometer Soldering
 
@@ -215,11 +215,11 @@ See [this section of the PhobGCC 1.2 Assembly Video](https://www.youtube.com/wat
 
 Mount the trigger potentiometers to the back of the board. Do not mount them to the same side as the Teensy.
 
-![Trigger pots in board](For_Makers/BuildPics_1.2.2/CVAC1061_tlAv7ii-output.jpg?raw=true)
+![Trigger pots in board](/For_Makers/BuildPics_1.2.2/CVAC1061_tlAv7ii-output.jpg)
 
 You can tape them to the board with masking tape to keep them in place, or just rest the board on top of the potentiometers to secure then in place while you solder them.
 
-![Trigger pot soldered](For_Makers/BuildPics_1.2.2/CVAC1064_13Cc9xX-output.jpg?raw=true)
+![Trigger pot soldered](/For_Makers/BuildPics_1.2.2/CVAC1064_13Cc9xX-output.jpg)
 
 ## Z-button Switch Soldering
 
@@ -227,11 +227,11 @@ See [this section of the PhobGCC 1.2 Assembly Video](https://www.youtube.com/wat
 
 Mount the Z-button switch to the top of the board, the same side as the Teensy. Do not mount it to the back of the board.
 
-![Z button in place](For_Makers/BuildPics_1.2.2/CVAC1065_234FbNB-output.jpg?raw=true)
+![Z button in place](/For_Makers/BuildPics_1.2.2/CVAC1065_234FbNB-output.jpg)
 
 Solder it to the board, with extra solder applied to the contacts at the board edge. These are structural.
 
-![Z button soldered](For_Makers/BuildPics_1.2.2/CVAC1066_BqESr4m-output.jpg?raw=true)
+![Z button soldered](/For_Makers/BuildPics_1.2.2/CVAC1066_BqESr4m-output.jpg)
 
 You do not need to solder the inner pads on the board edge.
 
@@ -243,23 +243,23 @@ This does not enhance the feel of the buttons, but it makes them harder to press
 
 First, observe the wings on the button pads. The wings are where the switch contacts will go.
 
-![Dpad no switches](For_Makers/BuildPics_1.2.2/CVAC1067_eu3QgqE-output.jpg?raw=true)
+![Dpad no switches](/For_Makers/BuildPics_1.2.2/CVAC1067_eu3QgqE-output.jpg)
 
 The switches on the right and left pads must be oriented with the contacts oriented horizontally, while the switches on the top and bottom pads must be oriented with the contacts oriented vertically.
 
 If you mix this up, the buttons will be shorting the contacts all the time.
 
-![Dpad 2 switches placed](For_Makers/BuildPics_1.2.2/CVAC1070_6bdEB3t-output.jpg?raw=true)
+![Dpad 2 switches placed](/For_Makers/BuildPics_1.2.2/CVAC1070_6bdEB3t-output.jpg)
 
 The process of soldering goes as shown:
 
-![Dpad 3 switches placed, solder process](For_Makers/BuildPics_1.2.2/CVAC1071_kyUKuIA-output.jpg?raw=true)
+![Dpad 3 switches placed, solder process](/For_Makers/BuildPics_1.2.2/CVAC1071_kyUKuIA-output.jpg)
 
 Top: Apply a tiny bit of solder to one wing of the contact only.
 
 Left: Using tweezers, hold a switch in place and melt the existing solder to tack it in place. Do all the buttons to this stage, then fit-check their placement using the shell to make sure they are centered under the rubber domes..
 
-![Fit checking dpad](For_Makers/BuildPics_1.2.2/CVAC1074_U2HLUVJ-output.jpg?raw=true)
+![Fit checking dpad](/For_Makers/BuildPics_1.2.2/CVAC1074_U2HLUVJ-output.jpg)
 
 Right: Tack the opposite corner down using solder, then remelt the first corner and then this corner to eliminate strain.
 
@@ -267,7 +267,7 @@ Bottom: Solder down the rest of the corners.
 
 The buttons should now look like this:
 
-![All dpad buttons](For_Makers/BuildPics_1.2.2/CVAC1072_1oL78HD-output.jpg?raw=true)
+![All dpad buttons](/For_Makers/BuildPics_1.2.2/CVAC1072_1oL78HD-output.jpg)
 
 Using a multimeter, check continuity between the exposed copper pads that stick out past the button. They should be disconnected when the switch isn't pressed, and shorted when the switch is pressed.
 
@@ -278,47 +278,47 @@ Also see [the PhobGCC Hall Effect Sensor Soldering Video](https://www.youtube.co
 
 The Hall effect sensors come as a small black prism with two beveled edges.
 
-![Straight hall sensor](For_Makers/BuildPics_1.2.2/CVAC1077_yWpEYon-output.jpg?raw=true)
+![Straight hall sensor](/For_Makers/BuildPics_1.2.2/CVAC1077_yWpEYon-output.jpg)
 
 The legs of the Hall effect sensors must be bent 90 degrees so that the beveled edges face upward, with the bend as close as possible to the head of the sensor.
 
-![Bent hall sensor](For_Makers/BuildPics_1.2.2/CVAC1080_UY7wI4g-output.jpg?raw=true)
+![Bent hall sensor](/For_Makers/BuildPics_1.2.2/CVAC1080_UY7wI4g-output.jpg)
 
 If the bends are located too far away from the body of the sensor, it will be difficult to get the stickbox in place.
 
 Place the bent sensors in the board with the legs through the holes.
 Make sure they are on the upper side of the board with the text; this is easy to mix up on the C-stick board.
 
-![Hall sensors on C-stick board](For_Makers/BuildPics_1.2.2/CVAC1081_zGE2DdR-output.jpg?raw=true)
+![Hall sensors on C-stick board](/For_Makers/BuildPics_1.2.2/CVAC1081_zGE2DdR-output.jpg)
 
 On the motherboard, place the Hall sensors on the top and left sides where the pads are small and close together.
 Do not try to spread the Hall sensor legs to fit through the wider-spaced holes on the bottom and right sides; you may break the sensor and it won't work even if you manage to not break them.
 
-![Hall sensors on motherboard](For_Makers/BuildPics_1.2.2/CVAC1088_BGdBDFf-output.jpg?raw=true)
+![Hall sensors on motherboard](/For_Makers/BuildPics_1.2.2/CVAC1088_BGdBDFf-output.jpg)
 
 Install the stickboxes, already equipped with magnets, on the boards before soldering down the Hall sensors.
 
-![stickbox on c-stick board](For_Makers/BuildPics_1.2.2/CVAC1083_ydmlexH-output.jpg?raw=true)
+![stickbox on c-stick board](/For_Makers/BuildPics_1.2.2/CVAC1083_ydmlexH-output.jpg)
 
-![stickbox on motherboard](For_Makers/BuildPics_1.2.2/CVAC1090_N3j5WHq-output.jpg?raw=true)
+![stickbox on motherboard](/For_Makers/BuildPics_1.2.2/CVAC1090_N3j5WHq-output.jpg)
 
 Align the height of the sensors to be roughly the level of this feature in the T3 stickbox or lower, making sure the sensors are centered and level.
 You may need to bend the legs a bit.
 
-![stickbox height reference](For_Makers/BuildPics_1.2.2/CVAC1083_annotated.jpg?raw=true)
+![stickbox height reference](/For_Makers/BuildPics_1.2.2/CVAC1083_annotated.jpg)
 
 When you are satisfied with the sensor height, solder one leg in place.
 You can then use tweezers to manipulate the position while you remelt that one solder joint in order to fine-tune it.
 
-![one hall leg soldered](For_Makers/BuildPics_1.2.2/CVAC1084_woadHfG-output.jpg?raw=true)
+![one hall leg soldered](/For_Makers/BuildPics_1.2.2/CVAC1084_woadHfG-output.jpg)
 
 Then, solder the remainder of the legs.
 
-![all hall legs soldered](For_Makers/BuildPics_1.2.2/CVAC1085_28epqhF-output.jpg?raw=true)
+![all hall legs soldered](/For_Makers/BuildPics_1.2.2/CVAC1085_28epqhF-output.jpg)
 
 Finally, trim the legs.
 
-![c-stick hall legs trimmed](For_Makers/BuildPics_1.2.2/CVAC1087_9D4zsuI-output.jpg?raw=true)
+![c-stick hall legs trimmed](/For_Makers/BuildPics_1.2.2/CVAC1087_9D4zsuI-output.jpg)
 
 On the motherboard, trim the legs *very closely* and then reflow the solder on each joint.
 They should be no taller than half the height of the screw heads for the stickbox.
@@ -332,7 +332,7 @@ This commonly causes a short-circuit, which does no damage but makes the analog 
 Using SAC305 solder, which is harder, seems to have fewer issues.
 And as mentioned before, make sure that the Hall sensor solder joints are as flat to the board as you can make them, to help mitigate this issue.
 
-![motherboard hall legs trimmed](For_Makers/BuildPics_1.2.2/CVAC1095_b35fEvP-output.jpg?raw=true)
+![motherboard hall legs trimmed](/For_Makers/BuildPics_1.2.2/CVAC1095_b35fEvP-output.jpg)
 
 ## C-stick Cable Soldering
 
@@ -342,20 +342,20 @@ You can either use the ribbon cable harvested from the OEM board, or you can sol
 
 Since I'm using the OEM cable, I prefer to put the red line on the side with the square pad on the C-stick board.
 
-![Cable in c-stick board](For_Makers/BuildPics_1.2.2/CVAC1096_pR6Srfa-output.jpg?raw=true)
+![Cable in c-stick board](/For_Makers/BuildPics_1.2.2/CVAC1096_pR6Srfa-output.jpg)
 
 Solder the exposed ends to the pads.
 
-![Cable soldered to c-stick board](For_Makers/BuildPics_1.2.2/CVAC1097_XgsctHq-output.jpg?raw=true)
+![Cable soldered to c-stick board](/For_Makers/BuildPics_1.2.2/CVAC1097_XgsctHq-output.jpg)
 
 Next, connect the opposite end of either the ribbon cable or the wires to the motherboard.
 Make sure that both boards are facing up, and make sure they are oriented like this to ensure that the connections do not get mixed up.
 
-![Cable connecting c-stick to motherboard](For_Makers/BuildPics_1.2.2/CVAC1100_dQf9AKg-output.jpg?raw=true)
+![Cable connecting c-stick to motherboard](/For_Makers/BuildPics_1.2.2/CVAC1100_dQf9AKg-output.jpg)
 
 Then, solder the wires to the motherboard.
 
-![C-stick cable soldered to motherboard](For_Makers/BuildPics_1.2.2/CVAC1101_oiRxotI-output.jpg?raw=true)
+![C-stick cable soldered to motherboard](/For_Makers/BuildPics_1.2.2/CVAC1101_oiRxotI-output.jpg)
 
 ## Controller Cable Soldering
 
@@ -363,11 +363,11 @@ See [this section of the PhobGCC 1.2 Assembly Video](https://www.youtube.com/wat
 
 If you are using an OEM cable harvested from a first-party Gamecube controller, the black wire should be placed farthest from the center of the controller, and the blue wire closest to the center of the controller.
 
-![Controller cable colors](For_Makers/BuildPics_1.2.2/CVAC1106_nKaZ4km-output.jpg?raw=true)
+![Controller cable colors](/For_Makers/BuildPics_1.2.2/CVAC1106_nKaZ4km-output.jpg)
 
 The pins themselves are actually basketlike sheet metal forms, so when you solder them, they take up a fairly large amount of solder.
 
-![Controller cable soldered](For_Makers/BuildPics_1.2.2/CVAC1107_Khu6BvC-output.jpg?raw=true)
+![Controller cable soldered](/For_Makers/BuildPics_1.2.2/CVAC1107_Khu6BvC-output.jpg)
 
 ## Trigger Paddle Soldering
 
@@ -379,46 +379,46 @@ Cut and strip wires that are roughly 1 inch long (25mm), and solder them in so t
 
 Do not have the wires exit the front side with the contacts, or they can short to the Hall effect sensor pins.
 
-![Wires soldered into trigger paddles](For_Makers/BuildPics_1.2.2/CVAC1108_AFMbsiO-output.jpg?raw=true)
+![Wires soldered into trigger paddles](/For_Makers/BuildPics_1.2.2/CVAC1108_AFMbsiO-output.jpg)
 
 Load the trigger paddles with pads exposed into the rumble bracket (whether OEM or third-party), and mount the rumble bracket to the PCB.
 Make sure the wires safely exit the slots and do not get caught or pinched under the bracket.
 
-![Trigger wires in slots of rumble bracket](For_Makers/BuildPics_1.2.2/CVAC1109_6LWiGDH-output.jpg?raw=true)
+![Trigger wires in slots of rumble bracket](/For_Makers/BuildPics_1.2.2/CVAC1109_6LWiGDH-output.jpg)
 
 Tuck the trigger paddle wires into the nearby holes in the motherboard.
 
-![Trigger wires in holes](For_Makers/BuildPics_1.2.2/CVAC1111_N0bJKZt-output.jpg?raw=true)
+![Trigger wires in holes](/For_Makers/BuildPics_1.2.2/CVAC1111_N0bJKZt-output.jpg)
 
 Then, being careful not to let them slip out, solder them to the motherboard.
 
-![Trigger wires soldered](For_Makers/BuildPics_1.2.2/CVAC1112_xdrTBOe-output.jpg?raw=true)
+![Trigger wires soldered](/For_Makers/BuildPics_1.2.2/CVAC1112_xdrTBOe-output.jpg)
 
 ## Rumble Motor Soldering
 
 Next, mount the rumble motor back in the rumble bracket by inserting it into the rectangular box.
 Make sure that the shaft is on the cable side, and the motor is rotated so that the wires are on the D-pad side, close to the edge of the box.
 
-![Rumble motor in place](For_Makers/BuildPics_1.2.2/CVAC1113_9EfRr5r-output.jpg?raw=true)
+![Rumble motor in place](/For_Makers/BuildPics_1.2.2/CVAC1113_9EfRr5r-output.jpg)
 
 Apply a generous blob of solder to each of the rumble motor pads.
 
-![Rumble motor solder blobs](For_Makers/BuildPics_1.2.2/CVAC1115_Kc7aSfL-output.jpg?raw=true)
+![Rumble motor solder blobs](/For_Makers/BuildPics_1.2.2/CVAC1115_Kc7aSfL-output.jpg)
 
 To solder the wires down, melt the blob of solder with your soldering iron and use tweezers to hold the wire in the pool.
 Remove the hot soldering iron, and keep the wire still as the solder cools.
 
 Clip the wires into place on the rumble bracket.
 
-![Rumble motor wires soldered](For_Makers/BuildPics_1.2.2/CVAC1116_YjbJXub-output.jpg?raw=true)
+![Rumble motor wires soldered](/For_Makers/BuildPics_1.2.2/CVAC1116_YjbJXub-output.jpg)
 
 # Completion and next steps
 
-![PhobGCC 1.2.2 complete](For_Makers/BuildPics_1.2.2/CVAC1118_1lwoupq-output.jpg?raw=true)
+![PhobGCC 1.2.2 complete](/For_Makers/BuildPics_1.2.2/CVAC1118_1lwoupq-output.jpg)
 
-Now that you have completed the soldering steps, follow the [Board Debugging Guide for PhobGCC 1.2](For_Makers/Board_Level_Debugging_1.2.md) to make sure it's ready to go.
+Now that you have completed the soldering steps, follow the [Board Debugging Guide for PhobGCC 1.2](/For_Makers/Board_Level_Debugging_1.2.md) to make sure it's ready to go.
 
-Then, reassemble it, and follow the Initial Steps in the [PhobGCC Calibration Guide](For_Users/Phob_Calibration_Guide_Latest.md) for the version of the software you have flashed on the Teensy.
+Then, reassemble it, and follow the Initial Steps in the [PhobGCC Calibration Guide](/For_Users/Phob_Calibration_Guide_Latest.md) for the version of the software you have flashed on the Teensy.
 
 And, enjoy!
 

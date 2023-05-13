@@ -28,7 +28,7 @@ Upon first run, it may ask about internet access and to install the USB Driver.
 These are required in order to program the PhobGCC.
 Once the IDE is installed, you can go to the 'Tools' drop-down and select 'Manage Libraries...'.
 
-![Libraries](For_Users/Phob_Programming_Guide_Images/manage_libraries.png?raw=true)
+![Libraries](/For_Users/Phob_Programming_Guide_Images/manage_libraries.png)
 
 You'll want to search (what is in the single quotes) and install the following:
 * 'curveFitting' by Rotario
@@ -41,15 +41,15 @@ You may need to resize the left panel in order to see the Install button.
 
 Next you'll want to go to the 'File' drop-down and click on 'Preferences...' as seen below:
 
-![Preferences](For_Users/Phob_Programming_Guide_Images/preferences.png?raw=true)
+![Preferences](/For_Users/Phob_Programming_Guide_Images/preferences.png)
 
 and in the 'Additional board manager URLs' section, you'll want to paste in `https://www.pjrc.com/teensy/package_teensy_index.json`. You'll also want to enable the "Show files inside Sketches" checkbox as shown below:
 
-![Preferences_2](For_Users/Phob_Programming_Guide_Images/preferences_2.png?raw=true)
+![Preferences_2](/For_Users/Phob_Programming_Guide_Images/preferences_2.png)
 
 Next you'll want to go to the 'Tools' drop-down, in the 'Board' section, Click on 'Board Manager' as seen below:
 
-![Boards](For_Users/Phob_Programming_Guide_Images/board_manager.png?raw=true)
+![Boards](/For_Users/Phob_Programming_Guide_Images/board_manager.png)
 
 And search for and install 'teensy' by Paul Stoffregen.
 
@@ -62,7 +62,7 @@ Open the `PhobGCC.ino` file that is inside the `PhobGCC` folder in Arduino IDE.
 Inside the subfolder `common`, find the document `phobGCC.h` and open it in a text editor (Notepad, if you have nothing else).
 Look near the top of the document for the following section:
 
-![Versions](For_Users/Phob_Programming_Guide_Images/phob_versions_v0.26.png?raw=true)
+![Versions](/For_Users/Phob_Programming_Guide_Images/phob_versions_v0.26.png)
 
 Remove the `//` (NOT THE `#`) at the start of the line which contains your board version, and save the file.
 **Only uncomment one line.**

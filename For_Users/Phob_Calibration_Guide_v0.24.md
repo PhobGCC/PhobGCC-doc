@@ -1,8 +1,8 @@
-**THIS IS LEGACY FIRMWARE! PLEASE UPDATE TO THE [LATEST!](For_Users/Phob_Calibration_Guide_v0.28.md)**
+**THIS IS LEGACY FIRMWARE! PLEASE UPDATE TO THE [LATEST!](/For_Users/Phob_Calibration_Guide_v0.28.md)**
 
 **NOTE: This is for firmware version 0.24.**
 
-For Version 0.23, use [this document](For_Users/Phob_Calibration_Guide_v0.23.md).
+For Version 0.23, use [this document](/For_Users/Phob_Calibration_Guide_v0.23.md).
 
 For later development versions of the software that have not yet been released, search for “Current Commands List” in the PhobGCC.ino file to see the commands for that version as they may have changed.
 
@@ -43,7 +43,7 @@ If you don't unplug and replug the controller between the first time calibrating
 * Most of the time, when you give the PhobGCC a command, the Analog Stick and C-Stick will freeze pointing to the top right for 2 seconds.
 * If you're in game without input visualization tools, you will see your character roll to the right to indicate this, or you'll see the menu tilt due to the C-Stick.
 
-![Sticks pointing up and to the right, triggers pressed](For_Users/Phob_Calibration_Guide_v0.20_Images/FreezeSticks.png?raw=true)
+![Sticks pointing up and to the right, triggers pressed](/For_Users/Phob_Calibration_Guide_v0.20_Images/FreezeSticks.png)
 
 # Safe Mode Toggle - AXY+Start
 

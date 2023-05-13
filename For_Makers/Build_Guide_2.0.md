@@ -4,7 +4,7 @@ This is an illustrated guide to making a PhobGCC 2.0, using photos taken of a Ph
 
 Newer board versions may differ slightly in appearance but this guide will still be applicable.
 
-![Motherboard Overview](For_Makers/BuildPics_2.0.1/01_Phob2_Board.jpg?raw=true)
+![Motherboard Overview](/For_Makers/BuildPics_2.0.1/01_Phob2_Board.jpg)
 
 If you want to see it in motion, watch the **[PhobGCC 2.0 Assembly Video]**.
 
@@ -39,7 +39,7 @@ Come to the [PhobGCC Discord Server](https://discord.gg/yrpUu7mgzm) for advice o
 
 # Parts
 
-Some of the parts are taken from a donor Gamecube controller, while others must be sourced new. Check the [PhobGCC Ordering Guide](For_Makers/Phob2_Ordering_Guide.md) for a list of what you need to purchase.
+Some of the parts are taken from a donor Gamecube controller, while others must be sourced new. Check the [PhobGCC Ordering Guide](/For_Makers/Phob2_Ordering_Guide.md) for a list of what you need to purchase.
 
 ## New Parts
 
@@ -72,7 +72,7 @@ Begin by taking apart the donor GCC using a Tri-Wing screwdriver.
 
 Remove the motherboard.
 
-![Donor motherboard](For_Makers/BuildPics_2.0.1/05_Phob2_Harvest_Rear.jpg?raw=true)
+![Donor motherboard](/For_Makers/BuildPics_2.0.1/05_Phob2_Harvest_Rear.jpg)
 
 You will want to remove the following parts from it:
 
@@ -85,12 +85,12 @@ You will want to remove the following parts from it:
 7. Rumble motor (or omit it, or use a cell rumble)
 8. Stick caps
 
-![Parts harvested](For_Makers/BuildPics_2.0.1/07_Phob2_Harvest_Parts.jpg?raw=true)
+![Parts harvested](/For_Makers/BuildPics_2.0.1/07_Phob2_Harvest_Parts.jpg)
 
 If you're not familiar with removing the stickboxes, you can stick the points of tweezers between the stickbox and the potentiometers to unclip the potentiometers.
 Then, use a JIS #0 screwdriver to unscrew the screws from the bottom of the stickboxes.
 
-![Potentiometer unclipping](For_Makers/BuildPics_2.0.1/06_Phob2_Harvest_Stickbox.jpg?raw=true)
+![Potentiometer unclipping](/For_Makers/BuildPics_2.0.1/06_Phob2_Harvest_Stickbox.jpg)
 
 ## Magnet Mounting
 
@@ -109,13 +109,13 @@ Do not allow it to evaporate on its own, or it will simply redeposit the grease 
 Then, I prefer to scratch up the pegs using a steel pick or a razor blade.
 This exposes clean, fresh plastic for gluing to.
 
-![Scratch stickbox pegs](For_Makers/BuildPics_2.0.1/08_Phob2_Stickbox_Prep.jpg?raw=true)
+![Scratch stickbox pegs](/For_Makers/BuildPics_2.0.1/08_Phob2_Stickbox_Prep.jpg)
 
 **Do not apply superglue to the pegs!**
 
 Press-fit the magnet holders over the pegs, making sure that the hole for the magnets is offset downward.
 
-![Stickbox with magnet holders](For_Makers/BuildPics_2.0.1/09_Phob2_MagHolders.jpg?raw=true)
+![Stickbox with magnet holders](/For_Makers/BuildPics_2.0.1/09_Phob2_MagHolders.jpg)
 
 The ideal offset may vary with different magnets, and different magnet/offset combinations may result in slightly different stick behavior.
 
@@ -124,13 +124,13 @@ I prefer thin superglue.
 
 **Be *very sparing* with superglue so you do not contaminate the stickbox!**
 
-![Stickbox with magnet holders](For_Makers/BuildPics_2.0.1/10_Phob2_MagnetWell.jpg?raw=true)
+![Stickbox with magnet holders](/For_Makers/BuildPics_2.0.1/10_Phob2_MagnetWell.jpg)
 
 Insert magnets into the magnet wells, making sure that the magnets are all oriented horizontally.
 
 **If the magnets are not horizontal then the stick will not function.**
 
-![Stickbox with magnets](For_Makers/BuildPics_2.0.1/11_Phob2_Magnets.jpg?raw=true)
+![Stickbox with magnets](/For_Makers/BuildPics_2.0.1/11_Phob2_Magnets.jpg)
 
 If you wish, you can add extra superglue on top of the magnets to ensure they are securely held in place, though this is not absolutely necessary.
 
@@ -144,19 +144,19 @@ First, use a JIS #1 screwdriver to unscrew these four screws from the backshell 
 If you attempt to use a Phillips screwdriver, you are *extremely* likely to damage the screw heads by camming out.
 Please use a JIS screwdriver so that any future modders working on the controller will have an easier time removing them.
 
-![Trigger screws to remove](For_Makers/BuildPics_2.0.1/12_Phob2_Back_Overview.jpg?raw=true)
+![Trigger screws to remove](/For_Makers/BuildPics_2.0.1/12_Phob2_Back_Overview.jpg)
 
 Remove the plate above each trigger and the trigger components, and find this protruding corner on each side.
 
-![Trigger corner](For_Makers/BuildPics_2.0.1/13_Phob2_TrigCorner.jpg?raw=true)
+![Trigger corner](/For_Makers/BuildPics_2.0.1/13_Phob2_TrigCorner.jpg)
 
 Using your flush cutters, remove about 1mm of height from the top of this corner.
 
-![Trigger corner trimmed](For_Makers/BuildPics_2.0.1/14_Phob2_CornerCut.jpg?raw=true)
+![Trigger corner trimmed](/For_Makers/BuildPics_2.0.1/14_Phob2_CornerCut.jpg)
 
 This ensures that the tab on the trigger that moves the trigger potentiometer does not get caught on that corner.
 
-![Trigger corner clearance](For_Makers/BuildPics_2.0.1/15_Phob2_CornerClear.jpg?raw=true)
+![Trigger corner clearance](/For_Makers/BuildPics_2.0.1/15_Phob2_CornerClear.jpg)
 
 ## Soldering Interlude
 
@@ -270,16 +270,16 @@ You will have to remove it.
 To do this, first simply snap it off at the motherboard side.
 You can use your bare hands, but be careful to avoid touching the button contacts, such as for the Start button, or you may contaminate them with oil.
 
-![breaking daughterboard](For_Makers/BuildPics_2.0.1/02_Phob2_Break.jpg?raw=true)
+![breaking daughterboard](/For_Makers/BuildPics_2.0.1/02_Phob2_Break.jpg)
 
 Then, break the two "mousebites" off of the C-Stick daughterboard using pliers.
 Note that one is longer than the other; this is normal.
 
-![breaking mousebites](For_Makers/BuildPics_2.0.1/03_Phob2_Mousebites.jpg?raw=true)
+![breaking mousebites](/For_Makers/BuildPics_2.0.1/03_Phob2_Mousebites.jpg)
 
 This should be the result.
 
-![boards laid out](For_Makers/BuildPics_2.0.1/04_Phob2_Separate.jpg?raw=true)
+![boards laid out](/For_Makers/BuildPics_2.0.1/04_Phob2_Separate.jpg)
 
 ## RP2040 Programming
 
@@ -302,31 +302,31 @@ Also make sure that the switch stands perfectly square to the board, or the boar
 
 If you are using a Z button switch harvested from an original GCC, you can ignore the two large circular holes.
 
-![OEM Z](For_Makers/BuildPics_2.0.1/18_Phob2_OEM_Z.jpg?raw=true)
+![OEM Z](/For_Makers/BuildPics_2.0.1/18_Phob2_OEM_Z.jpg)
 
 If you are using an Omron tactile Z switch as listed in the parts ordering guide, here are the slight tweaks you must make.
 
-![Omron Tactile Z before trimming](For_Makers/BuildPics_2.0.1/19_Phob2_TacZ.jpg?raw=true)
+![Omron Tactile Z before trimming](/For_Makers/BuildPics_2.0.1/19_Phob2_TacZ.jpg)
 
 Firstly, trim the two leads off the top of the button.
 These interfere with a rib on the front shell.
 
-![Omron Tactile Z haircut](For_Makers/BuildPics_2.0.1/20_Phob2_TacZHaircut.jpg?raw=true)
+![Omron Tactile Z haircut](/For_Makers/BuildPics_2.0.1/20_Phob2_TacZHaircut.jpg)
 
 Secondly, when you solder, don't use the U-shaped solder pads at the board edge.
 Instead, the structural legs go through the larger holes farther from the board edge.
 
 Make sure to not overfill the holes for the structural legs; you want the solder to sit entirely below the surface.
 
-![Omron Tactile Z soldered](For_Makers/BuildPics_2.0.1/21_Phob2_TacZ_Solder.jpg?raw=true)
+![Omron Tactile Z soldered](/For_Makers/BuildPics_2.0.1/21_Phob2_TacZ_Solder.jpg)
 
 This is because you will need to trim the structural legs completely flush in order to not interfere with the trigger guards.
 
-![Omron Tactile Z legs trimmed](For_Makers/BuildPics_2.0.1/22_Phob2_TacZ_TrimLegs.jpg?raw=true)
+![Omron Tactile Z legs trimmed](/For_Makers/BuildPics_2.0.1/22_Phob2_TacZ_TrimLegs.jpg)
 
 Additionally, you need to make room for the structural legs on top by trimming the button rubber as follows:
 
-![Tac Z button rubber trim](For_Makers/BuildPics_2.0.1/23_Phob2_TacZ_RubberCut.jpg?raw=true)
+![Tac Z button rubber trim](/For_Makers/BuildPics_2.0.1/23_Phob2_TacZ_RubberCut.jpg)
 
 As a note for later, it may take a little more force than you may be used to when inserting the motherboard into the front shell when you use an Omron tactile Z switch.
 
@@ -336,13 +336,13 @@ This is normal, and does not cause any issues.
 
 Mount the trigger potentiometers to the back of the board. Do not mount them to the front side with all of the chips.
 
-![Trigger potentiometers soldered](For_Makers/BuildPics_2.0.1/25_Phob2_TriggerPot_Solder.jpg?raw=true)
+![Trigger potentiometers soldered](/For_Makers/BuildPics_2.0.1/25_Phob2_TriggerPot_Solder.jpg)
 
 To secure them when soldering, you can tape them to the board with masking tape, or just rest the board on top of the potentiometers.
 
 Be sure to check after soldering your first joint that the potentiometer is laying flat against the back of the board before continuing.
 
-![Trigger potentiometers taped](For_Makers/BuildPics_2.0.1/24_Phob2_TriggerPots.jpg?raw=true)
+![Trigger potentiometers taped](/For_Makers/BuildPics_2.0.1/24_Phob2_TriggerPots.jpg)
 
 ## Trigger Paddle Soldering
 
@@ -356,11 +356,11 @@ Apply flux to the ends of the wires, making sure not to cause them to fray if us
 
 Hold the trigger paddles in a vise and apply solder to fill the through-hole pads with solder.
 
-![Trigger paddle solder](For_Makers/BuildPics_2.0.1/16_Phob2_Paddles.jpg?raw=true)
+![Trigger paddle solder](/For_Makers/BuildPics_2.0.1/16_Phob2_Paddles.jpg)
 
 Then, heat the front side of each through-hole with your soldering iron to melt it, and insert the fluxed end of the wire from the back side of the hole where the silkscreen markings are.
 
-![Trigger paddle wires](For_Makers/BuildPics_2.0.1/17_Phob2_PaddleWires.jpg?raw=true)
+![Trigger paddle wires](/For_Makers/BuildPics_2.0.1/17_Phob2_PaddleWires.jpg)
 
 ## C-stick Cable Soldering
 
@@ -376,11 +376,11 @@ Then, I used the same technique as in the Trigger Paddle Soldering section to in
 
 Note that this is the side with silkscreen around the through-holes.
 
-![C-stick soldering](For_Makers/BuildPics_2.0.1/26_Phob2_Cstick_Solder.jpg?raw=true)
+![C-stick soldering](/For_Makers/BuildPics_2.0.1/26_Phob2_Cstick_Solder.jpg)
 
 For these especially, if you are using individual wires I strongly recommend that you make their lengths as consistent as possible, and solder them such that the insulation ends at the same distance from the C-stick daughterboard.
 
-![C-stick wires](For_Makers/BuildPics_2.0.1/27_Phob2_Cstick_Wires.jpg?raw=true)
+![C-stick wires](/For_Makers/BuildPics_2.0.1/27_Phob2_Cstick_Wires.jpg)
 
 The uniform length helps when you are inserting the wires into the motherboard.
 
@@ -388,23 +388,23 @@ Support the motherboard above the C-Stick daughterboard with the daughterboard o
 
 If you flip it around, the C-stick will not function at all.
 
-![C-stick alignmnt](For_Makers/BuildPics_2.0.1/28_Phob2_Cstick_Align.jpg?raw=true)
+![C-stick alignmnt](/For_Makers/BuildPics_2.0.1/28_Phob2_Cstick_Align.jpg)
 
 Insert all of the C-Stick wires into the motherboard.
 
 Make sure that all of the wires are straight and none of them are crossed, or the C-Stick will not function.
 
-![C-stick wire insertion into the motherboard](For_Makers/BuildPics_2.0.1/29_Phob2_Cstick_InsertWires.jpg?raw=true)
+![C-stick wire insertion into the motherboard](/For_Makers/BuildPics_2.0.1/29_Phob2_Cstick_InsertWires.jpg)
 
 Then solder the wires.
 
-![C-stick wire soldering to the motherboard](For_Makers/BuildPics_2.0.1/30_Phob2_Cstick_WireSolder.jpg?raw=true)
+![C-stick wire soldering to the motherboard](/For_Makers/BuildPics_2.0.1/30_Phob2_Cstick_WireSolder.jpg)
 
 ## Stickbox Installation
 
 Install the stickboxes on the motherboard and the C-Stick.
 
-![Stickbox on motherboard](For_Makers/BuildPics_2.0.1/31_Phob2_StickboxInstall.jpg?raw=true)
+![Stickbox on motherboard](/For_Makers/BuildPics_2.0.1/31_Phob2_StickboxInstall.jpg)
 
 You must have the magnets mounted above the 3-legged SMD Hall-Effect sensors.
 
@@ -423,11 +423,11 @@ Tuck the wires from the trigger paddles into their respective holes on the mothe
 
 For R, make sure not to mix up the holes with the extra holes for mouseswitch Z, which are nearby.
 
-![Rumble bracket on back of motherboard](For_Makers/BuildPics_2.0.1/32_Phob2_RumbleBracket.jpg?raw=true)
+![Rumble bracket on back of motherboard](/For_Makers/BuildPics_2.0.1/32_Phob2_RumbleBracket.jpg)
 
 Then solder the wires in place.
 
-![Trigger wires soldered](For_Makers/BuildPics_2.0.1/33_Phob2_TriggerWires.jpg?raw=true)
+![Trigger wires soldered](/For_Makers/BuildPics_2.0.1/33_Phob2_TriggerWires.jpg)
 
 ## Controller Cable Soldering
 
@@ -437,11 +437,11 @@ The cable must go in the back of the motherboard.
 
 If you are using an OEM cable harvested from a first-party Gamecube controller, the black wire should be placed farthest from the center of the controller, and the blue wire closest to the center of the controller.
 
-![Cable installation with colors labeled](For_Makers/BuildPics_2.0.1/34_Phob2_CableInstall.jpg?raw=true)
+![Cable installation with colors labeled](/For_Makers/BuildPics_2.0.1/34_Phob2_CableInstall.jpg)
 
 Secure the wire in place, then solder the pins to the pads on the top of the motherboard.
 
-![Cable installation with colors labeled](For_Makers/BuildPics_2.0.1/35_Phob2_CableSolder.jpg?raw=true)
+![Cable installation with colors labeled](/For_Makers/BuildPics_2.0.1/35_Phob2_CableSolder.jpg)
 
 ## OPTIONAL PhobVision installation and soldering
 
@@ -456,13 +456,13 @@ Nonetheless, this guide shows you how to do it so that it fits around the OEM ru
 
 Begin by taking the backshell and marking a point 0.5 inches or 13 mm down directly below the edge, aligned with the center of this tab.
 
-![Marked drill hole](For_Makers/BuildPics_2.0.1/36_PhobVision_Mark.jpg?raw=true)
+![Marked drill hole](/For_Makers/BuildPics_2.0.1/36_PhobVision_Mark.jpg)
 
 Using a *split-point drill bit* to help prevent the bit from wandering around, drill a 7mm diameter hole in the back of the controller.
 
 You may also use a 9/32" bit or a Letter J drill bit.
 
-![PhobVision hole drilled](For_Makers/BuildPics_2.0.1/37_PhobVision_Drill.jpg?raw=true)
+![PhobVision hole drilled](/For_Makers/BuildPics_2.0.1/37_PhobVision_Drill.jpg)
 
 Note that on this particular shell, the bit wandered slightly towards the centerline of the controller, which is fine.
 
@@ -470,25 +470,25 @@ If the bit wanders towards the side of the controller, you may need to carve out
 
 In this case, the hole instead intersects a rib that only exists on T3 shells that you should remove in the vicinity of the hole.
 
-![Rib interference with hole](For_Makers/BuildPics_2.0.1/38_PhobVision_Rib.jpg?raw=true)
+![Rib interference with hole](/For_Makers/BuildPics_2.0.1/38_PhobVision_Rib.jpg)
 
 Simply cut the rib off with flush cutters.
 
-![Rib cut near hole](For_Makers/BuildPics_2.0.1/39_PhobVision_CutRib.jpg?raw=true)
+![Rib cut near hole](/For_Makers/BuildPics_2.0.1/39_PhobVision_CutRib.jpg)
 
 Next up we must prepare the 3.5mm TRRS jack for installation.
 
-![Untouched jack](For_Makers/BuildPics_2.0.1/40_PhobVision_Jack.jpg?raw=true)
+![Untouched jack](/For_Makers/BuildPics_2.0.1/40_PhobVision_Jack.jpg)
 
 To get the jack to fit with an OEM rumble motor, use pliers to bend the tabs on the end sideways.
 
 Note which tabs are used for what.
 
-![Jack with bent tabs, labeled](For_Makers/BuildPics_2.0.1/41_PhobVision_Bend.jpg?raw=true)
+![Jack with bent tabs, labeled](/For_Makers/BuildPics_2.0.1/41_PhobVision_Bend.jpg)
 
 Apply flux to the two bent silver tabs and tin them generously with solder.
 
-![Tinned tabs on jack](For_Makers/BuildPics_2.0.1/42_PhobVision_Tin.jpg?raw=true)
+![Tinned tabs on jack](/For_Makers/BuildPics_2.0.1/42_PhobVision_Tin.jpg)
 
 Cut a two-pin JST-PH pigtail's wires to 3 inches long (75mm), strip the ends, and apply flux.
 Shorter wires give less slack when maneuvering, and longer wires are hard to fit, so be fairly precise with the length here.
@@ -497,17 +497,17 @@ Then solder them to the two tinned tabs.
 
 Make sure that the black wire goes to the middle tab, and the red wire goes to the other silver tab.
 
-![Wires soldered to jack](For_Makers/BuildPics_2.0.1/43_PhobVision_Solder.jpg?raw=true)
+![Wires soldered to jack](/For_Makers/BuildPics_2.0.1/43_PhobVision_Solder.jpg)
 
 Make sure the wires are soldered to the back side of the tabs so that they do not stick out past the end.
 
-![Wires do not protrude past the end of jack](For_Makers/BuildPics_2.0.1/44_PhobVision_Flat.jpg?raw=true)
+![Wires do not protrude past the end of jack](/For_Makers/BuildPics_2.0.1/44_PhobVision_Flat.jpg)
 
 Generously apply hot glue between the wires and the barrel of the TRRS jack in order to provide strain relief.
 
 Again, do not let it protrude much past the end of the jack.
 
-![Hot glue used as strain relief](For_Makers/BuildPics_2.0.1/45_PhobVision_Glue.jpg?raw=true)
+![Hot glue used as strain relief](/For_Makers/BuildPics_2.0.1/45_PhobVision_Glue.jpg)
 
 Next, cut 1.25" (32mm) long wires, strip both ends, and apply flux.
 Shorter wires might not reach, and longer can interfere with closing the controller, so be precise with the length here.
@@ -517,11 +517,11 @@ You must leave the connector in the receptacle while soldering, or else the pins
 
 Make sure to match red with red and black with black; I used the scrap ends of the pigtail wires for this so the colors match nicely.
 
-![JST receptacle soldered](For_Makers/BuildPics_2.0.1/46_PhobVision_JST_Solder.jpg?raw=true)
+![JST receptacle soldered](/For_Makers/BuildPics_2.0.1/46_PhobVision_JST_Solder.jpg)
 
 Insert the receptacle's wires into the back of the motherboard at the J2 through-hole pads, and solder them on the front of the motherboard.
 
-![JST soldered to phobvision pads](For_Makers/BuildPics_2.0.1/47_PhobVision_Mobo_Solder.jpg?raw=true)
+![JST soldered to phobvision pads](/For_Makers/BuildPics_2.0.1/47_PhobVision_Mobo_Solder.jpg)
 
 At this point, if you are installing rumble, mount the rumble motor in the rumble bracket by inserting it into the rectangular box.
 Make sure that the shaft is on the cable side, and the motor is rotated so that the wires are on the D-pad side, close to the edge of the box.
@@ -532,15 +532,15 @@ Tuck the rumble wires in the clip on the rumble bracket.
 
 Then hot glue the PhobVision JST receptacle to the rumble bracket like depicted, ensuring that the opening is not blocked by the glue.
 
-![JST glued to rumble bracket](For_Makers/BuildPics_2.0.1/48_PhobVision_JST_Glue.jpg?raw=true)
+![JST glued to rumble bracket](/For_Makers/BuildPics_2.0.1/48_PhobVision_JST_Glue.jpg)
 
 Next, install the TRRS jack in the backshell and install the nut on the outside using pliers.
 
 I recommend you orient the jack so that the wires initially go towards the center of the controller, then loop around towards the triggers.
 
-![Jack in the backshell with suggested wire orientation](For_Makers/BuildPics_2.0.1/49_PhobVision_Jack_Install.jpg?raw=true)
+![Jack in the backshell with suggested wire orientation](/For_Makers/BuildPics_2.0.1/49_PhobVision_Jack_Install.jpg)
 
-![Nut holding the jack in place](For_Makers/BuildPics_2.0.1/50_PhobVision_Nut.jpg?raw=true)
+![Nut holding the jack in place](/For_Makers/BuildPics_2.0.1/50_PhobVision_Nut.jpg)
 
 ## Rumble Motor Soldering
 
@@ -551,11 +551,11 @@ Make sure that the shaft is on the cable side, and the motor is rotated so that 
 
 Now your PhobGCC should be complete!
 
-![Front of PhobGCC 2](For_Makers/BuildPics_2.0.1/Phob2_Front.jpg?raw=true)
+![Front of PhobGCC 2](/For_Makers/BuildPics_2.0.1/Phob2_Front.jpg)
 
-![Rear of PhobGCC 2](For_Makers/BuildPics_2.0.1/Phob2_Back.jpg?raw=true)
+![Rear of PhobGCC 2](/For_Makers/BuildPics_2.0.1/Phob2_Back.jpg)
 
-Reassemble your controller, and follow the Initial Setup procedure in the [PhobGCC Calibration Guide](For_Users/Phob_Calibration_Guide_Latest.md) for the version of the software you have flashed on the RP2040.
+Reassemble your controller, and follow the Initial Setup procedure in the [PhobGCC Calibration Guide](/For_Users/Phob_Calibration_Guide_Latest.md) for the version of the software you have flashed on the RP2040.
 
 And, enjoy!
 
