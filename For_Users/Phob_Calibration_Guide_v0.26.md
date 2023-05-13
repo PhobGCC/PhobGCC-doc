@@ -43,7 +43,7 @@ You do not need to do this otherwise.
   * For trigger offsets, which have a wide numerical range, it will only hold for 0.1 second.
 * If you're in Melee without input visualization tools, you will see your character roll to the right to indicate this, or you'll see the menu tilt due to the C-Stick.
 
-![Sticks pointing up and to the right, triggers pressed](For_Users/Phob_Calibration_Guide_v0.20_Images/FreezeSticks.png?raw=true)
+![Sticks pointing up and to the right, triggers pressed](For_Users/Phob_Calibration_Guide_v0.20_Images/FreezeSticks.png)
 
 # Safe Mode Toggle - AXY+Start
 

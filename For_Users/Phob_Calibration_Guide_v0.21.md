@@ -39,7 +39,7 @@ We're not quite sure why.
 * Every time you give the PhobGCC a command, except for during the stick calibration process, the analog and c-stick will freeze pointing to the top right for 2 seconds.
 * If you're in game without input visualization tools, you will see your character roll to the right to indicate this, or you'll see the menu tilt due to the C-stick.
 
-![Sticks pointing up and to the right, triggers pressed](For_Users/Phob_Calibration_Guide_v0.20_Images/FreezeSticks.png?raw=true)
+![Sticks pointing up and to the right, triggers pressed](For_Users/Phob_Calibration_Guide_v0.20_Images/FreezeSticks.png)
 
 # Safe Mode Toggle - AXY+Start
 

@@ -55,7 +55,7 @@ If the controller is functioning normally, this has already been performed and y
   * For trigger offsets, which have a wide numerical range, it will only hold for 0.1 second.
 * If you're in Melee without input visualization tools, you will see your character roll to the right to indicate this, or you'll see the menu tilt due to the C-Stick.
 
-![Sticks pointing up and to the right, triggers pressed](For_Users/Phob_Calibration_Guide_v0.20_Images/FreezeSticks.png?raw=true)
+![Sticks pointing up and to the right, triggers pressed](For_Users/Phob_Calibration_Guide_v0.20_Images/FreezeSticks.png)
 
 # Safe Mode Toggle - AXY+Start
 
@@ -111,7 +111,7 @@ If the controller is functioning normally, this has already been performed and y
 
 **NOTE: If using Dolphin Smashscope, you MUST disable all Wii Remotes**
 
-![DISABLE_WII_REMOTES](For_Users/Phob_Calibration_Guide_v0.20_Images/disableWiiRemotes.png?raw=true)
+![DISABLE_WII_REMOTES](For_Users/Phob_Calibration_Guide_v0.20_Images/disableWiiRemotes.png)
 
 * Stick calibration has two phases: measurement and notch adjustment.
   * You **must** complete both measurement and notch adjustment for the setting to be saved.

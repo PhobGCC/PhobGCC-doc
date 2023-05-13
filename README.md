@@ -9,7 +9,7 @@ This comes together to make a high-performance, customizable, long-lasting contr
 
 Come chat with us on the [PhobGCC Discord](https://discord.gg/eNJ7xWMvxf)!
 
-![PhobGCC](For_Makers/BuildPics_2.0.1/Phob2_Front.jpg?raw=true)
+![PhobGCC](For_Makers/BuildPics_2.0.1/Phob2_Front.jpg)
 
 ## For Buyers and Users
 
