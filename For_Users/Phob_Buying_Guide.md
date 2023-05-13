@@ -18,7 +18,7 @@ Which board version you have affects how you update the firmware.
 
 ### 1.0
 
-![PhobGCC 1.0](../For_Users/Phob_Buying_Guide_Images/Phob1.0_TopView_cropped.jpeg)
+![PhobGCC 1.0](/For_Users/Phob_Buying_Guide_Images/Phob1.0_TopView_cropped.jpeg)
 
 * Very rare.
 * Has no rumble.
@@ -26,7 +26,7 @@ Which board version you have affects how you update the firmware.
 
 ### 1.1
 
-![PhobGCC 1.1 with Teensy 3.2](../For_Users/Phob_Buying_Guide_Images/Phob1.1_TopView_cropped.jpeg)
+![PhobGCC 1.1 with Teensy 3.2](/For_Users/Phob_Buying_Guide_Images/Phob1.1_TopView_cropped.jpeg)
 
 * Somewhat common.
 * Has no rumble.
@@ -37,13 +37,13 @@ Which board version you have affects how you update the firmware.
   See photo below for what a Teensy 4 looks like on a PhobGCC 1.1.
   * Teensy 4.0 with Diode Fix: similar to above, but pins 7 and 8 on the Teensy may be shorted, or the diode next to the connector may be shorted.
 
-![PhobGCC 1.1 with Teensy 4 attached](../For_Users/Phob_Buying_Guide_Images/Phob1.1Teensy4Bodge.jpg)
+![PhobGCC 1.1 with Teensy 4 attached](/For_Users/Phob_Buying_Guide_Images/Phob1.1Teensy4Bodge.jpg)
 
 ### 1.2:
 
-![PhobGCC 1.2.1](../For_Users/Phob_Buying_Guide_Images/Phob1.2.1_TopView_Cropped.jpeg)
+![PhobGCC 1.2.1](/For_Users/Phob_Buying_Guide_Images/Phob1.2.1_TopView_Cropped.jpeg)
 
-![PhobGCC 1.2.2](../For_Makers/BuildPics_1.2.2/CVAC1118_1lwoupq-output.jpg)
+![PhobGCC 1.2.2](/For_Makers/BuildPics_1.2.2/CVAC1118_1lwoupq-output.jpg)
 
 * Has rumble support.
 * Has mouse button support on the face buttons other than Start.
@@ -106,7 +106,7 @@ All solder joints should have the solder clearly sticking to both the component 
 
 The entire pad on the board should be wet out with solder, but there ideally should not be enough solder to form a convex ball.
 
-![Bad solder joint](../For_Users/Phob_Buying_Guide_Images/badhalljoints_cropped.jpg)
+![Bad solder joint](/For_Users/Phob_Buying_Guide_Images/badhalljoints_cropped.jpg)
 
 This is an example of a solder joint that has poor contact with the board and caused undesirable stick behavior.
 
