@@ -5,7 +5,7 @@ This is a guide for enabling ESS Adapter functionality for the PhobGCC.
 # Prerequisites
 
 As with all Extras, it must be built into the firmware and enabled by first
-following the [Extras Guide](For_Users/Phob_Extras_Guide.md).
+following the [Extras Guide](../../For_Users/Extras_Guides/Phob_Extras_Guide.md).
 
 # Overview
 

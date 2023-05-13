@@ -48,11 +48,11 @@ There are two board houses you can purchase from, with their own benefits and dr
 
 Elecrow is the preferred board house, as they have proper quality control and validation. They do the testing procedure to ensure the boards came out cleanly and to ensure you will not receive a dead-on-arrival board. The drawbacks is that they often take 3-4 weeks for arrival and are 50% more expensive than the alternative option.
 
-[Elecrow Ordering Guide](For_Makers/Phob2_Elecrow_Ordering_Guide.md)
+[Elecrow Ordering Guide](../For_Makers/Phob2_Elecrow_Ordering_Guide.md)
 
 JLCPCB is the secondary board house, as they lack significant quality control to ensure the board is assembled properly. JLC Economic assembly **should not** be used as the quality of the boards will be terrible and you risk dead-on-arrival boards. JLC Standard Assembly is better, but you risk poor plating and solder mask issues. The advantages to JLC is that they ship much faster than Elecrow (2 weeks) and are 30% less expensive.
 
-[JLCPCB Ordering Guide](For_Makers/Phob2_JLCPCB_Ordering_Guide.md)
+[JLCPCB Ordering Guide](../For_Makers/Phob2_JLCPCB_Ordering_Guide.md)
 
 ## Optional: Purchasing LR Trigger Paddles
 
@@ -60,11 +60,11 @@ If you don't or can't use OEM GCC Trigger paddles, you can order trigger paddles
 
 First, you can download the files available in the [PhobGCCv2-HW Github](https://github.com/PhobGCC/PhobGCCv2-HW/releases/tag/v2.0.5) in the releases section as shown below:
 
-![PHOB2_PADDLE_RELEASE](For_Makers/Phob_Ordering_Guide_Images/phob2_paddle_release.png)
+![PHOB2_PADDLE_RELEASE](../For_Makers/Phob_Ordering_Guide_Images/phob2_paddle_release.png)
 
 Click "Order Now" on JLCPCB, make sure you are set to "Standard PCB/PCBA" tab, click "Add Gerber File", and upload the Trigger_Paddle_Gerbers.zip. Once the files are uploaded, you should see the board process and then load in as shown below:
 
-![TRIGGER_BOARD](For_Makers/Phob_Ordering_Guide_Images/trigger_board.PNG)
+![TRIGGER_BOARD](../For_Makers/Phob_Ordering_Guide_Images/trigger_board.PNG)
 
 Once you've checked that the size is set to 9.7x41.72mm, you can progress with configuring it.
 The recommended settings are the defaults, setting your board quantity, setting "Different Design" to 2, and setting the Surface Finish to ENIG, as seen below:
@@ -73,7 +73,7 @@ The recommended settings are the defaults, setting your board quantity, setting 
 
 **NOTE2: SINCE THESE BOARDS ARE SO SMALL, THE QUANTITY DOESN'T CHANGE THE PRICE. WE SUGGEST ORDERING PLENTY SINCE ITS CHEAP. THE DIFFERENCE BETWEEN 20 AND 200 IS $18.**
 
-![TRIGGER_SETTINGS](For_Makers/Phob_Ordering_Guide_Images/trigger_settings.PNG)
+![TRIGGER_SETTINGS](../For_Makers/Phob_Ordering_Guide_Images/trigger_settings.PNG)
 
 You can then click "Save To Cart" and pay for your boards.
 
@@ -85,17 +85,17 @@ If you can't source magnet mounts locally or via [Etsy](https://www.etsy.com/), 
 
 First, you can download the files available in the [PhobGCCv2-HW Github](https://github.com/PhobGCC/PhobGCCv2-HW/releases/tag/v2.0.5) in the releases section as shown below:
 
-![PHOB2_MAGNET_RELEASE](For_Makers/Phob_Ordering_Guide_Images/phob2_magnet_release.png)
+![PHOB2_MAGNET_RELEASE](../For_Makers/Phob_Ordering_Guide_Images/phob2_magnet_release.png)
 
 Click "Order Now" on JLCPCB, make sure you are set to "3D Printing" tab, click "Add 3D Files", and upload the DH1H1_Magnet_Holder_JLCPCB.STL. Once the file is uploaded, you should see it render as shown below:
 
-![MAGNET_MOUNTS](For_Makers/Phob_Ordering_Guide_Images/dh1h1_mounts.PNG)
+![MAGNET_MOUNTS](../For_Makers/Phob_Ordering_Guide_Images/dh1h1_mounts.PNG)
 
 The recommended settings are SLS Nylon. You then set the product description to Other -> Fastener as shown below
 
 **NOTE: QUANTITY 1 GETS YOU 10 MOUNTS, WHICH IS ENOUGH FOR 2.5 PHOBS. 2 GETS YOU 20 MOUNTS FOR 5 PHOBS. MAKE SURE YOU ORDER ENOUGH!**
 
-![MAGNET_SETTINGS](For_Makers/Phob_Ordering_Guide_Images/magnet_settings.PNG)
+![MAGNET_SETTINGS](../For_Makers/Phob_Ordering_Guide_Images/magnet_settings.PNG)
 
 You can then click "Save To Cart" and pay for your mounts.
 
@@ -160,4 +160,4 @@ The GCC-specific Parts have a few different methods of acquisition
 
 # Assembly
 
-Once you have all the parts you need, follow the [build guide](For_Makers/Build_Guide_2.0.md) to assemble your PhobGCC.
+Once you have all the parts you need, follow the [build guide](../For_Makers/Build_Guide_2.0.md) to assemble your PhobGCC.

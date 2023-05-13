@@ -4,7 +4,7 @@ This is a guide to enabling Extras, community-created features that require to b
 
 # Prerequisites
 
-* The ability to flash the PhobGCC firmware normally by following the [Phob Programming Guide](For_Users/Phob_Programming_Guide.md).
+* The ability to flash the PhobGCC firmware normally by following the [Phob Programming Guide](../../For_Users/Phob_Programming_Guide.md).
 
 # Directional Configurations
 
