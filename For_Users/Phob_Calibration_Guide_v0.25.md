@@ -1,8 +1,8 @@
-**THIS IS LEGACY FIRMWARE! PLEASE UPDATE TO THE [LATEST!](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.28.md)**
+**THIS IS LEGACY FIRMWARE! PLEASE UPDATE TO THE [LATEST!](https://github.com/pokeimon/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.28.md)**
 
 **NOTE: This is for firmware version 0.25.**
 
-For Version 0.24, use [this document](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.24.md).
+For Version 0.24, use [this document](https://github.com/pokeimon/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.24.md).
 
 For later development versions of the software that have not yet been released, search for “Current Commands List” in the PhobGCC.ino file to see the commands for that version as they may have changed.
 
@@ -40,7 +40,7 @@ You do not need to do this otherwise.
 * Most of the time, when you give the PhobGCC a command, the Analog Stick and C-Stick will freeze pointing to the top right for 2 seconds.
 * If you're in game without input visualization tools, you will see your character roll to the right to indicate this, or you'll see the menu tilt due to the C-Stick.
 
-![Sticks pointing up and to the right, triggers pressed](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.20_Images/FreezeSticks.png?raw=true)
+![Sticks pointing up and to the right, triggers pressed](https://github.com/pokeimon/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.20_Images/FreezeSticks.png?raw=true)
 
 # Safe Mode Toggle - AXY+Start
 

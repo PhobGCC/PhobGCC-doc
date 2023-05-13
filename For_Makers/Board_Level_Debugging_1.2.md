@@ -6,20 +6,20 @@ You will need a multimeter that can read voltages and resistances to make the mo
 
 # Physical Aspects to Check
 
-![Back of board with annotations](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardPics/1.2.1_Back_Annotated.jpg?raw=true)
+![Back of board with annotations](https://github.com/pokeimon/PhobGCC-doc/blob/main/For_Makers/BoardPics/1.2.1_Back_Annotated.jpg?raw=true)
 
 * On the Z-button, be very generous with solder on the legs that are on the edge of the board. These solder joints are structural, helping keep the button from breaking off when you mash grab (or Z-jump).
 * The pins behind the Teensy must be flush as possible. The closer they are to completely flat with the board, the flatter the rumble bracket fits. If they protrude, the rumble bracket will always try to pop out.
 * The Hall effect sensors for the Analog stick need to have their leads trimmed fairly closely to the board, though they don't have to be completely flush. If you don't, they press into the trigger guards, the plastic parts that are screwed down over the triggers. This makes it difficult to close the controller shell.
 * The Hall effect sensors on the C-stick board do not have to be trimmed particularly closely.
 
-![Back of analog stick](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardPics/1.2.1_Back_Rumble_Trim.jpg?raw=true)
+![Back of analog stick](https://github.com/pokeimon/PhobGCC-doc/blob/main/For_Makers/BoardPics/1.2.1_Back_Rumble_Trim.jpg?raw=true)
 
 * The rumble bracket has a loop here that needs to be trimmed off to allow the bracket to lay flat easily.
 
 # Resistances to Check Before Plugging In
 
-![Power-off resistances](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardPics/1.2.1_Front_Power_Resistances.jpg?raw=true)
+![Power-off resistances](https://github.com/pokeimon/PhobGCC-doc/blob/main/For_Makers/BoardPics/1.2.1_Front_Power_Resistances.jpg?raw=true)
 
 * Check these resistances before ever plugging in the controller to ensure that there are no short-circuits.
 * The 32 Ohm one will be different if you don't have an OEM rumble motor.
@@ -37,7 +37,7 @@ If your controller is not functioning correctly, open the shell and plug it into
 
 ## Supply Voltages
 
-![Power-on supply voltages](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardPics/1.2.1_Front_Power_Voltages.jpg?raw=true)
+![Power-on supply voltages](https://github.com/pokeimon/PhobGCC-doc/blob/main/For_Makers/BoardPics/1.2.1_Front_Power_Voltages.jpg?raw=true)
 
 * These are the supply voltages for the various parts on the controller.
 * 4.2-4.7V is the supply for the Teensy. This may vary depending on what the controller is plugged into and what the Teensy's clock speed is set to.
@@ -52,7 +52,7 @@ If your controller is not functioning correctly, open the shell and plug it into
 
 If you have particular analog sensors (Analog stick, C-stick, or triggers) that are acting up, check the following voltages to compare:
 
-![Sensor output voltages](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/BoardPics/1.2.1_Front_Analog_Voltages.jpg?raw=true)
+![Sensor output voltages](https://github.com/pokeimon/PhobGCC-doc/blob/main/For_Makers/BoardPics/1.2.1_Front_Analog_Voltages.jpg?raw=true)
 
 * Put the black lead of your multimeter where Reference Ground indicates and the red lead on the indicated test points.
 * All the 1V values are outputs of the Hall effect sensors.
