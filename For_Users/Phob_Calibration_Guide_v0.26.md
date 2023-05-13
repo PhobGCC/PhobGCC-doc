@@ -1,8 +1,8 @@
-**THIS IS LEGACY FIRMWARE! PLEASE UPDATE TO THE [LATEST!](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.28.md)**
+**THIS IS LEGACY FIRMWARE! PLEASE UPDATE TO THE [LATEST!](For_Users/Phob_Calibration_Guide_v0.28.md)**
 
 **NOTE: This is for firmware version 0.26.**
 
-For Version 0.25, use [this document](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.25.md).
+For Version 0.25, use [this document](For_Users/Phob_Calibration_Guide_v0.25.md).
 
 For later development versions of the software that have not yet been released, search for “Current Commands List” in the `common/phobGCC.h` file to see the commands for that version as they may have changed.
 
@@ -43,7 +43,7 @@ You do not need to do this otherwise.
   * For trigger offsets, which have a wide numerical range, it will only hold for 0.1 second.
 * If you're in Melee without input visualization tools, you will see your character roll to the right to indicate this, or you'll see the menu tilt due to the C-Stick.
 
-![Sticks pointing up and to the right, triggers pressed](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.20_Images/FreezeSticks.png?raw=true)
+![Sticks pointing up and to the right, triggers pressed](For_Users/Phob_Calibration_Guide_v0.20_Images/FreezeSticks.png?raw=true)
 
 # Safe Mode Toggle - AXY+Start
 

@@ -14,11 +14,11 @@ This is an illustrated guide to ordering PhobGCC PCBs via the Elecrow Board Hous
 
 Download the files available in the [PhobGCCv2-HW Github](https://github.com/PhobGCC/PhobGCCv2-HW/releases/tag/v2.0.5) in the releases section as shown below:
 
-![PHOB2_ELECROW_BOARD_RELEASE](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_elecrow_release.PNG?raw=true)
+![PHOB2_ELECROW_BOARD_RELEASE](For_Makers/Phob_Ordering_Guide_Images/phob2_elecrow_release.PNG?raw=true)
 
 Once you've extracted the files from the .zip, you should have two files. The Phob2_Gerbers .zip and the Elecrow Info Excel spreadsheet. Open up the spreadsheet and you should see in the PCB Specification sheet as follows:
 
-![PHOB2_ELECROW_BOARD_OPTIONS](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_elecrow_options.PNG?raw=true)
+![PHOB2_ELECROW_BOARD_OPTIONS](For_Makers/Phob_Ordering_Guide_Images/phob2_elecrow_options.PNG?raw=true)
 
 Here is where you'll want to set your board quantity, PCB color, and text color. You can see the exact settings availability on [Elecrow's website](https://www.elecrow.com/pcb-manufacturing.html), but for a short hand you can set board quantities to be 5, 10, 15, 20, 25, 30, 40, 50, 75, and 100. For PCB Color, you can choose between Green, Red, Yellow, Blue, White, Black, Purple, or Matte Black. If, and only if, you order White or Yellow PCBs, you need to change the text color from white to black. Once you have your specifications set, save the file, close it, and re-open it to ensure it saved properly.
 
@@ -47,9 +47,9 @@ Attach the Gerbers .zip and the spreadsheet to the email. Title it "PCB Assembly
 
 In 24-48 hours, they will reply with an excel spreadsheet containing the results of your quote. On the Total Page at the bottom will be the final cost. If this cost is acceptable to you, you then proceed to the [Elecrow website for PCB assembly](https://www.elecrow.com/pcb-assembly.html). On here, set the name of the person who emailed you your final cost as the Project Manager name and set the "Qty" as the final cost rounded up to dollar. You can See examples below:
 
-![PHOB2_ELECROW_BOARD_COST](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_elecrow_cost.PNG?raw=true)
+![PHOB2_ELECROW_BOARD_COST](For_Makers/Phob_Ordering_Guide_Images/phob2_elecrow_cost.PNG?raw=true)
 
-![PHOB2_ELECROW_BOARD_CHECKOUT](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob_Ordering_Guide_Images/phob2_elecrow_web.PNG?raw=true)
+![PHOB2_ELECROW_BOARD_CHECKOUT](For_Makers/Phob_Ordering_Guide_Images/phob2_elecrow_web.PNG?raw=true)
 
 You can then click "Add To Cart", and proceed to checkout. Once you have checked out, you need to make a note of the order #. This will appear on screen immediately, but if you forget, you can check your email for a receipt from Elecrow. You then need to reply to the quotation email with the order number. You can use the template below:
 
