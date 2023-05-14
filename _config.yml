@@ -13,3 +13,4 @@ github:
   phobgcc_sw_url: https://github.com/PhobGCC/PhobGCC-SW/releases/latest
   phobgcc_hw1_url: https://github.com/PhobGCC/PhobGCC-HW/releases/latest
   phobgcc_hw2_url: https://github.com/PhobGCC/PhobGCCv2-HW/releases/latest
+  is_project_page: false
