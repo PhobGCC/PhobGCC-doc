@@ -15,7 +15,7 @@ Bridge the third and fourth pins on the top left of the Teensy 3.2/Teensy 4.0 (a
 Due to the reversed orientation of the left stickbox on PhobGCC v1.Xs, the left trigger guard applies significant pressure to the hall effect sensor joints.
 This can deform the solder joints if leaded solder, which is soft, was used.
 
-The way to do them right is to cut the pins flush and reflow them per [the build guide](/For_Makers/Build_Guide_1.2.md#bending-and-soldering-hall-sensors).
+The way to do them right is to cut the pins flush and reflow them per [the build guide](/For_Makers/Build_Guide_1.2.html#bending-and-soldering-hall-sensors).
 
 There are 3 other fixes that resolve the issue.
 

@@ -1,4 +1,4 @@
-**THIS IS LEGACY FIRMWARE! PLEASE UPDATE TO THE [LATEST!](/For_Users/Phob_Calibration_Guide_v0.28.md)**
+**THIS IS LEGACY FIRMWARE! PLEASE UPDATE TO THE [LATEST!](/For_Users/Phob_Calibration_Guide_v0.28.html)**
 
 **NOTE: This is for firmware version 0.20.**
 

@@ -1,6 +1,6 @@
 **NOTE: This is for firmware version 0.29.**
 
-For older versions, use the appropriate calibration document [from here](LEGACY.md).
+For older versions, use the appropriate calibration document [from here](LEGACY.html).
 
 For later development versions of the software that have not yet been released, search for “Current Commands List” in the `common/phobGCC.h` file to see the commands for that version as they may have changed.
 
@@ -22,7 +22,7 @@ Navigate with the D-pad, select an item by pressing A, and back out by holding B
 
 Some menu pages are not complete yet, and on these you will be greeted by an "Under Construction" sign.
 
-Full PhobVision manual available [here](https://github.com/PhobGcc/PhobGCC-doc/blob/main//For_Users/Phobvision_Guide_Latest.md).
+Full PhobVision manual available [here](https://github.com/PhobGcc/PhobGCC-doc/blob/main//For_Users/Phobvision_Guide_Latest.html).
 
 # Initial Setup
 
@@ -73,8 +73,8 @@ If the controller is functioning normally, this has already been performed and y
   * The Y-axis will show the tens and ones digits. In this case, it would be 29.
   * The X-axis will show the thousands and hundreds digits. In this case, it would be 0.
 * You must use Smashscope to see this numerically.
-* If the controller doesn't show 29, then you need to reference an older configuration document [here](LEGACY.md).
-  * If it doesn't respond to this command at all, then it's likely the version is 0.23 or lower and you should [upgrade the controller firmware](/For_Users/Phob_Programming_Guide.md).
+* If the controller doesn't show 29, then you need to reference an older configuration document [here](LEGACY.html).
+  * If it doesn't respond to this command at all, then it's likely the version is 0.23 or lower and you should [upgrade the controller firmware](/For_Users/Phob_Programming_Guide.html).
 
 # Controller Reset - Hold ABZ then press Start
 
