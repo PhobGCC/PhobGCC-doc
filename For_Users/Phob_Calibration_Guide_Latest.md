@@ -246,6 +246,7 @@ The PhobGCC hard limits its own stick outputs to a range from -125 to +125, but 
   * This changes the physical distance to the rim of the Melee unit circle.
   * At 82, the rim of the Melee unit circle is basically at the rim of the controller, requiring larger motions for things like smash attacks.
   * At 125, the rim of the Melee unit circle is much farther in, requiring smaller motions for things like smash attacks.
+  * 100 will behave identically to previous firmware versions that do not feature stick scaling.
 
 # Analog Stick Cardinal Snapping Adjustment - R + A + Du/Dd
 
@@ -303,6 +304,7 @@ The PhobGCC hard limits its own stick outputs to a range from -125 to +125, but 
   * This changes the physical distance to the rim of the Melee unit circle.
   * At 82, the rim of the Melee unit circle is basically at the rim of the controller, requiring larger motions for things like smash attacks.
   * At 125, the rim of the Melee unit circle is much farther in, requiring smaller motions for things like smash attacks.
+  * 100 will behave identically to previous firmware versions that do not feature stick scaling.
 
 # C-Stick Cardinal Snapping Adjustment - R + A + Z + Du/Dd
 
