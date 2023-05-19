@@ -22,7 +22,7 @@ Once you've extracted the files from the .zip, you should have two files. The Ph
 
 Here is where you'll want to set your board quantity, PCB color, and text color. You can see the exact settings availability on [Elecrow's website](https://www.elecrow.com/pcb-manufacturing.html), but for a short hand you can set board quantities to be 5, 10, 15, 20, 25, 30, 40, 50, 75, and 100. For PCB Color, you can choose between Green, Red, Yellow, Blue, White, Black, Purple, or Matte Black. If, and only if, you order White or Yellow PCBs, you need to change the text color from white to black. Once you have your specifications set, save the file, close it, and re-open it to ensure it saved properly.
 
-You can then draft an email to the Elecrow PCB Assembly Service requesting a quote on how much it would cost to manufacture your boards. You can expect Elecrow to be 50% more expensive than JLCPCB. You can use the template as follows:
+You can then draft an email to the Elecrow PCB Assembly Service requesting a quote on how much it would cost to manufacture your boards. You can use the template as follows:
 
 ```
 Hello!
