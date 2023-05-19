@@ -46,11 +46,13 @@ Don't acquire these, because they're not necessary or won't work with PhobGCC 2.
 
 There are two board houses you can purchase from, with their own benefits and drawbacks. They are JLCPCB and Elecrow.
 
-Elecrow is the preferred board house, as they have proper quality control and validation. They do the testing procedure to ensure the boards came out cleanly and to ensure you will not receive a dead-on-arrival board. The drawbacks is that they often take 3-4 weeks for arrival and are 50% more expensive than the alternative option.
+Elecrow is the preferred board house, as they have proper quality control and validation. They do the testing procedure to ensure the boards came out cleanly and to ensure you will not receive a dead-on-arrival board. The drawback is that they often take 3-4 weeks for arrival.
+
+Usually they are 50% more expensive than the alternative option, but enough PhobGCC motherboards have been ordered that they have reduced costs to be competitive or even cheaper at large volume.
 
 [Elecrow Ordering Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob2_Elecrow_Ordering_Guide.md)
 
-JLCPCB is the secondary board house, as they lack significant quality control to ensure the board is assembled properly. JLC Economic assembly **should not** be used as the quality of the boards will be terrible and you risk dead-on-arrival boards. JLC Standard Assembly is better, but you risk poor plating and solder mask issues. The advantages to JLC is that they ship much faster than Elecrow (2 weeks) and are 30% less expensive.
+JLCPCB is the secondary board house, as they lack significant quality control to ensure the board is assembled properly. JLC Economic assembly **should not** be used as the quality of the boards will be terrible and you risk dead-on-arrival boards. JLC Standard Assembly is better, but you risk poor plating and solder mask issues. The advantage to JLC is that they ship much faster than Elecrow (2 weeks), but you need to preorder some components and this can add a significant delay.
 
 [JLCPCB Ordering Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Makers/Phob2_JLCPCB_Ordering_Guide.md)
 
