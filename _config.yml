@@ -6,11 +6,14 @@ plugins:
   - jekyll-remote-theme
   - jekyll-relative-links
 
-show_downloads: true
+show_downloads: false
+show_nav: true
 
 github:
-  zip_url: http://example.com/download.zip
   phobgcc_sw_url: https://github.com/PhobGCC/PhobGCC-SW/releases/latest
   phobgcc_hw1_url: https://github.com/PhobGCC/PhobGCC-HW/releases/latest
   phobgcc_hw2_url: https://github.com/PhobGCC/PhobGCCv2-HW/releases/latest
   is_project_page: false
+
+domain:
+  home_url: https://phobgcc.com/
