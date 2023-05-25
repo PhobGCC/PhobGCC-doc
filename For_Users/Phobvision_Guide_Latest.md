@@ -4,7 +4,7 @@ NOTE: This is for PhobGCC 2 with firmware version 0.29.
 
 PhobVision is a feature specific to PhobGCC version 2 that provides graphical configuration, calibration, and training tools built into the controller.
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/00-mainmenu.jpg?raw=true)
+![](/For_Users/Phobvision_Images/00-mainmenu.jpg)
 
 Not every PhobGCC v2 has PhobVision installed. If you're interested, ask your local modder if they can install it.
 
@@ -28,12 +28,12 @@ Continuing to hold B will cause you to back to the next higher menu level.
 
 # Stick Calibration
 
-When you use PhobVision to calibrate, you can follow the instructions onscreen, which should correspond with the instructions in the [PhobGCC Calibration Guide](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_Latest.md).
+When you use PhobVision to calibrate, you can follow the instructions onscreen, which should correspond with the instructions in the [PhobGCC Calibration Guide](/For_Users/Phob_Calibration_Guide_Latest.md).
 It doesn't have room to say it, but you can still press Start to skip the measurements and begin notch adjustment on the notches you've measured.
 
 However, you are presented with more information than you would get while calibrating using Smashscope, and this may be useful.
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/01-calibrate.jpg?raw=true)
+![](/For_Users/Phobvision_Images/01-calibrate.jpg)
 
 On the top right, it shows you what step you are at in the procedure.
 During notch adjust, if you haven't measured some of the notches, then it will skip some of the steps.
@@ -68,7 +68,7 @@ The PhobScope tools let you view and record the controller's inputs and outputs 
 
 The Input Viewer shows the current stick positions of the controller, as well as the button and trigger states both before and after remapping and trigger modes are applied.
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/02-inputviewer.jpg?raw=true)
+![](/For_Users/Phobvision_Images/02-inputviewer.jpg)
 
 The left side shows an octagon representing the standard 100-unit-radius stick gate, with the position of the left stick shown as a large square and the C-stick shown as a small square.
 
@@ -86,7 +86,7 @@ You can see both the coordinates sent to the console and the coordinates as inte
 
 The Stickmap Plots let you record 100 milliseconds of stick motion in 2D and plot it overlaid on various stickmaps relevant to Melee.
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/03-stickmapplots.jpg?raw=true)
+![](/For_Users/Phobvision_Images/03-stickmapplots.jpg)
 
 This can help you perfect your stick inputs and filter configurations for in-game techniques such as ledgedashing and dashback out of crouch.
 
@@ -115,7 +115,7 @@ Self-explanatory: you only see the stick motion itself.
 
 #### Deadzones
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/deadzone1530.png?raw=true)
+![](/For_Users/Phobvision_Images/deadzone1530.png)
 
 This shows you the Melee deadzones.
 
@@ -123,33 +123,33 @@ It may be useful for practicing SDI.
 
 #### Wait Attacks
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/await1530.png?raw=true)
+![](/For_Users/Phobvision_Images/await1530.png)
 
 This shows you the stickmap for A attacks while standing in wait on the ground.
 
 Here's a labered image of this stickmap, although the PhobVision version is made symmetrical:
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/await_labeled.png?raw=true)
+![](/For_Users/Phobvision_Images/await_labeled.png)
 
 #### Wait Movement
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/movewait1530.png?raw=true)
+![](/For_Users/Phobvision_Images/movewait1530.png)
 
 This shows you the stickmap for movement while standing in wait on the ground.
 
 Here's a labeled version of it:
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/movewait_labeled.png?raw=true)
+![](/For_Users/Phobvision_Images/movewait_labeled.png)
 
 #### Crouch
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/crouch1530.png?raw=true)
+![](/For_Users/Phobvision_Images/crouch1530.png)
 
 This shows you the stickmap for movement while crouching.
 
 Here's a labeled version of it:
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/crouch_labeled.png?raw=true)
+![](/For_Users/Phobvision_Images/crouch_labeled.png)
 
 This is particularly useful for practicing dashback out of crouch (DBOOC).
 
@@ -164,15 +164,15 @@ On UCF 0.84 and later, those regions are effectively included in the region wher
 
 #### Left and Right Ledge
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/ledgeL1530.png?raw=true)
+![](/For_Users/Phobvision_Images/ledgeL1530.png)
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/ledgeR1530.png?raw=true)
+![](/For_Users/Phobvision_Images/ledgeR1530.png)
 
 This shows you the stickmap for options while hanging from ledge (and the horizontal deadzone for your airdodge afterwards).
 
 Here's a labeled version of it, ignoring the deadzones:
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/ledge_labeled.png?raw=true)
+![](/For_Users/Phobvision_Images/ledge_labeled.png)
 
 This is useful for practicing ledgedashes.
 
@@ -193,7 +193,7 @@ However, if you have the cursor on the Highlight Sample # option, you must manua
 
 ### Snapback
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/04-snapback.jpg?raw=true)
+![](/For_Users/Phobvision_Images/04-snapback.jpg)
 
 This is only available for stick axes.
 
@@ -205,7 +205,7 @@ As long as you held it on one side long enough before letting go, the percents t
 
 ### Dashback
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/05-dashback.jpg?raw=true)
+![](/For_Users/Phobvision_Images/05-dashback.jpg)
 
 This is only available for stick axes.
 
@@ -218,7 +218,7 @@ The shorter the time the stick output spends in the range 23-63 inclusive, the l
 
 ### Pivots
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/06-pivot.jpg?raw=true)
+![](/For_Users/Phobvision_Images/06-pivot.jpg)
 
 This is only available for stick axes.
 
@@ -234,7 +234,7 @@ If the stick output is past the dash threshold for more than 33 ms, you are guar
 
 ### Trigger
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/07-trigger.jpg?raw=true)
+![](/For_Users/Phobvision_Images/07-trigger.jpg)
 
 This is only available for L or R.
 
@@ -253,7 +253,7 @@ In Melee, an ADT powershield leaves you vulnerable to physical attacks but is oc
 
 The Button Timing Viewer lets you record 200 milliseconds of digital button state and whether each analog axis is past a configurable threshold.
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/08-buttontiming_nair.jpg?raw=true)
+![](/For_Users/Phobvision_Images/08-buttontiming_nair.jpg)
 
 Press Start to begin a recording, or turn Auto-Repeat On to make it so you don't have to keep pressing Start.
 
@@ -267,13 +267,13 @@ The background lines indicate roughly frame spacing.
 
 You can use this to practice things like frame 1 short hop nair (top image), wavedash timing (below), JC grabs, and more with sub-frame feedback precision.
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/09-buttontiming_wavedash.jpg?raw=true)
+![](/For_Users/Phobvision_Images/09-buttontiming_wavedash.jpg)
 
 ## Reaction Time Test
 
 The Reaction Time Test is one of the most bare metal reaction time testers you can get, when used on a CRT.
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/10-reactiontime.jpg?raw=true)
+![](/For_Users/Phobvision_Images/10-reactiontime.jpg)
 
 Press Start and then wait until the white square appears, then press any button or move the sticks.
 You can adjust the stick or analog trigger thresholds if you want.
@@ -292,12 +292,12 @@ Press up or down on the D-Pad to get the diagonal lines to be as smooth as possi
 
 Default configuration on a finicky CRT:
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/12-interlace_default.jpg?raw=true)
+![](/For_Users/Phobvision_Images/12-interlace_default.jpg)
 
 Good configuration:
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/11-interlace_good.jpg?raw=true)
+![](/For_Users/Phobvision_Images/11-interlace_good.jpg)
 
 Very bad configuration:
 
-![](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phobvision_Images/13-interlace_bad.jpg?raw=true)
+![](/For_Users/Phobvision_Images/13-interlace_bad.jpg)
