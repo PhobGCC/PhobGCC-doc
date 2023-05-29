@@ -26,7 +26,11 @@ Move the .uf2 file to somewhere you can easily find it. Then unplug your control
 
 ![PHOB2_PLUGIN](/For_Users/Phob_Programming_Guide_Images/phob2_hold.jpg)
 
-You should have it appear as a mass storage device, similar to a flashdrive. Drag the .uf2 file onto the controller and it'll transfer over the firmware and disconnect.
+You should have it appear as a mass storage device, similar to a flashdrive. Drag the .uf2 file onto the controller.
+
+Once the transfer is finished, the USB mass storage device will automatically disconnect.
+If you re-connect it, the .uf2 file will not appear to be there.
+This is normal.
 
 ![PHOB2_PLUGIN](/For_Users/Phob_Programming_Guide_Images/Phob2_transfer.PNG)
 

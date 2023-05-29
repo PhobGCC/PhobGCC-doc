@@ -12,7 +12,7 @@ Not every PhobGCC v2 has PhobVision installed. If you're interested, ask your lo
 
 To start PhobVision:
 
-1. Plug a 3.5mm TRRS to RCA video cable compatible with Sony camcorders into the controller, and plug the yellow plug into a TV composite input. You can alternately use the red plug of a 3.5mm TRS to stereo RCA audio cable.
+1. Plug a 3.5mm TRRS to RCA video cable compatible with Sony camcorders into the controller, and plug the yellow plug into a TV composite input. The cable must be TRRS = Audio Left, Video, Ground, Audio Right. You can alternately use the red plug of a 3.5mm TRS to stereo RCA audio cable. 
 2. Hold the Z button on the controller.
 3. Plug the GCC cord into a powered-on console or GCC adapter.
 
