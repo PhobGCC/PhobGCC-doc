@@ -1,6 +1,6 @@
 **NOTE: This is for firmware version 0.28.**
 
-For Version 0.27, use [this document](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.27.md).
+For Version 0.27, use [this document](/For_Users/Phob_Calibration_Guide_v0.27.md).
 
 For later development versions of the software that have not yet been released, search for “Current Commands List” in the `common/phobGCC.h` file to see the commands for that version as they may have changed.
 
@@ -55,7 +55,7 @@ If the controller is functioning normally, this has already been performed and y
   * For trigger offsets, which have a wide numerical range, it will only hold for 0.1 second.
 * If you're in Melee without input visualization tools, you will see your character roll to the right to indicate this, or you'll see the menu tilt due to the C-Stick.
 
-![Sticks pointing up and to the right, triggers pressed](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.20_Images/FreezeSticks.png?raw=true)
+![Sticks pointing up and to the right, triggers pressed](/For_Users/Phob_Calibration_Guide_v0.20_Images/FreezeSticks.png)
 
 # Safe Mode Toggle - AXY+Start
 
@@ -72,8 +72,8 @@ If the controller is functioning normally, this has already been performed and y
   * The Y-axis will show the tens and ones digits. In this case, it would be 28.
   * The X-axis will show the thousands and hundreds digits. In this case, it would be 0.
 * You must use Smashscope to see this numerically.
-* If the controller doesn't show 28, then you need to reference an older configuration document [here](https://github.com/PhobGCC/PhobGCC-doc/blob/main/LEGACY.md).
-  * If it doesn't respond to this command at all, then it's likely the version is 0.23 or lower and you should [upgrade the controller firmware](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Programming_Guide.md).
+* If the controller doesn't show 28, then you need to reference an older configuration document [here](LEGACY.md).
+  * If it doesn't respond to this command at all, then it's likely the version is 0.23 or lower and you should [upgrade the controller firmware](/For_Users/Phob_Programming_Guide.md).
 
 # Controller Reset - Hold ABZ then press Start
 
@@ -111,16 +111,18 @@ If the controller is functioning normally, this has already been performed and y
 
 **NOTE: If using Dolphin Smashscope, you MUST disable all Wii Remotes**
 
-![DISABLE_WII_REMOTES](https://github.com/PhobGCC/PhobGCC-doc/blob/main/For_Users/Phob_Calibration_Guide_v0.20_Images/disableWiiRemotes.png?raw=true)
+![DISABLE_WII_REMOTES](/For_Users/Phob_Calibration_Guide_v0.20_Images/disableWiiRemotes.png)
 
 * Stick calibration has two phases: measurement and notch adjustment.
   * You **must** complete both measurement and notch adjustment for the setting to be saved.
-* If you’ve already calibrated the stick and just want to adjust notches, you can skip the measurement phase and immediately begin notch adjustment by pressing Start at any time during the measurement phase.
+* If you’ve already calibrated the stick and just want to adjust notches you have already measured, you can skip the measurement phase and immediately begin notch adjustment by pressing Start at any time during the measurement phase.
 * Calibrating either stick turns off Auto-Initialize.
 
 ## Measurement Phase
 
-When in the measurement phase of calibrating the analog stick, the C-Stick will alternate between the center and a position along the rim, starting with the cardinal directions.
+When in the measurement phase of calibrating the analog stick, the C-Stick will alternate between the center and a position along the rim, starting with the cardinal directions. 
+
+The control stick will show the output of the previous calibration. Depending on the previous calibration, this may be accurate, inaccurate, freak out randomly, or in the case of an uncalibrated PhobGCC 2.0, it will be mostly pegged to (125,125). The output you see here has no bearing on the results.
 
 * If the C-Stick is centered, let go of the control stick and press either **L**, **R**, or **A** to measure that position.
 * If the C-Stick is not centered, **hold the physical analog stick into the notch indicated by the C-Stick's output** and press **L**, **R**, or **A** to measure that position.
