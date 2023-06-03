@@ -1,6 +1,6 @@
 **NOTE: This is for firmware version 0.29.**
 
-For older versions, use the appropriate calibration document [from here](LEGACY.md).
+For older versions, use the appropriate calibration document [from here](../LEGACY.md).
 
 For later development versions of the software that have not yet been released, search for “Current Commands List” in the `common/phobGCC.h` file to see the commands for that version as they may have changed.
 
@@ -23,7 +23,7 @@ Navigate with the D-pad, select an item by pressing A, and back out by holding B
 
 Some menu pages are not complete yet, and on these you will be greeted by an "Under Construction" sign.
 
-Full PhobVision manual available [here](https://github.com/PhobGcc/PhobGCC-doc/blob/main//For_Users/Phobvision_Guide_Latest.md).
+Full PhobVision manual available [here](/For_Users/Phobvision_Guide_Latest.md).
 
 # Initial Setup
 
