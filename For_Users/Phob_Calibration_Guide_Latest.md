@@ -1,12 +1,13 @@
 **NOTE: This is for firmware version 0.29.**
 
-For older versions, use the appropriate calibration document [from here](LEGACY.md).
+For older versions, use the appropriate calibration document [from here](../LEGACY.md).
 
 For later development versions of the software that have not yet been released, search for “Current Commands List” in the `common/phobGCC.h` file to see the commands for that version as they may have changed.
 
 **NOTE 2: The controller starts in safe mode! To make any changes you must disable it first!**
 
 I strongly recommend using Smashscope (either on a Wii or vanilla Dolphin) for all of this. Slippi will not run Smashscope.
+You can get Smashscope from the Goomwave website.
 When using Smashscope in Dolphin, make sure to **set all Wiimotes to "None" in the Controllers menu** or else the sticks will not display any movement.
 
 An alternative is Uncle Punch Training Mode 3.0. In the Training Lab menu, under General enable “Input Display”, and under Info Display enable “System LStick”, “System CStick”, and “System Trigger” as the first three rows.
@@ -22,7 +23,7 @@ Navigate with the D-pad, select an item by pressing A, and back out by holding B
 
 Some menu pages are not complete yet, and on these you will be greeted by an "Under Construction" sign.
 
-Full PhobVision manual available [here](https://github.com/PhobGcc/PhobGCC-doc/blob/main//For_Users/Phobvision_Guide_Latest.md).
+Full PhobVision manual available [here](/For_Users/Phobvision_Guide_Latest.md).
 
 # Initial Setup
 
