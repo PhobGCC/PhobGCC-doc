@@ -118,6 +118,8 @@ The remaining parts can be purchased from distributors as listed below.
   * If you use magnets other than DH1H1, you will need to adjust the magnet offset to get the optimum signal strength using PhobVision to check. Speak with the devs on Discord to find out more.
 * Wire:
   * 26-gauge stranded wire such as [this from McMaster](https://mcmaster.com/8054T11).
+  * 6-pin Ribbon Cable from [Kadano](https://kadano.biz/phobgcc-2-0-c-stick-ribbon-cables-6pin/) (EU)
+  * 6-pin Ribbon Cable from [Tbox](https://www.etsy.com/listing/1479077608/phob-202-6-pin-c-stick-ribbon-cables) (NA)
 * Optional Mouse Buttons for ABXYLR: you can use mouse buttons for any number from 0 to 6 of the buttons. Generally the high actuation force buttons are preferred.
   * [Low Actuation Force Buttons](https://www.digikey.com/short/q4r0jh3j)
   * [High Actuation Force Buttons](https://www.digikey.com/short/dcddr0jr)
