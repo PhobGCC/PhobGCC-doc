@@ -28,7 +28,7 @@ Continuing to hold B will cause you to back to the next higher menu level.
 
 # Stick Calibration
 
-When you use PhobVision to calibrate, you can follow the instructions onscreen, which should correspond with the instructions in the [PhobGCC Calibration Guide](/For_Users/Phob_Calibration_Guide_Latest.md).
+When you use PhobVision to calibrate, you can follow the instructions onscreen, which should correspond with the instructions in the [PhobGCC Calibration Guide](/For_Users/Phob_Calibration_Guide_Latest.html).
 It doesn't have room to say it, but you can still press Start to skip the measurements and begin notch adjustment on the notches you've measured.
 
 However, you are presented with more information than you would get while calibrating using Smashscope, and this may be useful.

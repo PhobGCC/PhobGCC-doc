@@ -50,11 +50,11 @@ Elecrow is the preferred board house, as they have proper quality control and va
 
 Usually they are 50% more expensive than the alternative option, but enough PhobGCC motherboards have been ordered that they have reduced costs to be competitive or even cheaper at large volume.
 
-[Elecrow Ordering Guide](/For_Makers/Phob2_Elecrow_Ordering_Guide.md)
+[Elecrow Ordering Guide](/For_Makers/Phob2_Elecrow_Ordering_Guide.html)
 
 JLCPCB is the secondary board house, as they lack significant quality control to ensure the board is assembled properly. JLC Economic assembly **should not** be used as the quality of the boards will be terrible and you risk dead-on-arrival boards. JLC Standard Assembly is better, but you risk poor plating and solder mask issues. The advantage to JLC is that they ship much faster than Elecrow (2 weeks), but you need to preorder some components and this can add a significant delay.
 
-[JLCPCB Ordering Guide](/For_Makers/Phob2_JLCPCB_Ordering_Guide.md)
+[JLCPCB Ordering Guide](/For_Makers/Phob2_JLCPCB_Ordering_Guide.html)
 
 ## Optional: Purchasing LR Trigger Paddles
 
@@ -164,4 +164,4 @@ The GCC-specific Parts have a few different methods of acquisition
 
 # Assembly
 
-Once you have all the parts you need, follow the [build guide](/For_Makers/Build_Guide_2.0.md) to assemble your PhobGCC.
+Once you have all the parts you need, follow the [build guide](/For_Makers/Build_Guide_2.0.html) to assemble your PhobGCC.

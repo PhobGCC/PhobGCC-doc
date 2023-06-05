@@ -1,8 +1,8 @@
-**THIS IS LEGACY FIRMWARE! PLEASE UPDATE TO THE [LATEST!](/For_Users/Phob_Calibration_Guide_v0.28.md)**
+**THIS IS LEGACY FIRMWARE! PLEASE UPDATE TO THE [LATEST!](/For_Users/Phob_Calibration_Guide_v0.28.html)**
 
 **NOTE: This is for firmware version 0.21.**
 
-For Version 0.20, use [this document](/For_Users/Phob_Calibration_Guide_v0.20.md).
+For Version 0.20, use [this document](/For_Users/Phob_Calibration_Guide_v0.20.html).
 
 For later development versions of the software that have not yet been released, search for “Current Commands List” in the PhobGCC.ino file to see the commands for that version as they may have changed.
 
