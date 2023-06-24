@@ -113,6 +113,12 @@ A non-controlled iron will heat up to hotter than you want when it's not being a
 It's not worth the suffering involved.
 You will hate the iron, hate yourself, and in all likelihood end up with nonfunctional PhobGCCs.
 
+Do not use the following kind of soldering iron with the tiny dial on the handle.
+I call these "Phob Destroyers" because they do not have actual temperature control.
+They are cheap, and you get what you pay for: garbage.
+
+![Phob-destroying cheap soldering iron](/For_Makers/phob_destroyer.png)
+
 Next is the tip size.
 In general, you want to get the most contact between the tip and the solder joint without touching adjacent joints.
 Ideally, you use a chisel tip that is exactly as wide as the pads.
