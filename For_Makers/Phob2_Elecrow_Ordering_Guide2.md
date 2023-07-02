@@ -24,7 +24,10 @@ Head over to the [PCB assembly ordering page](https://www.elecrow.com/pcb-assemb
 
 ![PHOB2_ELECROW_BOARD_OPTIONS](/For_Makers/Phob_Ordering_Guide_Images/phob2_elecrow_new_options.PNG)
 
-Once your settings match the image above, you then upload the BOM spreadsheet next followed by the INFO zip. Scrolling further down you upload the gerbers. Once that's set, you configure the PCB settings as follows:
+Once your settings match the image above, you then upload the BOM spreadsheet where it asks, followed by uploading the INFO zip where it asks you to "Upload Other Files".
+Scrolling further down you upload the gerbers.
+
+Once that's set, you configure the PCB settings as follows:
 
 **NOTE: Your PCB quantity must match your PCBA quantity, otherwise you may end up with blank boards. You must also select immersion gold coating (ENIG)**
 
