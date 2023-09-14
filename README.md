@@ -31,6 +31,8 @@ Come chat with us on the [PhobGCC Discord](https://discord.gg/eNJ7xWMvxf)!
 
 [Build Guide for PhobGCC 2.0](/For_Makers/Build_Guide_2.0.md)
 
+[Build Video for PhobGCC 2.0](https://www.youtube.com/watch?v=hWuvy4ZEgG0)
+
 [Board Fixes for PhobGCC design flaws](/For_Makers/Board_Fixes.md)
 
 [PhobGCC v1.2.3 Parts Ordering Guide](/For_Makers/Phob_Ordering_Guide.md)
