@@ -328,7 +328,7 @@ This is mainly for use on vanilla Melee or versions of UCF v0.80 and prior, as a
   * Mode 1: Standard behavior with the analog slider active and a digital press at the bottom of the travel. Smashscope will show red bars and then turn blue on digital press.
   * Mode 2: Digital-only, where the analog slider is disabled. Smashscope will show nothing. You will still get LRA+Start in this mode.
   * Mode 3: Analog-only, where the digital press is disabled. You will still get LRA+Start in this mode. Smashscope will show only red bars.
-  * Mode 4: Trigger-Plug Emulation, where the analog slider will only go up to the user-defined max (see [below](#analog-trigger-value-adjustment---b--lr--dudd)) and then allow you to input a digital value. Smashscope will show red bars that rise but stop at a predefined value, and they will turn blue on digital press.
+  * Mode 4: Lightshield then Digital, where the analog slider will only go up to the user-defined max (see [below](#analog-trigger-value-adjustment---b--lr--dudd)) and then allow you to input a digital value. Smashscope will show red bars that rise but stop at a predefined value, and they will turn blue on digital press.
   * Mode 5: Analog Value At Digital, where the analog slider is disabled and the digital press will result in a user-defined analog value (see [below](#analog-trigger-value-adjustment---b--lr--dudd)). You will still get LRA+Start in this mode. Smashscope will only show red bars.
     * Due to the Melee controller ruleset, Mode 5 is incompatible with modes 1, 3, and 4.
     * If you have Mode 5 set on one trigger and either 1, 3, or 4 on the other trigger, the other trigger will not output anything at all.

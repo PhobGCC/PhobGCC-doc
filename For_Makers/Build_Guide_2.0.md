@@ -6,7 +6,7 @@ Newer board versions may differ slightly in appearance but this guide will still
 
 ![Motherboard Overview](/For_Makers/BuildPics_2.0.1/01_Phob2_Board.jpg)
 
-If you want to see it in motion, watch the **[PhobGCC 2.0 Assembly Video]**.
+If you want to see it in motion, watch the [PhobGCC 2.0 Assembly Video](https://www.youtube.com/watch?v=hWuvy4ZEgG0).
 
 Unlike previous releases, PhobGCC v2.0 is much more beginner friendly and it is possible to build a PhobGCC as your very first soldering project.
 
@@ -68,6 +68,8 @@ Not counting the shell, buttons, stick caps, etc.
 
 ## GCC Part Harvesting
 
+[Video Guide](https://www.youtube.com/watch?v=hWuvy4ZEgG0&t=17s)
+
 Begin by taking apart the donor GCC using a Tri-Wing screwdriver.
 
 Remove the motherboard.
@@ -93,6 +95,8 @@ Then, use a JIS #0 screwdriver to unscrew the screws from the bottom of the stic
 ![Potentiometer unclipping](/For_Makers/BuildPics_2.0.1/06_Phob2_Harvest_Stickbox.jpg)
 
 ## Magnet Mounting
+
+[Video Guide](https://www.youtube.com/watch?v=hWuvy4ZEgG0&t=550s)
 
 PhobGCC 2 uses sensors mounted perfectly flat on the board, which was not recommended for PhobGCC 1.
 If you were to glue magnets to the peg or use centered magnet holders designed for PhobGCC 1, the signal would be much too weak and the nonlinearities would be undesirable.
@@ -137,6 +141,8 @@ If you wish, you can add extra superglue on top of the magnets to ensure they ar
 Set the stickboxes aside to cure.
 
 ## Stuck Trigger Prevention
+
+[Video Guide](https://www.youtube.com/watch?v=hWuvy4ZEgG0&t=2349s)
 
 This is an optional but simple and highly recommended step to improve the reliability of GCC triggers.
 
@@ -270,6 +276,8 @@ Non-no-clean flux forms a much harder, brittle substance that flakes off relativ
 
 ## Board Preparation
 
+[Video Guide](https://www.youtube.com/watch?v=hWuvy4ZEgG0&t=910s)
+
 The C-Stick daughterboard comes attached to the main PhobGCC motherboard.
 You will have to remove it.
 
@@ -299,6 +307,8 @@ The mass storage device will disappear and you are done loading firmware on.
 If you ever need to change or update the firmware, simply repeat the process.
 
 ## Z button Switch Soldering
+
+[Video Guide](https://www.youtube.com/watch?v=hWuvy4ZEgG0&t=1203s)
 
 The first soldering step is to solder the Z button switch on.
 
@@ -340,6 +350,8 @@ This is normal, and does not cause any issues.
 
 ## Trigger Potentiometer Soldering
 
+[Video Guide](https://www.youtube.com/watch?v=hWuvy4ZEgG0&t=1306s)
+
 Mount the trigger potentiometers to the back of the board. Do not mount them to the front side with all of the chips.
 
 ![Trigger potentiometers soldered](/For_Makers/BuildPics_2.0.1/25_Phob2_TriggerPot_Solder.jpg)
@@ -350,25 +362,9 @@ Be sure to check after soldering your first joint that the potentiometer is layi
 
 ![Trigger potentiometers taped](/For_Makers/BuildPics_2.0.1/24_Phob2_TriggerPots.jpg)
 
-## Trigger Paddle Soldering
-
-If you are using OEM trigger paddles, you may skip this step.
-
-If you are using PhobGCC trigger paddles instead of OEM, you will need to solder wires to them yourself.
-
-Cut four pieces of wire to about 1.5 inches (38mm) long and strip the insulation off the ends.
-
-Apply flux to the ends of the wires, making sure not to cause them to fray if using stranded wire.
-
-Hold the trigger paddles in a vise and apply solder to fill the through-hole pads with solder.
-
-![Trigger paddle solder](/For_Makers/BuildPics_2.0.1/16_Phob2_Paddles.jpg)
-
-Then, heat the front side of each through-hole with your soldering iron to melt it, and insert the fluxed end of the wire from the back side of the hole where the silkscreen markings are.
-
-![Trigger paddle wires](/For_Makers/BuildPics_2.0.1/17_Phob2_PaddleWires.jpg)
-
 ## C-stick Cable Soldering
+
+[Video Guide](https://www.youtube.com/watch?v=hWuvy4ZEgG0&t=1550s)
 
 For PhobGCC 2, the C-Stick now needs six conductors connecting it to the main motherboard.
 
@@ -406,7 +402,29 @@ Then solder the wires.
 
 ![C-stick wire soldering to the motherboard](/For_Makers/BuildPics_2.0.1/30_Phob2_Cstick_WireSolder.jpg)
 
+## Trigger Paddle Soldering
+
+[Video Guide](https://www.youtube.com/watch?v=hWuvy4ZEgG0&t=1899s)
+
+If you are using OEM trigger paddles, you may skip this step.
+
+If you are using PhobGCC trigger paddles instead of OEM, you will need to solder wires to them yourself.
+
+Cut four pieces of wire to about 1.5 inches (38mm) long and strip the insulation off the ends.
+
+Apply flux to the ends of the wires, making sure not to cause them to fray if using stranded wire.
+
+Hold the trigger paddles in a vise and apply solder to fill the through-hole pads with solder.
+
+![Trigger paddle solder](/For_Makers/BuildPics_2.0.1/16_Phob2_Paddles.jpg)
+
+Then, heat the front side of each through-hole with your soldering iron to melt it, and insert the fluxed end of the wire from the back side of the hole where the silkscreen markings are.
+
+![Trigger paddle wires](/For_Makers/BuildPics_2.0.1/17_Phob2_PaddleWires.jpg)
+
 ## Stickbox Installation
+
+[Video Guide](https://www.youtube.com/watch?v=hWuvy4ZEgG0&t=2078s)
 
 Install the stickboxes on the motherboard and the C-Stick.
 
@@ -417,6 +435,8 @@ You must have the magnets mounted above the 3-legged SMD Hall-Effect sensors.
 Note that on PhobGCC 1.2.3 and prior, the stickbox on the motherboard was 180 degrees off of normal, but on PhobGCC 2 the magnets must be on the bottom and right.
 
 ## Trigger Paddle Soldering
+
+[Video Guide](https://www.youtube.com/watch?v=hWuvy4ZEgG0&t=2199s)
 
 Insert the trigger paddles into the rumble bracket (whether OEM or third-party), ensuring that the contacts on the trigger paddle are visible.
 Route the wires out the slots on the back of the rumble bracket.
@@ -436,6 +456,8 @@ Then solder the wires in place.
 ![Trigger wires soldered](/For_Makers/BuildPics_2.0.1/33_Phob2_TriggerWires.jpg)
 
 ## Controller Cable Soldering
+
+[Video Guide](https://www.youtube.com/watch?v=hWuvy4ZEgG0&t=3355s)
 
 Next, install the controller cable into the motherboard.
 
@@ -460,6 +482,8 @@ If you choose to install it, here's my suggested method.
 It's rather irritating to pack this in with an OEM rumble motor, so you may want to do it with no rumble installed or with a cell rumble motor.
 Nonetheless, this guide shows you how to do it so that it fits around the OEM rumble.
 
+[Video Guide for backshell drilling](https://www.youtube.com/watch?v=hWuvy4ZEgG0&t=2498s)
+
 Begin by taking the backshell and marking a point 0.5 inches or 13 mm down directly below the edge, aligned with the center of this tab.
 
 ![Marked drill hole](/For_Makers/BuildPics_2.0.1/36_PhobVision_Mark.jpg)
@@ -481,6 +505,8 @@ In this case, the hole instead intersects a rib that only exists on T3 shells th
 Simply cut the rib off with flush cutters.
 
 ![Rib cut near hole](/For_Makers/BuildPics_2.0.1/39_PhobVision_CutRib.jpg)
+
+[Video Guide for jack, connector, and wire prep](https://www.youtube.com/watch?v=hWuvy4ZEgG0&t=2570s)
 
 Next up we must prepare the 3.5mm TRRS jack for installation.
 
@@ -515,7 +541,7 @@ Again, do not let it protrude much past the end of the jack.
 
 ![Hot glue used as strain relief](/For_Makers/BuildPics_2.0.1/45_PhobVision_Glue.jpg)
 
-Next, cut 1.25" (32mm) long wires, strip both ends, and apply flux.
+Next, cut 1.5" (38mm) long wires, strip both ends, and apply flux.
 Shorter wires might not reach, and longer can interfere with closing the controller, so be precise with the length here.
 
 Take the JST-PH receptacle and install it on the pigtail for support, then tin the protruding leads and solder them to the 1.25" wires.
@@ -525,9 +551,13 @@ Make sure to match red with red and black with black; I used the scrap ends of t
 
 ![JST receptacle soldered](/For_Makers/BuildPics_2.0.1/46_PhobVision_JST_Solder.jpg)
 
+[Video Guide for wiring to motherboard](https://www.youtube.com/watch?v=hWuvy4ZEgG0&t=3040s)
+
 Insert the receptacle's wires into the back of the motherboard at the J2 through-hole pads, and solder them on the front of the motherboard.
 
 ![JST soldered to phobvision pads](/For_Makers/BuildPics_2.0.1/47_PhobVision_Mobo_Solder.jpg)
+
+[Video Guide for soldering rumble motor](https://www.youtube.com/watch?v=hWuvy4ZEgG0&t=3007s)
 
 At this point, if you are installing rumble, mount the rumble motor in the rumble bracket by inserting it into the rectangular box.
 Make sure that the shaft is on the cable side, and the motor is rotated so that the wires are on the D-pad side, close to the edge of the box.
@@ -540,6 +570,8 @@ Then hot glue the PhobVision JST receptacle to the rumble bracket like depicted,
 
 ![JST glued to rumble bracket](/For_Makers/BuildPics_2.0.1/48_PhobVision_JST_Glue.jpg)
 
+[Video Guide for installing jack in backshell](https://www.youtube.com/watch?v=hWuvy4ZEgG0&t=3315s)
+
 Next, install the TRRS jack in the backshell and install the nut on the outside using pliers.
 
 I recommend you orient the jack so that the wires initially go towards the center of the controller, then loop around towards the triggers.
@@ -549,6 +581,8 @@ I recommend you orient the jack so that the wires initially go towards the cente
 ![Nut holding the jack in place](/For_Makers/BuildPics_2.0.1/50_PhobVision_Nut.jpg)
 
 ## Rumble Motor Soldering
+
+[Video Guide](https://www.youtube.com/watch?v=hWuvy4ZEgG0&t=3007s)
 
 If you haven't installed PhobVision, mount the rumble motor in the rumble bracket by inserting it into the rectangular box.
 Make sure that the shaft is on the cable side, and the motor is rotated so that the wires are on the D-pad side, close to the edge of the box.
