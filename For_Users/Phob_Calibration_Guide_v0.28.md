@@ -1,6 +1,6 @@
 **NOTE: This is for firmware version 0.28.**
 
-For Version 0.27, use [this document](/For_Users/Phob_Calibration_Guide_v0.27.md).
+For Version 0.27, use [this document](/For_Users/Phob_Calibration_Guide_v0.27.html).
 
 For later development versions of the software that have not yet been released, search for “Current Commands List” in the `common/phobGCC.h` file to see the commands for that version as they may have changed.
 
@@ -72,8 +72,8 @@ If the controller is functioning normally, this has already been performed and y
   * The Y-axis will show the tens and ones digits. In this case, it would be 28.
   * The X-axis will show the thousands and hundreds digits. In this case, it would be 0.
 * You must use Smashscope to see this numerically.
-* If the controller doesn't show 28, then you need to reference an older configuration document [here](LEGACY.md).
-  * If it doesn't respond to this command at all, then it's likely the version is 0.23 or lower and you should [upgrade the controller firmware](/For_Users/Phob_Programming_Guide.md).
+* If the controller doesn't show 28, then you need to reference an older configuration document [here](LEGACY.html).
+  * If it doesn't respond to this command at all, then it's likely the version is 0.23 or lower and you should [upgrade the controller firmware](/For_Users/Phob_Programming_Guide.html).
 
 # Controller Reset - Hold ABZ then press Start
 

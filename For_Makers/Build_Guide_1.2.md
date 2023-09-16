@@ -189,7 +189,7 @@ To remedy this, use rubbing alcohol (as high concentration as you can get) with 
 
 ## Teensy Programming
 
-Begin by programming the Teensy 4.0 according to [this guide](/For_Users/Phob_Programming_Guide.md).
+Begin by programming the Teensy 4.0 according to [this guide](/For_Users/Phob_Programming_Guide.html).
 
 ## Teensy Soldering
 
@@ -422,9 +422,9 @@ Clip the wires into place on the rumble bracket.
 
 ![PhobGCC 1.2.2 complete](/For_Makers/BuildPics_1.2.2/CVAC1118_1lwoupq-output.jpg)
 
-Now that you have completed the soldering steps, follow the [Board Debugging Guide for PhobGCC 1.2](/For_Makers/Board_Level_Debugging_1.2.md) to make sure it's ready to go.
+Now that you have completed the soldering steps, follow the [Board Debugging Guide for PhobGCC 1.2](/For_Makers/Board_Level_Debugging_1.2.html) to make sure it's ready to go.
 
-Then, reassemble it, and follow the Initial Steps in the [PhobGCC Calibration Guide](/For_Users/Phob_Calibration_Guide_Latest.md) for the version of the software you have flashed on the Teensy.
+Then, reassemble it, and follow the Initial Steps in the [PhobGCC Calibration Guide](/For_Users/Phob_Calibration_Guide_Latest.html) for the version of the software you have flashed on the Teensy.
 
 And, enjoy!
 

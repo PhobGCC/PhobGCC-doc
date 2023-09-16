@@ -39,7 +39,7 @@ Come to the [PhobGCC Discord Server](https://discord.gg/yrpUu7mgzm) for advice o
 
 # Parts
 
-Some of the parts are taken from a donor Gamecube controller, while others must be sourced new. Check the [PhobGCC Ordering Guide](/For_Makers/Phob2_Ordering_Guide.md) for a list of what you need to purchase.
+Some of the parts are taken from a donor Gamecube controller, while others must be sourced new. Check the [PhobGCC Ordering Guide](/For_Makers/Phob2_Ordering_Guide.html) for a list of what you need to purchase.
 
 ## New Parts
 
@@ -595,7 +595,7 @@ Now your PhobGCC should be complete!
 
 ![Rear of PhobGCC 2](/For_Makers/BuildPics_2.0.1/Phob2_Back.jpg)
 
-Reassemble your controller, and follow the Initial Setup procedure in the [PhobGCC Calibration Guide](/For_Users/Phob_Calibration_Guide_Latest.md) for the version of the software you have flashed on the RP2040.
+Reassemble your controller, and follow the Initial Setup procedure in the [PhobGCC Calibration Guide](/For_Users/Phob_Calibration_Guide_Latest.html) for the version of the software you have flashed on the RP2040.
 
 And, enjoy!
 
