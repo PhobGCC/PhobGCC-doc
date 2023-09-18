@@ -53,11 +53,13 @@ There are two board houses you can purchase from, with their own benefits and dr
 
 Elecrow is the preferred board house, as they have proper quality control and validation. They do the testing procedure to ensure the boards came out cleanly and to ensure you will not receive a dead-on-arrival board. The drawback is that they often take 3-4 weeks for arrival.
 
-Usually they are more expensive, but enough PhobGCC motherboards have been ordered that for PhobGCC 2.0.5 *specifically,* they have reduced costs to be competitive or even cheaper at large volume.
+Usually they are more expensive, but enough PhobGCC motherboards have been ordered that for PhobGCC 2.0.5 *specifically,* they have eliminated setup costs, resulting in lower overall prices.
 
 [Elecrow Ordering Guide](/For_Makers/Phob2_Elecrow_Ordering_Guide.md)
 
-JLCPCB is the secondary board house, as they lack significant quality control to ensure the board is assembled properly. JLC Economic assembly **should not** be used as the quality of the boards will be terrible and you risk dead-on-arrival boards. JLC Standard Assembly is better, but you risk poor plating and solder mask issues. The advantage to JLC is that they ship much faster than Elecrow (2 weeks), but you need to preorder some components and this can add a significant delay.
+JLCPCB is the secondary board house, as they lack significant quality control to ensure the board is assembled properly. JLC Economic assembly **should not** be used as the quality of the boards will be terrible and you risk dead-on-arrival boards. JLC Standard Assembly is better, but you still risk poor plating and solder mask issues, and it costs more. The advantage to JLC is that they ship much faster than Elecrow (2 weeks), but you need to preorder some components and this can add a significant delay.
+
+Only use JLC when speed is important and the risk of bad boards is acceptable.
 
 [JLCPCB Ordering Guide](/For_Makers/Phob2_JLCPCB_Ordering_Guide.md)
 
