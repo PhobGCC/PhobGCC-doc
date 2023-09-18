@@ -44,11 +44,16 @@ Don't acquire these, because they're not necessary or won't work with PhobGCC 2.
 
 ## Purchasing the PhobGCC v2.0.5 board
 
+If you only want one board, seek out a GCC modder in your area or online who sells boards. 
+Usually they'll run in the range from $20-35 ranging from just a bare board to a kit including some of the other parts you need.
+
+If you plan on ordering 5 boards or more, it's usually more economical to buy from a board house directly.
+
 There are two board houses you can purchase from, with their own benefits and drawbacks. They are JLCPCB and Elecrow.
 
 Elecrow is the preferred board house, as they have proper quality control and validation. They do the testing procedure to ensure the boards came out cleanly and to ensure you will not receive a dead-on-arrival board. The drawback is that they often take 3-4 weeks for arrival.
 
-Usually they are 50% more expensive than the alternative option, but enough PhobGCC motherboards have been ordered that they have reduced costs to be competitive or even cheaper at large volume.
+Usually they are more expensive, but enough PhobGCC motherboards have been ordered that for PhobGCC 2.0.5 *specifically,* they have reduced costs to be competitive or even cheaper at large volume.
 
 [Elecrow Ordering Guide](/For_Makers/Phob2_Elecrow_Ordering_Guide.md)
 
