@@ -132,7 +132,8 @@ The remaining parts can be purchased from distributors as listed below.
   * [High Actuation Force Buttons](https://www.digikey.com/short/dcddr0jr)
   * [Teflon Tape For Support](https://www.mcmaster.com/76475A51/) This is necessary for mouseclick face buttons, but there are alternatives.
 * Optional Discrete Buttons for D-Pad:
-  * [SMD Buttons](https://www.digikey.com/short/v93wrw12)
+  * [Tactile SMD Buttons](https://www.digikey.com/short/7pw830cj)
+  * [~~SMD Buttons~~](https://www.digikey.com/short/v93wrw12)
 * Optional for [PhobVision](https://youtu.be/8OOGupE3-ic): you need all of these if you choose to install PhobVision.
   * [TRRS Jack](https://www.digikey.com/en/products/detail/cui-devices/SJ5-43502PM/1956558)
   * [JST-PH 2.0 2-Pin Connector and Pigtail](https://www.amazon.com/dp/B01DUC1O68) or similar: size is critical; don't use a double pigtail.
