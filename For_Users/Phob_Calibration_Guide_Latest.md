@@ -128,15 +128,21 @@ If the controller is functioning normally, this has already been performed and y
 ![DISABLE_WII_REMOTES](/For_Users/Phob_Calibration_Guide_v0.20_Images/disableWiiRemotes.png)
 
 * Stick calibration has two phases: measurement and notch adjustment.
+  * During the Measurement Phase, you have the controller record the physical location of the corners of the gate and any modder-added notches.
+  * During the Notch Adjustment Phase, you can tweak the output angles of the notches you measured.
   * You **must** complete both measurement and notch adjustment for the setting to be saved.
 * If you’ve already calibrated the stick and just want to adjust notches you have already measured, you can skip the measurement phase and immediately begin notch adjustment by pressing Start at any time during the measurement phase.
 * Calibrating either stick turns off Auto-Initialize.
 
 ## Measurement Phase
 
-When in the measurement phase of calibrating the analog stick, the C-Stick will alternate between the center and a position along the rim, starting with the cardinal directions. 
+The first phase involves having the controller record the positions of the physical gate corners and notches as calibration reference points.
 
-The control stick will show the output of the previous calibration. Depending on the previous calibration, this may be accurate, inaccurate, freak out randomly, or in the case of an uncalibrated PhobGCC 2.0, it will be mostly pegged to (125,125). The output you see here has no bearing on the results.
+When in the measurement phase, the C-Stick's output will alternate between the center and a position along the rim, starting with the cardinal directions.
+
+The C-Stick's output shows what notch, if present, you are to measure.
+
+The control stick output will show the output of the previous calibration. Depending on the previous calibration, this may be accurate, inaccurate, freak out randomly, or in the case of an uncalibrated PhobGCC 2.0, it will be mostly pegged to (125,125). The output you see here has no bearing on the results.
 
 * If the C-Stick is centered, let go of the control stick and press either **L**, **R**, or **A** to measure that position.
 * If the C-Stick is not centered, **hold the physical analog stick into the notch indicated by the C-Stick's output** and press **L**, **R**, or **A** to measure that position.
@@ -159,7 +165,11 @@ The control stick will show the output of the previous calibration. Depending on
 
 ## Notch Adjustment Phase
 
-When in the notch adjustment phase of calibrating the analog stick, the C-Stick will stay along the rim and rotate along from notch to notch, starting with the diagonals.
+After the measurements are complete, this phase lets you adjust exactly where the non-cardinal notches are mapped to.
+
+When in the notch adjustment phase, the C-Stick will stay along the rim and rotate along from notch to notch, starting with the diagonals.
+
+This indicates which notch is currently being adjusted.
 
 * The Analog Stick position does not affect notch adjustment. The output is a live preview of how the calibration will be with your given adjustments.
 * The C-Stick points at the notch that is currently up for adjustment.
