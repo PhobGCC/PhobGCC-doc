@@ -278,7 +278,7 @@ The C-Stick Snapback Filter is actually a low-pass filter similar to the Analog 
 
 * Press **AZ** + **X/Y** for your axis + **D-pad Up/Down** to increase/decrease.
   * Example: **AZX+Du** increases the X-axis snapback suppression, **AZY+Dd** decreases the Y-axis snapback suppression.
-  * When you change this setting, the current snapback filter settings are shown as the numerical coordinates of the C-Stick.
+  * When you change this setting, the current filter settings are shown as the numerical coordinates of the C-Stick.
 * The scale goes from 0-9 and defaults to 0.
 * To reduce the chance of getting the wrong move, increase the value on the axis that you don’t want, and decrease the value on the axis you do want.
 * To fully suppress snapback on an axis, use a somewhat high value here (start with 7).
@@ -292,11 +292,11 @@ This setting controls the threshold where that transition occurs.
 
 * Press **LZ** + **X/Y** for your axis + **D-pad Up/Down** to increase/decrease.
   * Example: **LZX+Du** increases the effect on the X-axis, **LZY+Dd** decreases effect on the Y-axis.
-  * When you change this setting, the current snapback filter settings are shown as the numerical coordinates of the C-Stick.
+  * When you change this setting, the current filter settings are shown as the numerical coordinates of the C-Stick.
 * The scale goes from 0-15, and defaults to 0.
   * 0 disables Waveshaping entirely.
 * Press **R+Start** to see the current Waveshaping filter values on the L and R trigger analog values.
-  * At the same time, you can see the current snapback filter values on the Analog Stick and the current offset values on the C-Stick.
+  * At the same time, you can see the current snapback filter values on the Analog Stick.
 
 # C-Stick Offset
 
