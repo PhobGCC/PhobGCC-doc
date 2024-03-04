@@ -67,6 +67,7 @@ If the controller is functioning normally, this has already been performed and y
 * Even if you haven't pressed B, this will wake up the sticks.
 * When you turn Safe Mode off (configuration is possible), the controller freezes for 2 seconds.
 * When you turn Safe Mode back on (you can no longer configure), the controller freezes for 4 seconds to distinguish. You can also just unplug and plug the controller back in to ensure that you are back in Safe Mode.
+* If either L or R digital is active, this command will not work (to prevent safe mode toggling when doing PM salty runback).
 
 # Display Software Version - AZ + Du
 
