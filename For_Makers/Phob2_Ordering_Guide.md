@@ -152,7 +152,7 @@ The GCC-specific Parts have a few different methods of acquisition
   * Heavy Tactile - [BattleBeaverCustoms](https://battlebeavercustoms.com/products/replacement-gamecube-tactile-z-switch)
   * Tactile - [FIRESCC](https://www.etsy.com/listing/753452766/fires-performance-mod-kit-for-the?)
   * Tactile - [Digikey](https://www.digikey.com/short/hp5vvv7w) **NOTE:  NEEDS SOME MODIFICATION OF CONTROLLER BUTTON RUBBER**
-  * Mouseclick - [SimpleControllers](https://simplecontrollers.com/)
+  * Mouseclick - [BibbEZ](/For_Makers/BibbEZ/BibbEZ_Guide.md)
 * Optional Rumble Motor
   * Any GCC
   * [Cellphone Rumble](https://www.amazon.com/10-Pieces-Vibration-Motor-Vibrating/dp/B00N9J3BTG)
