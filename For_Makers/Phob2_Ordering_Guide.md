@@ -115,8 +115,8 @@ The remaining parts can be purchased from distributors as listed below.
   * 6-pin Ribbon Cable from [Kadano](https://kadano.biz/phobgcc-2-0-c-stick-ribbon-cables-6pin/) (EU)
   * 6-pin Ribbon Cable from [Tbox](https://www.etsy.com/listing/1479077608/phob-202-6-pin-c-stick-ribbon-cables) (NA)
 * Optional Mouse Buttons for ABXYLR: you can use mouse buttons for any number from 0 to 6 of the buttons. Generally the high actuation force buttons are preferred.
-  * [Low Actuation Force Buttons](https://www.digikey.com/short/q4r0jh3j)
-  * [High Actuation Force Buttons](https://www.digikey.com/short/dcddr0jr)
+  * [Low Actuation Force Buttons](https://www.digikey.com/short/nfphr274)
+  * [High Actuation Force Buttons](https://www.digikey.com/short/f7mctdjm)
   * [Teflon Tape For Support](https://www.mcmaster.com/76475A51/) This is necessary for mouseclick face buttons, but there are alternatives.
 * Optional Discrete Buttons for D-Pad:
   * [Tactile SMD Buttons](https://www.digikey.com/short/7pw830cj)
