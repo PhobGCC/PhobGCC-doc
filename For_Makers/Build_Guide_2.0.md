@@ -8,9 +8,11 @@ Newer board versions may differ slightly in appearance but this guide will still
 
 If you want to see it in motion, watch the [PhobGCC 2.0 Assembly Video](https://www.youtube.com/watch?v=hWuvy4ZEgG0).
 
-Unlike previous releases, PhobGCC v2.0 is much more beginner friendly and it is possible to build a PhobGCC as your very first soldering project.
+Unlike previous releases, PhobGCC v2.0 is much more beginner friendly and if you follow the instructions precisely it is possible to build a PhobGCC as your very first soldering project.
 
 It is still recommended to get a soldering practice kit to build your physical understanding of the soldering process with before you start.
+
+And make sure to follow **every single step** without fail, because there's many ways to make the controller nonfunctional.
 
 # Tools
 
