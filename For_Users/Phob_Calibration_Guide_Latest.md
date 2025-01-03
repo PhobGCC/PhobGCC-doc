@@ -90,7 +90,6 @@ If the controller is functioning normally, this has already been performed and y
 * When you turn this on, both sticks will point up and to the right. When you turn it off, both sticks will point down and to the left.
 * If you are positive that both of your sticks are calibrated well, you can use this to avoid the need to press B when plugging the controller in.
 * If calibration ever gets wonky, you need to disable this, then recalibrate.
-* **If you are using a C-Stick offset, keep this off.**
 * This automatically gets turned off when you:
   * Recalibrate: if you mess up the calibration then the controller won't initialize correctly and it'll be hard to calibrate properly
   * Reset: if you reset it returns everything to defaults including this setting.
