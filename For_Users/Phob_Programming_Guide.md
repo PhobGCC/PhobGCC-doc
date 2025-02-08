@@ -72,7 +72,7 @@ Then plug in your PhobGCC using a Micro-USB cable to your computer.
 Once it is plugged in, go to the 'Select Board' drop-down in the top left and click on the "Unknown COM#".
 If this does not appear, your cable didn't work.
 
-Choose your Teensy version and a port, then click the right arrow in the top left.
+Choose your Teensy version and the port which has "Teensy" in the name, then click the right arrow in the top left.
 This will compile and upload the firmware to your board.
 
 Once this is complete, you can unplug your PhobGCC and reassemble the controller.
