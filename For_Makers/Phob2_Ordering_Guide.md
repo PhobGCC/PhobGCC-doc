@@ -50,6 +50,8 @@ Otherwise, you can purchase premade boards directly from [Elecrow](https://www.e
 
 If you plan on ordering around 50 boards or more, or if you want more unusual colors, you should submit a traditional PCB order by following the [Elecrow Ordering Guide](/For_Makers/Phob2_Elecrow_Ordering_Guide.md).
 
+Warning to US residents: ordering from Chinese board houses at this point is likely to result in heavy tariffs.
+
 ## Optional: Purchasing LR Trigger Paddles
 
 If you don't or can't use OEM GCC Trigger paddles, you can order trigger paddles separately.
