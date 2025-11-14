@@ -275,9 +275,10 @@ If you have the Smart Snapback Filter disabled, you can use this to suppress sna
 * Press **R** + **X/Y** for your axis + **D-pad Up/Down** to increase/decrease.
   * Example: **RX+Du** increases the X-axis Delay, **RY+Dd** decreases the Y-axis delay.
   * When you change this setting, the current axis smoothing settings are shown as the numerical coordinates of the C-Stick.
-* The scale goes from 0-9, and defaults to 0.
+* The scale goes from 0-18, and defaults to 0.
   * Single-Motion Ledgedashing: ~5 on X-axis and 0 on Y-axis
   * Alternatively, set the Smart Snapback adjustment on the Y-axis to 0 and set the Axis Smoothing to 0 for both X and Y-axes. This gives stronger single-motion ledgedashes but you may experience Y-axis snapback.
+  * 9 in versions before 0.31 was changed to 18, adding increased precision between 8 and the former 9.
 * Press **L+Start** to see the current axis smoothing values on each axis of the C-Stick.
   * At the same time, you can see the current Smart Snapback filter values on the Analog Stick and Waveshaping values on the triggers.
 
@@ -290,11 +291,10 @@ The PhobGCC hard limits its own stick outputs to a range from -125 to +125, but 
 * Press **L** + **A** + **D-pad Up/Down** to increase/decrease.
   * Example: **LA+Du** increases the value at the rim of the analog stick.
   * When you change this setting, the current analog stick scaling setting is shown as the numerical coordinates of the analog stick.
-* The scale goes from 82-125, and defaults to 100.
+* The scale goes from 90-110, and defaults to 100.
   * This changes the physical distance to the rim of the Melee unit circle.
-  * At 82, the rim of the Melee unit circle is basically at the rim of the controller, requiring larger motions for things like smash attacks.
-  * At 125, the rim of the Melee unit circle is much farther in, requiring smaller motions for things like smash attacks.
   * 100 will behave identically to previous firmware versions that do not feature stick scaling.
+  * In 0.31 the adjustment range was reduced to be rules-compliant.
 
 # Analog Stick Cardinal Snapping Adjustment - R + A + Du/Dd
 
@@ -316,7 +316,8 @@ The C-Stick Snapback Filter is actually a low-pass filter similar to the Analog 
 * Press **AZ** + **X/Y** for your axis + **D-pad Up/Down** to increase/decrease.
   * Example: **AZX+Du** increases the X-axis snapback suppression, **AZY+Dd** decreases the Y-axis snapback suppression.
   * When you change this setting, the current filter settings are shown as the numerical coordinates of the C-Stick.
-* The scale goes from 0-9 and defaults to 0.
+* The scale goes from 0-18 and defaults to 0.
+  * 9 in versions before 0.31 was changed to 18, adding increased precision between 8 and the former 9.
 * To reduce the chance of getting the wrong move, increase the value on the axis that you don’t want, and decrease the value on the axis you do want.
 * To fully suppress snapback on an axis, use a somewhat high value here (start with 7).
 * Press **R+Start** to see the current snapback filter values on each axis of the Analog Stick.
@@ -352,9 +353,8 @@ The PhobGCC hard limits its own stick outputs to a range from -125 to +125, but 
   * When you change this setting, the current C-Stick scaling setting is shown as the numerical coordinates of the C-Stick.
 * The scale goes from 82-125, and defaults to 100.
   * This changes the physical distance to the rim of the Melee unit circle.
-  * At 82, the rim of the Melee unit circle is basically at the rim of the controller, requiring larger motions for things like smash attacks.
-  * At 125, the rim of the Melee unit circle is much farther in, requiring smaller motions for things like smash attacks.
   * 100 will behave identically to previous firmware versions that do not feature stick scaling.
+  * In 0.31 the adjustment range was reduced to be rules-compliant.
 
 # C-Stick Cardinal Snapping Adjustment - R + A + Z + Du/Dd
 
