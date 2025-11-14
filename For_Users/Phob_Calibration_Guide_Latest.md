@@ -387,8 +387,6 @@ Modes 8 and 9 are new in version 0.31.
   * Mode 3: Analog-only, where the digital press is disabled. GTS will show only red bars.
   * Mode 4: Lightshield then Digital, where the analog slider will only go up to the user-defined max (see [below](#analog-trigger-value-adjustment---b--lr--dudd)) and then allow you to input a digital value. GTS will show red bars that rise but stop at a predefined value, and they will turn blue and max out on digital press.
   * Mode 5: Analog Value At Digital, where the analog slider is disabled and the digital press will result in a user-defined analog value (see [below](#analog-trigger-value-adjustment---b--lr--dudd)). GTS will only show red bars.
-    * Due to the Melee controller ruleset, Mode 5 is incompatible with modes 1, 3, and 4.
-    * If you have Mode 5 set on one trigger and either 1, 3, or 4 on the other trigger, the other trigger will not output anything at all.
   * Mode 6: Analog and Digital Value at Digital, where the analog slider is disabled and the digital press will result in a user-defined analog value (see below) and a digital input. GTS will show only blue bars.
     * This is useful when using a controller with trigger plugs for Smash Ultimate and other games that disregard the digital press.
   * Mode 7: Hairtrigger Analog, where the analog value is multiplied between one and threefold based on the user-defined analog value (see [below](#analog-trigger-value-adjustment---b--lr--dudd)). The digital output is unchanged.
