@@ -304,8 +304,9 @@ This is mainly for use on vanilla Melee or versions of UCF v0.80 and prior, as a
 * Press **R** + **A** + **D-pad Up/Down** to increase/decrease.
   * Example: **RA+Du** increases the snapping range of the analog stick.
   * When you change this setting, the current analog stick cardinal snapping setting is shown as the numerical coordinates of the analog stick.
-* The scale goes from -1 to 6, and defaults to 6.
-  * At -1, the stick will snap *away* from the cardinal so that the stick cannot output 1.0 cardinals at all, including on UCF v0.84.
+* The scale goes from -2 to 6, and defaults to 6.
+  * At -2, the stick will snap 7 units away from the cardinal so that the stick cannot output 1.0 cardinals at all, including on UCF v0.84.
+  * At -1, the stick will snap 1 unit away from the cardinal so that the stick cannot output 1.0 cardinals for Zelda teleport on UCF v0.84.
   * At 0, the stick will not snap to cardinals at all. This is equivalent to OEM cardinal behavior.
   * Between 1-6, the stick will snap to the cardinal from that far away in both positive and negative directions.
 
