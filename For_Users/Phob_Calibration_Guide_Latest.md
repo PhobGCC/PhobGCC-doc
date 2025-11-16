@@ -88,10 +88,10 @@ If the controller is functioning normally, this has already been performed and y
 # Display Software Version - AZ + Du
 
 * The C-Stick will display the software version in Melee units as if it were not preceded by the "0."
-  * The Y-axis will show the tens and ones digits. In this case, it would be 29.
+  * The Y-axis will show the tens and ones digits. In this case, it would be 31.
   * The X-axis will show the thousands and hundreds digits. In this case, it would be 0.
 * You must use GTS to see this numerically.
-* If the controller doesn't show 29, then you need to reference an older configuration document [here](LEGACY.md).
+* If the controller doesn't show 31, then you need to reference an older configuration document [here](LEGACY.md).
   * If it doesn't respond to this command at all, then it's likely the version is 0.23 or lower and you should [upgrade the controller firmware](/For_Users/Phob_Programming_Guide.md).
 
 # Controller Reset - Hold ABZ then press Start
