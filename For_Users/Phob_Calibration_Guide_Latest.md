@@ -87,7 +87,7 @@ If the controller is functioning normally, this has already been performed and y
 
 # Display Software Version - AZ + Du
 
-* The C-Stick will display the software version in Melee units as if it were not preceded by the "0."
+* The C-Stick will display the software version in raw units as if it were not preceded by the "0."
   * The Y-axis will show the tens and ones digits. In this case, it would be 31.
   * The X-axis will show the thousands and hundreds digits. In this case, it would be 0.
 * You must use GTS to see this numerically.
