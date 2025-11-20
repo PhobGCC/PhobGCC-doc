@@ -385,7 +385,7 @@ Modes 8 and 9 are new in version 0.31.
   * Right trigger offset is on the right stick analog.
 * There are 9 trigger modes:
   * Mode 1: Standard behavior with the analog slider active and a digital press at the bottom of the travel. GTS will show red bars and then turn blue on digital press.
-  * Mode 2: Digital-only, where the analog slider is disabled. GTS will show nothing.
+  * Mode 2: Digital-only, where the analog slider is disabled. GTS will highlight the outline on digital press.
   * Mode 3: Analog-only, where the digital press is disabled. GTS will show only red bars.
   * Mode 4: Lightshield then Digital, where the analog slider will only go up to the user-defined max (see [below](#analog-trigger-value-adjustment---b--lr--dudd)) and then allow you to input a digital value. GTS will show red bars that rise but stop at a predefined value, and they will turn blue and max out on digital press.
   * Mode 5: Analog Value At Digital, where the analog slider is disabled and the digital press will result in a user-defined analog value (see [below](#analog-trigger-value-adjustment---b--lr--dudd)). GTS will only show red bars.
