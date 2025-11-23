@@ -354,7 +354,7 @@ The PhobGCC hard limits its own stick outputs to a range from -125 to +125, but 
 * Press **L** + **A** + **Z** + **D-pad Up/Down** to increase/decrease.
   * Example: **LAZ+Du** increases the value at the rim of the C-Stick.
   * When you change this setting, the current C-Stick scaling setting is shown as the numerical coordinates of the C-Stick.
-* The scale goes from 82-125, and defaults to 100.
+* The scale goes from 90-110, and defaults to 100.
   * This changes the physical distance to the rim of the Melee unit circle.
   * 100 will behave identically to previous firmware versions that do not feature stick scaling.
   * In 0.31 the adjustment range was reduced to be rules-compliant.
