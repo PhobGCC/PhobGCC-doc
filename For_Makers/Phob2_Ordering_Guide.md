@@ -41,6 +41,8 @@ Don't acquire these, because they're not necessary or won't work with PhobGCC 2.
 * Heartbeat modules or equivalent shunt resistors: we have no stick potentiometers so these are unnecessary.
 * Teensy or Raspberry Pi Pico: the PhobGCC 2 has no need of any external microcontroller board.
 * OEM C-Stick ribbon cables from a GCC: PhobGCC 2 needs 6 connections to the C-Stick daughterboard, and reusing the OEM cable has been a source of reliability issues.
+* Hall Sensors: these are built into the PhobGCC board.
+* Hall Effect Stickboxes: the PhobGCC uses magnets that you attach to a standard Gamecube controller stickbox.
 
 ## Purchasing the PhobGCC v2.0.5 board
 
@@ -113,7 +115,7 @@ The remaining parts can be purchased from distributors as listed below.
   * **NOTE: PhobGCC v1.X MAGNET MOUNTS WILL BE VERY BAD, AND MAY NOT WORK AT ALL. MAKE SURE TO GET THE UNDERSLUNG MAGNET MOUNTS!**
   * Download [This](https://drive.google.com/file/d/10-lseJ4UK1-HkkXc6rjSJtsYRW7ihsXD/view?usp=share_link) OpenScad file. It is by default set up for DH1H1 Magnets, so you can edit it for whatever magnet you use, adjust it for your printer, and then generate the STL using [OpenScad](https://openscad.org/). Once you have the STL, you can print it using your own machine or check out local makerspaces, libraries, and print shops.
   * If you use magnets other than DH1H1, you will need to adjust the magnet offset to get the optimum signal strength using PhobVision to check. Speak with the devs on Discord to find out more.
-* Wire:
+* Wire for C-Stick (choose one):
   * 26-gauge stranded wire such as [this from McMaster](https://mcmaster.com/8054T11).
   * 6-pin Ribbon Cable from [Kadano](https://kadano.biz/phobgcc-2-0-c-stick-ribbon-cables-6pin/) (EU)
   * 6-pin Ribbon Cable from [Tbox](https://www.etsy.com/listing/1479077608/phob-202-6-pin-c-stick-ribbon-cables) (NA)
