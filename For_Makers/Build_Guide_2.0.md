@@ -96,7 +96,7 @@ Then, use a JIS #0 screwdriver to unscrew the screws from the bottom of the stic
 
 ![Potentiometer unclipping](/For_Makers/BuildPics_2.0.1/06_Phob2_Harvest_Stickbox.jpg)
 
-## Magnet Mounting
+# Critical Step: Magnet Mounting
 
 [Video Guide](https://www.youtube.com/watch?v=hWuvy4ZEgG0&t=550s)
 
@@ -107,7 +107,7 @@ Therefore, for PhobGCC 2.0 we are making 3D-printed magnet holders mandatory.
 You can get an adjustable parametric OpenSCAD file in the pins of the 3d-printing channel on the discord, or you can get magnet holder STLs designed for use with JLCPCB in the PhobGCC 2 hardware releases.
 
 When using 3D-printed magnet holders, we strongly urge you to superglue (cyanoacrylate) the holders to the stickbox pegs.
-It's easiest to do this early in the process so that the superglue cures sufficiently before 
+It's easiest to do this early in the process so that the superglue cures sufficiently before you need to install the stickboxes.
 
 First, clean the grease off the stickbox pegs with isopropyl alcohol and wipe off the alcohol.
 Do not allow it to evaporate on its own, or it will simply redeposit the grease back down.
@@ -129,6 +129,8 @@ Coat the inside of the magnet hole, and the top of the peg, with superglue.
 I prefer thin superglue.
 
 **Be *very sparing* with superglue so you do not contaminate the stickbox!**
+
+Make sure the magnet holders are able to rotate as you move the stick. **If they are stuck, break them loose by grabbing the magnet mount, not by forcing the stick.**
 
 ![Stickbox with magnet holders](/For_Makers/BuildPics_2.0.1/10_Phob2_MagnetWell.jpg)
 
