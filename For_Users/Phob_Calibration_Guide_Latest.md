@@ -67,6 +67,8 @@ If the controller is functioning normally, this has already been performed and y
 
 # Making Changes On PhobGCC
 
+* **All commands use the physical buttons specified, regardless of any remapping that has occurred**.
+  * L and R buttons must have electrically functional digital press, regardless of trigger modes that disable the digital press.
 * Most of the time, when you give the PhobGCC a command, the Analog Stick and C-Stick will freeze pointing to the top right 127/127.
   * For binary commands, it'll hold for two seconds.
   * For numerical values, it'll hold for 0.75 seconds to make it faster to change.
@@ -77,6 +79,7 @@ If the controller is functioning normally, this has already been performed and y
 
 # Safe Mode Toggle - AXY+Start
 
+* As a reminder, all commands including this one utilize the hardware buttons specified, regardless of remapping.
 * To turn off Safe Mode, you have to hold the key combination for about 1 second, to prevent accidental activation.
   * Turning Safe Mode back on has no delay.
 * This is required to make any changes on the controller, to prevent you from reconfiguring things during gameplay.
