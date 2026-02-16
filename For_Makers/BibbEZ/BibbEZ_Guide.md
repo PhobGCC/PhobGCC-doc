@@ -16,7 +16,7 @@ If you're using Cura to slice, turn on "experimental bridge settings" or it won'
 
 Use two-pin through-hole mouse microswitches.
 
-You can get them [here on Aliexpress](https://www.aliexpress.us/item/3256804345508860.html).
+You can get them [here on Aliexpress](https://www.aliexpress.us/item/3256807067621726.html).
 
 Others may work but you need to verify that the dimensions are identical.
 
