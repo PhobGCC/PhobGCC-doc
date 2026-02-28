@@ -46,7 +46,7 @@ If the controller is functioning normally, this has already been performed and y
 * Begin emulation (run GTS_GC.dol).
 * Navigate to Controller Test (using the D-Pad).
 * Tap B (do not hold) to initialize the sticks.
-* If using an OEM or Mayflash adapter or older Lossless adapters, verify that Origin XY and C-Origin XY are both (-001, -001). If using a HHL GC Pocket adapter or a newer firmware version of Lossless, the origins should be zero.
+* If using an OEM or Mayflash adapter or older Lossless adapters, verify that Origin XY and C-Origin XY are both (-1, -1). If using a HHL GC Pocket adapter or a newer firmware version of Lossless, the origins should be zero.
 
 ## Controller Setup
 * Verify that the sticks are both pointing slightly up and to the right. At neutral, they should be somewhere in the range of 0.3 to 0.6. When moved, they should respond very slightly, going in all four directions. If this is not the case, there is a hardware problem that must be resolved before proceeding with calibration.
