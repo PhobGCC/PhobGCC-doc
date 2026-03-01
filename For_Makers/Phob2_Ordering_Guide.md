@@ -113,7 +113,8 @@ The remaining parts can be purchased from distributors as listed below.
   * [Australian option](https://magnet.com.au/products/neodymium-cylinder-magnet-2-5mm-x-2-5mm-n50?variant=37006192804005) - Very similar to DH1H1
 * Magnet Mounts:
   * **NOTE: PhobGCC v1.X MAGNET MOUNTS WILL BE VERY BAD, AND MAY NOT WORK AT ALL. MAKE SURE TO GET THE UNDERSLUNG MAGNET MOUNTS!**
-  * Download [This](https://drive.google.com/file/d/10-lseJ4UK1-HkkXc6rjSJtsYRW7ihsXD/view?usp=share_link) OpenScad file. It is by default set up for DH1H1 Magnets, so you can edit it for whatever magnet you use, adjust it for your printer, and then generate the STL using [OpenScad](https://openscad.org/). Once you have the STL, you can print it using your own machine or check out local makerspaces, libraries, and print shops.
+  * Download any of the Phob2.x STLs from [here](https://github.com/PFL-MushroomForge/PhobGCC-Magnet-Mounts) (credits to MushroomForge!). They are already set up for the most common magnet configurations, so you should be able to just print them (however, these will not work with JLCPCB!).
+  * Alternatively, download [this](https://drive.google.com/file/d/10-lseJ4UK1-HkkXc6rjSJtsYRW7ihsXD/view?usp=share_link) OpenScad file. It is by default set up for DH1H1 Magnets, so you can edit it for whatever magnet you use, adjust it for your printer, and then generate the STL using [OpenScad](https://openscad.org/). Once you have the STL, you can print it using your own machine or check out local makerspaces, libraries, and print shops.
   * If you use magnets other than DH1H1, you will need to adjust the magnet offset to get the optimum signal strength using PhobVision to check. Speak with the devs on Discord to find out more.
 * Wire for C-Stick (choose one):
   * 26-gauge stranded wire such as [this from McMaster](https://mcmaster.com/8054T11).
