@@ -156,11 +156,9 @@ If this isn't the case, then the hardware likely needs some sort of repair.
 
 # Analog Stick Calibration - AXY+L
 
-Before you begin calibration, you must verify that the sticks are working electrically and that GCC Test Suite is initialized properly.
+Before calibrating, you must check that the Origin XY and C-Origin XY are both (-001, -001). For newer Lossless and GC Pocket+ adapters, they should both be 0.
 
-Check that the Origin XY and C-Origin XY are both (-001, -001).
-
-Put the controller into Raw Stick Output mode and verify that the sticks are centered roughly on 30 or 50, and are sensitive enough to stick motion in all axes.
+If you suspect something is wrong with the controller you must verify that the sticks are working electrically. To do so, put the controller into Raw Stick Output mode and verify that the sticks are centered roughly on +30 or +50, and are sensitive enough to stick motion in all axes. When you move the sticks in a circle around the gate, they should move in a small circle onscreen.
 
 [Basic PhobGCC Analog Stick Calibration - YouTube](https://www.youtube.com/watch?v=rkgtqwIE8Iw)
 
