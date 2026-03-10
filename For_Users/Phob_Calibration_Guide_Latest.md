@@ -77,14 +77,17 @@ If the controller is functioning normally, this has already been performed and y
 
 ![Sticks pointing up and to the right, triggers pressed](/For_Users/Phob_Calibration_Guide_v0.20_Images/FreezeSticks_GTS.png)
 
-# Safe Mode Toggle - AXY+Start
+# Safe Mode/Configure Mode Toggle - AXY+Start
 
-* As a reminder, all commands including this one utilize the hardware buttons specified, regardless of remapping.
-* To turn off Safe Mode, you have to hold the key combination for about 1 second, to prevent accidental activation.
+The controller begins in Safe Mode, where the only command that works is this toggle, in order to prevent accidental settings changes.
+
+To make any changes to the controller configuration, activate this toggle to enter Configure Mode.
+
+* To enter Configure Mode, you have to hold the key combination for about 1 second, to prevent accidental activation.
   * Turning Safe Mode back on has no delay.
-* This is required to make any changes on the controller, to prevent you from reconfiguring things during gameplay.
-* Even if you haven't pressed B, this will wake up the sticks.
-* When you turn Safe Mode off (configuration is possible), the controller freezes for 2 seconds.
+* As a reminder, all commands including this one utilize the hardware buttons specified, regardless of remapping.
+* Even if you haven't pressed B, this will wake up the sticks. It responds instantly if the sticks haven't activated yet, due to an implementation quirk.
+* When you enter Configuration Mode, the controller freezes for 2 seconds.
 * When you turn Safe Mode back on (you can no longer configure), the controller freezes for 4 seconds to distinguish. You can also just unplug and plug the controller back in to ensure that you are back in Safe Mode.
 * If either L or R digital is active, this command will not work (to prevent safe mode toggling when doing PM salty runback).
 
