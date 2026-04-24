@@ -108,8 +108,9 @@ The remaining parts can be purchased from distributors as listed below.
   * [DH1H1 Magnets](https://www.kjmagnetics.com/proddetail.asp?prod=DH1H1)
   * [D12 Magnets](https://www.kjmagnetics.com/proddetail.asp?prod=d12-n52)
   * [N30H Magnets](https://www.digikey.com/short/br3n8hz3)
-  * [Canadian option](https://www.indigoinstruments.com/magnets/rare_earth/discs/small-neodymium-cylinder-magnet-2.5x2.5mm.html) - Very similar to DH1H1
-  * [EU option](https://www.supermagnete.de/eng/disc-magnets-neodymium?length-or-diameter=2.00,3.00&height=2.00,3.00)
+  * [Canadian DH1H1-like option](https://www.indigoinstruments.com/magnets/rare_earth/discs/small-neodymium-cylinder-magnet-2.5x2.5mm.html)
+  * [EU DH1H1-like option](https://totalelement.com/products/1-10-x-1-10-inch-neodymium-rare-earth-cylinder-rod-magnets-n52-300-pack?variant=47251320668338)
+  * [EU N30h-like option](https://www.supermagnete.de/eng/disc-magnets-neodymium?length-or-diameter=2.00,3.00&height=2.00,3.00)
   * [Australian option](https://magnet.com.au/products/neodymium-cylinder-magnet-2-5mm-x-2-5mm-n50?variant=37006192804005) - Very similar to DH1H1
 * Magnet Mounts:
   * **NOTE: PhobGCC v1.X MAGNET MOUNTS WILL BE VERY BAD, AND MAY NOT WORK AT ALL. MAKE SURE TO GET THE UNDERSLUNG MAGNET MOUNTS!**
