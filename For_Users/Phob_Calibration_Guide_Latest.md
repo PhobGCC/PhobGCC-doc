@@ -105,7 +105,6 @@ To make any changes to the controller configuration, activate this toggle to ent
 * **Use this if you are upgrading from an older software version or have messed up your settings in some way.**
 * **You need to turn off Safe Mode in order to reset.**
 * This will reset all the controller settings except for stick calibration. This includes snapback filtering, waveshaping, analog delay, offsets, and button remapping.
-* There is a hidden hard reset option that will also erase the stick calibration, but we are not publishing the button combination because it's unhelpful almost all of the time. Ask the devs in the Discord what it is if you really need this.
 
 # Toggle Auto-Initialize - AXYZ
 
